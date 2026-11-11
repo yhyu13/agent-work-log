@@ -1,0 +1,426 @@
+{
+  "schemaVersion": 1,
+  "updatedAt": "2026-11-11T04:33:32+00:00",
+  "repo": "yhyu13/agent-work-log",
+  "pagesUrl": "https://yhyu13.github.io/agent-work-log/",
+  "days": [
+    {
+      "date": "2026-11-11",
+      "window": "2026-11-10 10:24 → 2026-11-11 10:24 (local)",
+      "summary": "过去 24h 主要围绕个人主页、AgentSkillsVault、模板仓、PBL、Aholo、SimCity 研究和统一记忆库纠偏。",
+      "items": [
+        {
+          "repo": "yhyu13.github.io",
+          "work": "BCI deck/film/long-read 上线；pullup 探活修复；Agent Lab 本地实现与验证。",
+          "status": "BCI/pullup merged; Agent Lab local uncommitted",
+          "evidence": "PR #21/#22; schema/CLI 43 pass; browser 100 passed; entry 294.52 kB"
+        },
+        {
+          "repo": "AgentSkillsVault",
+          "work": "绿黄红治理、required checks、tier 布局、doubao skills、ref gate 修边界。",
+          "status": "PR #21 merged; #22/#23 open",
+          "evidence": "commits e791537 / 2c033bf / 98e9bee"
+        },
+        {
+          "repo": "Agent_Template_Repo_Setup1",
+          "work": "模板 MVP、issue inbox、labels。",
+          "status": "PR #1 open, CI green",
+          "evidence": "task digest 2f8f63fc"
+        },
+        {
+          "repo": "ailiaixue/pbl",
+          "work": "语音输入可编辑、Pad 输入法稳定、课堂布局加固、截图证据。",
+          "status": "test v1.7.22.92; production not changed",
+          "evidence": "PR #275/#276/#278/#279; issue #266"
+        },
+        {
+          "repo": "Hackthon_Aholo_20261107",
+          "work": "retire legacy、来源所有权、历史引用修复、独立 GRADE 复审。",
+          "status": "PR #129/#130/#131/#132 open; review BLOCKED",
+          "evidence": "spec-008 commits; GRADE comments"
+        },
+        {
+          "repo": "SimCity",
+          "work": "bw-town 武侠 Agent 沙盒复刻、AI 模拟/知识库研究。",
+          "status": "research artifacts isolated; not a Git repo update",
+          "evidence": "paper §4.2 threshold 150; temp artifacts"
+        },
+        {
+          "repo": "UnifiedAgentMemory",
+          "work": "建立本地统一记忆库 MVP，导入 10 条候选经验。",
+          "status": "local-only; candidate, not adopted",
+          "evidence": "memory.sqlite / index.md / lessons"
+        }
+      ]
+    }
+  ],
+  "mrs": [
+    {
+      "repo": "yhyu13/DreamWeaverOPC1",
+      "number": 212,
+      "title": "[需人合并] docs(hof): spec 004 UE5 visual upgrade (GI/models/terrain)",
+      "state": "open",
+      "url": "https://github.com/yhyu13/DreamWeaverOPC1/pull/212",
+      "updated_at": "2026-11-11T04:29:43Z",
+      "merged_at": null
+    },
+    {
+      "repo": "yhyu13/Agent_Template_Repo_Setup1",
+      "number": 1,
+      "title": "feat(inbox): MVP level do/don't docs, spec submodule guide, GitHub issue exception inbox",
+      "state": "open",
+      "url": "https://github.com/yhyu13/Agent_Template_Repo_Setup1/pull/1",
+      "updated_at": "2026-11-10T17:55:50Z",
+      "merged_at": null
+    },
+    {
+      "repo": "ailiaixue/pbl",
+      "number": 279,
+      "title": "docs(issue): 补充 #266 修复前后对比截图证据",
+      "state": "merged",
+      "url": "https://github.com/ailiaixue/pbl/pull/279",
+      "updated_at": "2026-11-10T17:40:46Z",
+      "merged_at": "2026-11-10T17:40:46Z"
+    },
+    {
+      "repo": "ailiaixue/pbl",
+      "number": 278,
+      "title": "fix(chat): 独立对抗测试后的语音收尾与课堂布局加固 (Refs #266)",
+      "state": "merged",
+      "url": "https://github.com/ailiaixue/pbl/pull/278",
+      "updated_at": "2026-11-10T17:27:49Z",
+      "merged_at": "2026-11-10T17:27:48Z"
+    },
+    {
+      "repo": "yhyu13/DreamWeaverOPC1",
+      "number": 210,
+      "title": "[需人合并] docs(workflow): make human-agent delivery evidence reproducible (#209)",
+      "state": "open",
+      "url": "https://github.com/yhyu13/DreamWeaverOPC1/pull/210",
+      "updated_at": "2026-11-10T15:22:19Z",
+      "merged_at": null
+    },
+    {
+      "repo": "yhyu13/AgentSkillsVault",
+      "number": 23,
+      "title": "refactor(skills): SKILL 目录按评分档位分层 (tier0..tier4)",
+      "state": "open",
+      "url": "https://github.com/yhyu13/AgentSkillsVault/pull/23",
+      "updated_at": "2026-11-10T14:43:11Z",
+      "merged_at": null
+    },
+    {
+      "repo": "yhyu13/AgentSkillsVault",
+      "number": 22,
+      "title": "feat(skills): doubao-industry-analysis — 行业深度报告方法 + 飞书写作规范",
+      "state": "open",
+      "url": "https://github.com/yhyu13/AgentSkillsVault/pull/22",
+      "updated_at": "2026-11-10T14:29:43Z",
+      "merged_at": null
+    },
+    {
+      "repo": "yhyu13/DreamWeaverOPC1",
+      "number": 208,
+      "title": "[需人合并] chore(assets): archive and remove Blender backups",
+      "state": "merged",
+      "url": "https://github.com/yhyu13/DreamWeaverOPC1/pull/208",
+      "updated_at": "2026-11-10T13:52:05Z",
+      "merged_at": "2026-11-10T13:52:02Z"
+    },
+    {
+      "repo": "yhyu13/DreamWeaverOPC1",
+      "number": 207,
+      "title": "[需人合并] docs(audit): complete original-goal audit and safe cleanup",
+      "state": "merged",
+      "url": "https://github.com/yhyu13/DreamWeaverOPC1/pull/207",
+      "updated_at": "2026-11-10T13:19:59Z",
+      "merged_at": "2026-11-10T13:19:57Z"
+    },
+    {
+      "repo": "yhyu13/AgentSkillsVault",
+      "number": 21,
+      "title": "feat(governance): add required checks and green/yellow/red task policy",
+      "state": "merged",
+      "url": "https://github.com/yhyu13/AgentSkillsVault/pull/21",
+      "updated_at": "2026-11-10T09:01:49Z",
+      "merged_at": "2026-11-10T09:01:49Z"
+    },
+    {
+      "repo": "yhyu13/PullYourselfUpApp",
+      "number": 190,
+      "title": "feat(l3): 共同语言表与 /api/shared-language（同盟期的数据前提）",
+      "state": "merged",
+      "url": "https://github.com/yhyu13/PullYourselfUpApp/pull/190",
+      "updated_at": "2026-11-10T07:25:38Z",
+      "merged_at": "2026-11-10T07:25:37Z"
+    },
+    {
+      "repo": "yhyu13/PullYourselfUpApp",
+      "number": 189,
+      "title": "test(l2): 375/1440 两档视口 + 核 l2-matrix 的冻结断言",
+      "state": "merged",
+      "url": "https://github.com/yhyu13/PullYourselfUpApp/pull/189",
+      "updated_at": "2026-11-10T07:25:29Z",
+      "merged_at": "2026-11-10T07:25:29Z"
+    },
+    {
+      "repo": "yhyu13/PullYourselfUpApp",
+      "number": 188,
+      "title": "docs(spec): M2 付费验证前提与口径 v1",
+      "state": "merged",
+      "url": "https://github.com/yhyu13/PullYourselfUpApp/pull/188",
+      "updated_at": "2026-11-10T07:25:20Z",
+      "merged_at": "2026-11-10T07:25:20Z"
+    },
+    {
+      "repo": "yhyu13/yhyu13.github.io",
+      "number": 22,
+      "title": "feat(decks): ship the BCI companions — animated page, long-read, cut",
+      "state": "merged",
+      "url": "https://github.com/yhyu13/yhyu13.github.io/pull/22",
+      "updated_at": "2026-11-10T06:36:44Z",
+      "merged_at": "2026-11-10T06:36:43Z"
+    },
+    {
+      "repo": "yhyu13/yhyu13.github.io",
+      "number": 21,
+      "title": "chore(decks): add BCI industry survey video slides",
+      "state": "merged",
+      "url": "https://github.com/yhyu13/yhyu13.github.io/pull/21",
+      "updated_at": "2026-11-10T06:10:20Z",
+      "merged_at": "2026-11-10T06:10:20Z"
+    },
+    {
+      "repo": "yhyu13/Hackthon_Aholo_20261107",
+      "number": 132,
+      "title": "chore(retire-008): 移出旧材料并修复测试与历史引用",
+      "state": "open",
+      "url": "https://github.com/yhyu13/Hackthon_Aholo_20261107/pull/132",
+      "updated_at": "2026-11-10T06:06:07Z",
+      "merged_at": null
+    },
+    {
+      "repo": "yhyu13/Hackthon_Aholo_20261107",
+      "number": 130,
+      "title": "spec(spec-008): 建立灰仓 07 号收口规格与清理任务",
+      "state": "open",
+      "url": "https://github.com/yhyu13/Hackthon_Aholo_20261107/pull/130",
+      "updated_at": "2026-11-10T06:05:56Z",
+      "merged_at": null
+    },
+    {
+      "repo": "yhyu13/Hackthon_Aholo_20261107",
+      "number": 131,
+      "title": "docs(docs-008): 收口现行文档与历史规格引用",
+      "state": "open",
+      "url": "https://github.com/yhyu13/Hackthon_Aholo_20261107/pull/131",
+      "updated_at": "2026-11-10T04:48:53Z",
+      "merged_at": null
+    },
+    {
+      "repo": "yhyu13/DreamWeaverOPC1",
+      "number": 186,
+      "title": "[需人合并] fix(browser): 响应式工具页与真实浏览器验收",
+      "state": "merged",
+      "url": "https://github.com/yhyu13/DreamWeaverOPC1/pull/186",
+      "updated_at": "2026-11-10T04:10:35Z",
+      "merged_at": "2026-11-10T04:10:32Z"
+    },
+    {
+      "repo": "yhyu13/Hackthon_Aholo_20261107",
+      "number": 129,
+      "title": "chore(scope-008): 修订宪法适用范围至灰仓 07 号收口",
+      "state": "open",
+      "url": "https://github.com/yhyu13/Hackthon_Aholo_20261107/pull/129",
+      "updated_at": "2026-11-10T03:28:23Z",
+      "merged_at": null
+    },
+    {
+      "repo": "yhyu13/DreamWeaverOPC1",
+      "number": 183,
+      "title": "[需人合并] fix(pr): 串行合并队列、auto 回执与评审门集成",
+      "state": "merged",
+      "url": "https://github.com/yhyu13/DreamWeaverOPC1/pull/183",
+      "updated_at": "2026-11-10T02:58:56Z",
+      "merged_at": "2026-11-10T02:58:51Z"
+    },
+    {
+      "repo": "ailiaixue/pbl",
+      "number": 276,
+      "title": "fix(assessment): 语音转写可编辑并稳定 Pad 输入法输入 (Refs #266)",
+      "state": "merged",
+      "url": "https://github.com/ailiaixue/pbl/pull/276",
+      "updated_at": "2026-11-10T02:49:04Z",
+      "merged_at": "2026-11-10T02:49:01Z"
+    },
+    {
+      "repo": "yhyu13/DreamWeaverOPC1",
+      "number": 203,
+      "title": "[需人合并] feat(step2-tools): HOF checks, render evidence and coverage",
+      "state": "merged",
+      "url": "https://github.com/yhyu13/DreamWeaverOPC1/pull/203",
+      "updated_at": "2026-11-10T02:46:20Z",
+      "merged_at": "2026-11-10T02:46:18Z"
+    },
+    {
+      "repo": "yhyu13/DreamWeaverOPC1",
+      "number": 192,
+      "title": "[需人合并] feat(navigator): 房间索引优先的层级、焦点与教程路径 (#189)",
+      "state": "merged",
+      "url": "https://github.com/yhyu13/DreamWeaverOPC1/pull/192",
+      "updated_at": "2026-11-10T01:54:18Z",
+      "merged_at": "2026-11-10T01:54:14Z"
+    },
+    {
+      "repo": "ailiaixue/pbl",
+      "number": 275,
+      "title": "fix(assessment): 停止后保留最终语音结果并修复 Pad 输入框遮挡 (Refs #266)",
+      "state": "merged",
+      "url": "https://github.com/ailiaixue/pbl/pull/275",
+      "updated_at": "2026-11-10T01:13:43Z",
+      "merged_at": "2026-11-10T01:13:41Z"
+    }
+  ],
+  "lessons": [
+    {
+      "id": "M-0001",
+      "title": "统一记忆库必须先于公开投影",
+      "repo": "cross-repo",
+      "problem": "先做 Agent Lab 公开页，但跨 repo 经验仍散在聊天/PR/deliverables，无法稳定回注下一轮。",
+      "lesson": "个人 Agent 的核心基础设施是统一记忆库；公开页、周报、Decision Tree 都只能做脱敏投影。先建正本，再做展示。",
+      "conditions": "多 repo、多会话、需要长期自我迭代时。",
+      "counterexamples": "单次一次性任务不需要统一记忆库。",
+      "status": "candidate",
+      "confidence": "observed",
+      "source_type": "conversation",
+      "source_ref": "2026-11-11 user correction: 我需要的就是一个统一的记忆库",
+      "tags": "memory,architecture,priority"
+    },
+    {
+      "id": "M-0002",
+      "title": "批准声明不等于真实授权",
+      "repo": "yhyu13.github.io",
+      "problem": "JSON 中 approved/autoPublish 字段可能被页面误读为本人已批准和发布系统可用。",
+      "lesson": "批准元数据只能证明声明完整；真实授权必须来自本人消息或工具回执。页面不得把声明写成已批准或可自动发布。",
+      "conditions": "公开记录、自动发布、规则采用。",
+      "counterexamples": "无。",
+      "status": "candidate",
+      "confidence": "observed",
+      "source_type": "code/test",
+      "source_ref": "AgentLabPage.tsx / agentLabSchema.mjs / agent-lab.spec.ts",
+      "tags": "approval,publication,safety"
+    },
+    {
+      "id": "M-0003",
+      "title": "实测指标必须有有限值、样本、方法和证据",
+      "repo": "cross-repo",
+      "problem": "未测量值可能被填 0，或非有限数/缺样本被包装成收益。",
+      "lesson": "measured/estimated 必须有限数值、单位、方法、正整数样本量、证据引用；时间 ROI 必须有正分母。未测量/不可比保持 null。",
+      "conditions": "ROI、实验结果、公开指标。",
+      "counterexamples": "探索性笔记可写假设，但不能标 measured。",
+      "status": "candidate",
+      "confidence": "observed",
+      "source_type": "code/test",
+      "source_ref": "agentLabSchema.mjs / check-agent-lab.test.mjs",
+      "tags": "metrics,roi,truth"
+    },
+    {
+      "id": "M-0004",
+      "title": "合并授权必须绑定实时 PR head",
+      "repo": "AgentSkillsVault",
+      "problem": "旧批准可能被新提交复用，导致未经重新审查的合并。",
+      "lesson": "绿黄红分级和合并批准必须绑定当前 PR head、检查项和批准主体；head 变化即失效。",
+      "conditions": "多 Agent PR、自动合并、治理模板。",
+      "counterexamples": "只读调查不需要合并授权。",
+      "status": "candidate",
+      "confidence": "observed",
+      "source_type": "commit/PR",
+      "source_ref": "AgentSkillsVault e791537 / PR #21",
+      "tags": "governance,pr,approval"
+    },
+    {
+      "id": "M-0005",
+      "title": "引用检查要分范围，避免误判断链",
+      "repo": "AgentSkillsVault",
+      "problem": "ref gate 把源仓路径、模板路径、SKILL.md 引用混在一起检查，产生误报。",
+      "lesson": "check_refs.py 管 SKILL.md 契约引用；治理检查管 repo docs；模板用 glob 解析，不写死 tier 路径。",
+      "conditions": "skill vault、模板仓、多目录引用。",
+      "counterexamples": "单一简单 docs 仓可简化。",
+      "status": "candidate",
+      "confidence": "observed",
+      "source_type": "commit",
+      "source_ref": "AgentSkillsVault 2c033bf / 6f48d96 / 626cd2a",
+      "tags": "refcheck,ci,skills"
+    },
+    {
+      "id": "M-0006",
+      "title": "测试服部署不等于生产上线",
+      "repo": "pbl",
+      "problem": "语音输入修复部署到测试服后，容易被误报为生产已更新。",
+      "lesson": "汇报必须分开测试服/生产版本、head、worker 状态；生产未动就明确写未动。",
+      "conditions": "多环境部署、用户验收。",
+      "counterexamples": "无。",
+      "status": "candidate",
+      "confidence": "observed",
+      "source_type": "task digest",
+      "source_ref": "AI_Turtor/pbl session 77fda2bf: test v1.7.22.92, prod v1.7.22.91",
+      "tags": "deployment,truth,pbl"
+    },
+    {
+      "id": "M-0007",
+      "title": "Pad/输入法问题要真机验收和前后证据",
+      "repo": "pbl",
+      "problem": "语音转写、输入法 composition、课堂布局容易发一版修一层。",
+      "lesson": "Pad 类改动要求真机验收清单；issue 中补修复前后截图/录屏证据；独立对抗测试后再收尾。",
+      "conditions": "移动端输入、课堂 UI、语音转写。",
+      "counterexamples": "纯后端逻辑可用自动化测试为主。",
+      "status": "candidate",
+      "confidence": "observed",
+      "source_type": "commit/PR/issue",
+      "source_ref": "pbl #266 / #278 / #279",
+      "tags": "mobile,acceptance,evidence"
+    },
+    {
+      "id": "M-0008",
+      "title": "CI 绿不等于可合并，独立审查可 BLOCKED",
+      "repo": "Aholo_Hackthon",
+      "problem": "PR CI 通过但来源所有权/历史引用/审查阻塞未解决。",
+      "lesson": "独立审查必须能 BLOCKED；CI 只是必要条件。历史引用要区分历史快照和现行依据，来源所有权要登记。",
+      "conditions": "比赛仓、文档退役、多 PR 审查。",
+      "counterexamples": "无。",
+      "status": "candidate",
+      "confidence": "observed",
+      "source_type": "commit/PR comment",
+      "source_ref": "Aholo_Hackthon spec-008 / PR #130 #131 #132 GRADE",
+      "tags": "review,ci,ownership"
+    },
+    {
+      "id": "M-0009",
+      "title": "研究产物先隔离，论文说法回原文核对",
+      "repo": "SimCity",
+      "problem": "AI 模拟/知识库研究可能污染 repo，或把二手说法当事实。",
+      "lesson": "研究脚本和产物放临时目录；论文阈值/频率等回原文核对；未写入 repo 就不说 repo 已更新。",
+      "conditions": "研究型任务、外部论文、沙盒复刻。",
+      "counterexamples": "明确要入库的实现任务除外。",
+      "status": "candidate",
+      "confidence": "observed",
+      "source_type": "task digest",
+      "source_ref": "SimCity session ccd15cfd: [temp dir] paper §4.2 threshold 150",
+      "tags": "research,isolation,truth"
+    },
+    {
+      "id": "M-0010",
+      "title": "大媒体长期走 Release，公开页走 lazy/budget/schema",
+      "repo": "yhyu13.github.io",
+      "problem": "MP4 进 Git 历史会撑大仓库；公开页可能增大首页入口或渲染坏数据。",
+      "lesson": "同类视频多了改走 GitHub Release；公开页 lazy route、entry budget、运行时 schema、未知字段拒绝。",
+      "conditions": "GitHub Pages、媒体资产、公开数据页。",
+      "counterexamples": "小图标/短期演示可暂存 git。",
+      "status": "candidate",
+      "confidence": "observed",
+      "source_type": "task digest/code",
+      "source_ref": "homepage PR #22 / Agent Lab build 294.52kB",
+      "tags": "pages,media,performance,schema"
+    }
+  ]
+}

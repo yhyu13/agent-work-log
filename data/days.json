@@ -1,0 +1,51 @@
+[
+  {
+    "date": "2026-11-11",
+    "window": "2026-11-10 10:24 → 2026-11-11 10:24 (local)",
+    "summary": "过去 24h 主要围绕个人主页、AgentSkillsVault、模板仓、PBL、Aholo、SimCity 研究和统一记忆库纠偏。",
+    "items": [
+      {
+        "repo": "yhyu13.github.io",
+        "work": "BCI deck/film/long-read 上线；pullup 探活修复；Agent Lab 本地实现与验证。",
+        "status": "BCI/pullup merged; Agent Lab local uncommitted",
+        "evidence": "PR #21/#22; schema/CLI 43 pass; browser 100 passed; entry 294.52 kB"
+      },
+      {
+        "repo": "AgentSkillsVault",
+        "work": "绿黄红治理、required checks、tier 布局、doubao skills、ref gate 修边界。",
+        "status": "PR #21 merged; #22/#23 open",
+        "evidence": "commits e791537 / 2c033bf / 98e9bee"
+      },
+      {
+        "repo": "Agent_Template_Repo_Setup1",
+        "work": "模板 MVP、issue inbox、labels。",
+        "status": "PR #1 open, CI green",
+        "evidence": "task digest 2f8f63fc"
+      },
+      {
+        "repo": "ailiaixue/pbl",
+        "work": "语音输入可编辑、Pad 输入法稳定、课堂布局加固、截图证据。",
+        "status": "test v1.7.22.92; production not changed",
+        "evidence": "PR #275/#276/#278/#279; issue #266"
+      },
+      {
+        "repo": "Hackthon_Aholo_20261107",
+        "work": "retire legacy、来源所有权、历史引用修复、独立 GRADE 复审。",
+        "status": "PR #129/#130/#131/#132 open; review BLOCKED",
+        "evidence": "spec-008 commits; GRADE comments"
+      },
+      {
+        "repo": "SimCity",
+        "work": "bw-town 武侠 Agent 沙盒复刻、AI 模拟/知识库研究。",
+        "status": "research artifacts isolated; not a Git repo update",
+        "evidence": "paper §4.2 threshold 150; temp artifacts"
+      },
+      {
+        "repo": "UnifiedAgentMemory",
+        "work": "建立本地统一记忆库 MVP，导入 10 条候选经验。",
+        "status": "local-only; candidate, not adopted",
+        "evidence": "memory.sqlite / index.md / lessons"
+      }
+    ]
+  }
+]
