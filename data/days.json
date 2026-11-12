@@ -1,50 +1,64 @@
 [
   {
-    "date": "2026-11-11",
-    "window": "2026-11-10 10:24 → 2026-11-11 10:24 (local)",
-    "summary": "过去 24h 主要围绕个人主页、AgentSkillsVault、模板仓、PBL、Aholo、SimCity 研究和统一记忆库纠偏。",
+    "date": "2026-11-10",
+    "window": "2026-11-10 00:12 → 2026-11-10 23:59（上海时间）",
+    "summary": "任务在这一天建立：先把跨工作区共享经验写成可审查的规格，再按“人做决定、Agent 做有界实验”做了主页 Agent Lab 的本地页。本地验证通过，但没有提交、没有 PR、没有上线。实验指标仍是未测量。",
     "items": [
       {
-        "repo": "yhyu13.github.io",
-        "work": "BCI deck/film/long-read 上线；pullup 探活修复；Agent Lab 本地实现与验证。",
-        "status": "BCI/pullup merged; Agent Lab local uncommitted",
-        "evidence": "PR #21/#22; schema/CLI 43 pass; browser 100 passed; entry 294.52 kB"
+        "repo": "本任务 · 经验闭环",
+        "work": "写出跨工作区共享经验的规格、提示词、证据和审查。审查先发现两处阻塞：每日限额可能挡住结果收取，回退可能覆盖他人期间的修改。修订后文档复核无阻塞。",
+        "status": "本地文档。只说明合同一致，不是系统已运行，也没有获批上线。",
+        "evidence": "本地交付目录中的规格、提示词、证据、审查。原文未公开。"
       },
       {
-        "repo": "AgentSkillsVault",
-        "work": "绿黄红治理、required checks、tier 布局、doubao skills、ref gate 修边界。",
-        "status": "PR #21 merged; #22/#23 open",
-        "evidence": "commits e791537 / 2c033bf / 98e9bee"
-      },
+        "repo": "yhyu13.github.io 本地工作区",
+        "work": "做了 Agent Lab 本地页：Craft 入口、菜单直达、决策记录、三个 milestone 计划和指标区。独立复核无阻塞，并修了大小写锚点。",
+        "status": "未提交、未建 PR、未部署。模板 v0 未批准，自动发布未建立。三个 milestone 仍是计划，指标未测量。",
+        "evidence": "本地 build 通过；schema/CLI 43 pass；浏览器 100 passed；首页 entry 294.52 kB，低于 300 kB 预算。"
+      }
+    ]
+  },
+  {
+    "date": "2026-11-11",
+    "window": "2026-11-11 00:00 → 2026-11-11 23:59（上海时间）",
+    "summary": "先汇总了前 24 小时的跨仓工作，发现经验仍散落各处。你指出必须先有统一记忆库。随后建了本地记忆库，并上线了这个公开投影仓库。",
+    "items": [
       {
-        "repo": "Agent_Template_Repo_Setup1",
-        "work": "模板 MVP、issue inbox、labels。",
-        "status": "PR #1 open, CI green",
-        "evidence": "task digest 2f8f63fc"
-      },
-      {
-        "repo": "ailiaixue/pbl",
-        "work": "语音输入可编辑、Pad 输入法稳定、课堂布局加固、截图证据。",
-        "status": "test v1.7.22.92; production not changed",
-        "evidence": "PR #275/#276/#278/#279; issue #266"
-      },
-      {
-        "repo": "Hackthon_Aholo_20261107",
-        "work": "retire legacy、来源所有权、历史引用修复、独立 GRADE 复审。",
-        "status": "PR #129/#130/#131/#132 open; review BLOCKED",
-        "evidence": "spec-008 commits; GRADE comments"
-      },
-      {
-        "repo": "SimCity",
-        "work": "bw-town 武侠 Agent 沙盒复刻、AI 模拟/知识库研究。",
-        "status": "research artifacts isolated; not a Git repo update",
-        "evidence": "paper §4.2 threshold 150; temp artifacts"
+        "repo": "跨仓 24 小时汇总",
+        "work": "覆盖窗口是 2026-11-10 10:24 到 2026-11-11 10:24。个人主页 BCI 与 pullup 已合并；Agent Lab 仍只在本地。AgentSkillsVault 的治理 PR 已合并，另有开着的 PR。模板仓 inbox PR 开着且 CI 绿。pbl 语音和 Pad 修复到了测试服，生产未动。Aholo 独立审查为 BLOCKED，未授权合并。SimCity 研究产物隔离，没有写成仓库更新。",
+        "status": "这是有范围的核对，不是整台电脑的完整审计。",
+        "evidence": "公开 PR、任务摘要和本地验证记录。当时还没有统一记忆库。"
       },
       {
         "repo": "UnifiedAgentMemory",
-        "work": "建立本地统一记忆库 MVP，导入 10 条候选经验。",
-        "status": "local-only; candidate, not adopted",
-        "evidence": "memory.sqlite / index.md / lessons"
+        "work": "建立本地统一记忆库，导入 10 条候选经验。判断是：统一记忆库优先，和最早的共享经验目标一致；公开页只是投影。",
+        "status": "仅本地。10 条都是 candidate，没有批准，也不会回注到下一轮。",
+        "evidence": "本地 sqlite、索引和 10 篇经验。内部库不公开。"
+      },
+      {
+        "repo": "yhyu13/agent-work-log",
+        "work": "建立公开仓库和静态页，发布当日工作、当时抓到的 25 条 PR，以及 10 条候选经验的脱敏投影。",
+        "status": "已上线。第一次推送因 token 没有 workflow 权限失败，改为从 main 根目录发布 Pages。",
+        "evidence": "当时页面 HTTP 200。那份 25 条 PR 是旧快照，这一次已换成更大范围的新快照。"
+      }
+    ]
+  },
+  {
+    "date": "2026-11-12",
+    "window": "2026-11-12 00:00 → 本条记录更新时间（上海时间）",
+    "summary": "核对发现公开页仍停在 11 月 11 日的快照。按要求把任务从建立日到今天的记录补齐、脱敏，并重新发布。记忆库仍然只是本机命令行，这一轮没有做成 MCP 或 skill。",
+    "items": [
+      {
+        "repo": "yhyu13/agent-work-log",
+        "work": "补上 11 月 10 日、11 日、12 日三条每日记录。每条包含总结、当日工作和当日 MR，并写明记录更新时间与每条 MR 的更新时间。",
+        "status": "本次发布。个人主页仓库没有改，Agent Lab 仍未提交。",
+        "evidence": "发布后以线上 latest.json 的 updatedAt、天数和 PR 数为准。"
+      },
+      {
+        "repo": "UnifiedAgentMemory",
+        "work": "确认现有入口是本机 memory.py 的 search / inject。inject 只返回已批准经验，目前没有已批准条目。",
+        "status": "没有新建 MCP，也没有新建 skill。",
+        "evidence": "本机 CLI 与 sqlite。公开库仍是只读投影。"
       }
     ]
   }

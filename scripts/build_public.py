@@ -2,7 +2,7 @@
 """Build sanitized public projection from internal unified memory + PR metadata."""
 from __future__ import annotations
 import argparse, json, re, sqlite3
-from datetime import datetime, timezone
+from datetime import datetime, timedelta, timezone
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[1]
@@ -49,6 +49,34 @@ def load_mrs(prs: Path):
         })
     return out
 
+def shanghai_day(iso):
+    if not iso:
+        return None
+    dt = datetime.fromisoformat(str(iso).replace("Z", "+00:00")).astimezone(timezone(timedelta(hours=8)))
+    return dt.date().isoformat()
+
+def attach_mrs(days, mrs):
+    by_day = {}
+    for m in mrs:
+        if shanghai_day(m.get("updated_at")) is None:
+            continue
+        if datetime.fromisoformat(str(m.get("updated_at")).replace("Z", "+00:00")) < datetime.fromisoformat("2026-11-09T16:12:04+00:00"):
+            continue
+        by_day.setdefault(shanghai_day(m.get("updated_at")), []).append(m)
+    out = []
+    for d in days:
+        item = dict(d)
+        item["recordUpdatedAt"] = NOW
+        item["mrs"] = by_day.get(d.get("date"), [])
+        for key in ("date", "window", "summary"):
+            item[key] = clean(item.get(key))
+        cleaned_items = []
+        for row in item.get("items") or []:
+            cleaned_items.append({k: clean(row.get(k)) for k in ("repo", "work", "status", "evidence")})
+        item["items"] = cleaned_items
+        out.append(item)
+    return out
+
 def write_sqlite(path: Path, lessons, mrs, days):
     if path.exists():
         path.unlink()
@@ -56,14 +84,14 @@ def write_sqlite(path: Path, lessons, mrs, days):
     c.executescript("""
     CREATE TABLE lessons (id TEXT PRIMARY KEY, title TEXT, repo TEXT, problem TEXT, lesson TEXT, conditions TEXT, counterexamples TEXT, status TEXT, confidence TEXT, source_type TEXT, source_ref TEXT, tags TEXT);
     CREATE TABLE mrs (repo TEXT, number INTEGER, title TEXT, state TEXT, url TEXT, updated_at TEXT, merged_at TEXT);
-    CREATE TABLE days (date TEXT, window TEXT, summary TEXT, items TEXT);
+    CREATE TABLE days (date TEXT, window TEXT, summary TEXT, items TEXT, record_updated_at TEXT, mrs TEXT);
     """)
     for r in lessons:
         c.execute("INSERT INTO lessons VALUES (?,?,?,?,?,?,?,?,?,?,?,?)", tuple(r.get(k) for k in ["id","title","repo","problem","lesson","conditions","counterexamples","status","confidence","source_type","source_ref","tags"]))
     for r in mrs:
         c.execute("INSERT INTO mrs VALUES (?,?,?,?,?,?,?)", tuple(r.get(k) for k in ["repo","number","title","state","url","updated_at","merged_at"]))
     for d in days:
-        c.execute("INSERT INTO days VALUES (?,?,?,?)", (d.get("date"), d.get("window"), d.get("summary"), json.dumps(d.get("items", []), ensure_ascii=False)))
+        c.execute("INSERT INTO days VALUES (?,?,?,?,?,?)", (d.get("date"), d.get("window"), d.get("summary"), json.dumps(d.get("items", []), ensure_ascii=False), d.get("recordUpdatedAt"), json.dumps(d.get("mrs", []), ensure_ascii=False)))
     c.commit()
     c.close()
 
@@ -80,7 +108,7 @@ input[type=search]{width:100%;padding:10px 12px;border:1px solid var(--line);bor
 a{color:var(--accent)}table{width:100%;border-collapse:collapse;font-size:14px}th,td{border:1px solid var(--line);padding:8px;text-align:left;vertical-align:top}ul{padding-left:20px}.downloads a{display:inline-block;margin-right:12px}
 @media(max-width:600px){table,tbody,tr,td{display:block;width:100%}thead{display:none}tr{border:1px solid var(--line);margin:8px 0;padding:6px 0}td{border:0;padding:6px 10px}td:before{content:attr(data-label);display:block;font-size:12px;color:var(--muted)}}
 </style></head><body><main>
-<p class="meta">yhyu13 / agent-work-log · public projection · updated __UPDATED__</p>
+<p class="meta">yhyu13 / agent-work-log · public projection · 页面更新时间 __UPDATED__</p>
 <h1>Agent Work Log</h1>
 <p>每日工作、PR/MR 进展、公开经验数据库。内部统一记忆库是正本；这里只发布脱敏投影。</p>
 <p class="note">候选经验不等于已批准规则。公开数据库可下载，但不会自动回注到任何 repo。</p>
@@ -93,7 +121,7 @@ let data=JSON.parse(document.getElementById('data').textContent);
 const $=s=>document.querySelector(s);
 function esc(s){return String(s??"").replace(/[&<>"]/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]))}
 function render(){const q=($("#q").value||"").toLowerCase();
- $("#days").innerHTML=data.days.map(d=>`<div class="card"><h2>${esc(d.date)}</h2><p class="meta">${esc(d.window)}</p><p>${esc(d.summary)}</p><ul>${d.items.map(i=>`<li><strong>${esc(i.repo)}</strong>：${esc(i.work)}<br><span class="meta">${esc(i.status)} · ${esc(i.evidence)}</span></li>`).join("")}</ul></div>`).join("");
+ $("#days").innerHTML=(data.coverageNote?`<p class="note">${esc(data.coverageNote)}</p>`:"")+data.days.map(d=>{const mrs=(d.mrs||[]).map(m=>`<li><span class="badge ${m.state==="merged"?"merged":"open"}">${esc(m.state)}</span> <a href="${esc(m.url)}">${esc(m.repo)} #${m.number}</a> ${esc(m.title)}<br><span class="meta">MR 更新时间 ${esc(m.updated_at)}</span></li>`).join("")||"<li>这一天没有落在任务窗口内的 MR 更新。</li>";return `<div class="card"><h2>${esc(d.date)}</h2><p class="meta">本条记录更新时间 ${esc(d.recordUpdatedAt||data.updatedAt)} · 覆盖 ${esc(d.window)}</p><h3>总结</h3><p>${esc(d.summary)}</p><h3>当日工作</h3><ul>${(d.items||[]).map(i=>`<li><strong>${esc(i.repo)}</strong>：${esc(i.work)}<br><span class="meta">${esc(i.status)} · ${esc(i.evidence)}</span></li>`).join("")}</ul><h3>当日 MR 进展 · ${(d.mrs||[]).length} 条</h3><ul>${mrs}</ul></div>`}).join("");
  $("#mrs").innerHTML=data.mrs.filter(m=>!q||(m.repo+m.title+m.state).toLowerCase().includes(q)).map(m=>`<div class="card"><span class="badge ${m.state==="merged"?"merged":"open"}">${esc(m.state)}</span><span class="badge">${esc(m.repo)} #${m.number}</span><a href="${esc(m.url)}">${esc(m.title)}</a><p class="meta">updated ${esc(m.updated_at)}</p></div>`).join("")||"<p>无匹配</p>";
  $("#lessons").innerHTML=data.lessons.filter(l=>!q||(l.id+l.title+l.repo+l.lesson+l.tags).toLowerCase().includes(q)).map(l=>`<div class="card"><span class="badge">${esc(l.status)}</span><span class="badge">${esc(l.repo||"cross-repo")}</span><strong>${esc(l.id)} · ${esc(l.title)}</strong><p>${esc(l.lesson)}</p><p class="meta">问题：${esc(l.problem||"")}</p><p class="meta">条件：${esc(l.conditions||"")} · 反例：${esc(l.counterexamples||"")}</p><p class="meta">来源：${esc(l.source_type||"")} ${esc(l.source_ref||"")}</p></div>`).join("")||"<p>无匹配</p>";
  $("#db").innerHTML=`<div class="card downloads"><h2>公开数据库</h2><p>JSON 用于页面；SQLite/SQL 用于离线查询。</p><a href="data/latest.json">latest.json</a><a href="data/memory-public.sqlite">memory-public.sqlite</a><a href="data/memory-public.sql">memory-public.sql</a><p class="meta">lessons: ${data.lessons.length} · PR/MR: ${data.mrs.length} · days: ${data.days.length}</p></div>`;}
@@ -110,8 +138,8 @@ def main():
     a = p.parse_args()
     lessons = load_lessons(Path(a.memory))
     mrs = load_mrs(Path(a.prs))
-    days = json.loads(Path(a.days).read_text(encoding="utf-8"))
-    latest = {"schemaVersion": 1, "updatedAt": NOW, "repo": "yhyu13/agent-work-log", "pagesUrl": "https://yhyu13.github.io/agent-work-log/", "days": days, "mrs": mrs, "lessons": lessons}
+    days = attach_mrs(json.loads(Path(a.days).read_text(encoding="utf-8")), mrs)
+    latest = {"schemaVersion": 1, "updatedAt": NOW, "repo": "yhyu13/agent-work-log", "pagesUrl": "https://yhyu13.github.io/agent-work-log/", "coverageNote": "每日记录从任务建立日 2026-11-10（上海时间）起。当日 MR 是 yhyu13 名下公开 PR 在那天的更新，不是本任务单独产生的。PR 总表查询为 author:yhyu13、updated>=2026-11-09；早于任务建立的条目只在总表。候选经验不是已批准规则。", "days": days, "mrs": mrs, "lessons": lessons}
     data_dir = ROOT / "data"
     data_dir.mkdir(exist_ok=True)
     (data_dir / "latest.json").write_text(json.dumps(latest, ensure_ascii=False, indent=2), encoding="utf-8")

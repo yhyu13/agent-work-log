@@ -1,1 +1,737 @@
-{"total_count":25,"incomplete_results":false,"items":[{"html_url":"https://github.com/yhyu13/DreamWeaverOPC1/pull/212","id":6320976904,"node_id":"PR_kwDOVZWTgs8AAAABOR3j2Q","number":212,"title":"[需人合并] docs(hof): spec 004 UE5 visual upgrade (GI/models/terrain)","user":{"login":"yhyu13","id":19365678,"node_id":"MDQ6VXNlcjE5MzY1Njc4","html_url":"https://github.com/yhyu13","type":"User","user_view_type":"public","site_admin":false},"labels":[],"state":"open","locked":false,"assignees":[],"milestone":null,"comments":0,"created_at":"2026-11-11T03:25:27Z","updated_at":"2026-11-11T04:29:43Z","closed_at":null,"assignee":null,"author_association":"OWNER","issue_field_values":[],"type":null,"active_lock_reason":null,"draft":false,"pull_request":{"html_url":"https://github.com/yhyu13/DreamWeaverOPC1/pull/212","merged_at":null},"body":"## 这个 PR 做什么\nSpec-only PR: defines UE5-like visual upgrade for step2 HOF Godot (SDFGI/SSIL/SSR, physical sky, volumetric fog, ACES/TAA, Blender hero models+LODs, heightmap terrain, 4 quality tiers). 12 decidable ACs reuse existing perf budgets; legacy escape hatch preserves old probes. spec check PASS (12 criteria). Implementation follows in separate PR per spec_code_mix.\n\nCloses #211\n\n## 关键判断\n黄区（projects/active/** 未声明→yellow）：spec 变更需人签\n\n## 本地验证\npython3 tools/studio.py spec check projects/active/hall-of-fame/specs/004-ue5-visual-upgrade → OK 验收标准 12 条\n\nfiles:\n  projects/active/hall-of-fame/specs/004-ue5-visual-upgrade/data-model.md  (+91 -0)\n  projects/active/hall-of-fame/specs/004-ue5-visual-upgrade/plan.md  (+74 -0)\n  projects/active/hall-of-fame/specs/004-ue5-visual-upgrade/research.md  (+47 -0)\n  projects/active/hall-of-fame/specs/004-ue5-visual-upgrade/spec.md  (+106 -0)\n  projects/active/hall-of-fame/specs/004-ue5-visual-upgrade/tasks.md  (+32 -0)\n","reactions":{"total_count":0,"+1":0,"-1":0,"laugh":0,"hooray":0,"confused":0,"heart":0,"rocket":0,"eyes":0},"performed_via_github_app":null,"state_reason":null,"score":1},{"html_url":"https://github.com/yhyu13/Agent_Template_Repo_Setup1/pull/1","id":6312661126,"node_id":"PR_kwDOVe2X0M8AAAABOLK4eQ","number":1,"title":"feat(inbox): MVP level do/don't docs, spec submodule guide, GitHub issue exception inbox","user":{"login":"yhyu13","id":19365678,"node_id":"MDQ6VXNlcjE5MzY1Njc4","html_url":"https://github.com/yhyu13","type":"User","user_view_type":"public","site_admin":false},"labels":[],"state":"open","locked":false,"assignees":[],"milestone":null,"comments":0,"created_at":"2026-11-10T17:55:50Z","updated_at":"2026-11-10T17:55:50Z","closed_at":null,"assignee":null,"author_association":"OWNER","issue_field_values":[],"type":null,"active_lock_reason":null,"draft":false,"pull_request":{"html_url":"https://github.com/yhyu13/Agent_Template_Repo_Setup1/pull/1","merged_at":null},"body":"## Summary\n- `docs/LEVELS.md` — L0–L5 每级可做/不可做（do/don't）边界\n- `docs/EXCEPTIONS.md` — GitHub issue 异常收件箱模型：人对人可读，Agent 用 `gh` 可持续轮询，不依赖邮箱/手机推送\n- `docs/SPEC_SUBMODULES.md` — 本地 spec 新建 git repo 后作为 submodule 挂进模板仓的接入方式\n- `scripts/exception_inbox.py` + `tests/` — watch/report/resolve CLI，默认 dry-run，issue key 稳定去重\n- `.github/` — 异常 issue 模板、labels（16 个已建）、template CI；`README.md` 接线\n\n## Test plan\n- [x] `python -m unittest discover -s tests -p 'test_*.py'` → Ran 5 tests, OK\n- [x] `python -m py_compile scripts/exception_inbox.py`\n\nAssisted-by: Cindy (https://cindy.app)","reactions":{"total_count":0,"+1":0,"-1":0,"laugh":0,"hooray":0,"confused":0,"heart":0,"rocket":0,"eyes":0},"performed_via_github_app":null,"state_reason":null,"score":1},{"html_url":"https://github.com/ailiaixue/pbl/pull/279","id":6312392714,"node_id":"PR_kwDORPfw4M8AAAABOK9E6A","number":279,"title":"docs(issue): 补充 #266 修复前后对比截图证据","user":{"login":"yhyu13","id":19365678,"node_id":"MDQ6VXNlcjE5MzY1Njc4","html_url":"https://github.com/yhyu13","type":"User","user_view_type":"public","site_admin":false},"labels":[],"state":"closed","locked":false,"assignees":[],"milestone":null,"comments":0,"created_at":"2026-11-10T17:40:30Z","updated_at":"2026-11-10T17:40:46Z","closed_at":"2026-11-10T17:40:46Z","assignee":null,"author_association":"COLLABORATOR","issue_field_values":[],"type":null,"active_lock_reason":null,"draft":false,"pull_request":{"html_url":"https://github.com/ailiaixue/pbl/pull/279","merged_at":"2026-11-10T17:40:46Z"},"body":"Refs #266\n\n补充独立对抗测试修复前后对比截图，供 issue 内联展示。仅新增 docs/issues/266-evidence/comparisons/ 图片，不改代码。\n\nAssisted-by: Cindy (https://cindy.app)","reactions":{"total_count":0,"+1":0,"-1":0,"laugh":0,"hooray":0,"confused":0,"heart":0,"rocket":0,"eyes":0},"performed_via_github_app":null,"state_reason":null,"score":1},{"html_url":"https://github.com/ailiaixue/pbl/pull/278","id":6311435060,"node_id":"PR_kwDORPfw4M8AAAABOKL2_A","number":278,"title":"fix(chat): 独立对抗测试后的语音收尾与课堂布局加固 (Refs #266)","user":{"login":"yhyu13","id":19365678,"node_id":"MDQ6VXNlcjE5MzY1Njc4","html_url":"https://github.com/yhyu13","type":"User","user_view_type":"public","site_admin":false},"labels":[],"state":"closed","locked":false,"assignees":[],"milestone":null,"comments":0,"created_at":"2026-11-10T16:45:11Z","updated_at":"2026-11-10T17:27:49Z","closed_at":"2026-11-10T17:27:49Z","assignee":null,"author_association":"COLLABORATOR","issue_field_values":[],"type":null,"active_lock_reason":null,"draft":false,"pull_request":{"html_url":"https://github.com/ailiaixue/pbl/pull/278","merged_at":"2026-11-10T17:27:48Z"},"body":"Refs #266\n\n## 背景\n用户要求先由独立 Agent 全自动对抗测试、专门找缺陷，再部署测试服；正式站不在本 PR 范围。\n\n## 修复\n- 星宝/小任务语音：构造/start/stop 异常兜底，停止后保留最终转写宽限，收尾期禁止提前提交/发送，失败/取消/超时解除收尾。\n- 小任务真实计分题回归：宽限期尝试提交不入库，最终入库为完整转写。\n- SIPA：发送失败恢复草稿；切阶段/会话取消旧识别；累积语音快照只替换插入范围，避免误删学生后打文字；发送等待语音收尾。\n- 布局：手机消息区保底可读高度，平板保留半屏消息区，电脑长回答仍保留半屏阅读区；输入框被遮时滚动露出。\n- 同步 memory 约束与 issue 证据文档。\n\n## 验证\n- 本地 format / lint / tsc / bun test / prisma validate / shell syntax 通过；bun test 988 pass / 54 skip / 0 fail。\n- GitHub CI：ci、e2e 通过（run 42857748310）。lowgrade 为 continue-on-error 非阻塞 job，Ubuntu 下字宽/按钮高度/贴纸夹具断言失败，未作为通过证据。\n- 独立 Agent 最终浏览器门禁正在收尾；合并/打 tag 前以最终结果为准。\n\n## 边界\n受控 SpeechRecognition + 模拟 UA/软键盘，不是物理麦克风、校园网或实体 Pad 输入法实测。不新增录音上传/服务端 ASR。仅部署测试服。","reactions":{"total_count":0,"+1":0,"-1":0,"laugh":0,"hooray":0,"confused":0,"heart":0,"rocket":0,"eyes":0},"performed_via_github_app":null,"state_reason":null,"score":1},{"html_url":"https://github.com/yhyu13/DreamWeaverOPC1/pull/210","id":6309883373,"node_id":"PR_kwDOVZWTgs8AAAABOI7qgg","number":210,"title":"[需人合并] docs(workflow): make human-agent delivery evidence reproducible (#209)","user":{"login":"yhyu13","id":19365678,"node_id":"MDQ6VXNlcjE5MzY1Njc4","html_url":"https://github.com/yhyu13","type":"User","user_view_type":"public","site_admin":false},"labels":[],"state":"open","locked":false,"assignees":[],"milestone":null,"comments":1,"created_at":"2026-11-10T15:21:45Z","updated_at":"2026-11-10T15:22:19Z","closed_at":null,"assignee":null,"author_association":"OWNER","issue_field_values":[],"type":null,"active_lock_reason":null,"draft":false,"pull_request":{"html_url":"https://github.com/yhyu13/DreamWeaverOPC1/pull/210","merged_at":null},"body":"## 这个 PR 做什么\nAdd one collaboration card and wire existing command/PR entrypoints to evidence, human decision, and completion boundaries; correct stale PR capability descriptions without adding a merge gate.\n\nCloses #209\n\n## 关键判断\nChose minimal documentation/template/entrypoint changes over a new governance system; deferred CLAUDE route mismatch and tool-generated Closes behavior to separate batches.\n\n## 本地验证\ncheck_workflow_doc 5/5; selftest 4/4; spec check 5 AC; git diff --check; local links pass; independent review PASS with no open P1/P2.\n\nfiles:\n  .claude/commands/implement.md  (+1 -0)\n  .claude/commands/pr.md  (+5 -5)\n  .claude/commands/ship.md  (+3 -1)\n  .claude/commands/spec.md  (+2 -0)\n  .claude/commands/worktree.md  (+2 -2)\n  .github/pull_request_template.md  (+13 -3)\n  AGENTS.md  (+3 -2)\n  docs/ops/human-agent-workflow-retro/README.md  (+57 -0)\n  docs/ops/human-agent-workflow-retro/plan.md  (+29 -0)\n  docs/ops/human-agent-workflow-retro/spec.md  (+31 -0)\n  docs/ops/human-agent-workflow-retro/tasks.md  (+7 -0)\n  docs/ops/templates/collaboration-card.md  (+29 -0)\n  docs/ops/workflow.md  (+15 -8)\n","reactions":{"total_count":0,"+1":0,"-1":0,"laugh":0,"hooray":0,"confused":0,"heart":0,"rocket":0,"eyes":0},"performed_via_github_app":null,"state_reason":null,"score":1},{"html_url":"https://github.com/yhyu13/AgentSkillsVault/pull/23","id":6308998508,"node_id":"PR_kwDOTbZxvM8AAAABOINyoA","number":23,"title":"refactor(skills): SKILL 目录按评分档位分层 (tier0..tier4)","user":{"login":"yhyu13","id":19365678,"node_id":"MDQ6VXNlcjE5MzY1Njc4","html_url":"https://github.com/yhyu13","type":"User","user_view_type":"public","site_admin":false},"labels":[],"state":"open","locked":false,"assignees":[],"milestone":null,"comments":1,"created_at":"2026-11-10T14:34:52Z","updated_at":"2026-11-10T14:43:11Z","closed_at":null,"assignee":null,"author_association":"OWNER","issue_field_values":[],"type":null,"active_lock_reason":null,"draft":false,"pull_request":{"html_url":"https://github.com/yhyu13/AgentSkillsVault/pull/23","merged_at":null},"body":"## 变更\n\n把 246 个 curated skill 从 `SKILL/<category>/<skill>` 重排为 `SKILL/<category>/tier<N>/<skill>`，\n档位来自 `docs/skill-capacity-audit/score_skills.py`（0–10，含 refs 豁免清单）：\n\n| 档位 | 分数区间 | 数量 |\n|---|---|---|\n| tier0 | ≥ 9.0 | 18 |\n| tier1 | 8.0–8.99 | 33 |\n| tier2 | 7.0–7.99 | 80 |\n| tier3 | 6.0–6.99 | 98 |\n| tier4 | < 6.0 | 17 |\n\n同时：\n\n- 新增 `docs/skill-capacity-audit/rearrange-tiers.ps1`（默认 dry-run，`-Apply` 才 `git mv`；幂等，已正确的跳过；leaf 名等于 category 时报 BLOCKED 而不是自嵌套）。\n- `score_skills.py` 新增 `--recursive`（递归发现 skill，跳过 vendor/docs/TEMPLATE/archived）、`--allow` / `--no-allow`（把 `refs-allow.txt` 里\"项目侧路径/正文措辞\"从 D 维剔除），并复用 `load_allow` / `is_allowed`。\n- `rigorous-proof` 原为 `SKILL/rigorous-proof/SKILL.md`（leaf == category，无法自嵌套），按历史 provenance 落到 `SKILL/math/tier2/rigorous-proof`。\n- `AGENTS.md` 写明\"两种 tier 不是一回事\"：目录里的 `tier<N>` 是评分档，`scripts/skill-tiers.txt` 的 A/B/C 是可见性档。\n- `INSTRUCTION.md` 三处 `SKILL/...` 路径引用同步补上档位。\n\n## 证据\n\n- `build-manifest.ps1` → 256 条（246 curated + 10 vendor），路径全部指向 `.../tier<N>/...`。\n- `sync-skills.ps1` → No problems（store 是扁平安装，布局变化不影响分发）。\n- `verify-install.ps1 -CheckViews` → match=256 mismatch=0 missing=0；views ok=3328 problems=0（13 store）。\n- `check_refs.py --self-check --fail-on-broken` → 246 skills / 686 refs / 0 broken（串并行逐条一致）。\n- `verify-capacity.ps1` → RESULT: PASS（0 warning），tier A 列表 29544 字符 = 0.82x 预算。\n- `rearrange-tiers.ps1` 复跑 → moved=0 already-correct=246（幂等）。\n\n## 任务分级\n\nred：改 `scripts/install-manifest.txt`（安装清单），需要 admin 批准。\n\n## 依赖\n\n本分支基于 `feat/doubao-industry-analysis`（PR #22），因此 #22 的两个 skill 与 TEMPLATE 迁移也出现在本 PR 的 diff 里；建议先合 #22，本 PR 再 rebase 后合。","reactions":{"total_count":0,"+1":0,"-1":0,"laugh":0,"hooray":0,"confused":0,"heart":0,"rocket":0,"eyes":0},"performed_via_github_app":null,"state_reason":null,"score":1},{"html_url":"https://github.com/yhyu13/AgentSkillsVault/pull/22","id":6305847934,"node_id":"PR_kwDOTbZxvM8AAAABOFsQ4w","number":22,"title":"feat(skills): doubao-industry-analysis — 行业深度报告方法 + 飞书写作规范","user":{"login":"yhyu13","id":19365678,"node_id":"MDQ6VXNlcjE5MzY1Njc4","html_url":"https://github.com/yhyu13","type":"User","user_view_type":"public","site_admin":false},"labels":[],"state":"open","locked":false,"assignees":[],"milestone":null,"comments":0,"created_at":"2026-11-10T11:25:49Z","updated_at":"2026-11-10T14:29:43Z","closed_at":null,"assignee":null,"author_association":"OWNER","issue_field_values":[],"type":null,"active_lock_reason":null,"draft":false,"pull_request":{"html_url":"https://github.com/yhyu13/AgentSkillsVault/pull/22","merged_at":null},"body":"## 变更\n\n新增 1 个 skill：SKILL/management/doubao-industry-analysis（tier A）。\n\n- 上游 F:\\XD\\DistillSkills\\飞书豆包distill\\doubao-industry-analysis（行业分析报告）.md 是单篇方法稿，**没有 SKILL.md**；本 vault 补写指针层，原文 16 KB 逐字收录在 \references/industry-analysis-report-source.md。\n- 内容：五条质量标准、判断主线底稿（七格表/三情景/子命题）、五大板块、三级数据分级、六步流程、12 条硬约束、交付标准 + 飞书文档写作方法论。\n- 与既有 skill 的边界写进 description：不替代 analysis-to-vault（文章转笔记）、dcf-valuation/comparable-analysis（估值）、truth-seeking-research（事实核查）。\n\n## 证据\n\n- 评分（score_skills.py --jobs）：**7.30** / 10（A 3.0 · B 1.3 · C 0.5 · D 2.0 · E 0.5），0 断链。\n- 引用审计（check_refs.py --self-check --fail-on-broken）：245 skills / 687 refs / **0 broken**，串并行逐条一致。\n- 安装校验（\u000berify-install.ps1 -CheckViews）：match=255 mismatch=0 missing=0；views ok=3315 problems=0（13 个 store）。\n- manifest：254 → 255（A=73 / B=182）。\n\n## 任务分级\n\nyellow：新增 skill 且改 INSTRUCTION.md / scripts/install-manifest.txt / scripts/skill-tiers.txt（共享正文），需要 1 次人工批准后合并。\n\n## 备注（不属于本 PR）\n\n工作区曾出现另一个会话未提交的 TEMPLATE 子模块迁移，与上游新增 TEMPLATE-GOVERNANCE 冲突；已把冲突文件还原到 HEAD、未提交任何他人改动，其内容完整保留在本地 stash@{0}。","reactions":{"total_count":0,"+1":0,"-1":0,"laugh":0,"hooray":0,"confused":0,"heart":0,"rocket":0,"eyes":0},"performed_via_github_app":null,"state_reason":null,"score":1},{"html_url":"https://github.com/yhyu13/DreamWeaverOPC1/pull/208","id":6308054671,"node_id":"PR_kwDOVZWTgs8AAAABOHdFWw","number":208,"title":"[需人合并] chore(assets): archive and remove Blender backups","user":{"login":"yhyu13","id":19365678,"node_id":"MDQ6VXNlcjE5MzY1Njc4","html_url":"https://github.com/yhyu13","type":"User","user_view_type":"public","site_admin":false},"labels":[],"state":"closed","locked":false,"assignees":[],"milestone":null,"comments":2,"created_at":"2026-11-10T13:42:17Z","updated_at":"2026-11-10T13:52:05Z","closed_at":"2026-11-10T13:52:03Z","assignee":null,"author_association":"OWNER","issue_field_values":[],"type":null,"active_lock_reason":null,"draft":false,"pull_request":{"html_url":"https://github.com/yhyu13/DreamWeaverOPC1/pull/208","merged_at":"2026-11-10T13:52:02Z"},"body":"Refs #206\n\n## Why\n\nThe original goal asks not only for an audit/document fixes, but also for redundant/problem files to be deleted or given a better folder structure. PR #207 merged the document/audit cleanup but did not actually delete or move any file. This follow-up performs one evidence-backed, reversible cleanup: archive the three audited Blender `.blend1` backups outside the repository, then remove only those tracked backups.\n\n## What changed\n\n- Archived byte-for-byte copies to `D:/GitRepo-AI/AIGameMaker/.asset-archive/2026-11-10/hall-of-fame-blender-backups/`.\n- Verified size/SHA256/Blender header before and after archive write.\n- Rehearsed restore from archive and from Git history via `git show <commit>:<path>` + `git lfs smudge`; all three matched.\n- Removed only:\n  - `projects/active/hall-of-fame/step2/blender/carmack/carmack.blend1`\n  - `projects/active/hall-of-fame/step2/blender/miyamoto/miyamoto.blend1`\n  - `projects/active/hall-of-fame/step2/blender/sweeney/sweeney.blend1`\n- Added durable archive manifest and recovery notes under `docs/ops/audits/2026-11-10/`.\n- Updated the audit README/file-audit follow-up status.\n\n## Boundaries\n\n- Current `.blend` source files are unchanged.\n- No frozen files, screenshots, gate records, performance ZIPs, hand-written sources, license ledgers, historical status task states, tool source, or other worktrees/refs are modified.\n- This does not claim Blender internal dependency validation, product/visual acceptance, or remote CI success.\n- Removing LFS pointers does not immediately shrink remote LFS/history storage.\n\n## Verification\n\n- Archive payload SHA256:\n  - Carmack: `41a28cafe450c31d9a67718b8368cf384f768b26cb6b682e3e848c30d7f5dba0`\n  - Miyamoto: `27eb0162bc0a940305ceaa3c4c125901a632388fc84130da791f5d5977cee19d`\n  - Sweeney: `781a2626863a32c7f5463053cb3bc8a0d1b4fc9f83fa4ffd4058d6f46d0494c0`\n- `backup_archive_final_check.py`: pass (exact three deletions, allowed scope, no tracked `.blend1` in index, source `.blend` unchanged, archive/restore checks, Blender script syntax).\n- `tools/check_workflow_doc.py --selftest`: 4/4.\n- `tools/check_workflow_doc.py`: 5 checks pass.\n- `tools/studio.py spec check`: 13 specs, 7 PASS / 6 existing WARN / 0 FAIL.\n- `tools/studio.py lint`: PASS.\n- `git diff --check`: pass.\n\n## files:\n\n- `docs/ops/audits/2026-11-10/README.md`\n- `docs/ops/audits/2026-11-10/file-audit.md`\n- `docs/ops/audits/2026-11-10/backup-archive.md`\n- `docs/ops/audits/2026-11-10/backup-archive-manifest.json`\n- `projects/active/hall-of-fame/step2/blender/carmack/carmack.blend1` (deleted after archive)\n- `projects/active/hall-of-fame/step2/blender/miyamoto/miyamoto.blend1` (deleted after archive)\n- `projects/active/hall-of-fame/step2/blender/sweeney/sweeney.blend1` (deleted after archive)\n\n[![](https://img.shields.io/badge/powered_by-dsh-4D6BFE?style=flat-square&logo=deepseek&logoColor=white)](https://github.com/deepseek-ai/deepseek-harness)","reactions":{"total_count":0,"+1":0,"-1":0,"laugh":0,"hooray":0,"confused":0,"heart":0,"rocket":0,"eyes":0},"performed_via_github_app":null,"state_reason":null,"score":1},{"html_url":"https://github.com/yhyu13/DreamWeaverOPC1/pull/207","id":6307565358,"node_id":"PR_kwDOVZWTgs8AAAABOHD9YQ","number":207,"title":"[需人合并] docs(audit): complete original-goal audit and safe cleanup","user":{"login":"yhyu13","id":19365678,"node_id":"MDQ6VXNlcjE5MzY1Njc4","html_url":"https://github.com/yhyu13","type":"User","user_view_type":"public","site_admin":false},"labels":[],"state":"closed","locked":false,"assignees":[],"milestone":null,"comments":2,"created_at":"2026-11-10T13:13:46Z","updated_at":"2026-11-10T13:19:59Z","closed_at":"2026-11-10T13:19:57Z","assignee":null,"author_association":"OWNER","issue_field_values":[],"type":null,"active_lock_reason":null,"draft":false,"pull_request":{"html_url":"https://github.com/yhyu13/DreamWeaverOPC1/pull/207","merged_at":"2026-11-10T13:19:57Z"},"body":"## 这个 PR 做什么\nCloses #206. Deliver the original two-part goal: latest-main branch/file audit plus reviewed documentation/directory-entry cleanup. No frozen/asset/lock/tool-source changes. [![](https://img.shields.io/badge/powered_by-dsh-4D6BFE?style=flat-square&logo=deepseek&logoColor=white)](https://github.com/deepseek-ai/deepseek-harness)\n\nCloses #206\n\n## 关键判断\n最小文档整理与审计交付；不合并未审计历史特性。README/.claude/skills 命中黄区，按用户已给会话合并授权具名记录，不冒充用户亲自操作。\n\n## 本地验证\nverify_docs 12/12; base_checks 7项base红; spec check 6 AC; workflow selftest 4/4; git diff --check exit0; 独立复核待最终head绑定。\n\nfiles:\n  .claude/skills/technical-design-document/SKILL.md  (+3 -3)\n  .claude/skills/technical-design-document/references/tdd-guide.md  (+19 -16)\n  README.md  (+9 -4)\n  docs/ops/audits/2026-11-10/README.md  (+62 -0)\n  docs/ops/audits/2026-11-10/branch-audit.md  (+161 -0)\n  docs/ops/audits/2026-11-10/file-audit.md  (+71 -0)\n  docs/ops/audits/2026-11-10/plan.md  (+8 -0)\n  docs/ops/audits/2026-11-10/spec.md  (+32 -0)\n  docs/ops/audits/2026-11-10/tasks.md  (+11 -0)\n  docs/ops/hof-rework-status/s3-evidence/README.md  (+4 -3)\n","reactions":{"total_count":0,"+1":0,"-1":0,"laugh":0,"hooray":0,"confused":0,"heart":0,"rocket":0,"eyes":0},"performed_via_github_app":null,"state_reason":null,"score":1},{"html_url":"https://github.com/yhyu13/AgentSkillsVault/pull/21","id":6303559303,"node_id":"PR_kwDOTbZxvM8AAAABOD2veA","number":21,"title":"feat(governance): add required checks and green/yellow/red task policy","user":{"login":"yhyu13","id":19365678,"node_id":"MDQ6VXNlcjE5MzY1Njc4","html_url":"https://github.com/yhyu13","type":"User","user_view_type":"public","site_admin":false},"labels":[],"state":"closed","locked":false,"assignees":[],"milestone":null,"comments":1,"created_at":"2026-11-10T08:55:11Z","updated_at":"2026-11-10T09:01:49Z","closed_at":"2026-11-10T09:01:49Z","assignee":null,"author_association":"OWNER","issue_field_values":[],"type":null,"active_lock_reason":null,"draft":false,"pull_request":{"html_url":"https://github.com/yhyu13/AgentSkillsVault/pull/21","merged_at":"2026-11-10T09:01:49Z"},"body":"## Summary\n\n- Adds PR Gate required checks: `policy-grade`, `manifest-consistency`, `skill-refs`, `governance-selftest`, `merge-authorization`.\n- Defines green/yellow/red task policy with same-version/same-platform verification for green tasks.\n- Adds CODEOWNERS and desired branch-protection configuration.\n\n## Task grade\n\nRed: changes `.github/**`, `AGENTS.md`, governance scripts, and `CODEOWNERS`.\n\n## Authorization\n\nUser explicitly requested in the Cindy task: connect required checks and define which tasks can be approval-free. This bootstrap PR is intended to merge before branch protection because `main` currently has no protection; after merge, required checks will enforce future PRs.\n\n## Platform verification\n\n```platform-verification\n{\n  \"head_sha\": \"7b86e155132666f78e9e50b67b7714bb16542d33\",\n  \"affected_platforms\": [\"not-applicable\"],\n  \"automated_tests\": [\n    {\n      \"command\": \"python -m unittest discover -s tests -p 'test_*.py' -v\",\n      \"result\": \"pass\",\n      \"evidence\": \"local selftest run: 24 tests OK\"\n    }\n  ],\n  \"platform_checks\": [\n    {\n      \"platform\": \"not-applicable\",\n      \"version\": \"n/a\",\n      \"device_or_browser\": \"governance/docs change\",\n      \"method\": \"not-applicable\",\n      \"result\": \"pass\",\n      \"evidence\": \"local manifest/refs/selftest runs\",\n      \"reason\": \"Governance policy and CI configuration only; no runtime product platform behavior changed.\"\n    }\n  ]\n}\n```\n\n## Evidence\n\n- Local policy/authorization tests: 24 tests OK.\n- `scripts/check_manifest.py --root .`: PASS.\n- Vault skill refs: 244 skills, 686 refs, 0 broken.\n- Governance template selftest: 4 passed, 0 failed.\n\n## Risk / rollback\n\nRisk: required checks may block PRs that lack evidence or approval. Rollback: revert this commit and remove the branch protection rule.\n\nAssisted-by: Cindy (https://cindy.app)","reactions":{"total_count":0,"+1":0,"-1":0,"laugh":0,"hooray":0,"confused":0,"heart":0,"rocket":0,"eyes":0},"performed_via_github_app":null,"state_reason":null,"score":1},{"html_url":"https://github.com/yhyu13/PullYourselfUpApp/pull/190","id":6286211746,"node_id":"PR_kwDOU7kzUs8AAAABN1_OYw","number":190,"title":"feat(l3): 共同语言表与 /api/shared-language（同盟期的数据前提）","user":{"login":"yhyu13","id":19365678,"node_id":"MDQ6VXNlcjE5MzY1Njc4","html_url":"https://github.com/yhyu13","type":"User","user_view_type":"public","site_admin":false},"labels":[],"state":"closed","locked":false,"assignees":[],"milestone":null,"comments":0,"created_at":"2026-11-09T12:38:54Z","updated_at":"2026-11-10T07:25:38Z","closed_at":"2026-11-10T07:25:37Z","assignee":null,"author_association":"OWNER","issue_field_values":[],"type":null,"active_lock_reason":null,"draft":false,"pull_request":{"html_url":"https://github.com/yhyu13/PullYourselfUpApp/pull/190","merged_at":"2026-11-10T07:25:37Z"},"body":"Refs #165\n\n## 改了什么\n\n**新增 `shared_language` 表**（`server/store.js`）——L3 同盟期的数据前提，不是界面改动：\n\n```sql\nuid TEXT, term TEXT, meaning TEXT, first_used_at TEXT, last_used_at TEXT, UNIQUE(uid, term)\n```\n\n- `term` = 你们之间的叫法（如「老周的三分钟」）；`meaning` = 一句话说清它指什么（写不出解释的叫法是黑话，写入直接拒绝）。\n- `UNIQUE(uid,term)` 承载「同一个叫法再被提起 = 覆盖释义」，不是追加。**`first_used_at` 不随覆盖变**（那是「第一次这么叫」的日子），`last_used_at` 每次提起刷新。\n- **上限 5，不是照抄 memory 的 3**，理由写在 `server/store.js` 的注释里：\n  1. memory 存的是*事实*，重复说会显得机器，3 条够；shared_language 存的是*叫法*，价值在连续性 —— 同一个说法每次都被叫同一个名字，「我们」才成立；\n  2. 设成 3 的话，第 4 个常用叫法就会把最早那个挤掉，等于每两周换一套词；\n  3. 一个用户一周内真正会重复用的新叫法通常 2–3 个，5 条 ≈ 两周余量；\n  4. prompt 成本 5 × 约 25 token ≈ 125 token，与 memory 3 条同量级，不能主导上下文。\n- **淘汰口径是 LRU，不是 FIFO**：按 `last_used_at` 淘汰「最久没被再提起的」。按 `first_used_at` 会把最老、最熟、最像「我们」的那个叫法第一个删掉，正好反了。\n\n**接口**（`server/index.js`）\n- `GET /api/shared-language?uid=` → `{count, limit:5, items:[{id, term, meaning, firstUsedAt, lastUsedAt}]}`，按 `lastUsedAt` 倒序\n- `POST /api/shared-language` → `{ok:true, item, evicted}`；鉴权口径与 `/api/memory` 逐字一致（`authedUid`，无 token / uid 与 token 不符 **401**）\n- `GET /api/state`：**`phase === 'L3'` 时**多下发 `shared`（只给条数，不给内容）；L1/L2 的响应里**没有这个键**\n\n**遗忘权**：`USER_TABLES` 加 `shared_language`（第 9 张表），`forgetAccount` 的计数与删除清单自动跟随。\n\n## 验了什么（真实数字）\n\n```\nnode server/l3-shared.test.js   → # tests 12 / # pass 12 / # fail 0   EXIT=0\nnpm test                        → EXIT=0，逐文件 # pass 合计 413 条（基线 401，+12），0 条 not ok\n```\n\n12 例覆盖（要求 ①–⑤ 全含）：写入字段齐 / 上限 5 / **LRU 淘汰与\"重新提起能自救\"** / 同 term 覆盖且 `firstUsedAt` 不迁徙 / 空 term·空 meaning 被拒 / 遗忘权清空+回执计数+`USER_TABLES` 含表 / HTTP 无 token 401 / **跨用户越权 401 且各自只见自己** / HTTP 上限与淘汰 / 入参校验 400 不落库 / **`shared` 只在 L3 下发（L1、L2 断「键不存在」）** / `/api/forget` 后清零且旧 token 失效。\n\n**负向验证（3 条，做完已还原）**：\n\n```\nUSER_TABLES 漏掉 shared_language        → EXIT=1（not ok 6 遗忘权 / not ok 12 HTTP 遗忘权）\nshared 不再按 phase 门控（L2 也下发）    → EXIT=1（not ok 11）\n淘汰改成按 first_used_at（FIFO）        → EXIT=1（not ok 3 LRU / not ok 9）\n```\n\n**超出指挥令列的一个文件**：`server/memory.test.js` 有 1 行必须改 —— 它把遗忘权回执的表名**写死成 8 张**，加第 9 张后必然红。已改为 9 张并加注释「新增用户表要同步这里」。这一行不改，`npm test` 不可能绿。\n\n## 没验什么\n\n- **CI 没绿，且不是代码问题**：GitHub Actions 因账号计费/额度未启动（`The job was not started because recent account payments have failed or your spending limit needs to be increased`），全仓所有 PR 同时红。本条只提交本地实跑证据。\n- **没验前端消费**：`shared` 目前只有条数，界面怎么显示「你们之间有 N 个叫法」由 UIUX 的判据决定，`app/index.html` 我没有碰。\n- **没验 LLM 侧真的会去写这张表**：教练什么时候提第一次叫法、提几个，属提示词/产品口径，本刀只提供可存可读的真源。\n- **没验「叫法」与 `memory` 的语义冲突**：同一件事既可能进 memory 也可能变 term，两表之间没有去重规则（刻意不做，避免过度设计）。\n- **已知未修（上一轮评审已报，不在本刀范围）**：门禁关（`PULLUP_REQUIRE_CONSENT != 1`）时 `authedUid` 放行请求里的 uid，`/api/shared-language` 与 `/api/memory` 同理会无 token 可读；`deploy/setup.sh` 的 `.env` 模板不含该变量。\n\n## 哪个视口没验\n\n不涉及 —— 本刀只改 `server/` 与 `package.json`，无 UI 改动，375 / 390 / 1440 三档均未触及。\n","reactions":{"total_count":0,"+1":0,"-1":0,"laugh":0,"hooray":0,"confused":0,"heart":0,"rocket":0,"eyes":0},"performed_via_github_app":null,"state_reason":null,"score":1},{"html_url":"https://github.com/yhyu13/PullYourselfUpApp/pull/189","id":6285913416,"node_id":"PR_kwDOU7kzUs8AAAABN1vwXA","number":189,"title":"test(l2): 375/1440 两档视口 + 核 l2-matrix 的冻结断言","user":{"login":"yhyu13","id":19365678,"node_id":"MDQ6VXNlcjE5MzY1Njc4","html_url":"https://github.com/yhyu13","type":"User","user_view_type":"public","site_admin":false},"labels":[],"state":"closed","locked":false,"assignees":[],"milestone":null,"comments":0,"created_at":"2026-11-09T12:18:58Z","updated_at":"2026-11-10T07:25:29Z","closed_at":"2026-11-10T07:25:29Z","assignee":null,"author_association":"OWNER","issue_field_values":[],"type":null,"active_lock_reason":null,"draft":false,"pull_request":{"html_url":"https://github.com/yhyu13/PullYourselfUpApp/pull/189","merged_at":"2026-11-10T07:25:29Z"},"body":"Refs #165\n\n## 改了什么\n\n**1. `scripts/testing/l2-dom.cjs` · 视口参数化（此前只有 390×844 一档）**\n\n- `KEY_VIEWPORTS` 单点清单：`375×667`（iPhone SE/8 宽度）与 `1440×900`（桌面侧栏出现的那档）各跑**关键判据**。\n- 390 档仍然跑全套：正向 32 条 + 11 条负向证明不变。\n- 哪几条在哪档跑，写进文件头「视口策略」表（不在注释里散落）：\n\n| 判据 | 390 | 375 | 1440 |\n|---|---|---|---|\n| 态1 分水岭 L1 / L2 | ✓ | ✓ | ✓ |\n| 态2 记忆条（含 limit=3 与 limit=4 对开、负向 3 条） | ✓ | — | — |\n| 态3 全称 ≤1 次 / 名称位用简称 | ✓ | ✓ | ✓ |\n| 态3 `#coachSub` 绳子 + 负向 2 条 | ✓ | — | — |\n| 态4 证据卡三情形 + 负向 2 条 | ✓ | — | — |\n| 态5 徽章可见性 | ✓ | ✓ | ✓ |\n| 态5 P1/P2/P3/S1/S2/差异 + 负向 3 条 | ✓ | — | — |\n\n- **1440 档多一条守护**：桌面侧栏 `.side` 里有静态营销句「教练 · 每晚 8 点，一句话」。分水岭判据数「每晚 8 点」的命中数，这条断言钉住「计数只认 `#page`」——若有人把 `pageText()` 换成整页 `document.body`，1440 档会立刻红，而不是去删产品文案。\n- 徽章截图前先 `scrollIntoView`：判据只要求 rect>0（渲染了），但证据图得让人真看到「熟悉期」徽章。\n\n**2. `server/l2-matrix.test.js` · 核查结论：不属同类，未改**\n\n评审的担心是 `day>3` 时 `trialDay === 3` 混合了「试炼格封顶」与「天数不前进」两种含义。逐条核完，两条含义在文件里是分开断言的：\n\n| 事实 | 位置 |\n|---|---|\n| `trialDay === 3`（第 5 天 / 第 11 天） | `server/l2-matrix.test.js:184`、`:188` |\n| 「天数不前进」由另一条守：`day === 11` | `server/l2-matrix.test.js:187` |\n| 实现是封顶语义 `Math.min(day, TRIAL_DAYS)` | `server/l1-state.js:40-44` |\n| 前端消费方只一处（`applyPhase` 的 L1 分支） | `app/index.html:677`、`:695` |\n\n即 `day` 坏了 `:187` 红，封顶坏了 `:184/:188` 红，互不掩盖 → **不属「把冻结行为当契约」**。\n\n附带登记两条观察（本轮不改，未越界动 `server/`）：\n1. `trialDay` 在 L2 已无 UI 消费方（`:677` 只在 `!trialDone` 的 L1 分支用），`:184/:188` 守的是一个 L2 不显示的字段；若产品以后不再下发它，这两条会为「非 bug 的改动」变红。建议届时改成「L2 允许 null 或 3，但 day 必须前进」。\n2. `TEXT_MAX = 200`（`server/l2-matrix.test.js:16`）与实现 `server/store.js:396` 的 `.slice(0, 200)` 是同一阈值的两份拷贝，违反「一份实现」；修法是 store 导出常量、测试 require 它。\n\n**3. `docs/testing/L2-三档视口与l2-matrix核查-2026-11-07.md`（新增）**\n三档策略表、实测数字、file:line 证据、未验清单都落在这份文件里。\n\n## 验了什么（本地实跑，2026-11-07）\n\n| 命令 | 结果 | 退出码 |\n|---|---|---|\n| `node scripts/testing/l2-dom.cjs` | `# pass 43 / fail 0`（正向 32 + 负向证明 11 + **多档 11**） | 0 |\n| `node scripts/testing/l1-dom.cjs` | `# pass 38 / fail 0` | 0 |\n| `npm test` | 363 tests / 401 pass / 0 fail | 0 |\n\n多档 11 条的分布：375 档 5 条（态1 L1、态1 L2、态3 两条、态5 徽章），1440 档 6 条（同上 + `.side` 计数守护）。\n证据图（gitignore，不随仓）：`tmp/l2-dom-multi-1440×900-{day4,shorthand,badge}.png`、`tmp/l2-dom-multi-375×667-*.png`。\n\n> 备注：在没有本地 `node_modules` 的 worktree 里，脚本会打 `SKIP - 没有 playwright/chromium` 并退出码 **2**。这是设计好的（没跑不能当通过），不是失败；本次用 `NODE_PATH=$(npm root -g)` 提供 chromium。CI 的 render-gate job 会 `npm ci` + 装 chromium。\n\n## 没验什么\n\n- **CI 未验**：账号计费问题导致四个 check 全部未启动（`The job was not started because recent account payments have failed`）。本地绿 ≠ CI 绿，本 PR 的证据全部是本地实跑。\n- L3（第 20 天之后）页面在任何档位都没验，`l2-dom.cjs` 只覆盖 L1/L2。\n- 未验 320 宽（比 375 更窄）、真机 iOS Safari / Android Chrome；DPR 只用了默认 1 与 2。\n- 新增的两档**只跑正向关键判据，没有跑负向证明**——负向仍在 390 档，这是有意的取舍（每档都跑负向会让 CI 时长翻倍）。若你认为 1440 档也必须至少有一条负向，我可以补一条（约 15 分钟）。\n- 没做独立评审。\n\n## 哪个视口没验\n\n本 PR 补的就是视口，覆盖 390×844 / 375×667 / 1440×900 三档。\n**没验**：320×568、375×812、414×896、768×1024、1920×1080，以及真机。\n","reactions":{"total_count":0,"+1":0,"-1":0,"laugh":0,"hooray":0,"confused":0,"heart":0,"rocket":0,"eyes":0},"performed_via_github_app":null,"state_reason":null,"score":1},{"html_url":"https://github.com/yhyu13/PullYourselfUpApp/pull/188","id":6285834497,"node_id":"PR_kwDOU7kzUs8AAAABN1rrpA","number":188,"title":"docs(spec): M2 付费验证前提与口径 v1","user":{"login":"yhyu13","id":19365678,"node_id":"MDQ6VXNlcjE5MzY1Njc4","html_url":"https://github.com/yhyu13","type":"User","user_view_type":"public","site_admin":false},"labels":[],"state":"closed","locked":false,"assignees":[],"milestone":null,"comments":0,"created_at":"2026-11-09T12:13:47Z","updated_at":"2026-11-10T07:25:20Z","closed_at":"2026-11-10T07:25:20Z","assignee":null,"author_association":"OWNER","issue_field_values":[],"type":null,"active_lock_reason":null,"draft":false,"pull_request":{"html_url":"https://github.com/yhyu13/PullYourselfUpApp/pull/188","merged_at":"2026-11-10T07:25:20Z"},"body":"Refs #165\n\n双轨件 §3 的 B1。只出商业前提与口径，不含实现。\n\n## 改了什么\n\n新增 `docs/spec/M2-付费验证-前提与口径-v1.md`，回答六件事：\n\n1. **卖什么**：¥30/月买到「教练按你的数据现编的那条晨间链条」+ 全书内容，不是更多视频。\n2. **定价**：主假设 ¥30/月（沿用 `路线图:53`），三档实验 ¥19 / ¥30 / ¥49，按 uid 取模分桶；成本下界引 `路线图:110` 的「单用户月成本 <¥4」。价格标假设，验证方式写死。\n3. **免费与付费边界**：三问采集、记忆与「记错了」、遗忘与删除、数据导出、危机转介、毕业离场永远免费（PRD:5 / :127 / :137 / :138 / :38）；付费墙只放定制链条与全书内容。\n4. **资质倒排**：以 M1 判定日（V0.4 第 14 天）为锚倒推；长杆判定为商户号而非 ICP（B 路线不依赖 ICP），最晚动手日 = 开闸日 − 4 周。\n5. **验证指标**：沿用 `路线图:57` 的 ≥5% / ≥15% / <3% 二次实验，新增一条分母门槛（≥50 份有效曝光，否则只报区间）。\n6. **不做什么**：不做年付/买断/家庭席位/B 端/Token/分销/投流；不提前宣称「已验证商业模式」。\n\n## 验了什么\n\n- 事实核对：PRD 全文无「付费 / 订阅 / 收费 / 价格 / 定价」命中，故定价真源只能引 `路线图:53`，本文所有价格标为假设。\n- 锚点核对：M1 判定日引 `路线图:108` 与 `docs/spec/内测试用协议.md:35`；资质周期引 `支付资质前置清单.md` 第 3 行原文与第四节倒排表。\n- 与双轨件对齐：§0 增列第 4 条引用 `下一里程碑-双轨-L3与M2-v1.md`，§7 改为「与双轨裁定的关系」，只保留一条边界差别（不得以 L3 四态全绿作为开 B 轨的前提）。\n- 本地闸门：`pre-commit` PASS 6 · WARN 1 · ERROR 0。\n\n## 没验什么\n\n- 未跑任何代码侧命令：本轮只出文档，付费墙实现属 V0.5。\n- 商户号 2–4 周为清单原文，本团队未实测。\n- 价格弹性无任何数据；¥19/30/49 是假设，不是测算。\n\n## 哪个视口没验\n\n无 UI 变更，视口不适用。\n\n## 最不确定的一问\n\n定价。三档区间没有任何支付意愿数据支撑，且 B 路线人工收款会筛掉「不愿意等」的人，读数偏乐观。\n","reactions":{"total_count":0,"+1":0,"-1":0,"laugh":0,"hooray":0,"confused":0,"heart":0,"rocket":0,"eyes":0},"performed_via_github_app":null,"state_reason":null,"score":1},{"html_url":"https://github.com/yhyu13/yhyu13.github.io/pull/22","id":6301664904,"node_id":"PR_kwDOBtMqF88AAAABOCWedg","number":22,"title":"feat(decks): ship the BCI companions — animated page, long-read, cut","user":{"login":"yhyu13","id":19365678,"node_id":"MDQ6VXNlcjE5MzY1Njc4","html_url":"https://github.com/yhyu13","type":"User","user_view_type":"public","site_admin":false},"labels":[],"state":"closed","locked":false,"assignees":[],"milestone":null,"comments":0,"created_at":"2026-11-10T06:34:02Z","updated_at":"2026-11-10T06:36:44Z","closed_at":"2026-11-10T06:36:43Z","assignee":null,"author_association":"OWNER","issue_field_values":[],"type":null,"active_lock_reason":null,"draft":false,"pull_request":{"html_url":"https://github.com/yhyu13/yhyu13.github.io/pull/22","merged_at":"2026-11-10T06:36:43Z"},"body":"## What\n\nThe 脑机接口产业调查 deck shipped as a PDF only; three artefacts stayed in\nthe source folder. This PR puts them on the site and gives the deck card a\nway to reach them.\n\n| Artefact | Where | Size |\n|---|---|---|\n| 90 s canvas film, voiced | `/bci/film.html` | 985 KB, **one file** |\n| Long-read page | `/bci/longread.html` | 38 KB, zero external refs |\n| 1080p voiced cut | `/bci/bci-industry-survey-90s-vo.mp4` | 6.3 MB, h264+aac, 90 s |\n\n## How the film was made portable\n\nThe source page is a four-module ES-module app that fetches\n`./audio/final.mp3`. Bundled the three runtime modules with `bun build\n--format=esm` (top-level `await` rules out an IIFE), dropped the dev-only\n`preview.js`, and inlined the 720 KB narration track as\n`data:audio/mpeg;base64,…`. The result has no sibling assets: one HTML file,\none URL, works from cold.\n\nAlso adds a small fixed return pill (`← 脑机接口产业调查`) to both pages, plus a\n`横屏观看更佳 · 90 秒` hint and a compact control bar on narrow screens.\n\n## Wiring\n\n- `Deck` gains an optional `links?: { label, href }[]`.\n- `DeckShelf` renders them under the blurb as pills.\n- `DeckReader` renders them in the header; at `<=640px` they are hidden so the\n  header keeps `Download PDF` + close without overflowing.\n\n## Evidence\n\n```\n$ npm run build\n✓ built in 2.51s\ncheck-links: all internal references resolve.\ncheck-budget: entry index-t2LHrgQj.js = 294.34 kB (budget 300 kB) ok\ncheck-profile: approved public artifacts and inspected PDF hashes match.\n```\n\nPlaywright (Chromium) against `vite preview`, no page errors:\n\n```\n/decks @1280x900   → BCI card renders 3 companion pills, wraps to 2 lines\n/decks @390x844    → all 3 pills fit on one row\n/decks/bci-…       → header shows 3 pills + Download PDF @1280; 0 visible @390\n/bci/film.html     → DUR=90, READY=true, audio readyState=4, bar visible\n                     frames 0 s and 45 s both render\n/bci/longread.html → title ok, scrollHeight 12524 px, no errors\nMP4                → 200 video/mp4, 6,311,988 bytes\n```\n\nAssisted-by: Cindy (https://cindy.app)\n","reactions":{"total_count":0,"+1":0,"-1":0,"laugh":0,"hooray":0,"confused":0,"heart":0,"rocket":0,"eyes":0},"performed_via_github_app":null,"state_reason":null,"score":1},{"html_url":"https://github.com/yhyu13/yhyu13.github.io/pull/21","id":6301377215,"node_id":"PR_kwDOBtMqF88AAAABOCICHw","number":21,"title":"chore(decks): add BCI industry survey video slides","user":{"login":"yhyu13","id":19365678,"node_id":"MDQ6VXNlcjE5MzY1Njc4","html_url":"https://github.com/yhyu13","type":"User","user_view_type":"public","site_admin":false},"labels":[],"state":"closed","locked":false,"assignees":[],"milestone":null,"comments":0,"created_at":"2026-11-10T06:09:19Z","updated_at":"2026-11-10T06:10:20Z","closed_at":"2026-11-10T06:10:20Z","assignee":null,"author_association":"OWNER","issue_field_values":[],"type":null,"active_lock_reason":null,"draft":false,"pull_request":{"html_url":"https://github.com/yhyu13/yhyu13.github.io/pull/21","merged_at":"2026-11-10T06:10:20Z"},"body":"## What\n\nAdds the `脑机接口产业调查 — 离现实生产力还有多远` summary deck to the\n**Video Slides** volume.\n\nSource: Bilibili `BV1wdx96dEQW` — 铉铮【政策研究】脑机接口产业调查 (2026-11-05, 686 s).\nSource material: 《求是》2026/21 深度调研 (2026-11-03).\nThe folder `个人成长/脑机接口产业调查` produced a 20-slide PPTX; this PR ships\nits PDF counterpart plus the `DECKS` entry.\n\n## Changes\n\n- `public/decks/bci-industry-survey.pdf` — 20 pages, 956,265 bytes (PPTX → PDF via WPS Office COM, `Kwpp.Application`)\n- `src/data/decks.ts` — new `DECKS` entry (slug `bci-industry-survey`, 2026-11-05, source link, description)\n\nSlug keeps the shelf alphabetical (after `atlas-fei-fei-li-world-model`), so no\nCSS/position rules change.\n\n## Evidence\n\n```\n$ npm run build\ntsc --noEmit && vite build && node scripts/copy-404.mjs && node scripts/check-links.mjs\n✓ built in 2.36s\ncheck-links: all internal references resolve.\ncheck-budget: entry index-BA083HHz.js = 294.34 kB (budget 300 kB) ok\ncheck-profile: approved public artifacts and inspected PDF hashes match.\n```\n\n```\n$ python -c \"import pypdf; print(len(pypdf.PdfReader('bci-industry-survey.pdf').pages))\"\n20\n```\n\nPage 1 and page 10 renders checked: dark cover \"脑机接口产业调查 / 离现实生产力还有多远\"\nwith the 调研路径 line, and the 产业之「远」 data page (60+ / 70+ / 60%+).\n\nAssisted-by: Cindy (https://cindy.app)\n","reactions":{"total_count":0,"+1":0,"-1":0,"laugh":0,"hooray":0,"confused":0,"heart":0,"rocket":0,"eyes":0},"performed_via_github_app":null,"state_reason":null,"score":1},{"html_url":"https://github.com/yhyu13/Hackthon_Aholo_20261107/pull/132","id":6299930333,"node_id":"PR_kwDOVkLNls8AAAABOA-yGA","number":132,"title":"chore(retire-008): 移出旧材料并修复测试与历史引用","user":{"login":"yhyu13","id":19365678,"node_id":"MDQ6VXNlcjE5MzY1Njc4","html_url":"https://github.com/yhyu13","type":"User","user_view_type":"public","site_admin":false},"labels":[],"state":"open","locked":false,"assignees":[],"milestone":null,"comments":7,"created_at":"2026-11-10T03:55:37Z","updated_at":"2026-11-10T06:06:07Z","closed_at":null,"assignee":null,"author_association":"OWNER","issue_field_values":[],"type":null,"active_lock_reason":null,"draft":false,"pull_request":{"html_url":"https://github.com/yhyu13/Hackthon_Aholo_20261107/pull/132","merged_at":null},"body":"## 1. 关联 issue（同一 issue 可多 PR）\n\n- 关联 issue：#128\n- 本 PR 对应的切片名：retire-008\n- 同 issue 的其他 PR：#129、#130、#131\n- 引用写法：Refs: #128\n\n## 2. 本切片交付什么\n\n- 移出旧 Demo、宣传成品、渲染中间件与过期交接：删除 204 个旧文件，全部有备份覆盖。\n- 保留 `demo-v3/` 44 个文件、历史审计 45 个文件、参考运行文件 5 个哈希未变；`demo-qianmian/` 保留 6 个参考文件并标明赛 PRD 参考/定时器模拟边界。\n- `npm test` 改为 Node 内置 v3 资源/manifest/入口检查，另留 `test:qa`；清理 `.refcheck-ignore` 旧项，未新增 ignore。\n- 修复历史审计/技能/工作流/competitor-review 中断链为固定 SHA 历史快照；修复命令拆断、路径+链接拆断、证据映射误引；技能表与 P0 中已删除根文件不再写成 main 现行路径。\n- 切片独占目录：issue #128 登记的旧 Demo/宣传/中间件路径、demo-qianmian、tests/package/.refcheck-ignore，以及补充历史审计/技能/workflow/competitor-review 范围。\n- 对应 Spec Kit 阶段：implement\n\n## 3. 不做什么\n\n- 不改 `demo-v3/`、治理脚本/CI、AGENTS、docs/prd/pitch/specs；不重写历史，不合并。\n- 不删除备份、历史审计记录或最新 Demo；不新增 ignore/skip-file 掩盖断链。\n- 与 docs-008 / PR #131 有交叉引用依赖，需同一合流窗口按序处理。\n\n## 4. 验收方式\n\n- `npm test`：9 通过，失败 0 个；v3 QA：30 通过，失败 0 个；治理自测：4 通过，失败 0 个。\n- 24 个固定 SHA 永久链接目标存在性核对通过；16 个触及文档 check-refs：0 处不可达，失败 0 个。\n- 备份实字节复核：696 个文件 SHA-256/大小失败 0 个；204 个删除文件全部有备份覆盖。\n- 4 切片非破坏性合流快照：check-refs 104 个文档 0 处不可达；赛 PRD 72/0、自测 35/0、node --test 9/0。\n- CI 限制：PR diff 超过 GitHub 20000 行上限（HTTP 406），refs-check/ownership-check 无法经 gh diff 取数；PR files API 清单复核所有权越界 0 处。CI 未通过，不报完成。\n\n## 5. pre-merge 检查结果（贴脚本完整输出）\n\n- 执行命令：`bash scripts/pre-merge-check.sh feat/retire-008 main`\n- 以下为脚本标准输出原文，直接写入，未手工转录；TTL 10 分钟，合并前必须重跑。\n\n```\n\n=== 0. 当前所在 worktree / 分支 ===\n当前 worktree：C:/Git-repo-AI/Competition/Aholo_Hackthon/wt/retire-008\n当前分支：feat/retire-008\n待检查 PR 分支：feat/retire-008\n基线分支：main\n\n=== 1. 分支存在性 ===\n基线分支 main -> 1ddc781\nPR 分支 feat/retire-008 -> ccbb55e\n\n=== 2. main 工作树脏检查（含 untracked） ===\n被检查的工作树：C:/Git-repo-AI/Competition/Aholo_Hackthon\nstaged 改动：0 个\nunstaged 改动：0 个\nuntracked 文件：0 个\n脏文件合计：0 个\n检查结论：clean（0 个脏文件）\n\n=== 3. main 与远端同步 ===\n使用 remote：origin\n本地 main：1ddc7816ed94a674352376cc28d1a554cb594e6f\n远端 refs/remotes/origin/main：1ddc7816ed94a674352376cc28d1a554cb594e6f\n检查结论：in-sync（本地与远端一致）\n\n=== 4. merge-tree 非破坏性冲突试算 ===\n试算退出码：0（0 处冲突）\n合并结果树：502f054e6e58c956cbbcd516c3f8ccf9f9575280\n\n=== 5. PR 分支是否包含 main 最新提交 ===\n检查结论：up-to-date（PR 分支已包含基线最新提交）\n\n=== 结论 ===\nSAFE_TO_MERGE\nCHECK_TIMESTAMP=2026-11-10T05:44:41Z\nMAIN_HEAD=1ddc7816ed94a674352376cc28d1a554cb594e6f\n冲突 0 处；脏文件 0 个；基线已同步；PR 分支已包含基线最新提交。\n按 R1：允许合并（每个 PR 合并前仍需单独重跑本检查）。\n```\n\n- 合并前复核的 status 与 HEAD 一致性结论：本次仅更新 PR，不执行合并；RED/授权未满足，禁止合并。\n- 提交前自检：\n  - [x] 脚本输出三项齐全\n  - [x] 主线 0 个脏文件\n  - [x] merge-tree 0 处冲突\n  - [x] 本地 main 与远端 main 一致\n  - [x] PR 分支已包含 main 最新提交\n  - [x] 每个 PR 单独重跑\n  - [ ] TTL 10 分钟内执行合并（本次不合并）\n  - [x] 未使用 --no-verify、未执行 checkout --/reset/stash/clean/强推\n\n## 6. 测试与截图\n\n- 测试命令与结果：来源与历史原文保护断言 9 通过，失败 0 个；npm test 9 通过，失败 0 个；治理自测 4 通过，失败 0 个；4 个触及文档 check-refs 不可达引用 0 处。\n- 4 切片合流快照：check-refs 104 个文档不可达 0 处；62 个固定 SHA 唯一目标缺失 0 个；保留 HTML 本地资源链接缺失 0 处；赛 PRD 72/0、自测 35/0、资源测试 9/0；v3 浏览器 QA 30 通过，失败 0 个，外部请求/console error/page error 均 0 个。\n- CI 限制：PR diff 超过 GitHub 20000 行上限（HTTP 406），refs-check/ownership-check 无法经 gh diff 取数；PR files API 与合流自测不能替代 PR 级 CI。机判 deletions=0 是取数缺陷，本 PR 实际删除 204 个正本，不能据此降级。\n\n完整机判标准输出原文：\n\n```text\nNOTE: pr-gate --check-ownership 失败\nGRADE=YELLOW\nINPUTS: ci=fail h1=pass h2_cross=0 h2_drift=0 d2_auth=0 d2_unauth=0 secrets=0 deletions=0 binary=0 deps=0 test_fail=0 template=1\nREASONS: D5: ci=fail\nBLOCKERS: 1 条\n  - CI required checks 失败（FR-614 失去绿级）\nREVIEWER: <由 reviewer subagent 补齐（fresh context）>\nCHECK_TIMESTAMP: 2026-11-10T05:45:29Z\n```\n\n- 截图 / 录屏：PR #132 的 v3 QA 在隔离合流快照生成截图；PR #130 为规格文本，0 张。\n- 验证人 / 验证时间：agent 自检，2026-11-10。\n\n## 分级与授权\n\n- 本 PR 删除/移出正本，按 R5/FR-605 为 RED；需独立 reviewer 复核，由 admin 批准并执行合并。agent 不合并。\n\n","reactions":{"total_count":0,"+1":0,"-1":0,"laugh":0,"hooray":0,"confused":0,"heart":0,"rocket":0,"eyes":0},"performed_via_github_app":null,"state_reason":null,"score":1},{"html_url":"https://github.com/yhyu13/Hackthon_Aholo_20261107/pull/130","id":6299204246,"node_id":"PR_kwDOVkLNls8AAAABOAaOYQ","number":130,"title":"spec(spec-008): 建立灰仓 07 号收口规格与清理任务","user":{"login":"yhyu13","id":19365678,"node_id":"MDQ6VXNlcjE5MzY1Njc4","html_url":"https://github.com/yhyu13","type":"User","user_view_type":"public","site_admin":false},"labels":[],"state":"open","locked":false,"assignees":[],"milestone":null,"comments":6,"created_at":"2026-11-10T02:49:54Z","updated_at":"2026-11-10T06:05:56Z","closed_at":null,"assignee":null,"author_association":"OWNER","issue_field_values":[],"type":null,"active_lock_reason":null,"draft":false,"pull_request":{"html_url":"https://github.com/yhyu13/Hackthon_Aholo_20261107/pull/130","merged_at":null},"body":"## 1. 关联 issue（同一 issue 可多 PR）\n\n- 关联 issue：#128\n- 本 PR 对应的切片名：spec-008\n- 同 issue 的其他 PR：#129；docs-008 / retire-008 待开\n- 引用写法：Refs: #128\n\n## 2. 本切片交付什么\n\n- 交付内容：008 spec/plan/tasks；评审修复：明确宪法 v3.0.0 依赖 PR #129 admin 合并后生效，补 FR/SC/T 映射、180 秒计时口径、J3 与工程 QA 分层、备份/恢复任务与证据 `specs/008-gray07-focus/backup-report.json`。\n- 切片独占目录：`specs/008-gray07-focus/`\n- 对应 Spec Kit 阶段：specify → plan → tasks → implement 前置修订\n\n## 3. 不做什么\n\n- 明确排除的范围：不改 Demo/资产，不删除旧材料，不改治理脚本/CI，不重写历史，不开展真人试点。\n- 留给其他切片的项：宪法由 #129；现行文档与历史规格收口由 docs-008；旧材料清理由 retire-008。\n- 生效依赖：PR #129 未由 admin 合并前，本规格不得标已生效或越序合并。\n\n## 4. 验收方式\n\n- 复现命令：`python -I -X utf8 scripts/check-refs.py --root <spec-008-worktree> specs/008-gray07-focus/spec.md specs/008-gray07-focus/plan.md specs/008-gray07-focus/tasks.md`\n- 映射/备份/依赖检查：FR/SC/T 引用全部有定义；14 个 FR、9 个 SC、全部 T 均有映射；备份报告与真实 manifest 一致；未合并宪法依赖明确阻塞。\n- 预期结果：不可达引用 0 处；映射/备份/依赖检查失败 0 个。\n- 依赖条件：main=1ddc7816ed94a674352376cc28d1a554cb594e6f；备份位于主工作树 `.archive/repo-focus-20261110-7a1dcqsb/manifest.json`。\n\n实际结果：check-refs 扫描 3 个文件，0 处不可达引用；映射/备份/依赖 4 项检查通过，失败 0 个。备份 696 个文件回读通过，2 个恢复样本哈希一致；全仓 Git 恢复演练未完成，不标完成。\n\n## 5. pre-merge 检查结果（贴脚本完整输出）\n\n- 执行命令：`bash scripts/pre-merge-check.sh feat/spec-008 main`\n- 以下为脚本标准输出原文，直接写入，未手工转录；TTL 10 分钟，合并前必须重跑。\n\n```\n\n=== 0. 当前所在 worktree / 分支 ===\n当前 worktree：C:/Git-repo-AI/Competition/Aholo_Hackthon/wt/spec-008\n当前分支：feat/spec-008\n待检查 PR 分支：feat/spec-008\n基线分支：main\n\n=== 1. 分支存在性 ===\n基线分支 main -> 1ddc781\nPR 分支 feat/spec-008 -> e2197e6\n\n=== 2. main 工作树脏检查（含 untracked） ===\n被检查的工作树：C:/Git-repo-AI/Competition/Aholo_Hackthon\nstaged 改动：0 个\nunstaged 改动：0 个\nuntracked 文件：0 个\n脏文件合计：0 个\n检查结论：clean（0 个脏文件）\n\n=== 3. main 与远端同步 ===\n使用 remote：origin\n本地 main：1ddc7816ed94a674352376cc28d1a554cb594e6f\n远端 refs/remotes/origin/main：1ddc7816ed94a674352376cc28d1a554cb594e6f\n检查结论：in-sync（本地与远端一致）\n\n=== 4. merge-tree 非破坏性冲突试算 ===\n试算退出码：0（0 处冲突）\n合并结果树：60b98c9397c38febbe8bb436a25c14db63efebde\n\n=== 5. PR 分支是否包含 main 最新提交 ===\n检查结论：up-to-date（PR 分支已包含基线最新提交）\n\n=== 结论 ===\nSAFE_TO_MERGE\nCHECK_TIMESTAMP=2026-11-10T05:45:59Z\nMAIN_HEAD=1ddc7816ed94a674352376cc28d1a554cb594e6f\n冲突 0 处；脏文件 0 个；基线已同步；PR 分支已包含基线最新提交。\n按 R1：允许合并（每个 PR 合并前仍需单独重跑本检查）。\n```\n\n- 合并前复核的 status 与 HEAD 一致性结论：本次仅更新 PR，不执行合并；RED/授权未满足，禁止合并。\n- 提交前自检：\n  - [x] 脚本输出三项齐全\n  - [x] 主线 0 个脏文件\n  - [x] merge-tree 0 处冲突\n  - [x] 本地 main 与远端 main 一致\n  - [x] PR 分支已包含 main 最新提交\n  - [x] 每个 PR 单独重跑\n  - [ ] TTL 10 分钟内执行合并（本次不合并）\n  - [x] 未使用 --no-verify、未执行 checkout --/reset/stash/clean/强推\n\n## 6. 测试与截图\n\n- 测试命令与结果：check-refs 扫描 3 个规格文件，不可达引用 0 处；FR/SC/T 映射与来源清单所有权同步断言通过，失败 0 个。\n- 新 head 同步 retire-008 对 docs/prd-research/sources.md 的单文件所有权与 T-837 根文件/历史命令核对规则；规格/证据阻塞仍为 0 个，合并仍需 #129 admin、有效 YELLOW 授权、required-checks 证据与新鲜 R1。\n\n完整机判标准输出原文：\n\n```text\nGRADE=GREEN\nINPUTS: ci=pass h1=pass h2_cross=0 h2_drift=0 d2_auth=0 d2_unauth=0 secrets=0 deletions=0 binary=0 deps=0 test_fail=0 template=1\nREASONS: FR-603 8 项机判全过\nBLOCKERS: 0 条\nREVIEWER: <由 reviewer subagent 补齐（fresh context）>\nCHECK_TIMESTAMP: 2026-11-10T05:46:41Z\n```\n\n- 截图 / 录屏：PR #132 的 v3 QA 在隔离合流快照生成截图；PR #130 为规格文本，0 张。\n- 验证人 / 验证时间：agent 自检，2026-11-10。\n\n## 分级与授权\n\n- 新 push 后旧独立评审失效，需重新评审。\n- 机判 `bash scripts/pr-grade.sh --pr 130 main` 输出 GRADE=YELLOW（ci=pending，h1=pass，h2_cross=0，deletions=0，test_fail=0）；这不是合并许可。\n- 本 PR 生效依赖 PR #129 admin 合并；若需合并本 PR，仍须 user 对 YELLOW 的有效授权、CI/required-checks 证据与合并前 R1 重跑。\n","reactions":{"total_count":0,"+1":0,"-1":0,"laugh":0,"hooray":0,"confused":0,"heart":0,"rocket":0,"eyes":0},"performed_via_github_app":null,"state_reason":null,"score":1},{"html_url":"https://github.com/yhyu13/Hackthon_Aholo_20261107/pull/131","id":6299827163,"node_id":"PR_kwDOVkLNls8AAAABOA5ecg","number":131,"title":"docs(docs-008): 收口现行文档与历史规格引用","user":{"login":"yhyu13","id":19365678,"node_id":"MDQ6VXNlcjE5MzY1Njc4","html_url":"https://github.com/yhyu13","type":"User","user_view_type":"public","site_admin":false},"labels":[],"state":"open","locked":false,"assignees":[],"milestone":null,"comments":2,"created_at":"2026-11-10T03:46:36Z","updated_at":"2026-11-10T04:48:53Z","closed_at":null,"assignee":null,"author_association":"OWNER","issue_field_values":[],"type":null,"active_lock_reason":null,"draft":false,"pull_request":{"html_url":"https://github.com/yhyu13/Hackthon_Aholo_20261107/pull/131","merged_at":null},"body":"## 1. 关联 issue（同一 issue 可多 PR）\n\n- 关联 issue：#128\n- 本 PR 对应的切片名：docs-008\n- 同 issue 的其他 PR：#129、#130、#132\n- 引用写法：Refs: #128\n\n## 2. 本切片交付什么\n\n- README 收口到唯一现行入口 `demo-v3/index.html`；v2.1、正文 v7、决策记录标历史参考并校正法律可拆性、资产/剪影降级、H2、M1/M2、真人理解口径。\n- 保留赛 PRD、005 校验器与必要历史规格/事实底稿；历史索引 `docs/cleanup-008/repo-focus-008.md`。\n- 逐文件移出 278 个旧规格/宣传文件；备份覆盖 0 个缺失。\n- 评审修复：演示视频改指基线实际入库成品；001 审查链接改指根 review/；44 个固定 SHA 永久链接目标存在性核对通过。\n- 切片独占目录：issue #128 登记的 README、docs/prd、docs/pitch、docs/cleanup-008、specs/001-005。\n- 对应 Spec Kit 阶段：implement\n\n## 3. 不做什么\n\n- 不改 Demo/资产、tests/package、治理脚本/CI，不重写历史，不合并。\n- 不新增 ignore/skip-file 掩盖断链；不删除赛 PRD 校验所需历史文本。\n- 留给 retire-008 / PR #132：旧 Demo/宣传/中间件移出与历史引用修复。\n\n## 4. 验收方式\n\n- 赛 PRD 校验：72 通过，失败 0 个；自测：35 通过，失败 0 个。\n- 16 个触及文档 check-refs：0 处不可达，失败 0 个。\n- 44 个固定 SHA 永久链接目标存在性核对通过。\n- 4 切片非破坏性合流快照：check-refs 104 个文档 0 处不可达；赛 PRD 72/0、自测 35/0、node --test 9/0。\n\n## 5. pre-merge 检查结果（贴脚本完整输出）\n\n- 执行命令：`bash scripts/pre-merge-check.sh feat/docs-008 main`\n\n```\n=== 0. 当前所在 worktree / 分支 ===\n当前 worktree：C:/Users/XINDONG/AppData/Roaming/CindyGlobal/remote-agent/workspaces/f18e65fa0051c47b/d69694cb-9fcd-42de-af67-5fb83a349f03/fs/workspace/p/p/p/p/p/p/p/p/p/p/p/p/p/p/p/p/p/p/p/p/p/p/wt/docs-008\n当前分支：feat/docs-008\n待检查 PR 分支：feat/docs-008\n基线分支：main\n\n=== 1. 分支存在性 ===\n基线分支 main -> 1ddc781\nPR 分支 feat/docs-008 -> c0183d4\n\n=== 2. main 工作树脏检查（含 untracked） ===\n被检查的工作树：C:/Users/XINDONG/AppData/Roaming/CindyGlobal/remote-agent/workspaces/f18e65fa0051c47b/d69694cb-9fcd-42de-af67-5fb83a349f03/fs/workspace/p/p/p/p/p/p/p/p/p/p/p/p/p/p/p/p/p/p/p/p/p/p\nstaged 改动：0 个\nunstaged 改动：0 个\nuntracked 文件：0 个\n脏文件合计：0 个\n检查结论：clean（0 个脏文件）\n\n=== 3. main 与远端同步 ===\n使用 remote：origin\n本地 main：1ddc7816ed94a674352376cc28d1a554cb594e6f\n远端 refs/remotes/origin/main：1ddc7816ed94a674352376cc28d1a554cb594e6f\n检查结论：in-sync（本地与远端一致）\n\n=== 4. merge-tree 非破坏性冲突试算 ===\n试算退出码：0（0 处冲突）\n合并结果树：26026248ff2739fb93b3dc4441640207ec57702f\n\n=== 5. PR 分支是否包含 main 最新提交 ===\n检查结论：up-to-date（PR 分支已包含基线最新提交）\n\n=== 结论 ===\nSAFE_TO_MERGE\nCHECK_TIMESTAMP=2026-11-10T04:30:18Z\nMAIN_HEAD=1ddc7816ed94a674352376cc28d1a554cb594e6f\n冲突 0 处；脏文件 0 个；基线已同步；PR 分支已包含基线最新提交。\n按 R1：允许合并（每个 PR 合并前仍需单独重跑本检查）。\n```\n\n- 合并前复核的 status 与 HEAD 一致性结论：本次仅更新 PR，不执行合并；R1 TTL 会过期，合并前必须重跑。\n- 提交前自检：\n  - [x] 脚本输出三项齐全\n  - [x] 主线 0 个脏文件\n  - [x] merge-tree 0 处冲突\n  - [x] 本地 main 与远端 main 一致\n  - [x] PR 分支已包含 main 最新提交\n  - [x] 每个 PR 单独重跑\n  - [ ] TTL 10 分钟内执行合并（本次不合并）\n  - [x] 未使用 --no-verify、未执行 checkout --/reset/stash/clean/强推\n\n## 6. 测试与截图\n\n- 测试命令与结果：赛 PRD 72 通过，失败 0 个；自测 35 通过，失败 0 个；16 个触及文档引用 0 处不可达，失败 0 个；4 切片合流 check-refs 104 个文档 0 处不可达。\n- 完整机判 stdout（2026-11-10T04:33:03Z）：GRADE=YELLOW；ci=pass，h1=pass，h2_cross=0，deletions=0，binary=106，test_fail=0。注意：deletions=0 是脚本读取 diff 的缺陷，本 PR 实际删除 278 个正本，不能据此降级；独立评审应按 RED/admin 处理。\n- 截图 / 录屏：0 张，本切片为文档/历史规格收口。\n- 验证人 / 验证时间：agent 自检，2026-11-10。\n\n## 分级与授权\n\n- 本 PR 删除/移出正本，按 R5/FR-605 为 RED；需独立 reviewer 复核，由 admin 批准并执行合并。agent 不合并。","reactions":{"total_count":0,"+1":0,"-1":0,"laugh":0,"hooray":0,"confused":0,"heart":0,"rocket":0,"eyes":0},"performed_via_github_app":null,"state_reason":null,"score":1},{"html_url":"https://github.com/yhyu13/DreamWeaverOPC1/pull/186","id":6243146776,"node_id":"PR_kwDOVZWTgs8AAAABNT5Fog","number":186,"title":"[需人合并] fix(browser): 响应式工具页与真实浏览器验收","user":{"login":"yhyu13","id":19365678,"node_id":"MDQ6VXNlcjE5MzY1Njc4","html_url":"https://github.com/yhyu13","type":"User","user_view_type":"public","site_admin":false},"labels":[],"state":"closed","locked":false,"assignees":[],"milestone":null,"comments":4,"created_at":"2026-11-06T13:03:41Z","updated_at":"2026-11-10T04:10:35Z","closed_at":"2026-11-10T04:10:32Z","assignee":null,"author_association":"OWNER","issue_field_values":[],"type":null,"active_lock_reason":null,"draft":false,"pull_request":{"html_url":"https://github.com/yhyu13/DreamWeaverOPC1/pull/186","merged_at":"2026-11-10T04:10:32Z"},"body":"Refs #180\n\n## 本轮修复\n\n- 已 rebase 到 `origin/main=dd355ceda2a65c55383cf19ba4df072db3223f09`。\n- 修复浏览器证据 `--verify` 的 HEAD/tree 绑定：报告记录 tree，复验严格比较当前 HEAD/tree，缺失或不匹配拒绝。\n- 记录并比较 package-lock SHA、Playwright/Node/浏览器版本；明确不覆盖任意忽略 node_modules 或同版本浏览器可执行文件变化。\n- rocket jump 增加射数、命中位置、jumpY/vy、grounded、帧时间、可见性/焦点诊断；未改物理、阈值或 skip。\n- 修复真实 CI：响应式 CSS 中间距对齐 4 像素基线；先提交页面修复，再用 `tools/shots.py` 重拍并提交对应截图，满足截图新鲜度判据；未提高反 AI 味基线。\n\n## 本地验证\n\n- 身份回归测试：12/12；acceptance 测试：24/24。\n- browser：27/27，exit=0；独立 --verify exit=0。\n- HOF：9/9 suites；最终 rocket 三次峰值 3.79m。\n- `tools/check_shots_fresh.py` exit=0；`tools/check_slop.py --baseline tools/slop-baseline.json` exit=0。\n\n## 阻塞与边界\n\n- 保持 draft：历史 headed Edge 0.15m 失败根因未确认；人为延迟 rAF 可造成观测异常，但不能证明历史原因。\n- 当前 head 的线上 CI/required 与人类签字仍未完成；本 PR 命中黄区，需人类合并。\n\nfiles:\n- .github/workflows/ci.yml\n- docs/art/shots/.shots.lock\n- docs/art/shots/council-hall-50pct.png\n- docs/art/shots/dashboard-warroom-highcontrast.png\n- docs/art/shots/dashboard-warroom.png\n- docs/art/shots/inbox-basket-50pct.png\n- docs/art/shots/inbox-basket-highcontrast.png\n- docs/art/shots/inbox-basket.png\n- docs/art/shots/playtest-bench-50pct.png\n- docs/art/token-migration.md\n- docs/ops/step1-tools-ui-spec.md\n- projects/active/hall-of-fame/screenshots/.shots.lock\n- projects/active/hall-of-fame/screenshots/hub.png\n- projects/active/hall-of-fame/specs/001-hof-step1-evidence-freshness/research.md\n- projects/active/hall-of-fame/tests/README.md\n- projects/active/hall-of-fame/tests/browser-acceptance.cjs\n- projects/active/hall-of-fame/tests/browser-acceptance.spec.cjs\n- projects/active/hall-of-fame/tests/feel-tributes.spec.cjs\n- projects/active/hall-of-fame/tests/feel.spec.cjs\n- projects/active/hall-of-fame/tests/pixels.cjs\n- projects/active/hall-of-fame/tests/rocket.spec.cjs\n- projects/active/hall-of-fame/tests/session.spec.cjs\n- projects/active/hall-of-fame/tests/weapon-sweeney.spec.cjs\n- projects/active/hall-of-fame/tributes/john-carmack/index.html\n- projects/active/hall-of-fame/tributes/john-carmack/screenshots/01-entrance.png\n- projects/active/hall-of-fame/tributes/john-carmack/screenshots/02-arcade.png\n- projects/active/hall-of-fame/tributes/john-carmack/screenshots/03-end.png\n- projects/active/hall-of-fame/tributes/shigeru-miyamoto/screenshots/01-spawn.png\n- projects/active/hall-of-fame/tributes/shigeru-miyamoto/screenshots/02-after-touch.png\n- projects/active/hall-of-fame/tributes/tim-sweeney/index.html\n- projects/active/hall-of-fame/tributes/tim-sweeney/screenshots/01-hall.png\n- projects/active/hall-of-fame/tributes/tim-sweeney/screenshots/02-panel.png\n- projects/active/hall-of-fame/tributes/tim-sweeney/screenshots/03-core-locked.png\n- projects/active/hall-of-fame/tributes/tim-sweeney/screenshots/04-core-on.png\n- tools/council/council.html\n- tools/dashboard/dashboard.html\n- tools/inbox/inbox.html\n- tools/playtest/playtest.html","reactions":{"total_count":0,"+1":0,"-1":0,"laugh":0,"hooray":0,"confused":0,"heart":0,"rocket":0,"eyes":0},"performed_via_github_app":null,"state_reason":null,"score":1},{"html_url":"https://github.com/yhyu13/Hackthon_Aholo_20261107/pull/129","id":6299169580,"node_id":"PR_kwDOVkLNls8AAAABOAYepw","number":129,"title":"chore(scope-008): 修订宪法适用范围至灰仓 07 号收口","user":{"login":"yhyu13","id":19365678,"node_id":"MDQ6VXNlcjE5MzY1Njc4","html_url":"https://github.com/yhyu13","type":"User","user_view_type":"public","site_admin":false},"labels":[],"state":"open","locked":false,"assignees":[],"milestone":null,"comments":2,"created_at":"2026-11-10T02:46:47Z","updated_at":"2026-11-10T03:28:23Z","closed_at":null,"assignee":null,"author_association":"OWNER","issue_field_values":[],"type":null,"active_lock_reason":null,"draft":false,"pull_request":{"html_url":"https://github.com/yhyu13/Hackthon_Aholo_20261107/pull/129","merged_at":null},"body":"## 1. 关联 issue（同一 issue 可多 PR）\n\n- 关联 issue：#128\n- 本 PR 对应的切片名：scope-008\n- 同 issue 的其他 PR：spec-008 / docs-008 / retire-008（待开）\n- 引用写法：Refs: #128\n\n## 2. 本切片交付什么\n\n- 交付内容：修订 `.specify/memory/constitution.md` 到 v3.0.0，把现行产品约束收口到灰仓 07 号/编号 008；历史规格标为参考，治理规则不变。\n- 切片独占目录：`.specify/memory/constitution.md`\n- 对应 Spec Kit 阶段：constitution\n\n## 3. 不做什么\n\n- 明确排除的范围：不修改 `AGENTS.md`、CI、治理脚本、其他 worktree；不删除旧材料；不重写 Git 历史。\n- 留给其他切片的项：008 规格由 spec-008；现行文档由 docs-008；旧材料清理由 retire-008。\n\n## 4. 验收方式\n\n- 复现命令：`python -I -X utf8 scripts/check-refs.py --root <scope-008-worktree> .specify/memory/constitution.md`\n- 预期结果：不可达引用 0 处；宪法适用域明确，历史与现行分离。\n- 依赖条件：main=1ddc7816ed94a674352376cc28d1a554cb594e6f。\n\n实际结果：check-refs 扫描 1 个文件，0 处不可达引用；失败 0 个。\n\n## 5. pre-merge 检查结果（贴脚本完整输出）\n\n- 执行命令：`bash scripts/pre-merge-check.sh feat/scope-008 main`\n\n```\n=== 0. 当前所在 worktree / 分支 ===\n当前 worktree：C:/Users/XINDONG/AppData/Roaming/CindyGlobal/remote-agent/workspaces/f18e65fa0051c47b/d69694cb-9fcd-42de-af67-5fb83a349f03/fs/workspace/p/p/p/p/p/p/p/p/p/p/p/p/p/p/p/p/p/p/p/p/p/p/wt/scope-008\n当前分支：feat/scope-008\n待检查 PR 分支：feat/scope-008\n基线分支：main\n\n=== 1. 分支存在性 ===\n基线分支 main -> 1ddc781\nPR 分支 feat/scope-008 -> 8d03f1f\n\n=== 2. main 工作树脏检查（含 untracked） ===\n被检查的工作树：C:/Users/XINDONG/AppData/Roaming/CindyGlobal/remote-agent/workspaces/f18e65fa0051c47b/d69694cb-9fcd-42de-af67-5fb83a349f03/fs/workspace/p/p/p/p/p/p/p/p/p/p/p/p/p/p/p/p/p/p/p/p/p/p\nstaged 改动：0 个\nunstaged 改动：0 个\nuntracked 文件：0 个\n脏文件合计：0 个\n检查结论：clean（0 个脏文件）\n\n=== 3. main 与远端同步 ===\n使用 remote：origin\n本地 main：1ddc7816ed94a674352376cc28d1a554cb594e6f\n远端 refs/remotes/origin/main：1ddc7816ed94a674352376cc28d1a554cb594e6f\n检查结论：in-sync（本地与远端一致）\n\n=== 4. merge-tree 非破坏性冲突试算 ===\n试算退出码：0（0 处冲突）\n合并结果树：cf4359ffc1ded194e46f842d6360a504d0c9bd80\n\n=== 5. PR 分支是否包含 main 最新提交 ===\n检查结论：up-to-date（PR 分支已包含基线最新提交）\n\n=== 结论 ===\nSAFE_TO_MERGE\nCHECK_TIMESTAMP=2026-11-10T02:45:54Z\nMAIN_HEAD=1ddc7816ed94a674352376cc28d1a554cb594e6f\n冲突 0 处；脏文件 0 个；基线已同步；PR 分支已包含基线最新提交。\n按 R1：允许合并（每个 PR 合并前仍需单独重跑本检查）。\n```\n\n- 合并前复核的 status 与 HEAD 一致性结论：本次仅开 PR，不执行合并；RED 需 admin 批准并执行，合并前重跑 R1。\n- 提交前自检：\n  - [x] 脚本输出三项齐全\n  - [x] 主线 0 个脏文件\n  - [x] merge-tree 0 处冲突\n  - [x] 本地 main 与远端 main 一致\n  - [x] PR 分支已包含 main 最新提交\n  - [x] 每个 PR 单独重跑\n  - [ ] TTL 10 分钟内执行合并（本次不合并）\n  - [x] 未使用 --no-verify、未执行 checkout --/reset/stash/clean/强推\n\n## 6. 测试与截图\n\n- 测试命令与结果：check-refs 扫描 1 个文件，通过 1 项，失败 0 个。\n- 截图 / 录屏：0 张，本切片仅宪法文本。\n- 验证人 / 验证时间：agent 自检，2026-11-10。\n\n## 分级与授权\n\n- 本 PR 修改宪法正本，按 R5/FR-605 保守评为 RED；需独立 reviewer 复核，由 admin 批准并执行合并。agent 不合并。","reactions":{"total_count":0,"+1":0,"-1":0,"laugh":0,"hooray":0,"confused":0,"heart":0,"rocket":0,"eyes":0},"performed_via_github_app":null,"state_reason":null,"score":1},{"html_url":"https://github.com/yhyu13/DreamWeaverOPC1/pull/183","id":6242981642,"node_id":"PR_kwDOVZWTgs8AAAABNTwn6Q","number":183,"title":"[需人合并] fix(pr): 串行合并队列、auto 回执与评审门集成","user":{"login":"yhyu13","id":19365678,"node_id":"MDQ6VXNlcjE5MzY1Njc4","html_url":"https://github.com/yhyu13","type":"User","user_view_type":"public","site_admin":false},"labels":[],"state":"closed","locked":false,"assignees":[],"milestone":null,"comments":2,"created_at":"2026-11-06T12:52:10Z","updated_at":"2026-11-10T02:58:56Z","closed_at":"2026-11-10T02:58:51Z","assignee":null,"author_association":"OWNER","issue_field_values":[],"type":null,"active_lock_reason":null,"draft":false,"pull_request":{"html_url":"https://github.com/yhyu13/DreamWeaverOPC1/pull/183","merged_at":"2026-11-10T02:58:51Z"},"body":"Refs #180\n\n## 本轮修复\n\n- 已 rebase 到 `origin/main=dd355ceda2a65c55383cf19ba4df072db3223f09`，解决 `.claude/commands/review.md`、`.github/workflows/ci.yml`、`docs/ops/pr-autonomy.md` 冲突。\n- 保留 main 的 runner-pipeline、tool-guards、artifact 与反 AI 味能力；保留 W1 的 review-record、merge-queue、ruleset 与 `pr.py` 能力。\n- 修复真实 CI 工具守卫失败：tool-guards 安装 Python Playwright/Chromium；7 个队列用例 mock 仓库查询边界，避免单元测试真实调用 gh；新增依赖/顺序与离线分页回归。\n- 未改 frozen、权限配置、required、SELF_GATE、skip 表或阈值；未引入 W4/W6/manager/active gate 等无关候选内容。\n\n## 本地验证\n\n- `tools/test_pr.py`：native cp936 / UTF-8 exit=0。\n- `tools/test_check_review_record.py`：native cp936 / UTF-8 exit=0。\n- `tools/test_browser_surface.py`、`tools/test_capture_web_surface.py`：native cp936 / UTF-8 exit=0。\n- `tools/check_workflow_doc.py` 与 `--selftest`：UTF-8 exit=0；native cp936 因主干 U+2713/GBK 编码问题失败，未在本 PR 顺手扩大修复。\n\n## 阻塞与边界\n\n- 线上 CI 需由推送后的真实运行验证；bootstrap、非 bypass 负例、真实 artifact 消费与合并授权仍未验收。\n- 本 PR 命中黄区，需人类签字；当前更新不是合并授权。\n\nfiles:\n- .claude/commands/review.md\n- .github/ruleset.main.json\n- .github/ruleset.main.md\n- .github/ruleset.md\n- .github/workflows/ci.yml\n- .github/workflows/merge-queue.yml\n- .github/workflows/review-record.yml\n- docs/ops/pr-autonomy.md\n- tools/check_review_record.py\n- tools/pr.py\n- tools/test_check_review_record.py\n- tools/test_pr.py","reactions":{"total_count":0,"+1":0,"-1":0,"laugh":0,"hooray":0,"confused":0,"heart":0,"rocket":0,"eyes":0},"performed_via_github_app":null,"state_reason":null,"score":1},{"html_url":"https://github.com/ailiaixue/pbl/pull/276","id":6299164756,"node_id":"PR_kwDORPfw4M8AAAABOAYPCw","number":276,"title":"fix(assessment): 语音转写可编辑并稳定 Pad 输入法输入 (Refs #266)","user":{"login":"yhyu13","id":19365678,"node_id":"MDQ6VXNlcjE5MzY1Njc4","html_url":"https://github.com/yhyu13","type":"User","user_view_type":"public","site_admin":false},"labels":[],"state":"closed","locked":false,"assignees":[],"milestone":null,"comments":0,"created_at":"2026-11-10T02:46:20Z","updated_at":"2026-11-10T02:49:04Z","closed_at":"2026-11-10T02:49:01Z","assignee":null,"author_association":"COLLABORATOR","issue_field_values":[],"type":null,"active_lock_reason":null,"draft":false,"pull_request":{"html_url":"https://github.com/ailiaixue/pbl/pull/276","merged_at":"2026-11-10T02:49:01Z"},"body":"修复 v1.7.22.85 测试服反馈的两个问题。\n\n## 1. 电脑语音输入后不能修改文字\n\n前测语音停止后原来只显示只读的「你说的是」卡片。现在有转写且不在录音时自动显示 textarea，标签为「可以修改文字」，可以直接改字后再交；录音中仍显示只读卡片。新增浏览器用例覆盖“语音后编辑”。\n\n## 2. Pad 听写时好时坏 / 输入法出不来 / 转写不完整\n\n- 键盘听写模式改用非受控 textarea（`defaultValue` + `onInput`），避免 Android/HarmonyOS IME 在 React 受控重渲染中丢字；重录时用 key 重建清空。\n- 提示从 JS focus 的 button 改成 `<label htmlFor>`，由浏览器原生聚焦并唤起键盘。\n- `useKeepInputVisible` 只在输入框真的被遮挡时滚动，`visualViewport` 变化做 180ms 防抖，composition 期间不滚动，滚动改为 `behavior: auto`，避免软键盘弹出时打断输入法。\n- ChatPanel 的输入框在 AI 回复期间保持可编辑（原来 `disabled={isLoading}`，点击不会弹键盘）；发送按钮仍禁用。\n- Enter 在 `isComposing` 或 `keyCode 229` 时不发送，避免听写确认候选时误发。\n\n## 验证\n\n- 浏览器语音全量：18 pass / 0 fail / 48 expect。\n- 全量 `bun test`：987 pass / 36 skip / 0 fail / 7858 expect。\n- format / lint / typecheck 通过。\n\n仍为模拟 UA / 模拟软键盘，实体 Pad 的输入法版本、语音服务和键盘高度需真机复测。\n\nRefs #266\n","reactions":{"total_count":0,"+1":0,"-1":0,"laugh":0,"hooray":0,"confused":0,"heart":0,"rocket":0,"eyes":0},"performed_via_github_app":null,"state_reason":null,"score":1},{"html_url":"https://github.com/yhyu13/DreamWeaverOPC1/pull/203","id":6272865681,"node_id":"PR_kwDOVZWTgs8AAAABNrYyGQ","number":203,"title":"[需人合并] feat(step2-tools): HOF checks, render evidence and coverage","user":{"login":"yhyu13","id":19365678,"node_id":"MDQ6VXNlcjE5MzY1Njc4","html_url":"https://github.com/yhyu13","type":"User","user_view_type":"public","site_admin":false},"labels":[],"state":"closed","locked":false,"assignees":[],"milestone":null,"comments":2,"created_at":"2026-11-08T16:09:49Z","updated_at":"2026-11-10T02:46:20Z","closed_at":"2026-11-10T02:46:18Z","assignee":null,"author_association":"OWNER","issue_field_values":[],"type":null,"active_lock_reason":null,"draft":false,"pull_request":{"html_url":"https://github.com/yhyu13/DreamWeaverOPC1/pull/203","merged_at":"2026-11-10T02:46:18Z"},"body":"## Summary\n\nS4 的 HOF Step2 工具链：检查索引、render evidence、PBR/quality、Tripo 覆盖与 CI 接线。\n\n## 内容\n\n- `tools/hof_check_index.py`、`tools/step2/`、`tools/test_hof_check_index.py`、`tools/test_hof_render_evidence.py`\n- `tools/hof_shader_parity.py`、`tools/test_hof_parity.py`\n- `.github/workflows/ci.yml`\n- `docs/ops/step2-*`、`docs/step2/non-tripo-ledger.json`、S4 证据 JSON\n\n## 冲突合并\n\n`tools/hof_shader_parity.py` 与上游 #184/#185 冲突：保留上游工具链改动 + HOF parity 扩展；`ci.yml` 自动合并。\n\n## 验证\n\n- `test_hof_check_index.py`：45/45 通过。\n- `test_hof_parity.py`：13 组通过（每条注入都红、源文件零改动）。\n- `test_hof_render_evidence.py`：相对/绝对 out 断言通过。\n- `render.manifest` core 10/10、extension 10/10；`asset.viewmodel` 5/5；`tripo.*` 全 PASS（在集成树）。\n\n## 未完成声明\n\nspec 未完成：37 PASS / 10 PARTIAL / 2 NV / 1 FAIL / 2 REWORK；Q5 缺 Miyamoto mat-pair 口径。\n\n## Merge\n\n`[需人合并]`：`tools/**` 与 CI 属黄区，需要人类签字。\n\n\n## 正式验收规格依赖\n\n本 PR 的正式 HOF 验收来源是 PR #195 修复链，不以 tools/step2/pbr_fidelity_manifest.json 或实现代码反推规格。\n\n- 固定来源：`4153193e86f4e5696cd3615fc61353e9469b3cd2:projects/active/hall-of-fame/docs/hof-rework-draft/spec.md`\n- 文件 blob：`36cd238b976a587c7d2fc35a46aaa8dc3b353297`\n- 相关 AC：AC-S2-02/03/04 的三展位要求、AC-S2-06 的真实图形证据、AC-S2-11 的重做差异与用户接受；本修复覆盖 check_composition 对当前必需展品清单的绑定。\n- 该规格仍是 DRAFT，不是发布授权；本 PR HEAD 不自含该规格，合并/产品验收须按此依赖核对。\n\n夹具测试通过只证明检查器行为。真实产品缺纹理/GLB/渲染日志、四张场景对比尚未用户接受、Tripo usage BLOCKED 等状态继续如实报告，不要求为了合入工具修复而伪造产品 PASS。正文既有集成树/历史矩阵声明不代替当前 HEAD 的产品验收。\n","reactions":{"total_count":0,"+1":0,"-1":0,"laugh":0,"hooray":0,"confused":0,"heart":0,"rocket":0,"eyes":0},"performed_via_github_app":null,"state_reason":null,"score":1},{"html_url":"https://github.com/yhyu13/DreamWeaverOPC1/pull/192","id":6259817632,"node_id":"PR_kwDOVZWTgs8AAAABNhPw2g","number":192,"title":"[需人合并] feat(navigator): 房间索引优先的层级、焦点与教程路径 (#189)","user":{"login":"yhyu13","id":19365678,"node_id":"MDQ6VXNlcjE5MzY1Njc4","html_url":"https://github.com/yhyu13","type":"User","user_view_type":"public","site_admin":false},"labels":[],"state":"closed","locked":false,"assignees":[],"milestone":null,"comments":5,"created_at":"2026-11-07T13:53:43Z","updated_at":"2026-11-10T01:54:18Z","closed_at":"2026-11-10T01:54:14Z","assignee":null,"author_association":"OWNER","issue_field_values":[],"type":null,"active_lock_reason":null,"draft":false,"pull_request":{"html_url":"https://github.com/yhyu13/DreamWeaverOPC1/pull/192","merged_at":"2026-11-10T01:54:14Z"},"body":"## 范围\n- 单一 h1“工作室总台”；卡片单击/Enter 同标签导航。\n- 抽屉 dialog 语义、Tab/Shift+Tab 焦点圈定、Escape 关闭回焦。\n- 教程顺序：房间索引→打开工具→索引抽屉→工作流→监控；320×568 教程卡片/按钮可见。\n- 采集器：capture-only/空测试不能 PASS；缺图/空图/横溢/pageerror/非预期 console 判红；各状态完整元数据与截图哈希。\n\n## 当前 head 证据\n- 当前证据：tools/navigator/evidence/t06-pr192-2026-11-07/collector-review/（summary.json、index.json、behavior.json、60 PNG、日志）。\n- 契约测试：15 通过，exit 0。\n- 行为回归：5/5；Node 逻辑与页内自测通过。\n- 60 张 A/B 截图；unexpected_browser_errors=0，horizontal_overflow=0，page_errors=0，screenshot_errors=0。\n- 当前 HTML SHA-256：1fc667b56ccec3424b216cb2e8ef0fa7ce58c0fe24d11154d241ca660e88bf34。\n- 采集器 SHA-256：5d8f97bb9e94225a0d0ccf9dbc9dc95b29a71e0eee75df6aec14095c014b9a64。\n\n## 未完成\n- 父会话逐图视觉签收与独立复审未完成；不自动合并。\n- 原生 OS 目录授权弹窗与持久化句柄恢复未覆盖。\n\nRefs #189\nAssisted-by: Cindy (https://cindy.app)","reactions":{"total_count":0,"+1":0,"-1":0,"laugh":0,"hooray":0,"confused":0,"heart":0,"rocket":0,"eyes":0},"performed_via_github_app":null,"state_reason":null,"score":1},{"html_url":"https://github.com/ailiaixue/pbl/pull/275","id":6298034028,"node_id":"PR_kwDORPfw4M8AAAABN_exwA","number":275,"title":"fix(assessment): 停止后保留最终语音结果并修复 Pad 输入框遮挡 (Refs #266)","user":{"login":"yhyu13","id":19365678,"node_id":"MDQ6VXNlcjE5MzY1Njc4","html_url":"https://github.com/yhyu13","type":"User","user_view_type":"public","site_admin":false},"labels":[],"state":"closed","locked":false,"assignees":[],"milestone":null,"comments":0,"created_at":"2026-11-10T01:11:00Z","updated_at":"2026-11-10T01:13:43Z","closed_at":"2026-11-10T01:13:41Z","assignee":null,"author_association":"COLLABORATOR","issue_field_values":[],"type":null,"active_lock_reason":null,"draft":false,"pull_request":{"html_url":"https://github.com/ailiaixue/pbl/pull/275","merged_at":"2026-11-10T01:13:41Z"},"body":"修复测试服 v1.7.22.84 反馈的三个回归。\n\n## 1. 电脑按停止后丢最终语音结果\n\n`stopListening()` 原来先 `sessionRef++`、把 `onresult` 置空，再 `recognition.stop()`。真实浏览器常在 `stop()` 之后才派发最后一次 `result`，回调已被摘掉，转写为空，随后报“没有收到文字”。测试服 2026-11-10 00:25–00:38 UTC 的 `voice_start` / `voice_no_result`（`device=desktop`，2–7s）与该路径一致。\n\n- 手动停止/超时保留 `onresult`，等 `onend` 或 800ms 兜底后再收尾。\n- `onend` 后再留 120ms 宽限接收晚到结果。\n- 只有重录、切题、卸载才 `abort()` 并立即解绑。\n\n## 2. Windows `Tablet PC` 被误判成 Pad\n\n设备判断用了 `/tablet/`，Windows 触屏/二合一 UA 可能含 `Tablet PC 2.0`，网页话筒被隐藏。现在只认 Android / iPhone / iPad / iPod / HarmonyOS / OpenHarmony，以及 iPadOS 伪装 Macintosh + 多点触控；`Tablet PC` 仍按电脑。\n\n## 3. Pad 提示点不动、输入框被底部 tab 栏挡住\n\n- 提示从 `<p>` 改为按钮，点击聚焦 textarea。\n- 低段平板主内容 `md:pb-28`，ChatPanel `md:max-h-[calc(70vh-96px)]` + `min-h-0`，打开 AI 页时把输入框滚到视野中间。\n- 输入框聚焦或软键盘改变 `visualViewport` 时滚入可见区。\n\n## 验证\n\n- 新增“停止后才到最终结果”浏览器用例：修复前红，修复后绿。\n- 新增 Pad 提示聚焦 + 520px 可视高度滚动用例：修复前提示被底栏覆盖，`activeElement` 为 `A`。\n- 浏览器语音全量：17 pass / 0 fail / 46 expect。\n- 全量 `bun test`：987 pass / 35 skip / 0 fail / 7858 expect。\n- format / lint / typecheck 通过。\n\n仍为模拟 UA / 模拟软键盘，实体 Pad 的输入法话筒和键盘高度需真机复测。\n\nRefs #266\n","reactions":{"total_count":0,"+1":0,"-1":0,"laugh":0,"hooray":0,"confused":0,"heart":0,"rocket":0,"eyes":0},"performed_via_github_app":null,"state_reason":null,"score":1}],"search_type":"lexical"}
+{
+  "total_count": 73,
+  "incomplete_results": false,
+  "items": [
+    {
+      "html_url": "https://github.com/yhyu13/yhyu13.github.io/pull/24",
+      "number": 24,
+      "title": "fix(decks): stop asserting a disputed guest name on the Huberman deck",
+      "state": "closed",
+      "updated_at": "2026-11-12T14:39:02Z",
+      "pull_request": {
+        "merged_at": "2026-11-12T14:39:02Z"
+      }
+    },
+    {
+      "html_url": "https://github.com/yhyu13/AgentSkillsVault/pull/30",
+      "number": 30,
+      "title": "feat(skills): multi-agent-repo-governance v1.2.0 — the seven gate self-blocking traps",
+      "state": "closed",
+      "updated_at": "2026-11-12T14:38:47Z",
+      "pull_request": {
+        "merged_at": "2026-11-12T14:38:45Z"
+      }
+    },
+    {
+      "html_url": "https://github.com/yhyu13/PullYourselfUpApp/pull/193",
+      "number": 193,
+      "title": "feat(005): profiles 表与三接口 + 四支开场台词",
+      "state": "closed",
+      "updated_at": "2026-11-12T14:35:43Z",
+      "pull_request": {
+        "merged_at": "2026-11-12T14:35:43Z"
+      }
+    },
+    {
+      "html_url": "https://github.com/yhyu13/yhyu13.github.io/pull/23",
+      "number": 23,
+      "title": "feat(decks): add seven video slides and two release-hosted cuts",
+      "state": "closed",
+      "updated_at": "2026-11-12T14:35:21Z",
+      "pull_request": {
+        "merged_at": "2026-11-12T14:35:21Z"
+      }
+    },
+    {
+      "html_url": "https://github.com/yhyu13/AgentSkillsVault/pull/29",
+      "number": 29,
+      "title": "feat(skills): 从 个人成长 产物装 7 个 skill（含父/子引用自包含修复）",
+      "state": "closed",
+      "updated_at": "2026-11-12T14:30:36Z",
+      "pull_request": {
+        "merged_at": "2026-11-12T14:30:36Z"
+      }
+    },
+    {
+      "html_url": "https://github.com/yhyu13/wuxia-town/pull/7",
+      "number": 7,
+      "title": "docs(prd-roi): 5-day plan + 24x7 model + Agent ROI measurement matrix",
+      "state": "open",
+      "updated_at": "2026-11-12T14:21:39Z",
+      "pull_request": {
+        "merged_at": null
+      }
+    },
+    {
+      "html_url": "https://github.com/ailiaixue/pbl/pull/204",
+      "number": 204,
+      "title": "feat(public): 三处页脚挂上 ICP 备案信息（沪ICP备2026006879号）",
+      "state": "open",
+      "updated_at": "2026-11-12T14:19:07Z",
+      "pull_request": {
+        "merged_at": null
+      }
+    },
+    {
+      "html_url": "https://github.com/ailiaixue/pbl/pull/209",
+      "number": 209,
+      "title": "feat(safety): AI 聊天会话归属/求助信号/额度原子占额/请求幂等 + 会话空闲超时（E01-E04）",
+      "state": "closed",
+      "updated_at": "2026-11-12T13:58:25Z",
+      "pull_request": {
+        "merged_at": null
+      }
+    },
+    {
+      "html_url": "https://github.com/ailiaixue/pbl/pull/262",
+      "number": 262,
+      "title": "fix(ci): lowgrade 装中文字体，字宽断言恢复可信（Refs #258）",
+      "state": "closed",
+      "updated_at": "2026-11-12T13:57:33Z",
+      "pull_request": {
+        "merged_at": null
+      }
+    },
+    {
+      "html_url": "https://github.com/yhyu13/PullYourselfUpApp/pull/194",
+      "number": 194,
+      "title": "feat(005): 三问引导 + 每题回执 + 可验证承诺区",
+      "state": "open",
+      "updated_at": "2026-11-12T10:59:33Z",
+      "pull_request": {
+        "merged_at": null
+      }
+    },
+    {
+      "html_url": "https://github.com/yhyu13/PullYourselfUpApp/pull/192",
+      "number": 192,
+      "title": "docs(spec): 竞品引导层调研 + 005 引导层 spec/plan + PRD 增补",
+      "state": "closed",
+      "updated_at": "2026-11-12T10:31:03Z",
+      "pull_request": {
+        "merged_at": "2026-11-12T10:31:03Z"
+      }
+    },
+    {
+      "html_url": "https://github.com/yhyu13/wuxia-town/pull/14",
+      "number": 14,
+      "title": "fix(visible): night lanterns, open south gate, hero follows patches",
+      "state": "closed",
+      "updated_at": "2026-11-12T03:55:14Z",
+      "pull_request": {
+        "merged_at": "2026-11-12T03:55:14Z"
+      }
+    },
+    {
+      "html_url": "https://github.com/yhyu13/wuxia-town/pull/11",
+      "number": 11,
+      "title": "chore(hero-assets): self-contained deliverables with pagoda + dynamic asset inlining",
+      "state": "closed",
+      "updated_at": "2026-11-11T17:06:16Z",
+      "pull_request": {
+        "merged_at": "2026-11-11T17:06:12Z"
+      }
+    },
+    {
+      "html_url": "https://github.com/yhyu13/wuxia-town/pull/10",
+      "number": 10,
+      "title": "feat(mechanism): generic planId hero asset replacement",
+      "state": "closed",
+      "updated_at": "2026-11-11T16:31:15Z",
+      "pull_request": {
+        "merged_at": "2026-11-11T16:31:03Z"
+      }
+    },
+    {
+      "html_url": "https://github.com/ailiaixue/pbl/pull/280",
+      "number": 280,
+      "title": "fix(pad): 去掉无效的手输兜底，摄像头失败写服务端日志 (Refs #216)",
+      "state": "closed",
+      "updated_at": "2026-11-11T15:48:28Z",
+      "pull_request": {
+        "merged_at": "2026-11-11T15:48:27Z"
+      }
+    },
+    {
+      "html_url": "https://github.com/yhyu13/AgentSkillsVault/pull/28",
+      "number": 28,
+      "title": "docs(knowledge): distil the 2026-11-11 governance and CI lessons",
+      "state": "closed",
+      "updated_at": "2026-11-11T15:37:05Z",
+      "pull_request": {
+        "merged_at": "2026-11-11T15:37:02Z"
+      }
+    },
+    {
+      "html_url": "https://github.com/yhyu13/AgentSkillsVault/pull/23",
+      "number": 23,
+      "title": "refactor(skills): SKILL 目录按评分档位分层 (tier0..tier4)",
+      "state": "closed",
+      "updated_at": "2026-11-11T14:32:12Z",
+      "pull_request": {
+        "merged_at": "2026-11-11T14:32:11Z"
+      }
+    },
+    {
+      "html_url": "https://github.com/yhyu13/wuxia-town/pull/8",
+      "number": 8,
+      "title": "feat(asset): first real Tripo lantern replaces procedural fallback",
+      "state": "closed",
+      "updated_at": "2026-11-11T14:24:49Z",
+      "pull_request": {
+        "merged_at": "2026-11-11T14:24:44Z"
+      }
+    },
+    {
+      "html_url": "https://github.com/yhyu13/wuxia-town/pull/5",
+      "number": 5,
+      "title": "feat(tripo): dual-region auto + bpy_optimize decimation pipeline",
+      "state": "closed",
+      "updated_at": "2026-11-11T14:21:46Z",
+      "pull_request": {
+        "merged_at": "2026-11-11T14:21:37Z"
+      }
+    },
+    {
+      "html_url": "https://github.com/yhyu13/AgentSkillsVault/pull/22",
+      "number": 22,
+      "title": "feat(skills): doubao-industry-analysis — 行业深度报告方法 + 飞书写作规范",
+      "state": "closed",
+      "updated_at": "2026-11-11T13:40:07Z",
+      "pull_request": {
+        "merged_at": "2026-11-11T13:40:04Z"
+      }
+    },
+    {
+      "html_url": "https://github.com/yhyu13/wuxia-town/pull/2",
+      "number": 2,
+      "title": "fix(hygiene): evidence-enforced pitch/embed + blender PATH + doc sync",
+      "state": "closed",
+      "updated_at": "2026-11-11T13:22:38Z",
+      "pull_request": {
+        "merged_at": "2026-11-11T08:09:26Z"
+      }
+    },
+    {
+      "html_url": "https://github.com/yhyu13/AgentSkillsVault/pull/27",
+      "number": 27,
+      "title": "feat(governance): switchable authorization gate, default off (agent auto-merge)",
+      "state": "closed",
+      "updated_at": "2026-11-11T13:18:45Z",
+      "pull_request": {
+        "merged_at": "2026-11-11T13:18:42Z"
+      }
+    },
+    {
+      "html_url": "https://github.com/yhyu13/AgentSkillsVault/pull/26",
+      "number": 26,
+      "title": "chore(templates): bump TEMPLATE submodule to issue-inbox MVP with per-level modules",
+      "state": "closed",
+      "updated_at": "2026-11-11T11:57:59Z",
+      "pull_request": {
+        "merged_at": "2026-11-11T11:57:56Z"
+      }
+    },
+    {
+      "html_url": "https://github.com/yhyu13/AgentSkillsVault/pull/24",
+      "number": 24,
+      "title": "chore(templates): bump TEMPLATE submodule to issue-inbox MVP with per-level modules",
+      "state": "closed",
+      "updated_at": "2026-11-11T11:05:46Z",
+      "pull_request": {
+        "merged_at": null
+      }
+    },
+    {
+      "html_url": "https://github.com/yhyu13/AgentSkillsVault/pull/25",
+      "number": 25,
+      "title": "fix(governance): accept ADMIN-APPROVE comment as admin authorization for yellow/red",
+      "state": "closed",
+      "updated_at": "2026-11-11T11:03:51Z",
+      "pull_request": {
+        "merged_at": "2026-11-11T11:03:48Z"
+      }
+    },
+    {
+      "html_url": "https://github.com/yhyu13/Agent_Template_Repo_Setup1/pull/1",
+      "number": 1,
+      "title": "feat(inbox): MVP level do/don't docs, spec submodule guide, GitHub issue exception inbox",
+      "state": "closed",
+      "updated_at": "2026-11-11T09:10:31Z",
+      "pull_request": {
+        "merged_at": "2026-11-11T09:10:29Z"
+      }
+    },
+    {
+      "html_url": "https://github.com/yhyu13/wuxia-town/pull/3",
+      "number": 3,
+      "title": "fix(correctness): import validation, win capacity, inspect props, lego patch lanterns",
+      "state": "closed",
+      "updated_at": "2026-11-11T08:00:18Z",
+      "pull_request": {
+        "merged_at": "2026-11-11T08:00:14Z"
+      }
+    },
+    {
+      "html_url": "https://github.com/yhyu13/DreamWeaverOPC1/pull/212",
+      "number": 212,
+      "title": "[需人合并] docs(hof): spec 004 UE5 visual upgrade (GI/models/terrain)",
+      "state": "open",
+      "updated_at": "2026-11-11T06:17:16Z",
+      "pull_request": {
+        "merged_at": null
+      }
+    },
+    {
+      "html_url": "https://github.com/ailiaixue/pbl/pull/279",
+      "number": 279,
+      "title": "docs(issue): 补充 #266 修复前后对比截图证据",
+      "state": "closed",
+      "updated_at": "2026-11-10T17:40:46Z",
+      "pull_request": {
+        "merged_at": "2026-11-10T17:40:46Z"
+      }
+    },
+    {
+      "html_url": "https://github.com/ailiaixue/pbl/pull/278",
+      "number": 278,
+      "title": "fix(chat): 独立对抗测试后的语音收尾与课堂布局加固 (Refs #266)",
+      "state": "closed",
+      "updated_at": "2026-11-10T17:27:49Z",
+      "pull_request": {
+        "merged_at": "2026-11-10T17:27:48Z"
+      }
+    },
+    {
+      "html_url": "https://github.com/yhyu13/DreamWeaverOPC1/pull/210",
+      "number": 210,
+      "title": "[需人合并] docs(workflow): make human-agent delivery evidence reproducible (#209)",
+      "state": "open",
+      "updated_at": "2026-11-10T15:22:19Z",
+      "pull_request": {
+        "merged_at": null
+      }
+    },
+    {
+      "html_url": "https://github.com/yhyu13/DreamWeaverOPC1/pull/208",
+      "number": 208,
+      "title": "[需人合并] chore(assets): archive and remove Blender backups",
+      "state": "closed",
+      "updated_at": "2026-11-10T13:52:05Z",
+      "pull_request": {
+        "merged_at": "2026-11-10T13:52:02Z"
+      }
+    },
+    {
+      "html_url": "https://github.com/yhyu13/DreamWeaverOPC1/pull/207",
+      "number": 207,
+      "title": "[需人合并] docs(audit): complete original-goal audit and safe cleanup",
+      "state": "closed",
+      "updated_at": "2026-11-10T13:19:59Z",
+      "pull_request": {
+        "merged_at": "2026-11-10T13:19:57Z"
+      }
+    },
+    {
+      "html_url": "https://github.com/yhyu13/AgentSkillsVault/pull/21",
+      "number": 21,
+      "title": "feat(governance): add required checks and green/yellow/red task policy",
+      "state": "closed",
+      "updated_at": "2026-11-10T09:01:49Z",
+      "pull_request": {
+        "merged_at": "2026-11-10T09:01:49Z"
+      }
+    },
+    {
+      "html_url": "https://github.com/yhyu13/PullYourselfUpApp/pull/190",
+      "number": 190,
+      "title": "feat(l3): 共同语言表与 /api/shared-language（同盟期的数据前提）",
+      "state": "closed",
+      "updated_at": "2026-11-10T07:25:38Z",
+      "pull_request": {
+        "merged_at": "2026-11-10T07:25:37Z"
+      }
+    },
+    {
+      "html_url": "https://github.com/yhyu13/PullYourselfUpApp/pull/189",
+      "number": 189,
+      "title": "test(l2): 375/1440 两档视口 + 核 l2-matrix 的冻结断言",
+      "state": "closed",
+      "updated_at": "2026-11-10T07:25:29Z",
+      "pull_request": {
+        "merged_at": "2026-11-10T07:25:29Z"
+      }
+    },
+    {
+      "html_url": "https://github.com/yhyu13/PullYourselfUpApp/pull/188",
+      "number": 188,
+      "title": "docs(spec): M2 付费验证前提与口径 v1",
+      "state": "closed",
+      "updated_at": "2026-11-10T07:25:20Z",
+      "pull_request": {
+        "merged_at": "2026-11-10T07:25:20Z"
+      }
+    },
+    {
+      "html_url": "https://github.com/yhyu13/yhyu13.github.io/pull/22",
+      "number": 22,
+      "title": "feat(decks): ship the BCI companions — animated page, long-read, cut",
+      "state": "closed",
+      "updated_at": "2026-11-10T06:36:44Z",
+      "pull_request": {
+        "merged_at": "2026-11-10T06:36:43Z"
+      }
+    },
+    {
+      "html_url": "https://github.com/yhyu13/yhyu13.github.io/pull/21",
+      "number": 21,
+      "title": "chore(decks): add BCI industry survey video slides",
+      "state": "closed",
+      "updated_at": "2026-11-10T06:10:20Z",
+      "pull_request": {
+        "merged_at": "2026-11-10T06:10:20Z"
+      }
+    },
+    {
+      "html_url": "https://github.com/yhyu13/Hackthon_Aholo_20261107/pull/132",
+      "number": 132,
+      "title": "chore(retire-008): 移出旧材料并修复测试与历史引用",
+      "state": "open",
+      "updated_at": "2026-11-10T06:06:07Z",
+      "pull_request": {
+        "merged_at": null
+      }
+    },
+    {
+      "html_url": "https://github.com/yhyu13/Hackthon_Aholo_20261107/pull/130",
+      "number": 130,
+      "title": "spec(spec-008): 建立灰仓 07 号收口规格与清理任务",
+      "state": "open",
+      "updated_at": "2026-11-10T06:05:56Z",
+      "pull_request": {
+        "merged_at": null
+      }
+    },
+    {
+      "html_url": "https://github.com/yhyu13/Hackthon_Aholo_20261107/pull/131",
+      "number": 131,
+      "title": "docs(docs-008): 收口现行文档与历史规格引用",
+      "state": "open",
+      "updated_at": "2026-11-10T04:48:53Z",
+      "pull_request": {
+        "merged_at": null
+      }
+    },
+    {
+      "html_url": "https://github.com/yhyu13/DreamWeaverOPC1/pull/186",
+      "number": 186,
+      "title": "[需人合并] fix(browser): 响应式工具页与真实浏览器验收",
+      "state": "closed",
+      "updated_at": "2026-11-10T04:10:35Z",
+      "pull_request": {
+        "merged_at": "2026-11-10T04:10:32Z"
+      }
+    },
+    {
+      "html_url": "https://github.com/yhyu13/Hackthon_Aholo_20261107/pull/129",
+      "number": 129,
+      "title": "chore(scope-008): 修订宪法适用范围至灰仓 07 号收口",
+      "state": "open",
+      "updated_at": "2026-11-10T03:28:23Z",
+      "pull_request": {
+        "merged_at": null
+      }
+    },
+    {
+      "html_url": "https://github.com/yhyu13/DreamWeaverOPC1/pull/183",
+      "number": 183,
+      "title": "[需人合并] fix(pr): 串行合并队列、auto 回执与评审门集成",
+      "state": "closed",
+      "updated_at": "2026-11-10T02:58:56Z",
+      "pull_request": {
+        "merged_at": "2026-11-10T02:58:51Z"
+      }
+    },
+    {
+      "html_url": "https://github.com/ailiaixue/pbl/pull/276",
+      "number": 276,
+      "title": "fix(assessment): 语音转写可编辑并稳定 Pad 输入法输入 (Refs #266)",
+      "state": "closed",
+      "updated_at": "2026-11-10T02:49:04Z",
+      "pull_request": {
+        "merged_at": "2026-11-10T02:49:01Z"
+      }
+    },
+    {
+      "html_url": "https://github.com/yhyu13/DreamWeaverOPC1/pull/203",
+      "number": 203,
+      "title": "[需人合并] feat(step2-tools): HOF checks, render evidence and coverage",
+      "state": "closed",
+      "updated_at": "2026-11-10T02:46:20Z",
+      "pull_request": {
+        "merged_at": "2026-11-10T02:46:18Z"
+      }
+    },
+    {
+      "html_url": "https://github.com/yhyu13/DreamWeaverOPC1/pull/192",
+      "number": 192,
+      "title": "[需人合并] feat(navigator): 房间索引优先的层级、焦点与教程路径 (#189)",
+      "state": "closed",
+      "updated_at": "2026-11-10T01:54:18Z",
+      "pull_request": {
+        "merged_at": "2026-11-10T01:54:14Z"
+      }
+    },
+    {
+      "html_url": "https://github.com/ailiaixue/pbl/pull/275",
+      "number": 275,
+      "title": "fix(assessment): 停止后保留最终语音结果并修复 Pad 输入框遮挡 (Refs #266)",
+      "state": "closed",
+      "updated_at": "2026-11-10T01:13:43Z",
+      "pull_request": {
+        "merged_at": "2026-11-10T01:13:41Z"
+      }
+    },
+    {
+      "html_url": "https://github.com/ailiaixue/pbl/pull/274",
+      "number": 274,
+      "title": "feat(assessment): 手机/Pad 改走输入法听写，桌面保留网页话筒 (Refs #266)",
+      "state": "closed",
+      "updated_at": "2026-11-09T23:41:56Z",
+      "pull_request": {
+        "merged_at": "2026-11-09T23:41:53Z"
+      }
+    },
+    {
+      "html_url": "https://github.com/ailiaixue/pbl/pull/267",
+      "number": 267,
+      "title": "fix(assessment): 语音输入失败可继续作答并补齐诊断 (Refs #266)",
+      "state": "closed",
+      "updated_at": "2026-11-09T15:28:44Z",
+      "pull_request": {
+        "merged_at": "2026-11-09T15:21:37Z"
+      }
+    },
+    {
+      "html_url": "https://github.com/ailiaixue/pbl/pull/268",
+      "number": 268,
+      "title": "feat(scripts): 数据一致性自检 verify:data（Refs #261）",
+      "state": "closed",
+      "updated_at": "2026-11-09T13:38:38Z",
+      "pull_request": {
+        "merged_at": "2026-11-09T13:38:37Z"
+      }
+    },
+    {
+      "html_url": "https://github.com/yhyu13/yhyu13.github.io/pull/20",
+      "number": 20,
+      "title": "feat(identity): add public profile downloads and agent copy (Refs #18)",
+      "state": "closed",
+      "updated_at": "2026-11-09T12:58:47Z",
+      "pull_request": {
+        "merged_at": "2026-11-09T12:58:47Z"
+      }
+    },
+    {
+      "html_url": "https://github.com/yhyu13/yhyu13.github.io/pull/19",
+      "number": 19,
+      "title": "docs: specify Identity public profile sharing (Refs #18)",
+      "state": "closed",
+      "updated_at": "2026-11-09T12:47:38Z",
+      "pull_request": {
+        "merged_at": "2026-11-09T12:47:38Z"
+      }
+    },
+    {
+      "html_url": "https://github.com/yhyu13/DreamWeaverOPC1/pull/201",
+      "number": 201,
+      "title": "[需人合并] feat(step2): HOF Godot booths, Tripo assets and PBR evidence",
+      "state": "closed",
+      "updated_at": "2026-11-09T12:41:32Z",
+      "pull_request": {
+        "merged_at": "2026-11-09T12:41:29Z"
+      }
+    },
+    {
+      "html_url": "https://github.com/yhyu13/DreamWeaverOPC1/pull/196",
+      "number": 196,
+      "title": "[需人合并] docs(align): HOF Step2 ALIGN matrix and cross-stage evidence",
+      "state": "closed",
+      "updated_at": "2026-11-09T12:37:08Z",
+      "pull_request": {
+        "merged_at": "2026-11-09T12:37:06Z"
+      }
+    },
+    {
+      "html_url": "https://github.com/yhyu13/DreamWeaverOPC1/pull/191",
+      "number": 191,
+      "title": "[需人合并] feat(pipeline): 真实控制台重设计与候选隔离 (#189)",
+      "state": "closed",
+      "updated_at": "2026-11-09T12:33:58Z",
+      "pull_request": {
+        "merged_at": "2026-11-09T12:33:55Z"
+      }
+    },
+    {
+      "html_url": "https://github.com/yhyu13/PullYourselfUpApp/pull/170",
+      "number": 170,
+      "title": "docs(marketing): L1→L2 对外物料（海报/口播PPT/分镜）",
+      "state": "open",
+      "updated_at": "2026-11-09T12:13:11Z",
+      "pull_request": {
+        "merged_at": null
+      }
+    },
+    {
+      "html_url": "https://github.com/yhyu13/PullYourselfUpApp/pull/187",
+      "number": 187,
+      "title": "docs(spec): 下一个 milestone 双轨裁定（L3 产品轨 + M2 商业轨）",
+      "state": "closed",
+      "updated_at": "2026-11-09T12:12:11Z",
+      "pull_request": {
+        "merged_at": "2026-11-09T12:12:11Z"
+      }
+    },
+    {
+      "html_url": "https://github.com/yhyu13/DreamWeaverOPC1/pull/202",
+      "number": 202,
+      "title": "[需人合并] feat(step1-tools): HOF Step1 tooling and fixtures",
+      "state": "closed",
+      "updated_at": "2026-11-09T11:58:14Z",
+      "pull_request": {
+        "merged_at": "2026-11-09T11:58:12Z"
+      }
+    },
+    {
+      "html_url": "https://github.com/yhyu13/DreamWeaverOPC1/pull/195",
+      "number": 195,
+      "title": "[需人合并] docs(ops): HOF Step2 rework status and spec drafts",
+      "state": "closed",
+      "updated_at": "2026-11-09T11:52:21Z",
+      "pull_request": {
+        "merged_at": "2026-11-09T11:52:18Z"
+      }
+    },
+    {
+      "html_url": "https://github.com/yhyu13/DreamWeaverOPC1/pull/200",
+      "number": 200,
+      "title": "[需人合并] docs(prd): 重写 total-review 为纯 PRD 并补齐验收/依赖/评审",
+      "state": "closed",
+      "updated_at": "2026-11-09T11:44:17Z",
+      "pull_request": {
+        "merged_at": "2026-11-09T11:44:14Z"
+      }
+    },
+    {
+      "html_url": "https://github.com/yhyu13/DreamWeaverOPC1/pull/199",
+      "number": 199,
+      "title": "[需人合并] feat(step1): HOF Step1 behavior, 3D/2D tributes and evidence",
+      "state": "closed",
+      "updated_at": "2026-11-09T11:36:13Z",
+      "pull_request": {
+        "merged_at": "2026-11-09T11:36:10Z"
+      }
+    },
+    {
+      "html_url": "https://github.com/yhyu13/DreamWeaverOPC1/pull/197",
+      "number": 197,
+      "title": "[需人合并] docs(review): HOF Step2 full and incremental reviews",
+      "state": "closed",
+      "updated_at": "2026-11-09T10:50:23Z",
+      "pull_request": {
+        "merged_at": "2026-11-09T10:50:21Z"
+      }
+    },
+    {
+      "html_url": "https://github.com/yhyu13/DreamWeaverOPC1/pull/190",
+      "number": 190,
+      "title": "[需人合并] fix(skills): 网页表面技能命令、降级与来源许可修复 (#189)",
+      "state": "closed",
+      "updated_at": "2026-11-09T10:37:13Z",
+      "pull_request": {
+        "merged_at": "2026-11-09T10:37:10Z"
+      }
+    },
+    {
+      "html_url": "https://github.com/yhyu13/DreamWeaverOPC1/pull/194",
+      "number": 194,
+      "title": "docs(session): split web surface acceptance spec",
+      "state": "closed",
+      "updated_at": "2026-11-09T10:27:00Z",
+      "pull_request": {
+        "merged_at": "2026-11-09T10:26:58Z"
+      }
+    },
+    {
+      "html_url": "https://github.com/yhyu13/DreamWeaverOPC1/pull/193",
+      "number": 193,
+      "title": "[需人合并] fix(tools): 禁止扫描器漂移自动放宽基线并硬化会话账本 (#189)",
+      "state": "closed",
+      "updated_at": "2026-11-09T10:21:31Z",
+      "pull_request": {
+        "merged_at": "2026-11-09T10:21:28Z"
+      }
+    },
+    {
+      "html_url": "https://github.com/yhyu13/DreamWeaverOPC1/pull/188",
+      "number": 188,
+      "title": "[需人合并] fix(tools): Windows 原生 HOF 编码修复",
+      "state": "closed",
+      "updated_at": "2026-11-09T09:54:13Z",
+      "pull_request": {
+        "merged_at": "2026-11-09T09:54:11Z"
+      }
+    },
+    {
+      "html_url": "https://github.com/yhyu13/Hackthon_Aholo_20261107/pull/127",
+      "number": 127,
+      "title": "fix(refcheck-dots): check-refs 跳过纯 '..' / '../' 示意 token",
+      "state": "closed",
+      "updated_at": "2026-11-09T04:19:17Z",
+      "pull_request": {
+        "merged_at": "2026-11-09T04:18:58Z"
+      }
+    },
+    {
+      "html_url": "https://github.com/yhyu13/Hackthon_Aholo_20261107/pull/126",
+      "number": 126,
+      "title": "feat(refcheck-ci): 文档引用检查接入 pr-gate + AGENTS.md 检查归属分级声明（红级，admin 合并）",
+      "state": "closed",
+      "updated_at": "2026-11-09T03:56:22Z",
+      "pull_request": {
+        "merged_at": "2026-11-09T03:56:21Z"
+      }
+    },
+    {
+      "html_url": "https://github.com/yhyu13/PBL-World/pull/34",
+      "number": 34,
+      "title": "3D 产品线：长期分支（draft，不合并 —— 目的是让 CI 跑起来）",
+      "state": "open",
+      "updated_at": "2026-11-09T03:54:01Z",
+      "pull_request": {
+        "merged_at": null
+      }
+    },
+    {
+      "html_url": "https://github.com/yhyu13/AgentSkillsVault/pull/20",
+      "number": 20,
+      "title": "docs(provenance): multi-agent-repo-governance 溯源行补版本沿革",
+      "state": "closed",
+      "updated_at": "2026-11-09T03:27:13Z",
+      "pull_request": {
+        "merged_at": "2026-11-09T03:27:13Z"
+      }
+    },
+    {
+      "html_url": "https://github.com/yhyu13/AgentSkillsVault/pull/19",
+      "number": 19,
+      "title": "fix(software-development): multi-agent-repo-governance 版本号补到 1.1.1",
+      "state": "closed",
+      "updated_at": "2026-11-09T03:26:29Z",
+      "pull_request": {
+        "merged_at": "2026-11-09T03:26:29Z"
+      }
+    }
+  ],
+  "search_type": "issues"
+}
