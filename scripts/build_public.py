@@ -139,7 +139,7 @@ def main():
     lessons = load_lessons(Path(a.memory))
     mrs = load_mrs(Path(a.prs))
     days = attach_mrs(json.loads(Path(a.days).read_text(encoding="utf-8")), mrs)
-    latest = {"schemaVersion": 1, "updatedAt": NOW, "repo": "yhyu13/agent-work-log", "pagesUrl": "https://yhyu13.github.io/agent-work-log/", "coverageNote": "每日记录从任务建立日 2026-11-10（上海时间）起。当日 MR 是 yhyu13 名下公开 PR 在那天的更新，不是本任务单独产生的。PR 总表查询为 author:yhyu13、updated>=2026-11-09；早于任务建立的条目只在总表。候选经验不是已批准规则。", "days": days, "mrs": mrs, "lessons": lessons}
+    latest = {"schemaVersion": 1, "updatedAt": NOW, "repo": "yhyu13/agent-work-log", "pagesUrl": "https://yhyu13.github.io/agent-work-log/", "coverageNote": "每日记录从任务建立日 2026-11-10（上海时间）起。当日 MR 是 yhyu13 名下公开 PR 里、最近一次更新落在这一天的条目，不是本任务单独产生，也不会在每一天重复。早于任务建立的条目只在总表。候选经验不是已批准规则。", "days": days, "mrs": mrs, "lessons": lessons}
     data_dir = ROOT / "data"
     data_dir.mkdir(exist_ok=True)
     (data_dir / "latest.json").write_text(json.dumps(latest, ensure_ascii=False, indent=2), encoding="utf-8")

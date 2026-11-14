@@ -1,126 +1,1636 @@
 {
-  "total_count": 73,
+  "total_count": 220,
   "incomplete_results": false,
   "items": [
     {
-      "html_url": "https://github.com/yhyu13/yhyu13.github.io/pull/24",
-      "number": 24,
-      "title": "fix(decks): stop asserting a disputed guest name on the Huberman deck",
-      "state": "closed",
-      "updated_at": "2026-11-12T14:39:02Z",
+      "html_url": "https://github.com/ailiaixue/pbl/pull/289",
+      "number": 289,
       "pull_request": {
-        "merged_at": "2026-11-12T14:39:02Z"
-      }
+        "merged_at": "2026-11-14T08:08:13Z"
+      },
+      "state": "closed",
+      "title": "feat(qa): 三端验收运行器与自动报告 (Refs #277)",
+      "updated_at": "2026-11-14T08:08:29Z"
     },
     {
-      "html_url": "https://github.com/yhyu13/AgentSkillsVault/pull/30",
+      "html_url": "https://github.com/yhyu13/wuxia-town/pull/109",
+      "number": 109,
+      "pull_request": {
+        "merged_at": null
+      },
+      "state": "open",
+      "title": "feat(demo-shrink-span): 六面墙的残影分开收缩时长",
+      "updated_at": "2026-11-14T07:33:59Z"
+    },
+    {
+      "html_url": "https://github.com/yhyu13/wuxia-town/pull/108",
+      "number": 108,
+      "pull_request": {
+        "merged_at": "2026-11-14T07:30:27Z"
+      },
+      "state": "closed",
+      "title": "feat(demo-hold-shrink): 残影停顿结束前先缩小",
+      "updated_at": "2026-11-14T07:30:30Z"
+    },
+    {
+      "html_url": "https://github.com/yhyu13/wuxia-town/pull/107",
+      "number": 107,
+      "pull_request": {
+        "merged_at": "2026-11-14T07:28:31Z"
+      },
+      "state": "closed",
+      "title": "feat(demo-hold-span): 六面墙的残影分开停顿时长",
+      "updated_at": "2026-11-14T07:28:34Z"
+    },
+    {
+      "html_url": "https://github.com/yhyu13/wuxia-town/pull/106",
+      "number": 106,
+      "pull_request": {
+        "merged_at": "2026-11-14T07:26:28Z"
+      },
+      "state": "closed",
+      "title": "feat(demo-trail-hold): 变浅完成的残影再停一短段",
+      "updated_at": "2026-11-14T07:26:31Z"
+    },
+    {
+      "html_url": "https://github.com/yhyu13/wuxia-town/pull/105",
+      "number": 105,
+      "pull_request": {
+        "merged_at": "2026-11-14T07:24:08Z"
+      },
+      "state": "closed",
+      "title": "feat(demo-trail-rate): 六面墙的残影分开变浅速度",
+      "updated_at": "2026-11-14T07:24:10Z"
+    },
+    {
+      "html_url": "https://github.com/yhyu13/wuxia-town/pull/104",
+      "number": 104,
+      "pull_request": {
+        "merged_at": "2026-11-14T07:22:33Z"
+      },
+      "state": "closed",
+      "title": "feat(demo-trail-tint): 残影颜色随减速变浅",
+      "updated_at": "2026-11-14T07:22:36Z"
+    },
+    {
+      "html_url": "https://github.com/yhyu13/wuxia-town/pull/103",
+      "number": 103,
+      "pull_request": {
+        "merged_at": "2026-11-14T07:20:54Z"
+      },
+      "state": "closed",
+      "title": "feat(demo-trail-fade): 残影透明度随减速下降",
+      "updated_at": "2026-11-14T07:20:57Z"
+    },
+    {
+      "html_url": "https://github.com/yhyu13/wuxia-town/pull/102",
+      "number": 102,
+      "pull_request": {
+        "merged_at": "2026-11-14T07:18:45Z"
+      },
+      "state": "closed",
+      "title": "feat(demo-trail-opacity): 残影按长度使用各自透明度",
+      "updated_at": "2026-11-14T07:18:47Z"
+    },
+    {
+      "html_url": "https://github.com/yhyu13/wuxia-town/pull/101",
+      "number": 101,
+      "pull_request": {
+        "merged_at": "2026-11-14T07:16:57Z"
+      },
+      "state": "closed",
+      "title": "feat(demo-trail-alpha): 残影明暗随长度变化",
+      "updated_at": "2026-11-14T07:16:59Z"
+    },
+    {
+      "html_url": "https://github.com/yhyu13/wuxia-town/pull/100",
+      "number": 100,
+      "pull_request": {
+        "merged_at": "2026-11-14T07:15:15Z"
+      },
+      "state": "closed",
+      "title": "feat(demo-trail-length): 残影按深浅分成三种长度",
+      "updated_at": "2026-11-14T07:15:17Z"
+    },
+    {
+      "html_url": "https://github.com/yhyu13/wuxia-town/pull/99",
+      "number": 99,
+      "pull_request": {
+        "merged_at": "2026-11-14T07:13:30Z"
+      },
+      "state": "closed",
+      "title": "feat(demo-trail-shade): 同一面墙的残影再分深浅",
+      "updated_at": "2026-11-14T07:13:32Z"
+    },
+    {
+      "html_url": "https://github.com/yhyu13/wuxia-town/pull/98",
+      "number": 98,
+      "pull_request": {
+        "merged_at": "2026-11-14T07:11:06Z"
+      },
+      "state": "closed",
+      "title": "feat(demo-trail-color): 残影按墙段分色",
+      "updated_at": "2026-11-14T07:11:08Z"
+    },
+    {
+      "html_url": "https://github.com/yhyu13/wuxia-town/pull/97",
+      "number": 97,
+      "pull_request": {
+        "merged_at": "2026-11-14T07:08:51Z"
+      },
+      "state": "closed",
+      "title": "feat(demo-patch-trail): 贴片减速时留下残影",
+      "updated_at": "2026-11-14T07:08:54Z"
+    },
+    {
+      "html_url": "https://github.com/yhyu13/wuxia-town/pull/96",
+      "number": 96,
+      "pull_request": {
+        "merged_at": "2026-11-14T07:06:51Z"
+      },
+      "state": "closed",
+      "title": "feat(demo-patch-brake): 地面贴片停转时减速",
+      "updated_at": "2026-11-14T07:06:54Z"
+    },
+    {
+      "html_url": "https://github.com/yhyu13/wuxia-town/pull/95",
+      "number": 95,
+      "pull_request": {
+        "merged_at": "2026-11-14T07:05:02Z"
+      },
+      "state": "closed",
+      "title": "feat(demo-patch-speed): 同一面墙的贴片再分转速",
+      "updated_at": "2026-11-14T07:05:04Z"
+    },
+    {
+      "html_url": "https://github.com/yhyu13/wuxia-town/pull/94",
+      "number": 94,
+      "pull_request": {
+        "merged_at": "2026-11-14T07:03:11Z"
+      },
+      "state": "closed",
+      "title": "feat(demo-patch-dir): 六面墙的贴片分开转向",
+      "updated_at": "2026-11-14T07:03:14Z"
+    },
+    {
+      "html_url": "https://github.com/yhyu13/wuxia-town/pull/93",
+      "number": 93,
+      "pull_request": {
+        "merged_at": "2026-11-14T07:01:21Z"
+      },
+      "state": "closed",
+      "title": "feat(demo-patch-spin): 滚动中的地面贴片跟着转动",
+      "updated_at": "2026-11-14T07:01:23Z"
+    },
+    {
+      "html_url": "https://github.com/yhyu13/wuxia-town/pull/92",
+      "number": 92,
+      "pull_request": {
+        "merged_at": "2026-11-14T06:59:39Z"
+      },
+      "state": "closed",
+      "title": "feat(demo-patch-shape): 贴片闪烁时尺寸跟着变化",
+      "updated_at": "2026-11-14T06:59:42Z"
+    },
+    {
+      "html_url": "https://github.com/yhyu13/wuxia-town/pull/91",
+      "number": 91,
+      "pull_request": {
+        "merged_at": "2026-11-14T06:57:55Z"
+      },
+      "state": "closed",
+      "title": "feat(demo-patch-amp): 六面墙的贴片分开闪烁幅度",
+      "updated_at": "2026-11-14T06:57:58Z"
+    },
+    {
+      "html_url": "https://github.com/yhyu13/wuxia-town/pull/90",
+      "number": 90,
+      "pull_request": {
+        "merged_at": "2026-11-14T06:56:24Z"
+      },
+      "state": "closed",
+      "title": "feat(demo-patch-rate): 六面墙的贴片分开闪烁频率",
+      "updated_at": "2026-11-14T06:56:27Z"
+    },
+    {
+      "html_url": "https://github.com/yhyu13/wuxia-town/pull/89",
+      "number": 89,
+      "pull_request": {
+        "merged_at": "2026-11-14T06:54:32Z"
+      },
+      "state": "closed",
+      "title": "feat(demo-patch-blink): 地面贴片滚动时闪烁",
+      "updated_at": "2026-11-14T06:54:34Z"
+    },
+    {
+      "html_url": "https://github.com/yhyu13/wuxia-town/pull/88",
+      "number": 88,
+      "pull_request": {
+        "merged_at": "2026-11-14T06:52:54Z"
+      },
+      "state": "closed",
+      "title": "feat(demo-patch-shade): 同一面墙的贴片再分深浅",
+      "updated_at": "2026-11-14T06:52:56Z"
+    },
+    {
+      "html_url": "https://github.com/yhyu13/wuxia-town/pull/87",
+      "number": 87,
+      "pull_request": {
+        "merged_at": "2026-11-14T06:51:20Z"
+      },
+      "state": "closed",
+      "title": "feat(demo-patch-wall): 地面贴片按墙段分色",
+      "updated_at": "2026-11-14T06:51:23Z"
+    },
+    {
+      "html_url": "https://github.com/yhyu13/wuxia-town/pull/86",
+      "number": 86,
+      "pull_request": {
+        "merged_at": "2026-11-14T06:49:36Z"
+      },
+      "state": "closed",
+      "title": "feat(demo-patch-tint): 地面贴片淡出时变浅",
+      "updated_at": "2026-11-14T06:49:41Z"
+    },
+    {
+      "html_url": "https://github.com/yhyu13/wuxia-town/pull/85",
+      "number": 85,
+      "pull_request": {
+        "merged_at": "2026-11-14T06:47:48Z"
+      },
+      "state": "closed",
+      "title": "feat(demo-patch-alpha): 地面贴片淡出时变透明",
+      "updated_at": "2026-11-14T06:47:51Z"
+    },
+    {
+      "html_url": "https://github.com/yhyu13/wuxia-town/pull/84",
+      "number": 84,
+      "pull_request": {
+        "merged_at": "2026-11-14T06:46:04Z"
+      },
+      "state": "closed",
+      "title": "feat(demo-patch-fade): 地面贴片停下后淡出",
+      "updated_at": "2026-11-14T06:46:06Z"
+    },
+    {
+      "html_url": "https://github.com/yhyu13/wuxia-town/pull/83",
+      "number": 83,
+      "pull_request": {
+        "merged_at": "2026-11-14T06:44:18Z"
+      },
+      "state": "closed",
+      "title": "feat(demo-patch-follow): 地面贴片跟着碎块移动",
+      "updated_at": "2026-11-14T06:44:21Z"
+    },
+    {
+      "html_url": "https://github.com/yhyu13/wuxia-town/pull/82",
+      "number": 82,
+      "pull_request": {
+        "merged_at": "2026-11-14T06:42:40Z"
+      },
+      "state": "closed",
+      "title": "feat(demo-patch): 静止碎块脚下加地面贴片",
+      "updated_at": "2026-11-14T06:42:42Z"
+    },
+    {
+      "html_url": "https://github.com/yhyu13/wuxia-town/pull/81",
+      "number": 81,
+      "pull_request": {
+        "merged_at": "2026-11-14T06:40:50Z"
+      },
+      "state": "closed",
+      "title": "feat(demo-rest-shadow): 静止碎块改成深灰色",
+      "updated_at": "2026-11-14T06:40:53Z"
+    },
+    {
+      "html_url": "https://github.com/yhyu13/wuxia-town/pull/80",
+      "number": 80,
+      "pull_request": {
+        "merged_at": "2026-11-14T06:38:32Z"
+      },
+      "state": "closed",
+      "title": "feat(demo-rest-color): 静止碎块改成灰绿色",
+      "updated_at": "2026-11-14T06:38:35Z"
+    },
+    {
+      "html_url": "https://github.com/yhyu13/wuxia-town/pull/79",
+      "number": 79,
+      "pull_request": {
+        "merged_at": "2026-11-14T06:35:57Z"
+      },
+      "state": "closed",
+      "title": "feat(demo-rest): 滚完的碎块标成静止",
+      "updated_at": "2026-11-14T06:36:00Z"
+    },
+    {
+      "html_url": "https://github.com/yhyu13/wuxia-town/pull/78",
+      "number": 78,
+      "pull_request": {
+        "merged_at": "2026-11-14T06:33:30Z"
+      },
+      "state": "closed",
+      "title": "feat(demo-rebound): 两侧都挡住的碎块再弹回",
+      "updated_at": "2026-11-14T06:33:33Z"
+    },
+    {
+      "html_url": "https://github.com/yhyu13/wuxia-town/pull/77",
+      "number": 77,
+      "pull_request": {
+        "merged_at": "2026-11-14T06:31:50Z"
+      },
+      "state": "closed",
+      "title": "feat(demo-turn): 前方有落点的碎块改向滚动",
+      "updated_at": "2026-11-14T06:31:53Z"
+    },
+    {
+      "html_url": "https://github.com/yhyu13/wuxia-town/pull/76",
+      "number": 76,
+      "pull_request": {
+        "merged_at": "2026-11-14T06:29:46Z"
+      },
+      "state": "closed",
+      "title": "feat(demo-roll): 碎块短滚后停住",
+      "updated_at": "2026-11-14T06:29:49Z"
+    },
+    {
+      "html_url": "https://github.com/yhyu13/wuxia-town/pull/75",
+      "number": 75,
+      "pull_request": {
+        "merged_at": "2026-11-14T06:27:17Z"
+      },
+      "state": "closed",
+      "title": "feat(demo-shard-hop): 碎块比墙段再弹一次",
+      "updated_at": "2026-11-14T06:27:19Z"
+    },
+    {
+      "html_url": "https://github.com/yhyu13/wuxia-town/pull/74",
+      "number": 74,
+      "pull_request": {
+        "merged_at": "2026-11-14T06:25:05Z"
+      },
+      "state": "closed",
+      "title": "feat(demo-shard-gap): 碎块之间保持距离",
+      "updated_at": "2026-11-14T06:25:08Z"
+    },
+    {
+      "html_url": "https://github.com/yhyu13/wuxia-town/pull/73",
+      "number": 73,
+      "pull_request": {
+        "merged_at": "2026-11-14T06:23:21Z"
+      },
+      "state": "closed",
+      "title": "feat(demo-shard-move): 碎块落到原段旁边",
+      "updated_at": "2026-11-14T06:23:23Z"
+    },
+    {
+      "html_url": "https://github.com/yhyu13/wuxia-town/pull/72",
+      "number": 72,
+      "pull_request": {
+        "merged_at": "2026-11-14T06:19:38Z"
+      },
+      "state": "closed",
+      "title": "feat(demo-split): 倒下的墙段再拆出一块碎块",
+      "updated_at": "2026-11-14T06:19:40Z"
+    },
+    {
+      "html_url": "https://github.com/yhyu13/wuxia-town/pull/71",
+      "number": 71,
+      "pull_request": {
+        "merged_at": "2026-11-14T06:17:15Z"
+      },
+      "state": "closed",
+      "title": "feat(demo-shard): 倒下的墙段缩小成碎块",
+      "updated_at": "2026-11-14T06:17:18Z"
+    },
+    {
+      "html_url": "https://github.com/yhyu13/wuxia-town/pull/70",
+      "number": 70,
+      "pull_request": {
+        "merged_at": "2026-11-14T06:15:03Z"
+      },
+      "state": "closed",
+      "title": "feat(demo-collide): 倒下的墙段躲开所有已落段落",
+      "updated_at": "2026-11-14T06:15:06Z"
+    },
+    {
+      "html_url": "https://github.com/yhyu13/wuxia-town/pull/69",
+      "number": 69,
+      "pull_request": {
+        "merged_at": "2026-11-14T06:11:23Z"
+      },
+      "state": "closed",
+      "title": "feat(demo-bounce): 靠得太近的墙段向侧面弹开",
+      "updated_at": "2026-11-14T06:11:25Z"
+    },
+    {
+      "html_url": "https://github.com/yhyu13/wuxia-town/pull/67",
+      "number": 67,
+      "pull_request": {
+        "merged_at": "2026-11-14T06:09:17Z"
+      },
+      "state": "closed",
+      "title": "docs(r1-guard): 记录合并命令把 BLOCKED 当通过的坑",
+      "updated_at": "2026-11-14T06:09:18Z"
+    },
+    {
+      "html_url": "https://github.com/yhyu13/wuxia-town/pull/68",
+      "number": 68,
+      "pull_request": {
+        "merged_at": "2026-11-14T06:08:28Z"
+      },
+      "state": "closed",
+      "title": "feat(demo-hop): 推倒的墙段先抬起再落下",
+      "updated_at": "2026-11-14T06:08:30Z"
+    },
+    {
+      "html_url": "https://github.com/yhyu13/wuxia-town/pull/65",
+      "number": 65,
+      "pull_request": {
+        "merged_at": "2026-11-14T06:04:49Z"
+      },
+      "state": "closed",
+      "title": "docs(gate-refresh): 路演稿基线改 d794169，数字沿用本次实测",
+      "updated_at": "2026-11-14T06:04:49Z"
+    },
+    {
+      "html_url": "https://github.com/yhyu13/wuxia-town/pull/66",
+      "number": 66,
+      "pull_request": {
+        "merged_at": "2026-11-14T06:04:39Z"
+      },
+      "state": "closed",
+      "title": "feat(demo-bump): 同墙相邻段倒下后保持距离",
+      "updated_at": "2026-11-14T06:04:41Z"
+    },
+    {
+      "html_url": "https://github.com/yhyu13/wuxia-town/pull/64",
+      "number": 64,
+      "pull_request": {
+        "merged_at": "2026-11-14T05:59:14Z"
+      },
+      "state": "closed",
+      "title": "feat(demo-fly): 倒下的墙段沿墙外错开",
+      "updated_at": "2026-11-14T05:59:16Z"
+    },
+    {
+      "html_url": "https://github.com/yhyu13/wuxia-town/pull/63",
+      "number": 63,
+      "pull_request": {
+        "merged_at": "2026-11-14T05:56:23Z"
+      },
+      "state": "closed",
+      "title": "feat(demo-scatter): 推倒的墙段错开落地",
+      "updated_at": "2026-11-14T05:56:25Z"
+    },
+    {
+      "html_url": "https://github.com/yhyu13/wuxia-town/pull/62",
+      "number": 62,
+      "pull_request": {
+        "merged_at": "2026-11-14T05:53:51Z"
+      },
+      "state": "closed",
+      "title": "feat(demo-fall): 推倒的城墙倒向地面",
+      "updated_at": "2026-11-14T05:53:53Z"
+    },
+    {
+      "html_url": "https://github.com/yhyu13/wuxia-town/pull/61",
+      "number": 61,
+      "pull_request": {
+        "merged_at": "2026-11-14T05:49:16Z"
+      },
+      "state": "closed",
+      "title": "feat(demo-god): 破坏神一次推倒六段城墙",
+      "updated_at": "2026-11-14T05:49:19Z"
+    },
+    {
+      "html_url": "https://github.com/yhyu13/wuxia-town/pull/60",
+      "number": 60,
+      "pull_request": {
+        "merged_at": "2026-11-14T05:47:13Z"
+      },
+      "state": "closed",
+      "title": "feat(demo-alliance): 同一颗种子结成同一份武林盟",
+      "updated_at": "2026-11-14T05:47:16Z"
+    },
+    {
+      "html_url": "https://github.com/yhyu13/wuxia-town/pull/59",
+      "number": 59,
+      "pull_request": {
+        "merged_at": "2026-11-14T05:44:47Z"
+      },
+      "state": "closed",
+      "title": "feat(demo-topple): 推倒北墙后可以扶起",
+      "updated_at": "2026-11-14T05:44:49Z"
+    },
+    {
+      "html_url": "https://github.com/yhyu13/wuxia-town/pull/58",
+      "number": 58,
+      "pull_request": {
+        "merged_at": "2026-11-14T05:40:47Z"
+      },
+      "state": "closed",
+      "title": "feat(demo-fate): 划走后下一夜换一颗种子",
+      "updated_at": "2026-11-14T05:40:50Z"
+    },
+    {
+      "html_url": "https://github.com/yhyu13/wuxia-town/pull/57",
+      "number": 57,
+      "pull_request": {
+        "merged_at": "2026-11-14T05:36:25Z"
+      },
+      "state": "closed",
+      "title": "feat(demo-swipe): 不喜欢这一夜可以划走回到过夜前",
+      "updated_at": "2026-11-14T05:36:27Z"
+    },
+    {
+      "html_url": "https://github.com/yhyu13/wuxia-town/pull/56",
+      "number": 56,
+      "pull_request": {
+        "merged_at": "2026-11-14T05:33:15Z"
+      },
+      "state": "closed",
+      "title": "docs(demo-next): 写下夜里改世界和划走换命运",
+      "updated_at": "2026-11-14T05:33:17Z"
+    },
+    {
+      "html_url": "https://github.com/yhyu13/wuxia-town/pull/55",
+      "number": 55,
+      "pull_request": {
+        "merged_at": "2026-11-14T05:24:36Z"
+      },
+      "state": "closed",
+      "title": "feat(m3-hit-rate-tool): 人工复核结果一键统计成 M3 命中率结论",
+      "updated_at": "2026-11-14T05:24:37Z"
+    },
+    {
+      "html_url": "https://github.com/yhyu13/wuxia-town/pull/54",
+      "number": 54,
+      "pull_request": {
+        "merged_at": "2026-11-14T05:18:13Z"
+      },
+      "state": "closed",
+      "title": "docs(demo-readme): 两份说明不再引用已删除的工作树",
+      "updated_at": "2026-11-14T05:18:16Z"
+    },
+    {
+      "html_url": "https://github.com/yhyu13/wuxia-town/pull/53",
+      "number": 53,
+      "pull_request": {
+        "merged_at": "2026-11-14T05:17:59Z"
+      },
+      "state": "closed",
+      "title": "docs(m2-texture-2k): Q-02 贴图预算实验数据与建议",
+      "updated_at": "2026-11-14T05:18:02Z"
+    },
+    {
+      "html_url": "https://github.com/yhyu13/AgentSkillsVault/pull/39",
+      "number": 39,
+      "pull_request": {
+        "merged_at": "2026-11-14T04:47:13Z"
+      },
+      "state": "closed",
+      "title": "feat(radar): skill-vault peers top 20 + 6 vendor submodules",
+      "updated_at": "2026-11-14T04:47:13Z"
+    },
+    {
+      "html_url": "https://github.com/yhyu13/AgentSkillsVault/pull/40",
+      "number": 40,
+      "pull_request": {
+        "merged_at": "2026-11-14T04:46:27Z"
+      },
+      "state": "closed",
+      "title": "feat(skills): 新增 feishu-kdocs-cli + sync 清理规则改为仅全量重装",
+      "updated_at": "2026-11-14T04:46:28Z"
+    },
+    {
+      "html_url": "https://github.com/yhyu13/wuxia-town/pull/52",
+      "number": 52,
+      "pull_request": {
+        "merged_at": "2026-11-14T04:45:00Z"
+      },
+      "state": "closed",
+      "title": "docs(roadshow-gate): 闸门句与 48-54 秒口播改回放两块方块",
+      "updated_at": "2026-11-14T04:45:00Z"
+    },
+    {
+      "html_url": "https://github.com/yhyu13/PullYourselfUpApp/pull/228",
+      "number": 228,
+      "pull_request": {
+        "merged_at": "2026-11-14T04:38:55Z"
+      },
+      "state": "closed",
+      "title": "docs(testing): 自检报告补「参数解析语义」一节（days 判据表 + 缺口，含落地状态订正）（替代 #222）",
+      "updated_at": "2026-11-14T04:43:19Z"
+    },
+    {
+      "html_url": "https://github.com/yhyu13/PullYourselfUpApp/pull/227",
+      "number": 227,
+      "pull_request": {
+        "merged_at": "2026-11-14T03:26:08Z"
+      },
+      "state": "closed",
+      "title": "docs(qa): L2→L3 界面自检报告 + 视图矩阵（375/1440）+ 主路径录屏（替代 #217）",
+      "updated_at": "2026-11-14T04:43:15Z"
+    },
+    {
+      "html_url": "https://github.com/yhyu13/PullYourselfUpApp/pull/226",
+      "number": 226,
+      "pull_request": {
+        "merged_at": "2026-11-14T03:25:51Z"
+      },
+      "state": "closed",
+      "title": "fix(test): l1-dom 等 /api/evidence 落定再断言（替代 #219）",
+      "updated_at": "2026-11-14T04:43:11Z"
+    },
+    {
+      "html_url": "https://github.com/yhyu13/PullYourselfUpApp/pull/225",
+      "number": 225,
+      "pull_request": {
+        "merged_at": "2026-11-14T03:14:29Z"
+      },
+      "state": "closed",
+      "title": "feat(api): 记忆写入真路径 + state 补 nightPlan/content + recordedDays 同义统一（替代 #218）",
+      "updated_at": "2026-11-14T04:43:08Z"
+    },
+    {
+      "html_url": "https://github.com/yhyu13/PullYourselfUpApp/pull/222",
+      "number": 222,
+      "pull_request": {
+        "merged_at": null
+      },
+      "state": "closed",
+      "title": "docs(testing): 自检报告补「参数解析语义」一节（days 判据表 + 缺口）",
+      "updated_at": "2026-11-14T04:39:10Z"
+    },
+    {
+      "html_url": "https://github.com/yhyu13/wuxia-town/pull/51",
+      "number": 51,
+      "pull_request": {
+        "merged_at": "2026-11-14T04:33:59Z"
+      },
+      "state": "closed",
+      "title": "docs(competition-refresh): 赛事稿断言数更新到 168 + 78",
+      "updated_at": "2026-11-14T04:33:59Z"
+    },
+    {
+      "html_url": "https://github.com/yhyu13/wuxia-town/pull/50",
+      "number": 50,
+      "pull_request": {
+        "merged_at": "2026-11-14T04:29:06Z"
+      },
+      "state": "closed",
+      "title": "docs(prd-polish): 指标与问题行跟上现状，记录 ownership 绕过",
+      "updated_at": "2026-11-14T04:29:06Z"
+    },
+    {
+      "html_url": "https://github.com/yhyu13/wuxia-town/pull/49",
+      "number": 49,
+      "pull_request": {
+        "merged_at": "2026-11-14T04:25:05Z"
+      },
+      "state": "closed",
+      "title": "fix(demo-ci2): 口径检查改认产品稿里的机器 30/30",
+      "updated_at": "2026-11-14T04:25:08Z"
+    },
+    {
+      "html_url": "https://github.com/yhyu13/wuxia-town/pull/48",
+      "number": 48,
+      "pull_request": {
+        "merged_at": "2026-11-14T04:23:59Z"
+      },
+      "state": "closed",
+      "title": "ci(demo-ci): 加一条本地里程碑口径检查",
+      "updated_at": "2026-11-14T04:24:01Z"
+    },
+    {
+      "html_url": "https://github.com/yhyu13/wuxia-town/pull/46",
+      "number": 46,
+      "pull_request": {
+        "merged_at": "2026-11-14T04:22:33Z"
+      },
+      "state": "closed",
+      "title": "docs(prd-body-sync): PRD 正文 M3 行跟上 30 条指令集与角色帽色",
+      "updated_at": "2026-11-14T04:22:33Z"
+    },
+    {
+      "html_url": "https://github.com/yhyu13/wuxia-town/pull/47",
+      "number": 47,
+      "pull_request": {
+        "merged_at": "2026-11-14T04:20:39Z"
+      },
+      "state": "closed",
+      "title": "docs(demo-track): 口径改成浏览器 78 过并加检查",
+      "updated_at": "2026-11-14T04:20:42Z"
+    },
+    {
+      "html_url": "https://github.com/yhyu13/wuxia-town/pull/45",
+      "number": 45,
+      "pull_request": {
+        "merged_at": "2026-11-14T04:18:42Z"
+      },
+      "state": "closed",
+      "title": "docs(demo-plan5): 规划页改成浏览器 78 过",
+      "updated_at": "2026-11-14T04:18:44Z"
+    },
+    {
+      "html_url": "https://github.com/yhyu13/wuxia-town/pull/43",
+      "number": 43,
+      "pull_request": {
+        "merged_at": "2026-11-14T04:17:41Z"
+      },
+      "state": "closed",
+      "title": "feat(patch-review-html): 30 条复核表生成可勾选单文件页",
+      "updated_at": "2026-11-14T04:17:41Z"
+    },
+    {
+      "html_url": "https://github.com/yhyu13/wuxia-town/pull/44",
+      "number": 44,
+      "pull_request": {
+        "merged_at": "2026-11-14T04:17:06Z"
+      },
+      "state": "closed",
+      "title": "test(demo-click2): 浏览器放块改点到空地",
+      "updated_at": "2026-11-14T04:17:09Z"
+    },
+    {
+      "html_url": "https://github.com/yhyu13/wuxia-town/pull/42",
+      "number": 42,
+      "pull_request": {
+        "merged_at": "2026-11-14T04:13:11Z"
+      },
+      "state": "closed",
+      "title": "docs(milestone-track): 里程碑状态页与 30 条指令人工复核表",
+      "updated_at": "2026-11-14T04:13:12Z"
+    },
+    {
+      "html_url": "https://github.com/yhyu13/wuxia-town/pull/41",
+      "number": 41,
+      "pull_request": {
+        "merged_at": "2026-11-14T03:56:24Z"
+      },
+      "state": "closed",
+      "title": "docs(demo-plan4): 规划页去掉已删除的工作树路径",
+      "updated_at": "2026-11-14T03:56:27Z"
+    },
+    {
+      "html_url": "https://github.com/yhyu13/wuxia-town/pull/40",
+      "number": 40,
+      "pull_request": {
+        "merged_at": "2026-11-14T03:45:49Z"
+      },
+      "state": "closed",
+      "title": "docs(roadshow-canon): 写明 demo.mp4 是正式片、demo-night.mp4 是旧片",
+      "updated_at": "2026-11-14T03:45:49Z"
+    },
+    {
+      "html_url": "https://github.com/yhyu13/wuxia-town/pull/39",
+      "number": 39,
+      "pull_request": {
+        "merged_at": "2026-11-14T03:43:57Z"
+      },
+      "state": "closed",
+      "title": "docs(demo-fp): 产品稿不再把第一人称写成未做",
+      "updated_at": "2026-11-14T03:43:59Z"
+    },
+    {
+      "html_url": "https://github.com/yhyu13/wuxia-town/pull/38",
+      "number": 38,
+      "pull_request": {
+        "merged_at": "2026-11-14T03:42:38Z"
+      },
+      "state": "closed",
+      "title": "docs(demo-plan3): 规划页跟上 30 条指令和已合并的旧片",
+      "updated_at": "2026-11-14T03:42:42Z"
+    },
+    {
+      "html_url": "https://github.com/yhyu13/wuxia-town/pull/25",
+      "number": 25,
+      "pull_request": {
+        "merged_at": "2026-11-14T03:35:18Z"
+      },
+      "state": "closed",
+      "title": "docs(demo-reel): 录下今晚 60 秒内的六步演示",
+      "updated_at": "2026-11-14T03:35:18Z"
+    },
+    {
+      "html_url": "https://github.com/yhyu13/wuxia-town/pull/37",
+      "number": 37,
+      "pull_request": {
+        "merged_at": "2026-11-14T03:31:31Z"
+      },
+      "state": "closed",
+      "title": "docs(demo-plan2): 文末改成放块原因已合并",
+      "updated_at": "2026-11-14T03:31:34Z"
+    },
+    {
+      "html_url": "https://github.com/yhyu13/PullYourselfUpApp/pull/219",
+      "number": 219,
+      "pull_request": {
+        "merged_at": null
+      },
+      "state": "closed",
+      "title": "fix(test): l1-dom 等 /api/evidence 落定再断言（修主干 render-gate 唯一红）",
+      "updated_at": "2026-11-14T03:27:11Z"
+    },
+    {
+      "html_url": "https://github.com/yhyu13/PullYourselfUpApp/pull/218",
+      "number": 218,
+      "pull_request": {
+        "merged_at": null
+      },
+      "state": "closed",
+      "title": "feat(api): 记忆写入真路径 + state 补 nightPlan/content + recordedDays 同义统一",
+      "updated_at": "2026-11-14T03:27:08Z"
+    },
+    {
+      "html_url": "https://github.com/yhyu13/PullYourselfUpApp/pull/217",
+      "number": 217,
+      "pull_request": {
+        "merged_at": null
+      },
+      "state": "closed",
+      "title": "docs(qa): L2→L3 上线前界面自检报告（35 个可点元素 + 19 条陷阱）",
+      "updated_at": "2026-11-14T03:27:04Z"
+    },
+    {
+      "html_url": "https://github.com/yhyu13/wuxia-town/pull/36",
+      "number": 36,
+      "pull_request": {
+        "merged_at": "2026-11-14T03:19:49Z"
+      },
+      "state": "closed",
+      "title": "feat(first-person): F 切换的第一人称行走，WASD 移动与边界约束",
+      "updated_at": "2026-11-14T03:19:49Z"
+    },
+    {
+      "html_url": "https://github.com/yhyu13/wuxia-town/pull/32",
+      "number": 32,
+      "pull_request": {
+        "merged_at": "2026-11-14T03:17:23Z"
+      },
+      "state": "closed",
+      "title": "docs(demo-plan): 收齐正式演示的里程碑和路演",
+      "updated_at": "2026-11-14T03:17:27Z"
+    },
+    {
+      "html_url": "https://github.com/yhyu13/AgentSkillsVault/pull/38",
+      "number": 38,
+      "pull_request": {
+        "merged_at": "2026-11-14T03:13:26Z"
+      },
+      "state": "closed",
+      "title": "docs(templates): 两套仓库模板的分层说明与落地顺序",
+      "updated_at": "2026-11-14T03:13:26Z"
+    },
+    {
+      "html_url": "https://github.com/yhyu13/wuxia-town/pull/35",
+      "number": 35,
+      "pull_request": {
+        "merged_at": "2026-11-14T03:13:00Z"
+      },
+      "state": "closed",
+      "title": "feat(patch-selfcheck): 面板加 30 条指令集一键自检",
+      "updated_at": "2026-11-14T03:13:01Z"
+    },
+    {
+      "html_url": "https://github.com/yhyu13/wuxia-town/pull/34",
+      "number": 34,
+      "pull_request": {
+        "merged_at": "2026-11-14T03:08:02Z"
+      },
+      "state": "closed",
+      "title": "feat(patch-catalog): 30 条点名指令集，机器判定 30/30",
+      "updated_at": "2026-11-14T03:08:02Z"
+    },
+    {
+      "html_url": "https://github.com/yhyu13/PullYourselfUpApp/pull/224",
+      "number": 224,
+      "pull_request": {
+        "merged_at": "2026-11-14T03:07:19Z"
+      },
+      "state": "closed",
+      "title": "fix(app): 首屏真值（天数芯片 + 卡片进度）+ 全屏浮层同层 inert",
+      "updated_at": "2026-11-14T03:07:22Z"
+    },
+    {
+      "html_url": "https://github.com/yhyu13/wuxia-town/pull/33",
+      "number": 33,
+      "pull_request": {
+        "merged_at": "2026-11-14T03:02:43Z"
+      },
+      "state": "closed",
+      "title": "feat(role-appearance): 点名角色改帽色，走同一补丁通道与审计",
+      "updated_at": "2026-11-14T03:02:43Z"
+    },
+    {
+      "html_url": "https://github.com/yhyu13/wuxia-town/pull/31",
+      "number": 31,
+      "pull_request": {
+        "merged_at": "2026-11-14T02:53:50Z"
+      },
+      "state": "closed",
+      "title": "docs(demo-why): 写明放块失败是落在铁匠铺上",
+      "updated_at": "2026-11-14T02:53:53Z"
+    },
+    {
+      "html_url": "https://github.com/yhyu13/wuxia-town/pull/30",
       "number": 30,
-      "title": "feat(skills): multi-agent-repo-governance v1.2.0 — the seven gate self-blocking traps",
-      "state": "closed",
-      "updated_at": "2026-11-12T14:38:47Z",
       "pull_request": {
-        "merged_at": "2026-11-12T14:38:45Z"
-      }
+        "merged_at": "2026-11-14T02:47:19Z"
+      },
+      "state": "closed",
+      "title": "feat(deliverables): 重录路演视频并重做 PPT，口径对齐 153 与 71/7",
+      "updated_at": "2026-11-14T02:47:19Z"
     },
     {
-      "html_url": "https://github.com/yhyu13/PullYourselfUpApp/pull/193",
-      "number": 193,
-      "title": "feat(005): profiles 表与三接口 + 四支开场台词",
-      "state": "closed",
-      "updated_at": "2026-11-12T14:35:43Z",
+      "html_url": "https://github.com/yhyu13/wuxia-town/pull/28",
+      "number": 28,
       "pull_request": {
-        "merged_at": "2026-11-12T14:35:43Z"
-      }
+        "merged_at": "2026-11-13T17:13:51Z"
+      },
+      "state": "closed",
+      "title": "docs(demo-current): 路演改用当前主分支的闸门",
+      "updated_at": "2026-11-13T17:13:54Z"
     },
     {
-      "html_url": "https://github.com/yhyu13/yhyu13.github.io/pull/23",
-      "number": 23,
-      "title": "feat(decks): add seven video slides and two release-hosted cuts",
-      "state": "closed",
-      "updated_at": "2026-11-12T14:35:21Z",
-      "pull_request": {
-        "merged_at": "2026-11-12T14:35:21Z"
-      }
-    },
-    {
-      "html_url": "https://github.com/yhyu13/AgentSkillsVault/pull/29",
+      "html_url": "https://github.com/yhyu13/wuxia-town/pull/29",
       "number": 29,
-      "title": "feat(skills): 从 个人成长 产物装 7 个 skill（含父/子引用自包含修复）",
-      "state": "closed",
-      "updated_at": "2026-11-12T14:30:36Z",
       "pull_request": {
-        "merged_at": "2026-11-12T14:30:36Z"
-      }
+        "merged_at": "2026-11-13T17:11:31Z"
+      },
+      "state": "closed",
+      "title": "feat(deliverables): 用乐高画面重建 standalone 单文件预览",
+      "updated_at": "2026-11-13T17:11:31Z"
+    },
+    {
+      "html_url": "https://github.com/yhyu13/SimCity/pull/1",
+      "number": 1,
+      "pull_request": {
+        "merged_at": "2026-11-13T16:59:37Z"
+      },
+      "state": "closed",
+      "title": "docs(governance): Git 工作流文档 + PR 模板 + CODEOWNERS + 技能依赖登记",
+      "updated_at": "2026-11-13T16:59:58Z"
+    },
+    {
+      "html_url": "https://github.com/yhyu13/Agent_Template_Repo_Governance/pull/2",
+      "number": 2,
+      "pull_request": {
+        "merged_at": null
+      },
+      "state": "open",
+      "title": "feat(governance): 自动化通道 R6 + 脏主线协调 R1.3 + scratch/ 约定",
+      "updated_at": "2026-11-13T16:58:29Z"
+    },
+    {
+      "html_url": "https://github.com/yhyu13/wuxia-town/pull/17",
+      "number": 17,
+      "pull_request": {
+        "merged_at": null
+      },
+      "state": "closed",
+      "title": "feat(lego-world): 乐高档重做为积木沙盘（LearnToLearn 课程参考）",
+      "updated_at": "2026-11-13T16:57:14Z"
+    },
+    {
+      "html_url": "https://github.com/yhyu13/wuxia-town/pull/18",
+      "number": 18,
+      "pull_request": {
+        "merged_at": "2026-11-13T16:52:20Z"
+      },
+      "state": "closed",
+      "title": "feat(lego-world): 乐高档重做为积木沙盘（LearnToLearn 课程参考）",
+      "updated_at": "2026-11-13T16:52:35Z"
+    },
+    {
+      "html_url": "https://github.com/yhyu13/wuxia-town/pull/27",
+      "number": 27,
+      "pull_request": {
+        "merged_at": "2026-11-13T16:26:07Z"
+      },
+      "state": "closed",
+      "title": "docs(demo-lego): 产品稿不再把乐高 2K 写成已交付",
+      "updated_at": "2026-11-13T16:26:11Z"
+    },
+    {
+      "html_url": "https://github.com/yhyu13/wuxia-town/pull/26",
+      "number": 26,
+      "pull_request": {
+        "merged_at": "2026-11-13T16:23:14Z"
+      },
+      "state": "closed",
+      "title": "docs(demo-sync): 路演稿改用今晚闸门数字",
+      "updated_at": "2026-11-13T16:23:18Z"
+    },
+    {
+      "html_url": "https://github.com/yhyu13/wuxia-town/pull/24",
+      "number": 24,
+      "pull_request": {
+        "merged_at": "2026-11-13T15:49:53Z"
+      },
+      "state": "closed",
+      "title": "docs(demo-prd): 改正产品稿里过时的里程碑",
+      "updated_at": "2026-11-13T15:49:56Z"
+    },
+    {
+      "html_url": "https://github.com/yhyu13/wuxia-town/pull/23",
+      "number": 23,
+      "pull_request": {
+        "merged_at": "2026-11-13T15:43:15Z"
+      },
+      "state": "closed",
+      "title": "docs(demo-reflog): 闸门日志不再引用错误路径",
+      "updated_at": "2026-11-13T15:43:18Z"
+    },
+    {
+      "html_url": "https://github.com/yhyu13/wuxia-town/pull/22",
+      "number": 22,
+      "pull_request": {
+        "merged_at": "2026-11-13T15:41:04Z"
+      },
+      "state": "closed",
+      "title": "docs(demo-show): 写下今晚 60 秒路演和上台边界",
+      "updated_at": "2026-11-13T15:41:07Z"
+    },
+    {
+      "html_url": "https://github.com/yhyu13/wuxia-town/pull/21",
+      "number": 21,
+      "pull_request": {
+        "merged_at": "2026-11-13T15:40:32Z"
+      },
+      "state": "closed",
+      "title": "docs(demo-gate): 记下今晚重跑的闸门",
+      "updated_at": "2026-11-13T15:40:35Z"
+    },
+    {
+      "html_url": "https://github.com/yhyu13/wuxia-town/pull/20",
+      "number": 20,
+      "pull_request": {
+        "merged_at": "2026-11-13T15:39:49Z"
+      },
+      "state": "closed",
+      "title": "docs(demo-canon): 写下今晚口径和里程碑修正",
+      "updated_at": "2026-11-13T15:39:52Z"
+    },
+    {
+      "html_url": "https://github.com/yhyu13/AgentSkillsVault/pull/37",
+      "number": 37,
+      "pull_request": {
+        "merged_at": "2026-11-13T12:07:32Z"
+      },
+      "state": "closed",
+      "title": "feat(install): primary store 改为 ~/.agents/skills，其他 store 为可选 junction",
+      "updated_at": "2026-11-13T12:07:32Z"
+    },
+    {
+      "html_url": "https://github.com/yhyu13/AgentSkillsVault/pull/35",
+      "number": 35,
+      "pull_request": {
+        "merged_at": "2026-11-13T11:58:10Z"
+      },
+      "state": "closed",
+      "title": "feat(game-dev): 从 arjun988/blender-skills 装 23 个 skill（按范围策略安装 blender-director）",
+      "updated_at": "2026-11-13T11:58:11Z"
+    },
+    {
+      "html_url": "https://github.com/yhyu13/AgentSkillsVault/pull/36",
+      "number": 36,
+      "pull_request": {
+        "merged_at": "2026-11-13T11:52:42Z"
+      },
+      "state": "closed",
+      "title": "fix(sync): 清单过期就拒绝执行（并发会话用旧清单覆盖安装范围）",
+      "updated_at": "2026-11-13T11:52:42Z"
+    },
+    {
+      "html_url": "https://github.com/yhyu13/AgentSkillsVault/pull/34",
+      "number": 34,
+      "pull_request": {
+        "merged_at": null
+      },
+      "state": "closed",
+      "title": "feat(game-dev): 从 arjun988/blender-skills 装 23 个高分 Blender skill",
+      "updated_at": "2026-11-13T11:51:10Z"
+    },
+    {
+      "html_url": "https://github.com/yhyu13/PullYourselfUpApp/pull/221",
+      "number": 221,
+      "pull_request": {
+        "merged_at": null
+      },
+      "state": "closed",
+      "title": "fix(api): clampDays 把缺省/空串当默认窗口（修证据窗口塌成 1 天，ev 恒 null）",
+      "updated_at": "2026-11-13T11:38:36Z"
+    },
+    {
+      "html_url": "https://github.com/yhyu13/AgentSkillsVault/pull/31",
+      "number": 31,
+      "pull_request": {
+        "merged_at": "2026-11-13T11:37:57Z"
+      },
+      "state": "closed",
+      "title": "Add TYGG AI Film Studio v3.2.7",
+      "updated_at": "2026-11-13T11:37:57Z"
+    },
+    {
+      "html_url": "https://github.com/yhyu13/PullYourselfUpApp/pull/220",
+      "number": 220,
+      "pull_request": {
+        "merged_at": "2026-11-13T11:36:33Z"
+      },
+      "state": "closed",
+      "title": "feat(ui): 内容库/定时计划/共同语言接线（三个「界面到不了」的功能）",
+      "updated_at": "2026-11-13T11:36:33Z"
+    },
+    {
+      "html_url": "https://github.com/yhyu13/PullYourselfUpApp/pull/223",
+      "number": 223,
+      "pull_request": {
+        "merged_at": "2026-11-13T11:34:35Z"
+      },
+      "state": "closed",
+      "title": "fix(api): clampDays 把 null 当 0 —— 修 #216 引入的缺省窗口回归",
+      "updated_at": "2026-11-13T11:34:36Z"
+    },
+    {
+      "html_url": "https://github.com/yhyu13/AgentSkillsVault/pull/33",
+      "number": 33,
+      "pull_request": {
+        "merged_at": "2026-11-13T11:24:45Z"
+      },
+      "state": "closed",
+      "title": "feat(install): 每类只安装最高两个评分档（263 → 134）",
+      "updated_at": "2026-11-13T11:24:45Z"
+    },
+    {
+      "html_url": "https://github.com/yhyu13/PullYourselfUpApp/pull/216",
+      "number": 216,
+      "pull_request": {
+        "merged_at": "2026-11-13T11:11:52Z"
+      },
+      "state": "closed",
+      "title": "fix(api): days 传非数字会终结进程（clampDays + 57 条回归锁）",
+      "updated_at": "2026-11-13T11:11:52Z"
+    },
+    {
+      "html_url": "https://github.com/yhyu13/Hackthon_Aholo_20261107/pull/133",
+      "number": 133,
+      "pull_request": {
+        "merged_at": null
+      },
+      "state": "closed",
+      "title": "fix(gate-large-diff): 大 diff 改走 files 接口取数并修正中文路径解析",
+      "updated_at": "2026-11-13T11:09:03Z"
+    },
+    {
+      "html_url": "https://github.com/yhyu13/PullYourselfUpApp/pull/215",
+      "number": 215,
+      "pull_request": {
+        "merged_at": "2026-11-13T11:09:03Z"
+      },
+      "state": "closed",
+      "title": "chore(ci): PR 卫生检查（基线新鲜度 + 陈旧栈底）",
+      "updated_at": "2026-11-13T11:09:03Z"
+    },
+    {
+      "html_url": "https://github.com/yhyu13/Hackthon_Aholo_20261107/pull/134",
+      "number": 134,
+      "pull_request": {
+        "merged_at": null
+      },
+      "state": "open",
+      "title": "fix(gate-large-diff2): 大 diff 改走 files 接口取数并修正中文路径解析",
+      "updated_at": "2026-11-13T11:07:45Z"
+    },
+    {
+      "html_url": "https://github.com/yhyu13/PullYourselfUpApp/pull/214",
+      "number": 214,
+      "pull_request": {
+        "merged_at": "2026-11-13T11:07:00Z"
+      },
+      "state": "closed",
+      "title": "docs(testing): 产品流程自检（六问 + 8 条断点 + 8 张实拍）",
+      "updated_at": "2026-11-13T11:07:00Z"
+    },
+    {
+      "html_url": "https://github.com/yhyu13/PullYourselfUpApp/pull/213",
+      "number": 213,
+      "pull_request": {
+        "merged_at": "2026-11-13T11:06:45Z"
+      },
+      "state": "closed",
+      "title": "docs(testing): 服务端白盒自检（38 条路由 / C1 一条 GET 弄死进程 / C2 三功能前端零调用）",
+      "updated_at": "2026-11-13T11:06:45Z"
+    },
+    {
+      "html_url": "https://github.com/yhyu13/PullYourselfUpApp/pull/133",
+      "number": 133,
+      "pull_request": {
+        "merged_at": "2026-11-13T10:52:52Z"
+      },
+      "state": "closed",
+      "title": "docs(arch): V0.5→V1.0 技术架构设计入库（8 线专家团产出 + G9 收口 16 条）",
+      "updated_at": "2026-11-13T10:52:52Z"
+    },
+    {
+      "html_url": "https://github.com/yhyu13/PullYourselfUpApp/pull/134",
+      "number": 134,
+      "pull_request": {
+        "merged_at": "2026-11-13T10:49:17Z"
+      },
+      "state": "closed",
+      "title": "fix(wiki): 修闸门假绿路径（判据反转 + 解析有洞阻断 + YAML 写法补全），附 49 条负向测试与 30 变异点",
+      "updated_at": "2026-11-13T10:49:17Z"
+    },
+    {
+      "html_url": "https://github.com/yhyu13/PullYourselfUpApp/pull/170",
+      "number": 170,
+      "pull_request": {
+        "merged_at": "2026-11-13T10:47:24Z"
+      },
+      "state": "closed",
+      "title": "docs(marketing): L1→L2 对外物料（海报/口播PPT/分镜）",
+      "updated_at": "2026-11-13T10:47:24Z"
+    },
+    {
+      "html_url": "https://github.com/yhyu13/PullYourselfUpApp/pull/196",
+      "number": 196,
+      "pull_request": {
+        "merged_at": "2026-11-13T10:46:42Z"
+      },
+      "state": "closed",
+      "title": "feat(005): profileHint 进 state + 付费墙可退出守卫",
+      "updated_at": "2026-11-13T10:46:42Z"
+    },
+    {
+      "html_url": "https://github.com/ailiaixue/pbl/pull/286",
+      "number": 286,
+      "pull_request": {
+        "merged_at": null
+      },
+      "state": "open",
+      "title": "feat(ops): 记下请求来源、耗时、字节和主机出口",
+      "updated_at": "2026-11-13T10:39:36Z"
+    },
+    {
+      "html_url": "https://github.com/yhyu13/PullYourselfUpApp/pull/212",
+      "number": 212,
+      "pull_request": {
+        "merged_at": "2026-11-13T10:39:26Z"
+      },
+      "state": "closed",
+      "title": "fix(ui): 单独同意文案被 flex 拆成 6 列 + 缺图碎图标盖住占位卡",
+      "updated_at": "2026-11-13T10:39:26Z"
+    },
+    {
+      "html_url": "https://github.com/yhyu13/AgentSkillsVault/pull/32",
+      "number": 32,
+      "pull_request": {
+        "merged_at": "2026-11-13T10:28:15Z"
+      },
+      "state": "closed",
+      "title": "chore(templates): bump TEMPLATE to 2d3d9d1 (decision authority, memory layer, gate provenance)",
+      "updated_at": "2026-11-13T10:28:18Z"
+    },
+    {
+      "html_url": "https://github.com/yhyu13/Agent_Template_Repo_Setup1/pull/2",
+      "number": 2,
+      "pull_request": {
+        "merged_at": "2026-11-13T10:26:56Z"
+      },
+      "state": "closed",
+      "title": "feat(template): decision authority, memory routing layer, gate provenance",
+      "updated_at": "2026-11-13T10:26:59Z"
+    },
+    {
+      "html_url": "https://github.com/yhyu13/PullYourselfUpApp/pull/211",
+      "number": 211,
+      "pull_request": {
+        "merged_at": "2026-11-13T10:21:58Z"
+      },
+      "state": "closed",
+      "title": "content(audio): NSDR 与晨间样片 3 条 + 语速实测（10 字/秒）",
+      "updated_at": "2026-11-13T10:21:58Z"
+    },
+    {
+      "html_url": "https://github.com/yhyu13/PullYourselfUpApp/pull/210",
+      "number": 210,
+      "pull_request": {
+        "merged_at": "2026-11-13T09:50:25Z"
+      },
+      "state": "closed",
+      "title": "fix(app): 引导未关时夜间层拒绝打开 + 简称徽的晚到竞态",
+      "updated_at": "2026-11-13T09:50:26Z"
+    },
+    {
+      "html_url": "https://github.com/yhyu13/Hackthon_Aholo_20261107/pull/131",
+      "number": 131,
+      "pull_request": {
+        "merged_at": "2026-11-13T09:48:41Z"
+      },
+      "state": "closed",
+      "title": "docs(docs-008): 收口现行文档与历史规格引用",
+      "updated_at": "2026-11-13T09:48:42Z"
+    },
+    {
+      "html_url": "https://github.com/yhyu13/Hackthon_Aholo_20261107/pull/130",
+      "number": 130,
+      "pull_request": {
+        "merged_at": "2026-11-13T09:48:14Z"
+      },
+      "state": "closed",
+      "title": "spec(spec-008): 建立灰仓 07 号收口规格与清理任务",
+      "updated_at": "2026-11-13T09:48:15Z"
+    },
+    {
+      "html_url": "https://github.com/yhyu13/Hackthon_Aholo_20261107/pull/129",
+      "number": 129,
+      "pull_request": {
+        "merged_at": "2026-11-13T09:48:05Z"
+      },
+      "state": "closed",
+      "title": "chore(scope-008): 修订宪法适用范围至灰仓 07 号收口",
+      "updated_at": "2026-11-13T09:48:05Z"
+    },
+    {
+      "html_url": "https://github.com/yhyu13/PBL-World/pull/35",
+      "number": 35,
+      "pull_request": {
+        "merged_at": "2026-11-13T09:47:17Z"
+      },
+      "state": "closed",
+      "title": "feat: SPEC-0023 小小主理人 V1——掌握门控的海岛经营最小可玩切片",
+      "updated_at": "2026-11-13T09:47:17Z"
+    },
+    {
+      "html_url": "https://github.com/yhyu13/PullYourselfUpApp/pull/205",
+      "number": 205,
+      "pull_request": {
+        "merged_at": "2026-11-13T09:30:53Z"
+      },
+      "state": "closed",
+      "title": "fix(ci): l2-memory-api 从 npm test 挪到 test:render，加边界守卫防第四次",
+      "updated_at": "2026-11-13T09:30:54Z"
+    },
+    {
+      "html_url": "https://github.com/yhyu13/PullYourselfUpApp/pull/197",
+      "number": 197,
+      "pull_request": {
+        "merged_at": null
+      },
+      "state": "closed",
+      "title": "test(005): 引导层 DOM 断言（17 正 + 7 负）+ 修 005 糊住既有夹具",
+      "updated_at": "2026-11-13T09:17:57Z"
+    },
+    {
+      "html_url": "https://github.com/yhyu13/PullYourselfUpApp/pull/209",
+      "number": 209,
+      "pull_request": {
+        "merged_at": "2026-11-13T09:17:55Z"
+      },
+      "state": "closed",
+      "title": "test(005): 引导层 DOM 断言 17 正 + 7 负（OB1–OB7）（替代 #197）",
+      "updated_at": "2026-11-13T09:17:55Z"
+    },
+    {
+      "html_url": "https://github.com/yhyu13/PullYourselfUpApp/pull/203",
+      "number": 203,
+      "pull_request": {
+        "merged_at": null
+      },
+      "state": "closed",
+      "title": "feat(007): 内容库元数据与轮换接口",
+      "updated_at": "2026-11-13T09:15:35Z"
+    },
+    {
+      "html_url": "https://github.com/yhyu13/PullYourselfUpApp/pull/208",
+      "number": 208,
+      "pull_request": {
+        "merged_at": "2026-11-13T09:15:33Z"
+      },
+      "state": "closed",
+      "title": "feat(007): 内容库元数据与轮换接口（替代 #203）",
+      "updated_at": "2026-11-13T09:15:33Z"
+    },
+    {
+      "html_url": "https://github.com/yhyu13/PullYourselfUpApp/pull/200",
+      "number": 200,
+      "pull_request": {
+        "merged_at": null
+      },
+      "state": "closed",
+      "title": "feat(006): 夜间呼吸引导 + 白噪音 + 夜间入口",
+      "updated_at": "2026-11-13T09:12:44Z"
+    },
+    {
+      "html_url": "https://github.com/yhyu13/PullYourselfUpApp/pull/207",
+      "number": 207,
+      "pull_request": {
+        "merged_at": "2026-11-13T09:12:42Z"
+      },
+      "state": "closed",
+      "title": "feat(006): 夜间呼吸引导 + 白噪音 + 夜间入口（替代 #200）",
+      "updated_at": "2026-11-13T09:12:42Z"
+    },
+    {
+      "html_url": "https://github.com/yhyu13/PullYourselfUpApp/pull/199",
+      "number": 199,
+      "pull_request": {
+        "merged_at": null
+      },
+      "state": "closed",
+      "title": "feat(006): 夜间计划与呼吸事件（服务端）",
+      "updated_at": "2026-11-13T09:10:34Z"
+    },
+    {
+      "html_url": "https://github.com/yhyu13/PullYourselfUpApp/pull/206",
+      "number": 206,
+      "pull_request": {
+        "merged_at": "2026-11-13T09:10:32Z"
+      },
+      "state": "closed",
+      "title": "feat(006): 夜间计划与呼吸事件（服务端，替代 #199）",
+      "updated_at": "2026-11-13T09:10:33Z"
     },
     {
       "html_url": "https://github.com/yhyu13/wuxia-town/pull/7",
       "number": 7,
+      "pull_request": {
+        "merged_at": null
+      },
+      "state": "open",
       "title": "docs(prd-roi): 5-day plan + 24x7 model + Agent ROI measurement matrix",
-      "state": "open",
-      "updated_at": "2026-11-12T14:21:39Z",
-      "pull_request": {
-        "merged_at": null
-      }
+      "updated_at": "2026-11-13T05:26:59Z"
     },
     {
-      "html_url": "https://github.com/ailiaixue/pbl/pull/204",
+      "html_url": "https://github.com/yhyu13/PullYourselfUpApp/pull/204",
       "number": 204,
-      "title": "feat(public): 三处页脚挂上 ICP 备案信息（沪ICP备2026006879号）",
-      "state": "open",
-      "updated_at": "2026-11-12T14:19:07Z",
       "pull_request": {
-        "merged_at": null
-      }
+        "merged_at": "2026-11-13T05:24:11Z"
+      },
+      "state": "closed",
+      "title": "docs(spec): L3 夜间缺口与排期 v1（四件齐了才算 MVP 完整 + 7 天循环提案）",
+      "updated_at": "2026-11-13T05:24:11Z"
     },
     {
-      "html_url": "https://github.com/ailiaixue/pbl/pull/209",
-      "number": 209,
-      "title": "feat(safety): AI 聊天会话归属/求助信号/额度原子占额/请求幂等 + 会话空闲超时（E01-E04）",
-      "state": "closed",
-      "updated_at": "2026-11-12T13:58:25Z",
+      "html_url": "https://github.com/yhyu13/PullYourselfUpApp/pull/202",
+      "number": 202,
       "pull_request": {
-        "merged_at": null
-      }
+        "merged_at": "2026-11-13T05:03:39Z"
+      },
+      "state": "closed",
+      "title": "docs(spec): 内容库 spec（NSDR/晨间动力/AI 小结）+ NSDR 10 分钟引导稿 v1",
+      "updated_at": "2026-11-13T05:03:39Z"
     },
     {
-      "html_url": "https://github.com/ailiaixue/pbl/pull/262",
-      "number": 262,
-      "title": "fix(ci): lowgrade 装中文字体，字宽断言恢复可信（Refs #258）",
-      "state": "closed",
-      "updated_at": "2026-11-12T13:57:33Z",
+      "html_url": "https://github.com/yhyu13/PullYourselfUpApp/pull/198",
+      "number": 198,
       "pull_request": {
-        "merged_at": null
-      }
+        "merged_at": "2026-11-13T04:32:03Z"
+      },
+      "state": "closed",
+      "title": "docs(spec): L3 夜间模块 spec/plan（呼吸 · 白噪音 · 定时计划）+ PRD 增补",
+      "updated_at": "2026-11-13T04:32:03Z"
+    },
+    {
+      "html_url": "https://github.com/yhyu13/PullYourselfUpApp/pull/201",
+      "number": 201,
+      "pull_request": {
+        "merged_at": "2026-11-13T04:21:27Z"
+      },
+      "state": "closed",
+      "title": "fix(test): 夹具把引导标记成已完成，恢复 npm test / test:render 全绿",
+      "updated_at": "2026-11-13T04:21:27Z"
+    },
+    {
+      "html_url": "https://github.com/yhyu13/yhyu13.github.io/pull/25",
+      "number": 25,
+      "pull_request": {
+        "merged_at": "2026-11-12T15:10:04Z"
+      },
+      "state": "closed",
+      "title": "feat(craft): host StudentSim and the wuxia demo as self-hosted works",
+      "updated_at": "2026-11-12T15:10:04Z"
+    },
+    {
+      "html_url": "https://github.com/yhyu13/PullYourselfUpApp/pull/195",
+      "number": 195,
+      "pull_request": {
+        "merged_at": "2026-11-12T14:57:46Z"
+      },
+      "state": "closed",
+      "title": "docs(research): 竞品定位为 NOW 冥想 —— 官方事实 + 强制付费投诉证据",
+      "updated_at": "2026-11-12T14:57:47Z"
     },
     {
       "html_url": "https://github.com/yhyu13/PullYourselfUpApp/pull/194",
       "number": 194,
+      "pull_request": {
+        "merged_at": "2026-11-12T14:46:09Z"
+      },
+      "state": "closed",
       "title": "feat(005): 三问引导 + 每题回执 + 可验证承诺区",
-      "state": "open",
-      "updated_at": "2026-11-12T10:59:33Z",
+      "updated_at": "2026-11-12T14:46:09Z"
+    },
+    {
+      "html_url": "https://github.com/yhyu13/yhyu13.github.io/pull/24",
+      "number": 24,
+      "pull_request": {
+        "merged_at": "2026-11-12T14:39:02Z"
+      },
+      "state": "closed",
+      "title": "fix(decks): stop asserting a disputed guest name on the Huberman deck",
+      "updated_at": "2026-11-12T14:39:02Z"
+    },
+    {
+      "html_url": "https://github.com/yhyu13/AgentSkillsVault/pull/30",
+      "number": 30,
+      "pull_request": {
+        "merged_at": "2026-11-12T14:38:45Z"
+      },
+      "state": "closed",
+      "title": "feat(skills): multi-agent-repo-governance v1.2.0 — the seven gate self-blocking traps",
+      "updated_at": "2026-11-12T14:38:47Z"
+    },
+    {
+      "html_url": "https://github.com/yhyu13/PullYourselfUpApp/pull/193",
+      "number": 193,
+      "pull_request": {
+        "merged_at": "2026-11-12T14:35:43Z"
+      },
+      "state": "closed",
+      "title": "feat(005): profiles 表与三接口 + 四支开场台词",
+      "updated_at": "2026-11-12T14:35:43Z"
+    },
+    {
+      "html_url": "https://github.com/yhyu13/yhyu13.github.io/pull/23",
+      "number": 23,
+      "pull_request": {
+        "merged_at": "2026-11-12T14:35:21Z"
+      },
+      "state": "closed",
+      "title": "feat(decks): add seven video slides and two release-hosted cuts",
+      "updated_at": "2026-11-12T14:35:21Z"
+    },
+    {
+      "html_url": "https://github.com/yhyu13/AgentSkillsVault/pull/29",
+      "number": 29,
+      "pull_request": {
+        "merged_at": "2026-11-12T14:30:36Z"
+      },
+      "state": "closed",
+      "title": "feat(skills): 从 个人成长 产物装 7 个 skill（含父/子引用自包含修复）",
+      "updated_at": "2026-11-12T14:30:36Z"
+    },
+    {
+      "html_url": "https://github.com/ailiaixue/pbl/pull/204",
+      "number": 204,
       "pull_request": {
         "merged_at": null
-      }
+      },
+      "state": "open",
+      "title": "feat(public): 三处页脚挂上 ICP 备案信息（沪ICP备2026006879号）",
+      "updated_at": "2026-11-12T14:19:07Z"
+    },
+    {
+      "html_url": "https://github.com/ailiaixue/pbl/pull/209",
+      "number": 209,
+      "pull_request": {
+        "merged_at": null
+      },
+      "state": "closed",
+      "title": "feat(safety): AI 聊天会话归属/求助信号/额度原子占额/请求幂等 + 会话空闲超时（E01-E04）",
+      "updated_at": "2026-11-12T13:58:25Z"
+    },
+    {
+      "html_url": "https://github.com/ailiaixue/pbl/pull/262",
+      "number": 262,
+      "pull_request": {
+        "merged_at": null
+      },
+      "state": "closed",
+      "title": "fix(ci): lowgrade 装中文字体，字宽断言恢复可信（Refs #258）",
+      "updated_at": "2026-11-12T13:57:33Z"
     },
     {
       "html_url": "https://github.com/yhyu13/PullYourselfUpApp/pull/192",
       "number": 192,
-      "title": "docs(spec): 竞品引导层调研 + 005 引导层 spec/plan + PRD 增补",
-      "state": "closed",
-      "updated_at": "2026-11-12T10:31:03Z",
       "pull_request": {
         "merged_at": "2026-11-12T10:31:03Z"
-      }
+      },
+      "state": "closed",
+      "title": "docs(spec): 竞品引导层调研 + 005 引导层 spec/plan + PRD 增补",
+      "updated_at": "2026-11-12T10:31:03Z"
     },
     {
       "html_url": "https://github.com/yhyu13/wuxia-town/pull/14",
       "number": 14,
-      "title": "fix(visible): night lanterns, open south gate, hero follows patches",
-      "state": "closed",
-      "updated_at": "2026-11-12T03:55:14Z",
       "pull_request": {
         "merged_at": "2026-11-12T03:55:14Z"
-      }
+      },
+      "state": "closed",
+      "title": "fix(visible): night lanterns, open south gate, hero follows patches",
+      "updated_at": "2026-11-12T03:55:14Z"
     },
     {
       "html_url": "https://github.com/yhyu13/wuxia-town/pull/11",
@@ -403,26 +1913,6 @@
       }
     },
     {
-      "html_url": "https://github.com/yhyu13/Hackthon_Aholo_20261107/pull/130",
-      "number": 130,
-      "title": "spec(spec-008): 建立灰仓 07 号收口规格与清理任务",
-      "state": "open",
-      "updated_at": "2026-11-10T06:05:56Z",
-      "pull_request": {
-        "merged_at": null
-      }
-    },
-    {
-      "html_url": "https://github.com/yhyu13/Hackthon_Aholo_20261107/pull/131",
-      "number": 131,
-      "title": "docs(docs-008): 收口现行文档与历史规格引用",
-      "state": "open",
-      "updated_at": "2026-11-10T04:48:53Z",
-      "pull_request": {
-        "merged_at": null
-      }
-    },
-    {
       "html_url": "https://github.com/yhyu13/DreamWeaverOPC1/pull/186",
       "number": 186,
       "title": "[需人合并] fix(browser): 响应式工具页与真实浏览器验收",
@@ -430,16 +1920,6 @@
       "updated_at": "2026-11-10T04:10:35Z",
       "pull_request": {
         "merged_at": "2026-11-10T04:10:32Z"
-      }
-    },
-    {
-      "html_url": "https://github.com/yhyu13/Hackthon_Aholo_20261107/pull/129",
-      "number": 129,
-      "title": "chore(scope-008): 修订宪法适用范围至灰仓 07 号收口",
-      "state": "open",
-      "updated_at": "2026-11-10T03:28:23Z",
-      "pull_request": {
-        "merged_at": null
       }
     },
     {
@@ -570,16 +2050,6 @@
       "updated_at": "2026-11-09T12:33:58Z",
       "pull_request": {
         "merged_at": "2026-11-09T12:33:55Z"
-      }
-    },
-    {
-      "html_url": "https://github.com/yhyu13/PullYourselfUpApp/pull/170",
-      "number": 170,
-      "title": "docs(marketing): L1→L2 对外物料（海报/口播PPT/分镜）",
-      "state": "open",
-      "updated_at": "2026-11-09T12:13:11Z",
-      "pull_request": {
-        "merged_at": null
       }
     },
     {
