@@ -1,7 +1,197 @@
 {
-  "total_count": 220,
+  "total_count": 239,
   "incomplete_results": false,
   "items": [
+    {
+      "html_url": "https://github.com/ailiaixue/pbl/pull/297",
+      "number": 297,
+      "title": "docs(weekly): 修订第二期周报 (Refs #291)",
+      "state": "closed",
+      "updated_at": "2026-11-15T15:07:36Z",
+      "pull_request": {
+        "merged_at": "2026-11-15T15:07:35Z"
+      }
+    },
+    {
+      "html_url": "https://github.com/yhyu13/PullYourselfUpApp/pull/254",
+      "number": 254,
+      "title": "feat(app): 作者卡加公众号二维码（在个人码下面，缺失降级）",
+      "state": "closed",
+      "updated_at": "2026-11-15T14:36:33Z",
+      "pull_request": {
+        "merged_at": "2026-11-15T14:36:33Z"
+      }
+    },
+    {
+      "html_url": "https://github.com/yhyu13/AgentSkillsVault/pull/45",
+      "number": 45,
+      "title": "feat(gate): 修 pycache 噪声 / 空 submodule 丢失 / 治理文档口径（red）",
+      "state": "open",
+      "updated_at": "2026-11-15T14:33:06Z",
+      "pull_request": {
+        "merged_at": null
+      }
+    },
+    {
+      "html_url": "https://github.com/yhyu13/AgentSkillsVault/pull/44",
+      "number": 44,
+      "title": "feat(scripts): 落地 skill lockfile / store 审计 / marketplace",
+      "state": "open",
+      "updated_at": "2026-11-15T14:29:06Z",
+      "pull_request": {
+        "merged_at": null
+      }
+    },
+    {
+      "html_url": "https://github.com/ailiaixue/pbl/pull/296",
+      "number": 296,
+      "title": "docs(weekly): 第二期周报 PDF (Refs #291)",
+      "state": "closed",
+      "updated_at": "2026-11-15T14:28:48Z",
+      "pull_request": {
+        "merged_at": "2026-11-15T14:28:47Z"
+      }
+    },
+    {
+      "html_url": "https://github.com/yhyu13/AgentSkillsVault/pull/43",
+      "number": 43,
+      "title": "feat(skills): 装 agent-eval-loop（tier0, 9.70）+ examples/ 不再被当成独立 skill",
+      "state": "closed",
+      "updated_at": "2026-11-15T14:27:14Z",
+      "pull_request": {
+        "merged_at": "2026-11-15T14:27:13Z"
+      }
+    },
+    {
+      "html_url": "https://github.com/yhyu13/PullYourselfUpApp/pull/252",
+      "number": 252,
+      "title": "fix(app): 作者卡占位块被 display:flex 盖掉 [hidden]（图片正常时仍挂虚线框）",
+      "state": "closed",
+      "updated_at": "2026-11-15T14:25:31Z",
+      "pull_request": {
+        "merged_at": "2026-11-15T14:25:31Z"
+      }
+    },
+    {
+      "html_url": "https://github.com/yhyu13/PullYourselfUpApp/pull/250",
+      "number": 250,
+      "title": "fix(deploy): cron 里的 node 命令加载 .env（webhook 在 cron 里读不到）",
+      "state": "closed",
+      "updated_at": "2026-11-15T14:13:23Z",
+      "pull_request": {
+        "merged_at": "2026-11-15T14:13:23Z"
+      }
+    },
+    {
+      "html_url": "https://github.com/ailiaixue/pbl/pull/295",
+      "number": 295,
+      "title": "feat(qa): 扫码、对话、TTS、PC 语音链路检查 (Refs #277)",
+      "state": "closed",
+      "updated_at": "2026-11-15T09:11:50Z",
+      "pull_request": {
+        "merged_at": "2026-11-15T09:11:50Z"
+      }
+    },
+    {
+      "html_url": "https://github.com/yhyu13/AgentSkillsVault/pull/42",
+      "number": 42,
+      "title": "feat(radar): install-integrity probe — store 看得见吗 / 出手机检吗",
+      "state": "open",
+      "updated_at": "2026-11-15T09:07:52Z",
+      "pull_request": {
+        "merged_at": null
+      }
+    },
+    {
+      "html_url": "https://github.com/yhyu13/PullYourselfUpApp/pull/248",
+      "number": 248,
+      "title": "feat(report): 07:00 晨报 + 周一周报（增长/访问/使用/成本/质量）",
+      "state": "closed",
+      "updated_at": "2026-11-15T09:02:28Z",
+      "pull_request": {
+        "merged_at": "2026-11-15T09:02:28Z"
+      }
+    },
+    {
+      "html_url": "https://github.com/yhyu13/PullYourselfUpApp/pull/246",
+      "number": 246,
+      "title": "feat(prompt): 教练口吻重写——更短、更 caring、去掉模板腔",
+      "state": "closed",
+      "updated_at": "2026-11-15T08:36:05Z",
+      "pull_request": {
+        "merged_at": "2026-11-15T08:36:04Z"
+      }
+    },
+    {
+      "html_url": "https://github.com/yhyu13/PullYourselfUpApp/pull/244",
+      "number": 244,
+      "title": "feat(llm+deploy): deepseek-flash 关思考 + test/dev 访问密钥门 + 生产→测试数据倒灌",
+      "state": "closed",
+      "updated_at": "2026-11-15T08:27:00Z",
+      "pull_request": {
+        "merged_at": "2026-11-15T08:27:00Z"
+      }
+    },
+    {
+      "html_url": "https://github.com/yhyu13/PullYourselfUpApp/pull/240",
+      "number": 240,
+      "title": "fix(deploy): fail2ban jail 行尾注释导致服务 exit 255（安全防护实际未生效）",
+      "state": "closed",
+      "updated_at": "2026-11-15T07:41:11Z",
+      "pull_request": {
+        "merged_at": "2026-11-15T07:41:11Z"
+      }
+    },
+    {
+      "html_url": "https://github.com/yhyu13/PullYourselfUpApp/pull/238",
+      "number": 238,
+      "title": "fix(deploy): root 读仓库要 safe.directory + 把 deploy key 交给服务用户",
+      "state": "closed",
+      "updated_at": "2026-11-15T07:34:43Z",
+      "pull_request": {
+        "merged_at": "2026-11-15T07:34:43Z"
+      }
+    },
+    {
+      "html_url": "https://github.com/yhyu13/PullYourselfUpApp/pull/236",
+      "number": 236,
+      "title": "fix(deploy): useradd 把部署目录写满导致 clone 被静默跳过 + 克隆前预检仓库可达性",
+      "state": "closed",
+      "updated_at": "2026-11-15T07:16:04Z",
+      "pull_request": {
+        "merged_at": "2026-11-15T07:16:04Z"
+      }
+    },
+    {
+      "html_url": "https://github.com/yhyu13/PullYourselfUpApp/pull/234",
+      "number": 234,
+      "title": "fix(deploy): .env 模板把 PORT 写成字面量，服务启动即 ERR_SOCKET_BAD_PORT",
+      "state": "closed",
+      "updated_at": "2026-11-15T07:01:36Z",
+      "pull_request": {
+        "merged_at": "2026-11-15T07:01:35Z"
+      }
+    },
+    {
+      "html_url": "https://github.com/yhyu13/yhyu13.github.io/pull/26",
+      "number": 26,
+      "title": "feat(identity): show the four personal photos and the official accoun…",
+      "state": "closed",
+      "updated_at": "2026-11-15T06:58:15Z",
+      "pull_request": {
+        "merged_at": "2026-11-15T06:58:15Z"
+      }
+    },
+    {
+      "html_url": "https://github.com/yhyu13/PullYourselfUpApp/pull/232",
+      "number": 232,
+      "title": "feat(deploy): setup/update 参数化支持同机三环境（prod/test/dev）+ 配置断言",
+      "state": "closed",
+      "updated_at": "2026-11-15T06:25:59Z",
+      "pull_request": {
+        "merged_at": "2026-11-15T06:19:42Z"
+      }
+    },
     {
       "html_url": "https://github.com/ailiaixue/pbl/pull/289",
       "number": 289,

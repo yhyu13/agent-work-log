@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-14T08:15:17+00:00",
+  "updatedAt": "2026-11-15T15:31:20+00:00",
   "repo": "yhyu13/agent-work-log",
   "pagesUrl": "https://yhyu13.github.io/agent-work-log/",
   "coverageNote": "每日记录从任务建立日 2026-11-10（上海时间）起。当日 MR 是 yhyu13 名下公开 PR 里、最近一次更新落在这一天的条目，不是本任务单独产生，也不会在每一天重复。早于任务建立的条目只在总表。候选经验不是已批准规则。",
@@ -23,7 +23,7 @@
           "evidence": "本地 build 通过；schema/CLI 43 pass；浏览器 100 passed；首页 entry 294.52 kB，低于 300 kB 预算。"
         }
       ],
-      "recordUpdatedAt": "2026-11-14T08:15:17+00:00",
+      "recordUpdatedAt": "2026-11-15T15:31:20+00:00",
       "mrs": [
         {
           "repo": "yhyu13/DreamWeaverOPC1",
@@ -204,7 +204,7 @@
           "evidence": "当时页面 HTTP 200。那份 25 条 PR 是旧快照，这一次已换成更大范围的新快照。"
         }
       ],
-      "recordUpdatedAt": "2026-11-14T08:15:17+00:00",
+      "recordUpdatedAt": "2026-11-15T15:31:20+00:00",
       "mrs": [
         {
           "repo": "ailiaixue/pbl",
@@ -370,7 +370,7 @@
           "evidence": "本机 CLI 与 sqlite。公开库仍是只读投影。"
         }
       ],
-      "recordUpdatedAt": "2026-11-14T08:15:17+00:00",
+      "recordUpdatedAt": "2026-11-15T15:31:20+00:00",
       "mrs": [
         {
           "repo": "yhyu13/yhyu13.github.io",
@@ -521,7 +521,7 @@
           "evidence": "该任务会话在这次补记之前没有新的用户消息。"
         }
       ],
-      "recordUpdatedAt": "2026-11-14T08:15:17+00:00",
+      "recordUpdatedAt": "2026-11-15T15:31:20+00:00",
       "mrs": [
         {
           "repo": "yhyu13/wuxia-town",
@@ -975,7 +975,7 @@
           "evidence": "本机 memory.py 已有 search 和 inject。inject 在没有已批准经验时返回空。"
         }
       ],
-      "recordUpdatedAt": "2026-11-14T08:15:17+00:00",
+      "recordUpdatedAt": "2026-11-15T15:31:20+00:00",
       "mrs": [
         {
           "repo": "ailiaixue/pbl",
@@ -1896,9 +1896,373 @@
           "merged_at": "2026-11-13T16:23:14Z"
         }
       ]
+    },
+    {
+      "date": "2026-11-15",
+      "window": "2026-11-15 00:00 → 2026-11-15 23:30（上海时间）",
+      "summary": "这一天由定时任务在 23:30（上海时间）收口，没有新的人工对话。公开 PR 快照新增 19 条最近一次更新落在今天的条目；记忆库今天没有新写入，但上一版页面生成于 11 月 14 日 16:15，之后补记的 5 条候选经验会在这一版首次带出。",
+      "items": [
+        {
+          "repo": "yhyu13/agent-work-log",
+          "work": "用公开 GitHub 搜索刷新 author:yhyu13 的 PR，区间是 2026-11-14T16:00:00Z 到 2026-11-15T15:59:59Z，返回 19 条且未标 incomplete；按链接并入快照后条目数从 220 涨到 239。同时补记当天记录并重建公开投影。",
+          "status": "本次发布。个人主页仓库没有改，.github/workflows 没有提交。",
+          "evidence": "发布后以线上 latest.json 的 updatedAt、天数和 PR 数为准。"
+        },
+        {
+          "repo": "UnifiedAgentMemory",
+          "work": "记忆库今天没有新写入，最后修改停在 2026-11-14 16:54（上海时间），库里是 15 条候选经验。上一版公开页生成于 16:15，所以 11 月 14 日 16:28 之后补记的 5 条会在这一版首次出现：公开日更补记、MR 归日、skill 与 inject 的边界、inject 过期过滤、lessons 导出。",
+          "status": "15 条全部是 candidate。这一轮没有批准任何经验，也没有新建 MCP 或 skill。",
+          "evidence": "本机 sqlite 的 lessons 计数与状态分组；公开库条目数应与新版 latest.json 一致。"
+        }
+      ],
+      "recordUpdatedAt": "2026-11-15T15:31:20+00:00",
+      "mrs": [
+        {
+          "repo": "ailiaixue/pbl",
+          "number": 297,
+          "title": "docs(weekly): 修订第二期周报 (Refs #291)",
+          "state": "merged",
+          "url": "https://github.com/ailiaixue/pbl/pull/297",
+          "updated_at": "2026-11-15T15:07:36Z",
+          "merged_at": "2026-11-15T15:07:35Z"
+        },
+        {
+          "repo": "yhyu13/PullYourselfUpApp",
+          "number": 254,
+          "title": "feat(app): 作者卡加公众号二维码（在个人码下面，缺失降级）",
+          "state": "merged",
+          "url": "https://github.com/yhyu13/PullYourselfUpApp/pull/254",
+          "updated_at": "2026-11-15T14:36:33Z",
+          "merged_at": "2026-11-15T14:36:33Z"
+        },
+        {
+          "repo": "yhyu13/AgentSkillsVault",
+          "number": 45,
+          "title": "feat(gate): 修 pycache 噪声 / 空 submodule 丢失 / 治理文档口径（red）",
+          "state": "open",
+          "url": "https://github.com/yhyu13/AgentSkillsVault/pull/45",
+          "updated_at": "2026-11-15T14:33:06Z",
+          "merged_at": null
+        },
+        {
+          "repo": "yhyu13/AgentSkillsVault",
+          "number": 44,
+          "title": "feat(scripts): 落地 skill lockfile / store 审计 / marketplace",
+          "state": "open",
+          "url": "https://github.com/yhyu13/AgentSkillsVault/pull/44",
+          "updated_at": "2026-11-15T14:29:06Z",
+          "merged_at": null
+        },
+        {
+          "repo": "ailiaixue/pbl",
+          "number": 296,
+          "title": "docs(weekly): 第二期周报 PDF (Refs #291)",
+          "state": "merged",
+          "url": "https://github.com/ailiaixue/pbl/pull/296",
+          "updated_at": "2026-11-15T14:28:48Z",
+          "merged_at": "2026-11-15T14:28:47Z"
+        },
+        {
+          "repo": "yhyu13/AgentSkillsVault",
+          "number": 43,
+          "title": "feat(skills): 装 agent-eval-loop（tier0, 9.70）+ examples/ 不再被当成独立 skill",
+          "state": "merged",
+          "url": "https://github.com/yhyu13/AgentSkillsVault/pull/43",
+          "updated_at": "2026-11-15T14:27:14Z",
+          "merged_at": "2026-11-15T14:27:13Z"
+        },
+        {
+          "repo": "yhyu13/PullYourselfUpApp",
+          "number": 252,
+          "title": "fix(app): 作者卡占位块被 display:flex 盖掉 [hidden]（图片正常时仍挂虚线框）",
+          "state": "merged",
+          "url": "https://github.com/yhyu13/PullYourselfUpApp/pull/252",
+          "updated_at": "2026-11-15T14:25:31Z",
+          "merged_at": "2026-11-15T14:25:31Z"
+        },
+        {
+          "repo": "yhyu13/PullYourselfUpApp",
+          "number": 250,
+          "title": "fix(deploy): cron 里的 node 命令加载 .env（webhook 在 cron 里读不到）",
+          "state": "merged",
+          "url": "https://github.com/yhyu13/PullYourselfUpApp/pull/250",
+          "updated_at": "2026-11-15T14:13:23Z",
+          "merged_at": "2026-11-15T14:13:23Z"
+        },
+        {
+          "repo": "ailiaixue/pbl",
+          "number": 295,
+          "title": "feat(qa): 扫码、对话、TTS、PC 语音链路检查 (Refs #277)",
+          "state": "merged",
+          "url": "https://github.com/ailiaixue/pbl/pull/295",
+          "updated_at": "2026-11-15T09:11:50Z",
+          "merged_at": "2026-11-15T09:11:50Z"
+        },
+        {
+          "repo": "yhyu13/AgentSkillsVault",
+          "number": 42,
+          "title": "feat(radar): install-integrity probe — store 看得见吗 / 出手机检吗",
+          "state": "open",
+          "url": "https://github.com/yhyu13/AgentSkillsVault/pull/42",
+          "updated_at": "2026-11-15T09:07:52Z",
+          "merged_at": null
+        },
+        {
+          "repo": "yhyu13/PullYourselfUpApp",
+          "number": 248,
+          "title": "feat(report): 07:00 晨报 + 周一周报（增长/访问/使用/成本/质量）",
+          "state": "merged",
+          "url": "https://github.com/yhyu13/PullYourselfUpApp/pull/248",
+          "updated_at": "2026-11-15T09:02:28Z",
+          "merged_at": "2026-11-15T09:02:28Z"
+        },
+        {
+          "repo": "yhyu13/PullYourselfUpApp",
+          "number": 246,
+          "title": "feat(prompt): 教练口吻重写——更短、更 caring、去掉模板腔",
+          "state": "merged",
+          "url": "https://github.com/yhyu13/PullYourselfUpApp/pull/246",
+          "updated_at": "2026-11-15T08:36:05Z",
+          "merged_at": "2026-11-15T08:36:04Z"
+        },
+        {
+          "repo": "yhyu13/PullYourselfUpApp",
+          "number": 244,
+          "title": "feat(llm+deploy): deepseek-flash 关思考 + test/dev 访问密钥门 + 生产→测试数据倒灌",
+          "state": "merged",
+          "url": "https://github.com/yhyu13/PullYourselfUpApp/pull/244",
+          "updated_at": "2026-11-15T08:27:00Z",
+          "merged_at": "2026-11-15T08:27:00Z"
+        },
+        {
+          "repo": "yhyu13/PullYourselfUpApp",
+          "number": 240,
+          "title": "fix(deploy): fail2ban jail 行尾注释导致服务 exit 255（安全防护实际未生效）",
+          "state": "merged",
+          "url": "https://github.com/yhyu13/PullYourselfUpApp/pull/240",
+          "updated_at": "2026-11-15T07:41:11Z",
+          "merged_at": "2026-11-15T07:41:11Z"
+        },
+        {
+          "repo": "yhyu13/PullYourselfUpApp",
+          "number": 238,
+          "title": "fix(deploy): root 读仓库要 safe.directory + 把 deploy key 交给服务用户",
+          "state": "merged",
+          "url": "https://github.com/yhyu13/PullYourselfUpApp/pull/238",
+          "updated_at": "2026-11-15T07:34:43Z",
+          "merged_at": "2026-11-15T07:34:43Z"
+        },
+        {
+          "repo": "yhyu13/PullYourselfUpApp",
+          "number": 236,
+          "title": "fix(deploy): useradd 把部署目录写满导致 clone 被静默跳过 + 克隆前预检仓库可达性",
+          "state": "merged",
+          "url": "https://github.com/yhyu13/PullYourselfUpApp/pull/236",
+          "updated_at": "2026-11-15T07:16:04Z",
+          "merged_at": "2026-11-15T07:16:04Z"
+        },
+        {
+          "repo": "yhyu13/PullYourselfUpApp",
+          "number": 234,
+          "title": "fix(deploy): .env 模板把 PORT 写成字面量，服务启动即 ERR_SOCKET_BAD_PORT",
+          "state": "merged",
+          "url": "https://github.com/yhyu13/PullYourselfUpApp/pull/234",
+          "updated_at": "2026-11-15T07:01:36Z",
+          "merged_at": "2026-11-15T07:01:35Z"
+        },
+        {
+          "repo": "yhyu13/yhyu13.github.io",
+          "number": 26,
+          "title": "feat(identity): show the four personal photos and the official accoun…",
+          "state": "merged",
+          "url": "https://github.com/yhyu13/yhyu13.github.io/pull/26",
+          "updated_at": "2026-11-15T06:58:15Z",
+          "merged_at": "2026-11-15T06:58:15Z"
+        },
+        {
+          "repo": "yhyu13/PullYourselfUpApp",
+          "number": 232,
+          "title": "feat(deploy): setup/update 参数化支持同机三环境（prod/test/dev）+ 配置断言",
+          "state": "merged",
+          "url": "https://github.com/yhyu13/PullYourselfUpApp/pull/232",
+          "updated_at": "2026-11-15T06:25:59Z",
+          "merged_at": "2026-11-15T06:19:42Z"
+        }
+      ]
     }
   ],
   "mrs": [
+    {
+      "repo": "ailiaixue/pbl",
+      "number": 297,
+      "title": "docs(weekly): 修订第二期周报 (Refs #291)",
+      "state": "merged",
+      "url": "https://github.com/ailiaixue/pbl/pull/297",
+      "updated_at": "2026-11-15T15:07:36Z",
+      "merged_at": "2026-11-15T15:07:35Z"
+    },
+    {
+      "repo": "yhyu13/PullYourselfUpApp",
+      "number": 254,
+      "title": "feat(app): 作者卡加公众号二维码（在个人码下面，缺失降级）",
+      "state": "merged",
+      "url": "https://github.com/yhyu13/PullYourselfUpApp/pull/254",
+      "updated_at": "2026-11-15T14:36:33Z",
+      "merged_at": "2026-11-15T14:36:33Z"
+    },
+    {
+      "repo": "yhyu13/AgentSkillsVault",
+      "number": 45,
+      "title": "feat(gate): 修 pycache 噪声 / 空 submodule 丢失 / 治理文档口径（red）",
+      "state": "open",
+      "url": "https://github.com/yhyu13/AgentSkillsVault/pull/45",
+      "updated_at": "2026-11-15T14:33:06Z",
+      "merged_at": null
+    },
+    {
+      "repo": "yhyu13/AgentSkillsVault",
+      "number": 44,
+      "title": "feat(scripts): 落地 skill lockfile / store 审计 / marketplace",
+      "state": "open",
+      "url": "https://github.com/yhyu13/AgentSkillsVault/pull/44",
+      "updated_at": "2026-11-15T14:29:06Z",
+      "merged_at": null
+    },
+    {
+      "repo": "ailiaixue/pbl",
+      "number": 296,
+      "title": "docs(weekly): 第二期周报 PDF (Refs #291)",
+      "state": "merged",
+      "url": "https://github.com/ailiaixue/pbl/pull/296",
+      "updated_at": "2026-11-15T14:28:48Z",
+      "merged_at": "2026-11-15T14:28:47Z"
+    },
+    {
+      "repo": "yhyu13/AgentSkillsVault",
+      "number": 43,
+      "title": "feat(skills): 装 agent-eval-loop（tier0, 9.70）+ examples/ 不再被当成独立 skill",
+      "state": "merged",
+      "url": "https://github.com/yhyu13/AgentSkillsVault/pull/43",
+      "updated_at": "2026-11-15T14:27:14Z",
+      "merged_at": "2026-11-15T14:27:13Z"
+    },
+    {
+      "repo": "yhyu13/PullYourselfUpApp",
+      "number": 252,
+      "title": "fix(app): 作者卡占位块被 display:flex 盖掉 [hidden]（图片正常时仍挂虚线框）",
+      "state": "merged",
+      "url": "https://github.com/yhyu13/PullYourselfUpApp/pull/252",
+      "updated_at": "2026-11-15T14:25:31Z",
+      "merged_at": "2026-11-15T14:25:31Z"
+    },
+    {
+      "repo": "yhyu13/PullYourselfUpApp",
+      "number": 250,
+      "title": "fix(deploy): cron 里的 node 命令加载 .env（webhook 在 cron 里读不到）",
+      "state": "merged",
+      "url": "https://github.com/yhyu13/PullYourselfUpApp/pull/250",
+      "updated_at": "2026-11-15T14:13:23Z",
+      "merged_at": "2026-11-15T14:13:23Z"
+    },
+    {
+      "repo": "ailiaixue/pbl",
+      "number": 295,
+      "title": "feat(qa): 扫码、对话、TTS、PC 语音链路检查 (Refs #277)",
+      "state": "merged",
+      "url": "https://github.com/ailiaixue/pbl/pull/295",
+      "updated_at": "2026-11-15T09:11:50Z",
+      "merged_at": "2026-11-15T09:11:50Z"
+    },
+    {
+      "repo": "yhyu13/AgentSkillsVault",
+      "number": 42,
+      "title": "feat(radar): install-integrity probe — store 看得见吗 / 出手机检吗",
+      "state": "open",
+      "url": "https://github.com/yhyu13/AgentSkillsVault/pull/42",
+      "updated_at": "2026-11-15T09:07:52Z",
+      "merged_at": null
+    },
+    {
+      "repo": "yhyu13/PullYourselfUpApp",
+      "number": 248,
+      "title": "feat(report): 07:00 晨报 + 周一周报（增长/访问/使用/成本/质量）",
+      "state": "merged",
+      "url": "https://github.com/yhyu13/PullYourselfUpApp/pull/248",
+      "updated_at": "2026-11-15T09:02:28Z",
+      "merged_at": "2026-11-15T09:02:28Z"
+    },
+    {
+      "repo": "yhyu13/PullYourselfUpApp",
+      "number": 246,
+      "title": "feat(prompt): 教练口吻重写——更短、更 caring、去掉模板腔",
+      "state": "merged",
+      "url": "https://github.com/yhyu13/PullYourselfUpApp/pull/246",
+      "updated_at": "2026-11-15T08:36:05Z",
+      "merged_at": "2026-11-15T08:36:04Z"
+    },
+    {
+      "repo": "yhyu13/PullYourselfUpApp",
+      "number": 244,
+      "title": "feat(llm+deploy): deepseek-flash 关思考 + test/dev 访问密钥门 + 生产→测试数据倒灌",
+      "state": "merged",
+      "url": "https://github.com/yhyu13/PullYourselfUpApp/pull/244",
+      "updated_at": "2026-11-15T08:27:00Z",
+      "merged_at": "2026-11-15T08:27:00Z"
+    },
+    {
+      "repo": "yhyu13/PullYourselfUpApp",
+      "number": 240,
+      "title": "fix(deploy): fail2ban jail 行尾注释导致服务 exit 255（安全防护实际未生效）",
+      "state": "merged",
+      "url": "https://github.com/yhyu13/PullYourselfUpApp/pull/240",
+      "updated_at": "2026-11-15T07:41:11Z",
+      "merged_at": "2026-11-15T07:41:11Z"
+    },
+    {
+      "repo": "yhyu13/PullYourselfUpApp",
+      "number": 238,
+      "title": "fix(deploy): root 读仓库要 safe.directory + 把 deploy key 交给服务用户",
+      "state": "merged",
+      "url": "https://github.com/yhyu13/PullYourselfUpApp/pull/238",
+      "updated_at": "2026-11-15T07:34:43Z",
+      "merged_at": "2026-11-15T07:34:43Z"
+    },
+    {
+      "repo": "yhyu13/PullYourselfUpApp",
+      "number": 236,
+      "title": "fix(deploy): useradd 把部署目录写满导致 clone 被静默跳过 + 克隆前预检仓库可达性",
+      "state": "merged",
+      "url": "https://github.com/yhyu13/PullYourselfUpApp/pull/236",
+      "updated_at": "2026-11-15T07:16:04Z",
+      "merged_at": "2026-11-15T07:16:04Z"
+    },
+    {
+      "repo": "yhyu13/PullYourselfUpApp",
+      "number": 234,
+      "title": "fix(deploy): .env 模板把 PORT 写成字面量，服务启动即 ERR_SOCKET_BAD_PORT",
+      "state": "merged",
+      "url": "https://github.com/yhyu13/PullYourselfUpApp/pull/234",
+      "updated_at": "2026-11-15T07:01:36Z",
+      "merged_at": "2026-11-15T07:01:35Z"
+    },
+    {
+      "repo": "yhyu13/yhyu13.github.io",
+      "number": 26,
+      "title": "feat(identity): show the four personal photos and the official accoun…",
+      "state": "merged",
+      "url": "https://github.com/yhyu13/yhyu13.github.io/pull/26",
+      "updated_at": "2026-11-15T06:58:15Z",
+      "merged_at": "2026-11-15T06:58:15Z"
+    },
+    {
+      "repo": "yhyu13/PullYourselfUpApp",
+      "number": 232,
+      "title": "feat(deploy): setup/update 参数化支持同机三环境（prod/test/dev）+ 配置断言",
+      "state": "merged",
+      "url": "https://github.com/yhyu13/PullYourselfUpApp/pull/232",
+      "updated_at": "2026-11-15T06:25:59Z",
+      "merged_at": "2026-11-15T06:19:42Z"
+    },
     {
       "repo": "ailiaixue/pbl",
       "number": 289,
@@ -4020,6 +4384,76 @@
       "source_type": "task digest/code",
       "source_ref": "homepage PR #22 / Agent Lab build 294.52kB",
       "tags": "pages,media,performance,schema"
+    },
+    {
+      "id": "M-0011",
+      "title": "公开日更不会自己续上",
+      "repo": "agent-work-log",
+      "problem": "11 月 12 日发布后，13 日没有新任务，14 日核对时页面仍停在 12 日的快照。",
+      "lesson": "公开日更要显式补记。没有新工作也要写明当天无更新，并带上记录更新时间。上一天的快照不能代表之后的日子。",
+      "conditions": "有按天发布的公开工作日志时。",
+      "counterexamples": "一次性静态页不需要按日补记。",
+      "status": "candidate",
+      "confidence": "inferred",
+      "source_type": "task",
+      "source_ref": "2026-11-12 至 2026-11-14 公开工作日志补记",
+      "tags": "log,freshness,publication"
+    },
+    {
+      "id": "M-0012",
+      "title": "同一条 MR 只记在最近一次更新日",
+      "repo": "agent-work-log",
+      "problem": "按 updated_at 重新归日后，10 日至 12 日的 MR 条数变少，容易看成记录丢失。",
+      "lesson": "快照按最近一次更新归日时，一条 PR 只出现在最新那天。条数变化要说明是归日方式改变，不是工作被删。早于任务建立的条目只留在总表。",
+      "conditions": "公开 PR 列表保存的是当前状态而不是每次更新的事件流水。",
+      "counterexamples": "若保存的是事件流水，每次更新应各记一笔。",
+      "status": "candidate",
+      "confidence": "inferred",
+      "source_type": "task",
+      "source_ref": "2026-11-14 PR 快照刷新",
+      "tags": "mr,snapshot,counting"
+    },
+    {
+      "id": "M-0013",
+      "title": "skill 只规定何时查，不保存记忆",
+      "repo": "cross-repo",
+      "problem": "让 Agent 使用记忆库时，容易把公开网站或 candidate 经验当成可注入规则。",
+      "lesson": "本机 skill 只调用本机 inject。只使用 approved 或 adopted 且未过期的条目。公开网站是给人看的投影。没有已批准条目时返回空是正确结果，不能改去读网站或把 candidate 当规则。",
+      "conditions": "Agent 需要在下一轮任务中回注跨 repo 经验时。",
+      "counterexamples": "只读查看候选可以用 search，但查看结果不能注入。",
+      "status": "candidate",
+      "confidence": "inferred",
+      "source_type": "task",
+      "source_ref": "2026-11-14 本机 unified-memory skill",
+      "tags": "skill,inject,boundary"
+    },
+    {
+      "id": "M-0014",
+      "title": "回注规则要由命令强制执行",
+      "repo": "UnifiedAgentMemory",
+      "problem": "说明里写了只用未过期经验，但 inject 原先不检查 expires_at。",
+      "lesson": "Agent 实际调用的命令必须自己过滤状态和过期时间。改完后要用已批准未过期、已批准已过期、未批准三类样本验证，不能只改说明。",
+      "conditions": "记忆回注有命令行或工具入口时。",
+      "counterexamples": "纯给人阅读、没有命令声称已执行的笔记，可以只写规则。",
+      "status": "candidate",
+      "confidence": "inferred",
+      "source_type": "code",
+      "source_ref": "2026-11-14 inject 过期过滤",
+      "tags": "inject,expiry,verification"
+    },
+    {
+      "id": "M-0015",
+      "title": "写入数据库后必须导出 lessons",
+      "repo": "UnifiedAgentMemory",
+      "problem": "数据库和程序改了，lessons 目录仍停在 11 月 11 日的初次导出。",
+      "lesson": "lessons 和 index.md 不是正本，只在 export 时重写。add 写入成功后要自动导出。只改 memory.py 不会产生新的经验文件。",
+      "conditions": "同时维护 sqlite 正本和 Markdown 导出时。",
+      "counterexamples": "只有数据库、没有导出目录时不必导出。",
+      "status": "candidate",
+      "confidence": "inferred",
+      "source_type": "task",
+      "source_ref": "2026-11-14 lessons 目录未更新",
+      "tags": "export,sqlite,lessons"
     }
   ]
 }

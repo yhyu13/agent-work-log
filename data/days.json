@@ -93,5 +93,24 @@
         "evidence": "本机 memory.py 已有 search 和 inject。inject 在没有已批准经验时返回空。"
       }
     ]
+  },
+  {
+    "date": "2026-11-15",
+    "window": "2026-11-15 00:00 → 2026-11-15 23:30（上海时间）",
+    "summary": "这一天由定时任务在 23:30（上海时间）收口，没有新的人工对话。公开 PR 快照新增 19 条最近一次更新落在今天的条目；记忆库今天没有新写入，但上一版页面生成于 11 月 14 日 16:15，之后补记的 5 条候选经验会在这一版首次带出。",
+    "items": [
+      {
+        "repo": "yhyu13/agent-work-log",
+        "work": "用公开 GitHub 搜索刷新 author:yhyu13 的 PR，区间是 2026-11-14T16:00:00Z 到 2026-11-15T15:59:59Z，返回 19 条且未标 incomplete；按链接并入快照后条目数从 220 涨到 239。同时补记当天记录并重建公开投影。",
+        "status": "本次发布。个人主页仓库没有改，.github/workflows 没有提交。",
+        "evidence": "发布后以线上 latest.json 的 updatedAt、天数和 PR 数为准。"
+      },
+      {
+        "repo": "UnifiedAgentMemory",
+        "work": "记忆库今天没有新写入，最后修改停在 2026-11-14 16:54（上海时间），库里是 15 条候选经验。上一版公开页生成于 16:15，所以 11 月 14 日 16:28 之后补记的 5 条会在这一版首次出现：公开日更补记、MR 归日、skill 与 inject 的边界、inject 过期过滤、lessons 导出。",
+        "status": "15 条全部是 candidate。这一轮没有批准任何经验，也没有新建 MCP 或 skill。",
+        "evidence": "本机 sqlite 的 lessons 计数与状态分组；公开库条目数应与新版 latest.json 一致。"
+      }
+    ]
   }
 ]
