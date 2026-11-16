@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-15T15:31:20+00:00",
+  "updatedAt": "2026-11-16T15:31:14+00:00",
   "repo": "yhyu13/agent-work-log",
   "pagesUrl": "https://yhyu13.github.io/agent-work-log/",
   "coverageNote": "每日记录从任务建立日 2026-11-10（上海时间）起。当日 MR 是 yhyu13 名下公开 PR 里、最近一次更新落在这一天的条目，不是本任务单独产生，也不会在每一天重复。早于任务建立的条目只在总表。候选经验不是已批准规则。",
@@ -23,17 +23,8 @@
           "evidence": "本地 build 通过；schema/CLI 43 pass；浏览器 100 passed；首页 entry 294.52 kB，低于 300 kB 预算。"
         }
       ],
-      "recordUpdatedAt": "2026-11-15T15:31:20+00:00",
+      "recordUpdatedAt": "2026-11-16T15:31:14+00:00",
       "mrs": [
-        {
-          "repo": "yhyu13/DreamWeaverOPC1",
-          "number": 210,
-          "title": "[需人合并] docs(workflow): make human-agent delivery evidence reproducible (#209)",
-          "state": "open",
-          "url": "https://github.com/yhyu13/DreamWeaverOPC1/pull/210",
-          "updated_at": "2026-11-10T15:22:19Z",
-          "merged_at": null
-        },
         {
           "repo": "yhyu13/DreamWeaverOPC1",
           "number": 208,
@@ -105,15 +96,6 @@
           "url": "https://github.com/yhyu13/yhyu13.github.io/pull/21",
           "updated_at": "2026-11-10T06:10:20Z",
           "merged_at": "2026-11-10T06:10:20Z"
-        },
-        {
-          "repo": "yhyu13/Hackthon_Aholo_20261107",
-          "number": 132,
-          "title": "chore(retire-008): 移出旧材料并修复测试与历史引用",
-          "state": "open",
-          "url": "https://github.com/yhyu13/Hackthon_Aholo_20261107/pull/132",
-          "updated_at": "2026-11-10T06:06:07Z",
-          "merged_at": null
         },
         {
           "repo": "yhyu13/DreamWeaverOPC1",
@@ -204,7 +186,7 @@
           "evidence": "当时页面 HTTP 200。那份 25 条 PR 是旧快照，这一次已换成更大范围的新快照。"
         }
       ],
-      "recordUpdatedAt": "2026-11-15T15:31:20+00:00",
+      "recordUpdatedAt": "2026-11-16T15:31:14+00:00",
       "mrs": [
         {
           "repo": "ailiaixue/pbl",
@@ -324,15 +306,6 @@
           "merged_at": "2026-11-11T08:00:14Z"
         },
         {
-          "repo": "yhyu13/DreamWeaverOPC1",
-          "number": 212,
-          "title": "[需人合并] docs(hof): spec 004 UE5 visual upgrade (GI/models/terrain)",
-          "state": "open",
-          "url": "https://github.com/yhyu13/DreamWeaverOPC1/pull/212",
-          "updated_at": "2026-11-11T06:17:16Z",
-          "merged_at": null
-        },
-        {
           "repo": "ailiaixue/pbl",
           "number": 279,
           "title": "docs(issue): 补充 #266 修复前后对比截图证据",
@@ -370,7 +343,7 @@
           "evidence": "本机 CLI 与 sqlite。公开库仍是只读投影。"
         }
       ],
-      "recordUpdatedAt": "2026-11-15T15:31:20+00:00",
+      "recordUpdatedAt": "2026-11-16T15:31:14+00:00",
       "mrs": [
         {
           "repo": "yhyu13/yhyu13.github.io",
@@ -521,7 +494,7 @@
           "evidence": "该任务会话在这次补记之前没有新的用户消息。"
         }
       ],
-      "recordUpdatedAt": "2026-11-15T15:31:20+00:00",
+      "recordUpdatedAt": "2026-11-16T15:31:14+00:00",
       "mrs": [
         {
           "repo": "yhyu13/wuxia-town",
@@ -675,15 +648,6 @@
           "url": "https://github.com/yhyu13/PullYourselfUpApp/pull/215",
           "updated_at": "2026-11-13T11:09:03Z",
           "merged_at": "2026-11-13T11:09:03Z"
-        },
-        {
-          "repo": "yhyu13/Hackthon_Aholo_20261107",
-          "number": 134,
-          "title": "fix(gate-large-diff2): 大 diff 改走 files 接口取数并修正中文路径解析",
-          "state": "open",
-          "url": "https://github.com/yhyu13/Hackthon_Aholo_20261107/pull/134",
-          "updated_at": "2026-11-13T11:07:45Z",
-          "merged_at": null
         },
         {
           "repo": "yhyu13/PullYourselfUpApp",
@@ -975,7 +939,7 @@
           "evidence": "本机 memory.py 已有 search 和 inject。inject 在没有已批准经验时返回空。"
         }
       ],
-      "recordUpdatedAt": "2026-11-15T15:31:20+00:00",
+      "recordUpdatedAt": "2026-11-16T15:31:14+00:00",
       "mrs": [
         {
           "repo": "ailiaixue/pbl",
@@ -1915,7 +1879,7 @@
           "evidence": "本机 sqlite 的 lessons 计数与状态分组；公开库条目数应与新版 latest.json 一致。"
         }
       ],
-      "recordUpdatedAt": "2026-11-15T15:31:20+00:00",
+      "recordUpdatedAt": "2026-11-16T15:31:14+00:00",
       "mrs": [
         {
           "repo": "ailiaixue/pbl",
@@ -2087,6 +2051,325 @@
           "url": "https://github.com/yhyu13/PullYourselfUpApp/pull/232",
           "updated_at": "2026-11-15T06:25:59Z",
           "merged_at": "2026-11-15T06:19:42Z"
+        }
+      ]
+    },
+    {
+      "date": "2026-11-16",
+      "window": "2026-11-16 00:00 → 2026-11-16 23:30（上海时间）",
+      "summary": "这一天由定时任务在 23:30（上海时间）收口。公开 PR 快照里最近一次更新落在本日的共 31 条：25 条已合并、3 条仍开着、3 条关闭未合并，快照总数从 239 涨到 266。其中 4 条原本挂在 11 月 10 日到 13 日，因在上海时间今天凌晨被再次更新，按“只算最近一次更新那天”的规则改挂到今天。记忆库今天没有新写入。",
+      "items": [
+        {
+          "repo": "yhyu13/agent-work-log",
+          "work": "用公开 GitHub 搜索刷新 author:yhyu13 且 updated 落在 2026-11-15T16:00:00Z 到 2026-11-16T15:59:59Z 的 PR，返回 31 条且未标 incomplete；按链接并入 data/prs_raw.json 后总数从 239 涨到 266，其中 27 条新增、4 条既有条目被更新并改挂日期。随后补记当天记录并重建公开投影。",
+          "status": "本次发布。个人主页仓库没有改，.github/workflows 没有提交，没有强推。",
+          "evidence": "发布后以线上 latest.json 的 updatedAt、天数与 PR 数为准。"
+        },
+        {
+          "repo": "yhyu13/wuxia-town",
+          "work": "15 条 PR 在今天更新：12 条已合并，2 条仍开着（#135、#134），1 条关闭未合并（#127）。",
+          "status": "只记录公开元数据，不含正文与代码差异。",
+          "evidence": "公开搜索结果的 html_url 与 updated_at，合并以合并时间是否为空判断。"
+        },
+        {
+          "repo": "yhyu13/PullYourselfUpApp",
+          "work": "11 条 PR 在今天更新：9 条已合并，2 条关闭未合并（#267、#266）。",
+          "status": "只记录公开元数据，不含正文与代码差异。",
+          "evidence": "公开搜索结果的 html_url 与 updated_at，合并以合并时间是否为空判断。"
+        },
+        {
+          "repo": "Hackthon_Aholo_20261107 / DreamWeaverOPC1 / SimCity",
+          "work": "三个仓库共 5 条更新：Hackthon_Aholo_20261107 的 #132、#134 与 DreamWeaverOPC1 的 #210、#212 全部已合并，SimCity 的 #2 仍开着。这 4 条合并的 PR 在旧快照里分挂 11 月 10 日、11 日、13 日，今天凌晨再次更新后按规则改挂本日，对应日期的列表会少这 4 条。",
+          "status": "只记录公开元数据；旧日期的历史文字小结保持不变，不改写当时的事实。",
+          "evidence": "合并日志显示 4 条均由更早日期更新为 2026-11-15T16:05Z 至 2026-11-15T16:41Z。"
+        },
+        {
+          "repo": "UnifiedAgentMemory",
+          "work": "记忆库今天没有新写入，最后修改停在 2026-11-14 16:54（上海时间）；库里仍是 15 条候选经验，审批表为空。",
+          "status": "没有批准任何经验，没有新建 MCP 或 skill。",
+          "evidence": "本机 sqlite 的 lessons 计数与状态分组、审批表计数均与上一版一致。"
+        }
+      ],
+      "recordUpdatedAt": "2026-11-16T15:31:14+00:00",
+      "mrs": [
+        {
+          "repo": "yhyu13/Hackthon_Aholo_20261107",
+          "number": 134,
+          "title": "fix(gate-large-diff2): 大 diff 改走 files 接口取数并修正中文路径解析",
+          "state": "merged",
+          "url": "https://github.com/yhyu13/Hackthon_Aholo_20261107/pull/134",
+          "updated_at": "2026-11-15T16:34:14Z",
+          "merged_at": "2026-11-15T16:34:14Z"
+        },
+        {
+          "repo": "yhyu13/DreamWeaverOPC1",
+          "number": 212,
+          "title": "[需人合并] docs(hof): spec 004 UE5 visual upgrade (GI/models/terrain)",
+          "state": "merged",
+          "url": "https://github.com/yhyu13/DreamWeaverOPC1/pull/212",
+          "updated_at": "2026-11-15T16:41:16Z",
+          "merged_at": "2026-11-15T16:41:14Z"
+        },
+        {
+          "repo": "yhyu13/DreamWeaverOPC1",
+          "number": 210,
+          "title": "[需人合并] docs(workflow): make human-agent delivery evidence reproducible (#209)",
+          "state": "merged",
+          "url": "https://github.com/yhyu13/DreamWeaverOPC1/pull/210",
+          "updated_at": "2026-11-15T16:41:00Z",
+          "merged_at": "2026-11-15T16:40:57Z"
+        },
+        {
+          "repo": "yhyu13/Hackthon_Aholo_20261107",
+          "number": 132,
+          "title": "chore(retire-008): 移出旧材料并修复测试与历史引用",
+          "state": "merged",
+          "url": "https://github.com/yhyu13/Hackthon_Aholo_20261107/pull/132",
+          "updated_at": "2026-11-15T16:05:04Z",
+          "merged_at": "2026-11-15T16:05:04Z"
+        },
+        {
+          "repo": "yhyu13/wuxia-town",
+          "number": 135,
+          "title": "feat(world-memory): 落雷和火灾按种类躲",
+          "state": "open",
+          "url": "https://github.com/yhyu13/wuxia-town/pull/135",
+          "updated_at": "2026-11-16T15:28:25Z",
+          "merged_at": null
+        },
+        {
+          "repo": "yhyu13/wuxia-town",
+          "number": 134,
+          "title": "docs(plan): 浏览器闸门改为 77 项",
+          "state": "open",
+          "url": "https://github.com/yhyu13/wuxia-town/pull/134",
+          "updated_at": "2026-11-16T15:28:19Z",
+          "merged_at": null
+        },
+        {
+          "repo": "yhyu13/wuxia-town",
+          "number": 133,
+          "title": "feat(drag): 百姓和守卫可拖动",
+          "state": "merged",
+          "url": "https://github.com/yhyu13/wuxia-town/pull/133",
+          "updated_at": "2026-11-16T15:25:32Z",
+          "merged_at": "2026-11-16T15:25:32Z"
+        },
+        {
+          "repo": "yhyu13/PullYourselfUpApp",
+          "number": 274,
+          "title": "feat(app): 《内测用户协议》独立页 + 链接文字与指向一致",
+          "state": "merged",
+          "url": "https://github.com/yhyu13/PullYourselfUpApp/pull/274",
+          "updated_at": "2026-11-16T15:25:04Z",
+          "merged_at": "2026-11-16T15:25:04Z"
+        },
+        {
+          "repo": "yhyu13/SimCity",
+          "number": 2,
+          "title": "feat(tools): plan refine 对话稿生成器 + 11.16 对话稿",
+          "state": "open",
+          "url": "https://github.com/yhyu13/SimCity/pull/2",
+          "updated_at": "2026-11-16T15:08:44Z",
+          "merged_at": null
+        },
+        {
+          "repo": "yhyu13/PullYourselfUpApp",
+          "number": 272,
+          "title": "feat(test): 七天模拟执行器 + L3 完成定义 + 种子用户首周脚本",
+          "state": "merged",
+          "url": "https://github.com/yhyu13/PullYourselfUpApp/pull/272",
+          "updated_at": "2026-11-16T14:58:47Z",
+          "merged_at": "2026-11-16T14:58:47Z"
+        },
+        {
+          "repo": "yhyu13/wuxia-town",
+          "number": 132,
+          "title": "feat(world-memory): 换城时按上一次的破坏改布局",
+          "state": "merged",
+          "url": "https://github.com/yhyu13/wuxia-town/pull/132",
+          "updated_at": "2026-11-16T14:47:21Z",
+          "merged_at": "2026-11-16T14:47:21Z"
+        },
+        {
+          "repo": "yhyu13/PullYourselfUpApp",
+          "number": 270,
+          "title": "docs(agents): 自动修复与自动合并的边界（绿级直合）",
+          "state": "merged",
+          "url": "https://github.com/yhyu13/PullYourselfUpApp/pull/270",
+          "updated_at": "2026-11-16T14:13:07Z",
+          "merged_at": "2026-11-16T14:13:06Z"
+        },
+        {
+          "repo": "yhyu13/PullYourselfUpApp",
+          "number": 268,
+          "title": "ci: main 合并后自动同步 dev（快进，分叉则停）",
+          "state": "merged",
+          "url": "https://github.com/yhyu13/PullYourselfUpApp/pull/268",
+          "updated_at": "2026-11-16T14:07:38Z",
+          "merged_at": "2026-11-16T14:07:38Z"
+        },
+        {
+          "repo": "yhyu13/PullYourselfUpApp",
+          "number": 267,
+          "title": "ci: main 合并后自动同步 dev（快进，分叉则停）",
+          "state": "closed",
+          "url": "https://github.com/yhyu13/PullYourselfUpApp/pull/267",
+          "updated_at": "2026-11-16T14:04:48Z",
+          "merged_at": null
+        },
+        {
+          "repo": "yhyu13/PullYourselfUpApp",
+          "number": 266,
+          "title": "ci: main 合并后自动同步 dev",
+          "state": "closed",
+          "url": "https://github.com/yhyu13/PullYourselfUpApp/pull/266",
+          "updated_at": "2026-11-16T14:01:19Z",
+          "merged_at": null
+        },
+        {
+          "repo": "yhyu13/PullYourselfUpApp",
+          "number": 265,
+          "title": "feat(deploy): 移植合并前置检查（R1）+ PR 分级（绿/黄/红）",
+          "state": "merged",
+          "url": "https://github.com/yhyu13/PullYourselfUpApp/pull/265",
+          "updated_at": "2026-11-16T13:47:54Z",
+          "merged_at": "2026-11-16T13:47:53Z"
+        },
+        {
+          "repo": "yhyu13/wuxia-town",
+          "number": 131,
+          "title": "docs(roadshow): 重录 be7371f 正式片",
+          "state": "merged",
+          "url": "https://github.com/yhyu13/wuxia-town/pull/131",
+          "updated_at": "2026-11-16T13:14:40Z",
+          "merged_at": "2026-11-16T13:14:39Z"
+        },
+        {
+          "repo": "yhyu13/PullYourselfUpApp",
+          "number": 263,
+          "title": "docs(spec): 009 热修与三环境发布流程",
+          "state": "merged",
+          "url": "https://github.com/yhyu13/PullYourselfUpApp/pull/263",
+          "updated_at": "2026-11-16T13:21:55Z",
+          "merged_at": "2026-11-16T13:21:55Z"
+        },
+        {
+          "repo": "yhyu13/PullYourselfUpApp",
+          "number": 261,
+          "title": "fix(server): 同意门禁默认开启（只认显式 0 关闭）+ 不发 env 也能拦住的断言",
+          "state": "merged",
+          "url": "https://github.com/yhyu13/PullYourselfUpApp/pull/261",
+          "updated_at": "2026-11-16T13:21:47Z",
+          "merged_at": "2026-11-16T13:21:47Z"
+        },
+        {
+          "repo": "yhyu13/wuxia-town",
+          "number": 130,
+          "title": "docs(roadshow): 写入 8da3785 的闸门结果",
+          "state": "merged",
+          "url": "https://github.com/yhyu13/wuxia-town/pull/130",
+          "updated_at": "2026-11-16T12:32:43Z",
+          "merged_at": "2026-11-16T12:32:43Z"
+        },
+        {
+          "repo": "yhyu13/wuxia-town",
+          "number": 129,
+          "title": "docs(roadshow): 更新路演基线与闸门口径",
+          "state": "merged",
+          "url": "https://github.com/yhyu13/wuxia-town/pull/129",
+          "updated_at": "2026-11-16T12:08:14Z",
+          "merged_at": "2026-11-16T12:08:14Z"
+        },
+        {
+          "repo": "yhyu13/PullYourselfUpApp",
+          "number": 259,
+          "title": "docs(spec): 008 七天模拟旅程 spec 与环境护栏",
+          "state": "merged",
+          "url": "https://github.com/yhyu13/PullYourselfUpApp/pull/259",
+          "updated_at": "2026-11-16T13:21:39Z",
+          "merged_at": "2026-11-16T13:21:39Z"
+        },
+        {
+          "repo": "yhyu13/wuxia-town",
+          "number": 128,
+          "title": "docs(night-experience): 定夜间六拍的验收",
+          "state": "merged",
+          "url": "https://github.com/yhyu13/wuxia-town/pull/128",
+          "updated_at": "2026-11-16T11:54:51Z",
+          "merged_at": "2026-11-16T11:54:51Z"
+        },
+        {
+          "repo": "yhyu13/wuxia-town",
+          "number": 127,
+          "title": "docs(night-experience): 定夜间六拍的验收",
+          "state": "closed",
+          "url": "https://github.com/yhyu13/wuxia-town/pull/127",
+          "updated_at": "2026-11-16T11:52:51Z",
+          "merged_at": null
+        },
+        {
+          "repo": "yhyu13/wuxia-town",
+          "number": 126,
+          "title": "feat(detour-walk): 接受后人物按绕道走到客栈或书院",
+          "state": "merged",
+          "url": "https://github.com/yhyu13/wuxia-town/pull/126",
+          "updated_at": "2026-11-16T11:43:48Z",
+          "merged_at": "2026-11-16T11:43:47Z"
+        },
+        {
+          "repo": "yhyu13/PullYourselfUpApp",
+          "number": 257,
+          "title": "fix(auth): 注册必须双勾同意 + 灰按钮说明差哪一步",
+          "state": "merged",
+          "url": "https://github.com/yhyu13/PullYourselfUpApp/pull/257",
+          "updated_at": "2026-11-16T12:48:36Z",
+          "merged_at": "2026-11-16T12:48:36Z"
+        },
+        {
+          "repo": "yhyu13/wuxia-town",
+          "number": 125,
+          "title": "feat(panel-tidy): 夜间面板收到底部，实验项默认折叠",
+          "state": "merged",
+          "url": "https://github.com/yhyu13/wuxia-town/pull/125",
+          "updated_at": "2026-11-16T01:37:33Z",
+          "merged_at": "2026-11-16T01:37:33Z"
+        },
+        {
+          "repo": "yhyu13/wuxia-town",
+          "number": 124,
+          "title": "feat(away-candidate): 不在场按钮走候选，一句话讲这一夜",
+          "state": "merged",
+          "url": "https://github.com/yhyu13/wuxia-town/pull/124",
+          "updated_at": "2026-11-16T01:31:42Z",
+          "merged_at": "2026-11-16T01:31:42Z"
+        },
+        {
+          "repo": "yhyu13/wuxia-town",
+          "number": 123,
+          "title": "feat(t15-no-legal): 禁止绕道时明确报告没有合法结果",
+          "state": "merged",
+          "url": "https://github.com/yhyu13/wuxia-town/pull/123",
+          "updated_at": "2026-11-15T18:17:45Z",
+          "merged_at": "2026-11-15T18:17:45Z"
+        },
+        {
+          "repo": "yhyu13/wuxia-town",
+          "number": 122,
+          "title": "feat(t07-block-ids): 方块编号只增不减，拆掉后再放不复用",
+          "state": "merged",
+          "url": "https://github.com/yhyu13/wuxia-town/pull/122",
+          "updated_at": "2026-11-15T18:14:28Z",
+          "merged_at": "2026-11-15T18:14:28Z"
+        },
+        {
+          "repo": "yhyu13/wuxia-town",
+          "number": 121,
+          "title": "feat(night-candidate): 隔离夜间候选的生成、接受与拒绝",
+          "state": "merged",
+          "url": "https://github.com/yhyu13/wuxia-town/pull/121",
+          "updated_at": "2026-11-15T18:03:48Z",
+          "merged_at": "2026-11-15T18:03:48Z"
         }
       ]
     }
@@ -3338,10 +3621,10 @@
       "repo": "yhyu13/Hackthon_Aholo_20261107",
       "number": 134,
       "title": "fix(gate-large-diff2): 大 diff 改走 files 接口取数并修正中文路径解析",
-      "state": "open",
+      "state": "merged",
       "url": "https://github.com/yhyu13/Hackthon_Aholo_20261107/pull/134",
-      "updated_at": "2026-11-13T11:07:45Z",
-      "merged_at": null
+      "updated_at": "2026-11-15T16:34:14Z",
+      "merged_at": "2026-11-15T16:34:14Z"
     },
     {
       "repo": "yhyu13/PullYourselfUpApp",
@@ -3869,10 +4152,10 @@
       "repo": "yhyu13/DreamWeaverOPC1",
       "number": 212,
       "title": "[需人合并] docs(hof): spec 004 UE5 visual upgrade (GI/models/terrain)",
-      "state": "open",
+      "state": "merged",
       "url": "https://github.com/yhyu13/DreamWeaverOPC1/pull/212",
-      "updated_at": "2026-11-11T06:17:16Z",
-      "merged_at": null
+      "updated_at": "2026-11-15T16:41:16Z",
+      "merged_at": "2026-11-15T16:41:14Z"
     },
     {
       "repo": "ailiaixue/pbl",
@@ -3896,10 +4179,10 @@
       "repo": "yhyu13/DreamWeaverOPC1",
       "number": 210,
       "title": "[需人合并] docs(workflow): make human-agent delivery evidence reproducible (#209)",
-      "state": "open",
+      "state": "merged",
       "url": "https://github.com/yhyu13/DreamWeaverOPC1/pull/210",
-      "updated_at": "2026-11-10T15:22:19Z",
-      "merged_at": null
+      "updated_at": "2026-11-15T16:41:00Z",
+      "merged_at": "2026-11-15T16:40:57Z"
     },
     {
       "repo": "yhyu13/DreamWeaverOPC1",
@@ -3977,10 +4260,10 @@
       "repo": "yhyu13/Hackthon_Aholo_20261107",
       "number": 132,
       "title": "chore(retire-008): 移出旧材料并修复测试与历史引用",
-      "state": "open",
+      "state": "merged",
       "url": "https://github.com/yhyu13/Hackthon_Aholo_20261107/pull/132",
-      "updated_at": "2026-11-10T06:06:07Z",
-      "merged_at": null
+      "updated_at": "2026-11-15T16:05:04Z",
+      "merged_at": "2026-11-15T16:05:04Z"
     },
     {
       "repo": "yhyu13/DreamWeaverOPC1",
@@ -4242,6 +4525,249 @@
       "url": "https://github.com/yhyu13/AgentSkillsVault/pull/19",
       "updated_at": "2026-11-09T03:26:29Z",
       "merged_at": "2026-11-09T03:26:29Z"
+    },
+    {
+      "repo": "yhyu13/wuxia-town",
+      "number": 135,
+      "title": "feat(world-memory): 落雷和火灾按种类躲",
+      "state": "open",
+      "url": "https://github.com/yhyu13/wuxia-town/pull/135",
+      "updated_at": "2026-11-16T15:28:25Z",
+      "merged_at": null
+    },
+    {
+      "repo": "yhyu13/wuxia-town",
+      "number": 134,
+      "title": "docs(plan): 浏览器闸门改为 77 项",
+      "state": "open",
+      "url": "https://github.com/yhyu13/wuxia-town/pull/134",
+      "updated_at": "2026-11-16T15:28:19Z",
+      "merged_at": null
+    },
+    {
+      "repo": "yhyu13/wuxia-town",
+      "number": 133,
+      "title": "feat(drag): 百姓和守卫可拖动",
+      "state": "merged",
+      "url": "https://github.com/yhyu13/wuxia-town/pull/133",
+      "updated_at": "2026-11-16T15:25:32Z",
+      "merged_at": "2026-11-16T15:25:32Z"
+    },
+    {
+      "repo": "yhyu13/PullYourselfUpApp",
+      "number": 274,
+      "title": "feat(app): 《内测用户协议》独立页 + 链接文字与指向一致",
+      "state": "merged",
+      "url": "https://github.com/yhyu13/PullYourselfUpApp/pull/274",
+      "updated_at": "2026-11-16T15:25:04Z",
+      "merged_at": "2026-11-16T15:25:04Z"
+    },
+    {
+      "repo": "yhyu13/SimCity",
+      "number": 2,
+      "title": "feat(tools): plan refine 对话稿生成器 + 11.16 对话稿",
+      "state": "open",
+      "url": "https://github.com/yhyu13/SimCity/pull/2",
+      "updated_at": "2026-11-16T15:08:44Z",
+      "merged_at": null
+    },
+    {
+      "repo": "yhyu13/PullYourselfUpApp",
+      "number": 272,
+      "title": "feat(test): 七天模拟执行器 + L3 完成定义 + 种子用户首周脚本",
+      "state": "merged",
+      "url": "https://github.com/yhyu13/PullYourselfUpApp/pull/272",
+      "updated_at": "2026-11-16T14:58:47Z",
+      "merged_at": "2026-11-16T14:58:47Z"
+    },
+    {
+      "repo": "yhyu13/wuxia-town",
+      "number": 132,
+      "title": "feat(world-memory): 换城时按上一次的破坏改布局",
+      "state": "merged",
+      "url": "https://github.com/yhyu13/wuxia-town/pull/132",
+      "updated_at": "2026-11-16T14:47:21Z",
+      "merged_at": "2026-11-16T14:47:21Z"
+    },
+    {
+      "repo": "yhyu13/PullYourselfUpApp",
+      "number": 270,
+      "title": "docs(agents): 自动修复与自动合并的边界（绿级直合）",
+      "state": "merged",
+      "url": "https://github.com/yhyu13/PullYourselfUpApp/pull/270",
+      "updated_at": "2026-11-16T14:13:07Z",
+      "merged_at": "2026-11-16T14:13:06Z"
+    },
+    {
+      "repo": "yhyu13/PullYourselfUpApp",
+      "number": 268,
+      "title": "ci: main 合并后自动同步 dev（快进，分叉则停）",
+      "state": "merged",
+      "url": "https://github.com/yhyu13/PullYourselfUpApp/pull/268",
+      "updated_at": "2026-11-16T14:07:38Z",
+      "merged_at": "2026-11-16T14:07:38Z"
+    },
+    {
+      "repo": "yhyu13/PullYourselfUpApp",
+      "number": 267,
+      "title": "ci: main 合并后自动同步 dev（快进，分叉则停）",
+      "state": "closed",
+      "url": "https://github.com/yhyu13/PullYourselfUpApp/pull/267",
+      "updated_at": "2026-11-16T14:04:48Z",
+      "merged_at": null
+    },
+    {
+      "repo": "yhyu13/PullYourselfUpApp",
+      "number": 266,
+      "title": "ci: main 合并后自动同步 dev",
+      "state": "closed",
+      "url": "https://github.com/yhyu13/PullYourselfUpApp/pull/266",
+      "updated_at": "2026-11-16T14:01:19Z",
+      "merged_at": null
+    },
+    {
+      "repo": "yhyu13/PullYourselfUpApp",
+      "number": 265,
+      "title": "feat(deploy): 移植合并前置检查（R1）+ PR 分级（绿/黄/红）",
+      "state": "merged",
+      "url": "https://github.com/yhyu13/PullYourselfUpApp/pull/265",
+      "updated_at": "2026-11-16T13:47:54Z",
+      "merged_at": "2026-11-16T13:47:53Z"
+    },
+    {
+      "repo": "yhyu13/wuxia-town",
+      "number": 131,
+      "title": "docs(roadshow): 重录 be7371f 正式片",
+      "state": "merged",
+      "url": "https://github.com/yhyu13/wuxia-town/pull/131",
+      "updated_at": "2026-11-16T13:14:40Z",
+      "merged_at": "2026-11-16T13:14:39Z"
+    },
+    {
+      "repo": "yhyu13/PullYourselfUpApp",
+      "number": 263,
+      "title": "docs(spec): 009 热修与三环境发布流程",
+      "state": "merged",
+      "url": "https://github.com/yhyu13/PullYourselfUpApp/pull/263",
+      "updated_at": "2026-11-16T13:21:55Z",
+      "merged_at": "2026-11-16T13:21:55Z"
+    },
+    {
+      "repo": "yhyu13/PullYourselfUpApp",
+      "number": 261,
+      "title": "fix(server): 同意门禁默认开启（只认显式 0 关闭）+ 不发 env 也能拦住的断言",
+      "state": "merged",
+      "url": "https://github.com/yhyu13/PullYourselfUpApp/pull/261",
+      "updated_at": "2026-11-16T13:21:47Z",
+      "merged_at": "2026-11-16T13:21:47Z"
+    },
+    {
+      "repo": "yhyu13/wuxia-town",
+      "number": 130,
+      "title": "docs(roadshow): 写入 8da3785 的闸门结果",
+      "state": "merged",
+      "url": "https://github.com/yhyu13/wuxia-town/pull/130",
+      "updated_at": "2026-11-16T12:32:43Z",
+      "merged_at": "2026-11-16T12:32:43Z"
+    },
+    {
+      "repo": "yhyu13/wuxia-town",
+      "number": 129,
+      "title": "docs(roadshow): 更新路演基线与闸门口径",
+      "state": "merged",
+      "url": "https://github.com/yhyu13/wuxia-town/pull/129",
+      "updated_at": "2026-11-16T12:08:14Z",
+      "merged_at": "2026-11-16T12:08:14Z"
+    },
+    {
+      "repo": "yhyu13/PullYourselfUpApp",
+      "number": 259,
+      "title": "docs(spec): 008 七天模拟旅程 spec 与环境护栏",
+      "state": "merged",
+      "url": "https://github.com/yhyu13/PullYourselfUpApp/pull/259",
+      "updated_at": "2026-11-16T13:21:39Z",
+      "merged_at": "2026-11-16T13:21:39Z"
+    },
+    {
+      "repo": "yhyu13/wuxia-town",
+      "number": 128,
+      "title": "docs(night-experience): 定夜间六拍的验收",
+      "state": "merged",
+      "url": "https://github.com/yhyu13/wuxia-town/pull/128",
+      "updated_at": "2026-11-16T11:54:51Z",
+      "merged_at": "2026-11-16T11:54:51Z"
+    },
+    {
+      "repo": "yhyu13/wuxia-town",
+      "number": 127,
+      "title": "docs(night-experience): 定夜间六拍的验收",
+      "state": "closed",
+      "url": "https://github.com/yhyu13/wuxia-town/pull/127",
+      "updated_at": "2026-11-16T11:52:51Z",
+      "merged_at": null
+    },
+    {
+      "repo": "yhyu13/wuxia-town",
+      "number": 126,
+      "title": "feat(detour-walk): 接受后人物按绕道走到客栈或书院",
+      "state": "merged",
+      "url": "https://github.com/yhyu13/wuxia-town/pull/126",
+      "updated_at": "2026-11-16T11:43:48Z",
+      "merged_at": "2026-11-16T11:43:47Z"
+    },
+    {
+      "repo": "yhyu13/PullYourselfUpApp",
+      "number": 257,
+      "title": "fix(auth): 注册必须双勾同意 + 灰按钮说明差哪一步",
+      "state": "merged",
+      "url": "https://github.com/yhyu13/PullYourselfUpApp/pull/257",
+      "updated_at": "2026-11-16T12:48:36Z",
+      "merged_at": "2026-11-16T12:48:36Z"
+    },
+    {
+      "repo": "yhyu13/wuxia-town",
+      "number": 125,
+      "title": "feat(panel-tidy): 夜间面板收到底部，实验项默认折叠",
+      "state": "merged",
+      "url": "https://github.com/yhyu13/wuxia-town/pull/125",
+      "updated_at": "2026-11-16T01:37:33Z",
+      "merged_at": "2026-11-16T01:37:33Z"
+    },
+    {
+      "repo": "yhyu13/wuxia-town",
+      "number": 124,
+      "title": "feat(away-candidate): 不在场按钮走候选，一句话讲这一夜",
+      "state": "merged",
+      "url": "https://github.com/yhyu13/wuxia-town/pull/124",
+      "updated_at": "2026-11-16T01:31:42Z",
+      "merged_at": "2026-11-16T01:31:42Z"
+    },
+    {
+      "repo": "yhyu13/wuxia-town",
+      "number": 123,
+      "title": "feat(t15-no-legal): 禁止绕道时明确报告没有合法结果",
+      "state": "merged",
+      "url": "https://github.com/yhyu13/wuxia-town/pull/123",
+      "updated_at": "2026-11-15T18:17:45Z",
+      "merged_at": "2026-11-15T18:17:45Z"
+    },
+    {
+      "repo": "yhyu13/wuxia-town",
+      "number": 122,
+      "title": "feat(t07-block-ids): 方块编号只增不减，拆掉后再放不复用",
+      "state": "merged",
+      "url": "https://github.com/yhyu13/wuxia-town/pull/122",
+      "updated_at": "2026-11-15T18:14:28Z",
+      "merged_at": "2026-11-15T18:14:28Z"
+    },
+    {
+      "repo": "yhyu13/wuxia-town",
+      "number": 121,
+      "title": "feat(night-candidate): 隔离夜间候选的生成、接受与拒绝",
+      "state": "merged",
+      "url": "https://github.com/yhyu13/wuxia-town/pull/121",
+      "updated_at": "2026-11-15T18:03:48Z",
+      "merged_at": "2026-11-15T18:03:48Z"
     }
   ],
   "lessons": [

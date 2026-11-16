@@ -1,5 +1,5 @@
 {
-  "total_count": 239,
+  "total_count": 266,
   "incomplete_results": false,
   "items": [
     {
@@ -1385,12 +1385,12 @@
     {
       "html_url": "https://github.com/yhyu13/Hackthon_Aholo_20261107/pull/134",
       "number": 134,
-      "pull_request": {
-        "merged_at": null
-      },
-      "state": "open",
       "title": "fix(gate-large-diff2): 大 diff 改走 files 接口取数并修正中文路径解析",
-      "updated_at": "2026-11-13T11:07:45Z"
+      "state": "merged",
+      "updated_at": "2026-11-15T16:34:14Z",
+      "pull_request": {
+        "merged_at": "2026-11-15T16:34:14Z"
+      }
     },
     {
       "html_url": "https://github.com/yhyu13/PullYourselfUpApp/pull/214",
@@ -1976,10 +1976,10 @@
       "html_url": "https://github.com/yhyu13/DreamWeaverOPC1/pull/212",
       "number": 212,
       "title": "[需人合并] docs(hof): spec 004 UE5 visual upgrade (GI/models/terrain)",
-      "state": "open",
-      "updated_at": "2026-11-11T06:17:16Z",
+      "state": "merged",
+      "updated_at": "2026-11-15T16:41:16Z",
       "pull_request": {
-        "merged_at": null
+        "merged_at": "2026-11-15T16:41:14Z"
       }
     },
     {
@@ -2006,10 +2006,10 @@
       "html_url": "https://github.com/yhyu13/DreamWeaverOPC1/pull/210",
       "number": 210,
       "title": "[需人合并] docs(workflow): make human-agent delivery evidence reproducible (#209)",
-      "state": "open",
-      "updated_at": "2026-11-10T15:22:19Z",
+      "state": "merged",
+      "updated_at": "2026-11-15T16:41:00Z",
       "pull_request": {
-        "merged_at": null
+        "merged_at": "2026-11-15T16:40:57Z"
       }
     },
     {
@@ -2096,10 +2096,10 @@
       "html_url": "https://github.com/yhyu13/Hackthon_Aholo_20261107/pull/132",
       "number": 132,
       "title": "chore(retire-008): 移出旧材料并修复测试与历史引用",
-      "state": "open",
-      "updated_at": "2026-11-10T06:06:07Z",
+      "state": "merged",
+      "updated_at": "2026-11-15T16:05:04Z",
       "pull_request": {
-        "merged_at": null
+        "merged_at": "2026-11-15T16:05:04Z"
       }
     },
     {
@@ -2390,6 +2390,276 @@
       "updated_at": "2026-11-09T03:26:29Z",
       "pull_request": {
         "merged_at": "2026-11-09T03:26:29Z"
+      }
+    },
+    {
+      "html_url": "https://github.com/yhyu13/wuxia-town/pull/135",
+      "number": 135,
+      "title": "feat(world-memory): 落雷和火灾按种类躲",
+      "state": "open",
+      "updated_at": "2026-11-16T15:28:25Z",
+      "pull_request": {
+        "merged_at": null
+      }
+    },
+    {
+      "html_url": "https://github.com/yhyu13/wuxia-town/pull/134",
+      "number": 134,
+      "title": "docs(plan): 浏览器闸门改为 77 项",
+      "state": "open",
+      "updated_at": "2026-11-16T15:28:19Z",
+      "pull_request": {
+        "merged_at": null
+      }
+    },
+    {
+      "html_url": "https://github.com/yhyu13/wuxia-town/pull/133",
+      "number": 133,
+      "title": "feat(drag): 百姓和守卫可拖动",
+      "state": "merged",
+      "updated_at": "2026-11-16T15:25:32Z",
+      "pull_request": {
+        "merged_at": "2026-11-16T15:25:32Z"
+      }
+    },
+    {
+      "html_url": "https://github.com/yhyu13/PullYourselfUpApp/pull/274",
+      "number": 274,
+      "title": "feat(app): 《内测用户协议》独立页 + 链接文字与指向一致",
+      "state": "merged",
+      "updated_at": "2026-11-16T15:25:04Z",
+      "pull_request": {
+        "merged_at": "2026-11-16T15:25:04Z"
+      }
+    },
+    {
+      "html_url": "https://github.com/yhyu13/SimCity/pull/2",
+      "number": 2,
+      "title": "feat(tools): plan refine 对话稿生成器 + 11.16 对话稿",
+      "state": "open",
+      "updated_at": "2026-11-16T15:08:44Z",
+      "pull_request": {
+        "merged_at": null
+      }
+    },
+    {
+      "html_url": "https://github.com/yhyu13/PullYourselfUpApp/pull/272",
+      "number": 272,
+      "title": "feat(test): 七天模拟执行器 + L3 完成定义 + 种子用户首周脚本",
+      "state": "merged",
+      "updated_at": "2026-11-16T14:58:47Z",
+      "pull_request": {
+        "merged_at": "2026-11-16T14:58:47Z"
+      }
+    },
+    {
+      "html_url": "https://github.com/yhyu13/wuxia-town/pull/132",
+      "number": 132,
+      "title": "feat(world-memory): 换城时按上一次的破坏改布局",
+      "state": "merged",
+      "updated_at": "2026-11-16T14:47:21Z",
+      "pull_request": {
+        "merged_at": "2026-11-16T14:47:21Z"
+      }
+    },
+    {
+      "html_url": "https://github.com/yhyu13/PullYourselfUpApp/pull/270",
+      "number": 270,
+      "title": "docs(agents): 自动修复与自动合并的边界（绿级直合）",
+      "state": "merged",
+      "updated_at": "2026-11-16T14:13:07Z",
+      "pull_request": {
+        "merged_at": "2026-11-16T14:13:06Z"
+      }
+    },
+    {
+      "html_url": "https://github.com/yhyu13/PullYourselfUpApp/pull/268",
+      "number": 268,
+      "title": "ci: main 合并后自动同步 dev（快进，分叉则停）",
+      "state": "merged",
+      "updated_at": "2026-11-16T14:07:38Z",
+      "pull_request": {
+        "merged_at": "2026-11-16T14:07:38Z"
+      }
+    },
+    {
+      "html_url": "https://github.com/yhyu13/PullYourselfUpApp/pull/267",
+      "number": 267,
+      "title": "ci: main 合并后自动同步 dev（快进，分叉则停）",
+      "state": "closed",
+      "updated_at": "2026-11-16T14:04:48Z",
+      "pull_request": {
+        "merged_at": null
+      }
+    },
+    {
+      "html_url": "https://github.com/yhyu13/PullYourselfUpApp/pull/266",
+      "number": 266,
+      "title": "ci: main 合并后自动同步 dev",
+      "state": "closed",
+      "updated_at": "2026-11-16T14:01:19Z",
+      "pull_request": {
+        "merged_at": null
+      }
+    },
+    {
+      "html_url": "https://github.com/yhyu13/PullYourselfUpApp/pull/265",
+      "number": 265,
+      "title": "feat(deploy): 移植合并前置检查（R1）+ PR 分级（绿/黄/红）",
+      "state": "merged",
+      "updated_at": "2026-11-16T13:47:54Z",
+      "pull_request": {
+        "merged_at": "2026-11-16T13:47:53Z"
+      }
+    },
+    {
+      "html_url": "https://github.com/yhyu13/wuxia-town/pull/131",
+      "number": 131,
+      "title": "docs(roadshow): 重录 be7371f 正式片",
+      "state": "merged",
+      "updated_at": "2026-11-16T13:14:40Z",
+      "pull_request": {
+        "merged_at": "2026-11-16T13:14:39Z"
+      }
+    },
+    {
+      "html_url": "https://github.com/yhyu13/PullYourselfUpApp/pull/263",
+      "number": 263,
+      "title": "docs(spec): 009 热修与三环境发布流程",
+      "state": "merged",
+      "updated_at": "2026-11-16T13:21:55Z",
+      "pull_request": {
+        "merged_at": "2026-11-16T13:21:55Z"
+      }
+    },
+    {
+      "html_url": "https://github.com/yhyu13/PullYourselfUpApp/pull/261",
+      "number": 261,
+      "title": "fix(server): 同意门禁默认开启（只认显式 0 关闭）+ 不发 env 也能拦住的断言",
+      "state": "merged",
+      "updated_at": "2026-11-16T13:21:47Z",
+      "pull_request": {
+        "merged_at": "2026-11-16T13:21:47Z"
+      }
+    },
+    {
+      "html_url": "https://github.com/yhyu13/wuxia-town/pull/130",
+      "number": 130,
+      "title": "docs(roadshow): 写入 8da3785 的闸门结果",
+      "state": "merged",
+      "updated_at": "2026-11-16T12:32:43Z",
+      "pull_request": {
+        "merged_at": "2026-11-16T12:32:43Z"
+      }
+    },
+    {
+      "html_url": "https://github.com/yhyu13/wuxia-town/pull/129",
+      "number": 129,
+      "title": "docs(roadshow): 更新路演基线与闸门口径",
+      "state": "merged",
+      "updated_at": "2026-11-16T12:08:14Z",
+      "pull_request": {
+        "merged_at": "2026-11-16T12:08:14Z"
+      }
+    },
+    {
+      "html_url": "https://github.com/yhyu13/PullYourselfUpApp/pull/259",
+      "number": 259,
+      "title": "docs(spec): 008 七天模拟旅程 spec 与环境护栏",
+      "state": "merged",
+      "updated_at": "2026-11-16T13:21:39Z",
+      "pull_request": {
+        "merged_at": "2026-11-16T13:21:39Z"
+      }
+    },
+    {
+      "html_url": "https://github.com/yhyu13/wuxia-town/pull/128",
+      "number": 128,
+      "title": "docs(night-experience): 定夜间六拍的验收",
+      "state": "merged",
+      "updated_at": "2026-11-16T11:54:51Z",
+      "pull_request": {
+        "merged_at": "2026-11-16T11:54:51Z"
+      }
+    },
+    {
+      "html_url": "https://github.com/yhyu13/wuxia-town/pull/127",
+      "number": 127,
+      "title": "docs(night-experience): 定夜间六拍的验收",
+      "state": "closed",
+      "updated_at": "2026-11-16T11:52:51Z",
+      "pull_request": {
+        "merged_at": null
+      }
+    },
+    {
+      "html_url": "https://github.com/yhyu13/wuxia-town/pull/126",
+      "number": 126,
+      "title": "feat(detour-walk): 接受后人物按绕道走到客栈或书院",
+      "state": "merged",
+      "updated_at": "2026-11-16T11:43:48Z",
+      "pull_request": {
+        "merged_at": "2026-11-16T11:43:47Z"
+      }
+    },
+    {
+      "html_url": "https://github.com/yhyu13/PullYourselfUpApp/pull/257",
+      "number": 257,
+      "title": "fix(auth): 注册必须双勾同意 + 灰按钮说明差哪一步",
+      "state": "merged",
+      "updated_at": "2026-11-16T12:48:36Z",
+      "pull_request": {
+        "merged_at": "2026-11-16T12:48:36Z"
+      }
+    },
+    {
+      "html_url": "https://github.com/yhyu13/wuxia-town/pull/125",
+      "number": 125,
+      "title": "feat(panel-tidy): 夜间面板收到底部，实验项默认折叠",
+      "state": "merged",
+      "updated_at": "2026-11-16T01:37:33Z",
+      "pull_request": {
+        "merged_at": "2026-11-16T01:37:33Z"
+      }
+    },
+    {
+      "html_url": "https://github.com/yhyu13/wuxia-town/pull/124",
+      "number": 124,
+      "title": "feat(away-candidate): 不在场按钮走候选，一句话讲这一夜",
+      "state": "merged",
+      "updated_at": "2026-11-16T01:31:42Z",
+      "pull_request": {
+        "merged_at": "2026-11-16T01:31:42Z"
+      }
+    },
+    {
+      "html_url": "https://github.com/yhyu13/wuxia-town/pull/123",
+      "number": 123,
+      "title": "feat(t15-no-legal): 禁止绕道时明确报告没有合法结果",
+      "state": "merged",
+      "updated_at": "2026-11-15T18:17:45Z",
+      "pull_request": {
+        "merged_at": "2026-11-15T18:17:45Z"
+      }
+    },
+    {
+      "html_url": "https://github.com/yhyu13/wuxia-town/pull/122",
+      "number": 122,
+      "title": "feat(t07-block-ids): 方块编号只增不减，拆掉后再放不复用",
+      "state": "merged",
+      "updated_at": "2026-11-15T18:14:28Z",
+      "pull_request": {
+        "merged_at": "2026-11-15T18:14:28Z"
+      }
+    },
+    {
+      "html_url": "https://github.com/yhyu13/wuxia-town/pull/121",
+      "number": 121,
+      "title": "feat(night-candidate): 隔离夜间候选的生成、接受与拒绝",
+      "state": "merged",
+      "updated_at": "2026-11-15T18:03:48Z",
+      "pull_request": {
+        "merged_at": "2026-11-15T18:03:48Z"
       }
     }
   ],
