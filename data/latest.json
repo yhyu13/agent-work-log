@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-17T15:33:45+00:00",
+  "updatedAt": "2026-11-18T15:34:54+00:00",
   "repo": "yhyu13/agent-work-log",
   "pagesUrl": "https://yhyu13.github.io/agent-work-log/",
   "coverageNote": "每日记录从任务建立日 2026-11-10（上海时间）起。当日 MR 是 yhyu13 名下公开 PR 里、最近一次更新落在这一天的条目，不是本任务单独产生，也不会在每一天重复。早于任务建立的条目只在总表。候选经验不是已批准规则。",
@@ -23,7 +23,7 @@
           "evidence": "本地 build 通过；schema/CLI 43 pass；浏览器 100 passed；首页 entry 294.52 kB，低于 300 kB 预算。"
         }
       ],
-      "recordUpdatedAt": "2026-11-17T15:33:45+00:00",
+      "recordUpdatedAt": "2026-11-18T15:34:54+00:00",
       "mrs": [
         {
           "repo": "yhyu13/DreamWeaverOPC1",
@@ -186,7 +186,7 @@
           "evidence": "当时页面 HTTP 200。那份 25 条 PR 是旧快照，这一次已换成更大范围的新快照。"
         }
       ],
-      "recordUpdatedAt": "2026-11-17T15:33:45+00:00",
+      "recordUpdatedAt": "2026-11-18T15:34:54+00:00",
       "mrs": [
         {
           "repo": "ailiaixue/pbl",
@@ -343,7 +343,7 @@
           "evidence": "本机 CLI 与 sqlite。公开库仍是只读投影。"
         }
       ],
-      "recordUpdatedAt": "2026-11-17T15:33:45+00:00",
+      "recordUpdatedAt": "2026-11-18T15:34:54+00:00",
       "mrs": [
         {
           "repo": "yhyu13/yhyu13.github.io",
@@ -494,7 +494,7 @@
           "evidence": "该任务会话在这次补记之前没有新的用户消息。"
         }
       ],
-      "recordUpdatedAt": "2026-11-17T15:33:45+00:00",
+      "recordUpdatedAt": "2026-11-18T15:34:54+00:00",
       "mrs": [
         {
           "repo": "yhyu13/wuxia-town",
@@ -939,7 +939,7 @@
           "evidence": "本机 memory.py 已有 search 和 inject。inject 在没有已批准经验时返回空。"
         }
       ],
-      "recordUpdatedAt": "2026-11-17T15:33:45+00:00",
+      "recordUpdatedAt": "2026-11-18T15:34:54+00:00",
       "mrs": [
         {
           "repo": "ailiaixue/pbl",
@@ -1879,7 +1879,7 @@
           "evidence": "本机 sqlite 的 lessons 计数与状态分组；公开库条目数应与新版 latest.json 一致。"
         }
       ],
-      "recordUpdatedAt": "2026-11-17T15:33:45+00:00",
+      "recordUpdatedAt": "2026-11-18T15:34:54+00:00",
       "mrs": [
         {
           "repo": "ailiaixue/pbl",
@@ -2072,7 +2072,7 @@
           "evidence": "本机 sqlite 的 lessons 计数与状态分组、审批表计数均与上一版一致。"
         }
       ],
-      "recordUpdatedAt": "2026-11-17T15:33:45+00:00",
+      "recordUpdatedAt": "2026-11-18T15:34:54+00:00",
       "mrs": [
         {
           "repo": "yhyu13/Hackthon_Aholo_20261107",
@@ -2391,7 +2391,7 @@
           "evidence": "本机 sqlite 的 lessons 计数与状态分组与上一版一致。"
         }
       ],
-      "recordUpdatedAt": "2026-11-17T15:33:45+00:00",
+      "recordUpdatedAt": "2026-11-18T15:34:54+00:00",
       "mrs": [
         {
           "repo": "yhyu13/AgentSkillsVault",
@@ -2419,15 +2419,6 @@
           "url": "https://github.com/yhyu13/PullYourselfUpApp/pull/305",
           "updated_at": "2026-11-17T15:15:40Z",
           "merged_at": "2026-11-17T15:15:40Z"
-        },
-        {
-          "repo": "yhyu13/PullYourselfUpApp",
-          "number": 303,
-          "title": "feat(marketing): 文案工具加「润色」——用我写的那句当底稿重出 A/B",
-          "state": "open",
-          "url": "https://github.com/yhyu13/PullYourselfUpApp/pull/303",
-          "updated_at": "2026-11-17T15:21:44Z",
-          "merged_at": null
         },
         {
           "repo": "yhyu13/AgentSkillsVault",
@@ -2689,6 +2680,376 @@
           "url": "https://github.com/yhyu13/wuxia-town/pull/136",
           "updated_at": "2026-11-17T12:25:26Z",
           "merged_at": "2026-11-17T12:25:26Z"
+        }
+      ]
+    },
+    {
+      "date": "2026-11-18",
+      "window": "2026-11-18 00:00 → 2026-11-18 23:30（上海时间）",
+      "summary": "这一天由定时任务在 23:30（上海时间）收口，任务内没有新的人工对话。公开 PR 快照里最近一次更新落在本日的共 36 条：33 条已合并、3 条仍开着、没有关闭未合并，快照总数从 297 涨到 332。其中 1 条（PullYourselfUpApp #303）原本挂在 11 月 17 日，因今天再次更新，按“只算最近一次更新那天”的规则改挂到今天。记忆库今天没有新写入。",
+      "items": [
+        {
+          "repo": "yhyu13/agent-work-log",
+          "work": "用公开 GitHub 搜索刷新 author:yhyu13 且 updated 落在 2026-11-17T16:00:00Z 到 2026-11-18T15:59:59Z 的 PR，返回 36 条且未标 incomplete；按链接并入 data/prs_raw.json 后总数从 297 涨到 332，其中 35 条新增、1 条既有条目被更新并改挂日期。随后补记当天记录并重建公开投影。",
+          "status": "本次发布。个人主页仓库没有改，.github/workflows 没有提交，没有强推。",
+          "evidence": "发布后以线上 latest.json 的 updatedAt、天数与 PR 数为准。"
+        },
+        {
+          "repo": "yhyu13/yhyu13.github.io",
+          "work": "14 条 PR 在今天更新，全部已合并（#27 到 #40）。这些是名下公开更新，本任务没有修改该仓库。",
+          "status": "只记录公开元数据，不含正文与代码差异。",
+          "evidence": "公开搜索结果的 html_url 与 updated_at，合并以合并时间是否为空判断。"
+        },
+        {
+          "repo": "yhyu13/PullYourselfUpApp",
+          "work": "12 条 PR 在今天更新：10 条已合并（#308、#310 到 #313、#315、#316、#318 到 #320），2 条仍开着（#321、#303）。#303 在旧快照里挂在 11 月 17 日，今天再次更新后按规则改挂本日，11 月 17 日的列表会少这 1 条。",
+          "status": "只记录公开元数据；旧日期的历史文字小结保持不变，不改写当时的事实。",
+          "evidence": "合并日志显示 #303 的更新时间由 2026-11-17T15:21:44Z 改为 2026-11-18T02:23:09Z。"
+        },
+        {
+          "repo": "yhyu13/AgentSkillsVault",
+          "work": "8 条 PR 在今天更新，全部已合并（#51 到 #58）。",
+          "status": "只记录公开元数据，不含正文与代码差异。",
+          "evidence": "公开搜索结果的 html_url 与 updated_at，合并以合并时间是否为空判断。"
+        },
+        {
+          "repo": "yhyu13/wuxia-town",
+          "work": "2 条 PR 在今天更新：1 条已合并（#148），1 条仍开着（#150）。",
+          "status": "只记录公开元数据，不含正文与代码差异。",
+          "evidence": "公开搜索结果的 html_url 与 updated_at，合并以合并时间是否为空判断。"
+        },
+        {
+          "repo": "UnifiedAgentMemory",
+          "work": "记忆库今天没有新写入，最后修改停在 2026-11-14 16:54（上海时间）；库里仍是 15 条候选经验，没有已批准条目。",
+          "status": "没有批准任何经验，没有新建 MCP 或 skill。",
+          "evidence": "本机 sqlite 的 lessons 计数与状态分组、审批表计数均与上一版一致。"
+        }
+      ],
+      "recordUpdatedAt": "2026-11-18T15:34:54+00:00",
+      "mrs": [
+        {
+          "repo": "yhyu13/PullYourselfUpApp",
+          "number": 303,
+          "title": "feat(marketing): 文案工具加「润色」——用我写的那句当底稿重出 A/B",
+          "state": "open",
+          "url": "https://github.com/yhyu13/PullYourselfUpApp/pull/303",
+          "updated_at": "2026-11-18T02:23:09Z",
+          "merged_at": null
+        },
+        {
+          "repo": "yhyu13/PullYourselfUpApp",
+          "number": 321,
+          "title": "chore(test): 删除 LLM 评估 Agent harness + 上线推进总表",
+          "state": "open",
+          "url": "https://github.com/yhyu13/PullYourselfUpApp/pull/321",
+          "updated_at": "2026-11-18T14:54:33Z",
+          "merged_at": null
+        },
+        {
+          "repo": "yhyu13/PullYourselfUpApp",
+          "number": 320,
+          "title": "feat(report): 测试 tab 接真数据 + 汇报链 cron + 执行≠评审入文档",
+          "state": "merged",
+          "url": "https://github.com/yhyu13/PullYourselfUpApp/pull/320",
+          "updated_at": "2026-11-18T14:52:22Z",
+          "merged_at": "2026-11-18T14:52:21Z"
+        },
+        {
+          "repo": "yhyu13/wuxia-town",
+          "number": 150,
+          "title": "feat(issue147-game): 接入破坏试玩与快照验证",
+          "state": "open",
+          "url": "https://github.com/yhyu13/wuxia-town/pull/150",
+          "updated_at": "2026-11-18T06:33:04Z",
+          "merged_at": null
+        },
+        {
+          "repo": "yhyu13/yhyu13.github.io",
+          "number": 40,
+          "title": "feat(share): give every link a title, a blurb and an image",
+          "state": "merged",
+          "url": "https://github.com/yhyu13/yhyu13.github.io/pull/40",
+          "updated_at": "2026-11-18T06:26:50Z",
+          "merged_at": "2026-11-18T06:26:50Z"
+        },
+        {
+          "repo": "yhyu13/PullYourselfUpApp",
+          "number": 319,
+          "title": "feat(app): 求助热线出口（注册门 + 首页底部，同一份文案）",
+          "state": "merged",
+          "url": "https://github.com/yhyu13/PullYourselfUpApp/pull/319",
+          "updated_at": "2026-11-18T12:44:15Z",
+          "merged_at": "2026-11-18T12:44:15Z"
+        },
+        {
+          "repo": "yhyu13/yhyu13.github.io",
+          "number": 39,
+          "title": "fix(mobile): make the new index usable on a phone",
+          "state": "merged",
+          "url": "https://github.com/yhyu13/yhyu13.github.io/pull/39",
+          "updated_at": "2026-11-18T05:06:01Z",
+          "merged_at": "2026-11-18T05:06:00Z"
+        },
+        {
+          "repo": "yhyu13/PullYourselfUpApp",
+          "number": 318,
+          "title": "test(reports): 12 账号台账 + 测试汇报聚合器（Cindy 验收第 1 条）",
+          "state": "merged",
+          "url": "https://github.com/yhyu13/PullYourselfUpApp/pull/318",
+          "updated_at": "2026-11-18T06:17:29Z",
+          "merged_at": "2026-11-18T06:17:29Z"
+        },
+        {
+          "repo": "yhyu13/PullYourselfUpApp",
+          "number": 316,
+          "title": "fix(observability): 按独立评审修埋点三条 Critical（#315 那版是未评审初版）",
+          "state": "merged",
+          "url": "https://github.com/yhyu13/PullYourselfUpApp/pull/316",
+          "updated_at": "2026-11-18T06:17:42Z",
+          "merged_at": "2026-11-18T06:17:42Z"
+        },
+        {
+          "repo": "yhyu13/PullYourselfUpApp",
+          "number": 315,
+          "title": "feat(report): 性能埋点落地 + 一个入口的汇报台（6 tab，真数据）",
+          "state": "merged",
+          "url": "https://github.com/yhyu13/PullYourselfUpApp/pull/315",
+          "updated_at": "2026-11-18T04:57:12Z",
+          "merged_at": "2026-11-18T04:57:12Z"
+        },
+        {
+          "repo": "yhyu13/PullYourselfUpApp",
+          "number": 313,
+          "title": "fix(ui): 装饰类 infinite 动画改有限次数（11→2，只留状态驱动例外）",
+          "state": "merged",
+          "url": "https://github.com/yhyu13/PullYourselfUpApp/pull/313",
+          "updated_at": "2026-11-18T04:20:33Z",
+          "merged_at": "2026-11-18T04:20:33Z"
+        },
+        {
+          "repo": "yhyu13/PullYourselfUpApp",
+          "number": 312,
+          "title": "chore(test): 冒烟报告刷新为部署后实测（7/7 · 8/8 · 8/8）",
+          "state": "merged",
+          "url": "https://github.com/yhyu13/PullYourselfUpApp/pull/312",
+          "updated_at": "2026-11-18T03:56:23Z",
+          "merged_at": "2026-11-18T03:56:23Z"
+        },
+        {
+          "repo": "yhyu13/yhyu13.github.io",
+          "number": 38,
+          "title": "feat(nav): one index screen for every deck, course, work and note",
+          "state": "merged",
+          "url": "https://github.com/yhyu13/yhyu13.github.io/pull/38",
+          "updated_at": "2026-11-18T02:26:26Z",
+          "merged_at": "2026-11-18T02:26:26Z"
+        },
+        {
+          "repo": "yhyu13/PullYourselfUpApp",
+          "number": 311,
+          "title": "fix(compliance): 危机预筛收成一份 + terms 去 Markdown 星号 + 清营销强制句与疗效改法",
+          "state": "merged",
+          "url": "https://github.com/yhyu13/PullYourselfUpApp/pull/311",
+          "updated_at": "2026-11-18T02:27:17Z",
+          "merged_at": "2026-11-18T02:27:17Z"
+        },
+        {
+          "repo": "yhyu13/AgentSkillsVault",
+          "number": 58,
+          "title": "feat(governance): install-manifest.txt 红→黄，并加 manifest-entry-churn 豁免",
+          "state": "merged",
+          "url": "https://github.com/yhyu13/AgentSkillsVault/pull/58",
+          "updated_at": "2026-11-18T04:52:47Z",
+          "merged_at": "2026-11-18T04:52:47Z"
+        },
+        {
+          "repo": "yhyu13/AgentSkillsVault",
+          "number": 57,
+          "title": "feat(skills): 把 opendeck 并入 html-ppt（#80 合并方案）",
+          "state": "merged",
+          "url": "https://github.com/yhyu13/AgentSkillsVault/pull/57",
+          "updated_at": "2026-11-18T02:18:44Z",
+          "merged_at": "2026-11-18T02:18:44Z"
+        },
+        {
+          "repo": "yhyu13/PullYourselfUpApp",
+          "number": 310,
+          "title": "fix(compliance): 危机门前置 + 原文脱敏 + 注册只绑协议勾 + 分享链接跟随站点 + terms 明示同意",
+          "state": "merged",
+          "url": "https://github.com/yhyu13/PullYourselfUpApp/pull/310",
+          "updated_at": "2026-11-18T02:16:44Z",
+          "merged_at": "2026-11-18T02:16:44Z"
+        },
+        {
+          "repo": "yhyu13/yhyu13.github.io",
+          "number": 37,
+          "title": "feat(decks): add the last unuploaded deck — Wharton's Mollick talk",
+          "state": "merged",
+          "url": "https://github.com/yhyu13/yhyu13.github.io/pull/37",
+          "updated_at": "2026-11-17T17:56:44Z",
+          "merged_at": "2026-11-17T17:56:44Z"
+        },
+        {
+          "repo": "yhyu13/yhyu13.github.io",
+          "number": 36,
+          "title": "feat(courses): host the 24 MIT 14.13 lecture videos at 720p",
+          "state": "merged",
+          "url": "https://github.com/yhyu13/yhyu13.github.io/pull/36",
+          "updated_at": "2026-11-17T17:50:26Z",
+          "merged_at": "2026-11-17T17:50:24Z"
+        },
+        {
+          "repo": "yhyu13/yhyu13.github.io",
+          "number": 35,
+          "title": "feat(labs): ship the a16z radar index and the agent-architecture deep read",
+          "state": "merged",
+          "url": "https://github.com/yhyu13/yhyu13.github.io/pull/35",
+          "updated_at": "2026-11-17T17:34:37Z",
+          "merged_at": "2026-11-17T17:34:36Z"
+        },
+        {
+          "repo": "yhyu13/wuxia-town",
+          "number": 148,
+          "title": "chore(issue147-closeout): 收口对齐真实行为并重建单文件",
+          "state": "merged",
+          "url": "https://github.com/yhyu13/wuxia-town/pull/148",
+          "updated_at": "2026-11-17T17:46:52Z",
+          "merged_at": "2026-11-17T17:46:52Z"
+        },
+        {
+          "repo": "yhyu13/yhyu13.github.io",
+          "number": 34,
+          "title": "feat(archive): add the mutation-testing survey and the UE5 lighting notes",
+          "state": "merged",
+          "url": "https://github.com/yhyu13/yhyu13.github.io/pull/34",
+          "updated_at": "2026-11-17T17:26:37Z",
+          "merged_at": "2026-11-17T17:26:37Z"
+        },
+        {
+          "repo": "yhyu13/yhyu13.github.io",
+          "number": 33,
+          "title": "feat(archive): add the 3D pipeline survey and the Stageshow teardown",
+          "state": "merged",
+          "url": "https://github.com/yhyu13/yhyu13.github.io/pull/33",
+          "updated_at": "2026-11-17T17:19:30Z",
+          "merged_at": "2026-11-17T17:19:30Z"
+        },
+        {
+          "repo": "yhyu13/AgentSkillsVault",
+          "number": 56,
+          "title": "fix(sync): 不再拆宿主投影到 ~/.claude/skills 的 junction（#81）",
+          "state": "merged",
+          "url": "https://github.com/yhyu13/AgentSkillsVault/pull/56",
+          "updated_at": "2026-11-18T02:08:28Z",
+          "merged_at": "2026-11-18T02:08:28Z"
+        },
+        {
+          "repo": "yhyu13/yhyu13.github.io",
+          "number": 32,
+          "title": "feat(archive): publish the 2026 AI-tutor research review",
+          "state": "merged",
+          "url": "https://github.com/yhyu13/yhyu13.github.io/pull/32",
+          "updated_at": "2026-11-17T17:12:04Z",
+          "merged_at": "2026-11-17T17:12:03Z"
+        },
+        {
+          "repo": "yhyu13/AgentSkillsVault",
+          "number": 55,
+          "title": "feat(skills): 补 4 个「只在 store、不在 vault」的 skill（tier0）",
+          "state": "merged",
+          "url": "https://github.com/yhyu13/AgentSkillsVault/pull/55",
+          "updated_at": "2026-11-17T17:10:27Z",
+          "merged_at": "2026-11-17T17:10:27Z"
+        },
+        {
+          "repo": "yhyu13/AgentSkillsVault",
+          "number": 54,
+          "title": "docs(candidates): 否决 min(容量,质量) 重分层；记下路由失败的两类与 sync 拆宿主投影（#79-#81）",
+          "state": "merged",
+          "url": "https://github.com/yhyu13/AgentSkillsVault/pull/54",
+          "updated_at": "2026-11-17T17:07:09Z",
+          "merged_at": "2026-11-17T17:07:09Z"
+        },
+        {
+          "repo": "yhyu13/yhyu13.github.io",
+          "number": 31,
+          "title": "fix(check-links): treat srt/vtt as text in the manifest byte check",
+          "state": "merged",
+          "url": "https://github.com/yhyu13/yhyu13.github.io/pull/31",
+          "updated_at": "2026-11-17T17:04:50Z",
+          "merged_at": "2026-11-17T17:04:50Z"
+        },
+        {
+          "repo": "yhyu13/yhyu13.github.io",
+          "number": 30,
+          "title": "feat(courses): add MIT 14.13 Psychology and Economics as a course",
+          "state": "merged",
+          "url": "https://github.com/yhyu13/yhyu13.github.io/pull/30",
+          "updated_at": "2026-11-17T17:00:38Z",
+          "merged_at": "2026-11-17T17:00:38Z"
+        },
+        {
+          "repo": "yhyu13/yhyu13.github.io",
+          "number": 29,
+          "title": "feat(decks): curate five more decks, two cuts, one showreel page",
+          "state": "merged",
+          "url": "https://github.com/yhyu13/yhyu13.github.io/pull/29",
+          "updated_at": "2026-11-17T16:52:34Z",
+          "merged_at": "2026-11-17T16:52:33Z"
+        },
+        {
+          "repo": "yhyu13/AgentSkillsVault",
+          "number": 53,
+          "title": "feat(eval): 把个人成长的质量评审搬进 vault（第三个轴：质量）",
+          "state": "merged",
+          "url": "https://github.com/yhyu13/AgentSkillsVault/pull/53",
+          "updated_at": "2026-11-17T16:53:01Z",
+          "merged_at": "2026-11-17T16:53:00Z"
+        },
+        {
+          "repo": "yhyu13/AgentSkillsVault",
+          "number": 52,
+          "title": "feat(eval): 行为证据接进评分表（#73 后半）+ 修掉 ABSTAIN 的提示词缺陷",
+          "state": "merged",
+          "url": "https://github.com/yhyu13/AgentSkillsVault/pull/52",
+          "updated_at": "2026-11-17T16:48:58Z",
+          "merged_at": "2026-11-17T16:48:32Z"
+        },
+        {
+          "repo": "yhyu13/yhyu13.github.io",
+          "number": 28,
+          "title": "feat(craft): host the 随军记 interactive witness and the Saltline dock scene",
+          "state": "merged",
+          "url": "https://github.com/yhyu13/yhyu13.github.io/pull/28",
+          "updated_at": "2026-11-17T16:45:06Z",
+          "merged_at": "2026-11-17T16:45:06Z"
+        },
+        {
+          "repo": "yhyu13/yhyu13.github.io",
+          "number": 27,
+          "title": "feat(decks): add twenty video slides and fourteen release-hosted cuts",
+          "state": "merged",
+          "url": "https://github.com/yhyu13/yhyu13.github.io/pull/27",
+          "updated_at": "2026-11-17T16:40:53Z",
+          "merged_at": "2026-11-17T16:40:53Z"
+        },
+        {
+          "repo": "yhyu13/PullYourselfUpApp",
+          "number": 308,
+          "title": "feat(test): 三环境冒烟测试 + spec 台账 + 修 ?k= 查询串 404 与 night-05 时区假红",
+          "state": "merged",
+          "url": "https://github.com/yhyu13/PullYourselfUpApp/pull/308",
+          "updated_at": "2026-11-18T02:09:34Z",
+          "merged_at": "2026-11-18T02:09:34Z"
+        },
+        {
+          "repo": "yhyu13/AgentSkillsVault",
+          "number": 51,
+          "title": "feat(eval): 行为证据落地——71 个 A 档 skill 的真机触发测试（#73）",
+          "state": "merged",
+          "url": "https://github.com/yhyu13/AgentSkillsVault/pull/51",
+          "updated_at": "2026-11-17T16:26:02Z",
+          "merged_at": "2026-11-17T16:26:02Z"
         }
       ]
     }
@@ -5103,7 +5464,7 @@
       "title": "feat(marketing): 文案工具加「润色」——用我写的那句当底稿重出 A/B",
       "state": "open",
       "url": "https://github.com/yhyu13/PullYourselfUpApp/pull/303",
-      "updated_at": "2026-11-17T15:21:44Z",
+      "updated_at": "2026-11-18T02:23:09Z",
       "merged_at": null
     },
     {
@@ -5366,6 +5727,321 @@
       "url": "https://github.com/yhyu13/wuxia-town/pull/136",
       "updated_at": "2026-11-17T12:25:26Z",
       "merged_at": "2026-11-17T12:25:26Z"
+    },
+    {
+      "repo": "yhyu13/PullYourselfUpApp",
+      "number": 321,
+      "title": "chore(test): 删除 LLM 评估 Agent harness + 上线推进总表",
+      "state": "open",
+      "url": "https://github.com/yhyu13/PullYourselfUpApp/pull/321",
+      "updated_at": "2026-11-18T14:54:33Z",
+      "merged_at": null
+    },
+    {
+      "repo": "yhyu13/PullYourselfUpApp",
+      "number": 320,
+      "title": "feat(report): 测试 tab 接真数据 + 汇报链 cron + 执行≠评审入文档",
+      "state": "merged",
+      "url": "https://github.com/yhyu13/PullYourselfUpApp/pull/320",
+      "updated_at": "2026-11-18T14:52:22Z",
+      "merged_at": "2026-11-18T14:52:21Z"
+    },
+    {
+      "repo": "yhyu13/wuxia-town",
+      "number": 150,
+      "title": "feat(issue147-game): 接入破坏试玩与快照验证",
+      "state": "open",
+      "url": "https://github.com/yhyu13/wuxia-town/pull/150",
+      "updated_at": "2026-11-18T06:33:04Z",
+      "merged_at": null
+    },
+    {
+      "repo": "yhyu13/yhyu13.github.io",
+      "number": 40,
+      "title": "feat(share): give every link a title, a blurb and an image",
+      "state": "merged",
+      "url": "https://github.com/yhyu13/yhyu13.github.io/pull/40",
+      "updated_at": "2026-11-18T06:26:50Z",
+      "merged_at": "2026-11-18T06:26:50Z"
+    },
+    {
+      "repo": "yhyu13/PullYourselfUpApp",
+      "number": 319,
+      "title": "feat(app): 求助热线出口（注册门 + 首页底部，同一份文案）",
+      "state": "merged",
+      "url": "https://github.com/yhyu13/PullYourselfUpApp/pull/319",
+      "updated_at": "2026-11-18T12:44:15Z",
+      "merged_at": "2026-11-18T12:44:15Z"
+    },
+    {
+      "repo": "yhyu13/yhyu13.github.io",
+      "number": 39,
+      "title": "fix(mobile): make the new index usable on a phone",
+      "state": "merged",
+      "url": "https://github.com/yhyu13/yhyu13.github.io/pull/39",
+      "updated_at": "2026-11-18T05:06:01Z",
+      "merged_at": "2026-11-18T05:06:00Z"
+    },
+    {
+      "repo": "yhyu13/PullYourselfUpApp",
+      "number": 318,
+      "title": "test(reports): 12 账号台账 + 测试汇报聚合器（Cindy 验收第 1 条）",
+      "state": "merged",
+      "url": "https://github.com/yhyu13/PullYourselfUpApp/pull/318",
+      "updated_at": "2026-11-18T06:17:29Z",
+      "merged_at": "2026-11-18T06:17:29Z"
+    },
+    {
+      "repo": "yhyu13/PullYourselfUpApp",
+      "number": 316,
+      "title": "fix(observability): 按独立评审修埋点三条 Critical（#315 那版是未评审初版）",
+      "state": "merged",
+      "url": "https://github.com/yhyu13/PullYourselfUpApp/pull/316",
+      "updated_at": "2026-11-18T06:17:42Z",
+      "merged_at": "2026-11-18T06:17:42Z"
+    },
+    {
+      "repo": "yhyu13/PullYourselfUpApp",
+      "number": 315,
+      "title": "feat(report): 性能埋点落地 + 一个入口的汇报台（6 tab，真数据）",
+      "state": "merged",
+      "url": "https://github.com/yhyu13/PullYourselfUpApp/pull/315",
+      "updated_at": "2026-11-18T04:57:12Z",
+      "merged_at": "2026-11-18T04:57:12Z"
+    },
+    {
+      "repo": "yhyu13/PullYourselfUpApp",
+      "number": 313,
+      "title": "fix(ui): 装饰类 infinite 动画改有限次数（11→2，只留状态驱动例外）",
+      "state": "merged",
+      "url": "https://github.com/yhyu13/PullYourselfUpApp/pull/313",
+      "updated_at": "2026-11-18T04:20:33Z",
+      "merged_at": "2026-11-18T04:20:33Z"
+    },
+    {
+      "repo": "yhyu13/PullYourselfUpApp",
+      "number": 312,
+      "title": "chore(test): 冒烟报告刷新为部署后实测（7/7 · 8/8 · 8/8）",
+      "state": "merged",
+      "url": "https://github.com/yhyu13/PullYourselfUpApp/pull/312",
+      "updated_at": "2026-11-18T03:56:23Z",
+      "merged_at": "2026-11-18T03:56:23Z"
+    },
+    {
+      "repo": "yhyu13/yhyu13.github.io",
+      "number": 38,
+      "title": "feat(nav): one index screen for every deck, course, work and note",
+      "state": "merged",
+      "url": "https://github.com/yhyu13/yhyu13.github.io/pull/38",
+      "updated_at": "2026-11-18T02:26:26Z",
+      "merged_at": "2026-11-18T02:26:26Z"
+    },
+    {
+      "repo": "yhyu13/PullYourselfUpApp",
+      "number": 311,
+      "title": "fix(compliance): 危机预筛收成一份 + terms 去 Markdown 星号 + 清营销强制句与疗效改法",
+      "state": "merged",
+      "url": "https://github.com/yhyu13/PullYourselfUpApp/pull/311",
+      "updated_at": "2026-11-18T02:27:17Z",
+      "merged_at": "2026-11-18T02:27:17Z"
+    },
+    {
+      "repo": "yhyu13/AgentSkillsVault",
+      "number": 58,
+      "title": "feat(governance): install-manifest.txt 红→黄，并加 manifest-entry-churn 豁免",
+      "state": "merged",
+      "url": "https://github.com/yhyu13/AgentSkillsVault/pull/58",
+      "updated_at": "2026-11-18T04:52:47Z",
+      "merged_at": "2026-11-18T04:52:47Z"
+    },
+    {
+      "repo": "yhyu13/AgentSkillsVault",
+      "number": 57,
+      "title": "feat(skills): 把 opendeck 并入 html-ppt（#80 合并方案）",
+      "state": "merged",
+      "url": "https://github.com/yhyu13/AgentSkillsVault/pull/57",
+      "updated_at": "2026-11-18T02:18:44Z",
+      "merged_at": "2026-11-18T02:18:44Z"
+    },
+    {
+      "repo": "yhyu13/PullYourselfUpApp",
+      "number": 310,
+      "title": "fix(compliance): 危机门前置 + 原文脱敏 + 注册只绑协议勾 + 分享链接跟随站点 + terms 明示同意",
+      "state": "merged",
+      "url": "https://github.com/yhyu13/PullYourselfUpApp/pull/310",
+      "updated_at": "2026-11-18T02:16:44Z",
+      "merged_at": "2026-11-18T02:16:44Z"
+    },
+    {
+      "repo": "yhyu13/yhyu13.github.io",
+      "number": 37,
+      "title": "feat(decks): add the last unuploaded deck — Wharton's Mollick talk",
+      "state": "merged",
+      "url": "https://github.com/yhyu13/yhyu13.github.io/pull/37",
+      "updated_at": "2026-11-17T17:56:44Z",
+      "merged_at": "2026-11-17T17:56:44Z"
+    },
+    {
+      "repo": "yhyu13/yhyu13.github.io",
+      "number": 36,
+      "title": "feat(courses): host the 24 MIT 14.13 lecture videos at 720p",
+      "state": "merged",
+      "url": "https://github.com/yhyu13/yhyu13.github.io/pull/36",
+      "updated_at": "2026-11-17T17:50:26Z",
+      "merged_at": "2026-11-17T17:50:24Z"
+    },
+    {
+      "repo": "yhyu13/yhyu13.github.io",
+      "number": 35,
+      "title": "feat(labs): ship the a16z radar index and the agent-architecture deep read",
+      "state": "merged",
+      "url": "https://github.com/yhyu13/yhyu13.github.io/pull/35",
+      "updated_at": "2026-11-17T17:34:37Z",
+      "merged_at": "2026-11-17T17:34:36Z"
+    },
+    {
+      "repo": "yhyu13/wuxia-town",
+      "number": 148,
+      "title": "chore(issue147-closeout): 收口对齐真实行为并重建单文件",
+      "state": "merged",
+      "url": "https://github.com/yhyu13/wuxia-town/pull/148",
+      "updated_at": "2026-11-17T17:46:52Z",
+      "merged_at": "2026-11-17T17:46:52Z"
+    },
+    {
+      "repo": "yhyu13/yhyu13.github.io",
+      "number": 34,
+      "title": "feat(archive): add the mutation-testing survey and the UE5 lighting notes",
+      "state": "merged",
+      "url": "https://github.com/yhyu13/yhyu13.github.io/pull/34",
+      "updated_at": "2026-11-17T17:26:37Z",
+      "merged_at": "2026-11-17T17:26:37Z"
+    },
+    {
+      "repo": "yhyu13/yhyu13.github.io",
+      "number": 33,
+      "title": "feat(archive): add the 3D pipeline survey and the Stageshow teardown",
+      "state": "merged",
+      "url": "https://github.com/yhyu13/yhyu13.github.io/pull/33",
+      "updated_at": "2026-11-17T17:19:30Z",
+      "merged_at": "2026-11-17T17:19:30Z"
+    },
+    {
+      "repo": "yhyu13/AgentSkillsVault",
+      "number": 56,
+      "title": "fix(sync): 不再拆宿主投影到 ~/.claude/skills 的 junction（#81）",
+      "state": "merged",
+      "url": "https://github.com/yhyu13/AgentSkillsVault/pull/56",
+      "updated_at": "2026-11-18T02:08:28Z",
+      "merged_at": "2026-11-18T02:08:28Z"
+    },
+    {
+      "repo": "yhyu13/yhyu13.github.io",
+      "number": 32,
+      "title": "feat(archive): publish the 2026 AI-tutor research review",
+      "state": "merged",
+      "url": "https://github.com/yhyu13/yhyu13.github.io/pull/32",
+      "updated_at": "2026-11-17T17:12:04Z",
+      "merged_at": "2026-11-17T17:12:03Z"
+    },
+    {
+      "repo": "yhyu13/AgentSkillsVault",
+      "number": 55,
+      "title": "feat(skills): 补 4 个「只在 store、不在 vault」的 skill（tier0）",
+      "state": "merged",
+      "url": "https://github.com/yhyu13/AgentSkillsVault/pull/55",
+      "updated_at": "2026-11-17T17:10:27Z",
+      "merged_at": "2026-11-17T17:10:27Z"
+    },
+    {
+      "repo": "yhyu13/AgentSkillsVault",
+      "number": 54,
+      "title": "docs(candidates): 否决 min(容量,质量) 重分层；记下路由失败的两类与 sync 拆宿主投影（#79-#81）",
+      "state": "merged",
+      "url": "https://github.com/yhyu13/AgentSkillsVault/pull/54",
+      "updated_at": "2026-11-17T17:07:09Z",
+      "merged_at": "2026-11-17T17:07:09Z"
+    },
+    {
+      "repo": "yhyu13/yhyu13.github.io",
+      "number": 31,
+      "title": "fix(check-links): treat srt/vtt as text in the manifest byte check",
+      "state": "merged",
+      "url": "https://github.com/yhyu13/yhyu13.github.io/pull/31",
+      "updated_at": "2026-11-17T17:04:50Z",
+      "merged_at": "2026-11-17T17:04:50Z"
+    },
+    {
+      "repo": "yhyu13/yhyu13.github.io",
+      "number": 30,
+      "title": "feat(courses): add MIT 14.13 Psychology and Economics as a course",
+      "state": "merged",
+      "url": "https://github.com/yhyu13/yhyu13.github.io/pull/30",
+      "updated_at": "2026-11-17T17:00:38Z",
+      "merged_at": "2026-11-17T17:00:38Z"
+    },
+    {
+      "repo": "yhyu13/yhyu13.github.io",
+      "number": 29,
+      "title": "feat(decks): curate five more decks, two cuts, one showreel page",
+      "state": "merged",
+      "url": "https://github.com/yhyu13/yhyu13.github.io/pull/29",
+      "updated_at": "2026-11-17T16:52:34Z",
+      "merged_at": "2026-11-17T16:52:33Z"
+    },
+    {
+      "repo": "yhyu13/AgentSkillsVault",
+      "number": 53,
+      "title": "feat(eval): 把个人成长的质量评审搬进 vault（第三个轴：质量）",
+      "state": "merged",
+      "url": "https://github.com/yhyu13/AgentSkillsVault/pull/53",
+      "updated_at": "2026-11-17T16:53:01Z",
+      "merged_at": "2026-11-17T16:53:00Z"
+    },
+    {
+      "repo": "yhyu13/AgentSkillsVault",
+      "number": 52,
+      "title": "feat(eval): 行为证据接进评分表（#73 后半）+ 修掉 ABSTAIN 的提示词缺陷",
+      "state": "merged",
+      "url": "https://github.com/yhyu13/AgentSkillsVault/pull/52",
+      "updated_at": "2026-11-17T16:48:58Z",
+      "merged_at": "2026-11-17T16:48:32Z"
+    },
+    {
+      "repo": "yhyu13/yhyu13.github.io",
+      "number": 28,
+      "title": "feat(craft): host the 随军记 interactive witness and the Saltline dock scene",
+      "state": "merged",
+      "url": "https://github.com/yhyu13/yhyu13.github.io/pull/28",
+      "updated_at": "2026-11-17T16:45:06Z",
+      "merged_at": "2026-11-17T16:45:06Z"
+    },
+    {
+      "repo": "yhyu13/yhyu13.github.io",
+      "number": 27,
+      "title": "feat(decks): add twenty video slides and fourteen release-hosted cuts",
+      "state": "merged",
+      "url": "https://github.com/yhyu13/yhyu13.github.io/pull/27",
+      "updated_at": "2026-11-17T16:40:53Z",
+      "merged_at": "2026-11-17T16:40:53Z"
+    },
+    {
+      "repo": "yhyu13/PullYourselfUpApp",
+      "number": 308,
+      "title": "feat(test): 三环境冒烟测试 + spec 台账 + 修 ?k= 查询串 404 与 night-05 时区假红",
+      "state": "merged",
+      "url": "https://github.com/yhyu13/PullYourselfUpApp/pull/308",
+      "updated_at": "2026-11-18T02:09:34Z",
+      "merged_at": "2026-11-18T02:09:34Z"
+    },
+    {
+      "repo": "yhyu13/AgentSkillsVault",
+      "number": 51,
+      "title": "feat(eval): 行为证据落地——71 个 A 档 skill 的真机触发测试（#73）",
+      "state": "merged",
+      "url": "https://github.com/yhyu13/AgentSkillsVault/pull/51",
+      "updated_at": "2026-11-17T16:26:02Z",
+      "merged_at": "2026-11-17T16:26:02Z"
     }
   ],
   "lessons": [
