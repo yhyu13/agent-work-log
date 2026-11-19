@@ -1,5 +1,5 @@
 {
-  "total_count": 332,
+  "total_count": 350,
   "incomplete_results": false,
   "items": [
     {
@@ -26,20 +26,20 @@
       "html_url": "https://github.com/yhyu13/AgentSkillsVault/pull/45",
       "number": 45,
       "title": "feat(gate): 修 pycache 噪声 / 空 submodule 丢失 / 治理文档口径（red）",
-      "state": "open",
-      "updated_at": "2026-11-15T14:33:06Z",
+      "state": "closed",
+      "updated_at": "2026-11-18T18:00:16Z",
       "pull_request": {
-        "merged_at": null
+        "merged_at": "2026-11-18T18:00:16Z"
       }
     },
     {
       "html_url": "https://github.com/yhyu13/AgentSkillsVault/pull/44",
       "number": 44,
       "title": "feat(scripts): 落地 skill lockfile / store 审计 / marketplace",
-      "state": "open",
-      "updated_at": "2026-11-17T06:30:03Z",
+      "state": "closed",
+      "updated_at": "2026-11-18T17:42:51Z",
       "pull_request": {
-        "merged_at": null
+        "merged_at": "2026-11-18T17:42:50Z"
       }
     },
     {
@@ -96,10 +96,10 @@
       "html_url": "https://github.com/yhyu13/AgentSkillsVault/pull/42",
       "number": 42,
       "title": "feat(radar): install-integrity probe — store 看得见吗 / 出手机检吗",
-      "state": "open",
-      "updated_at": "2026-11-17T06:29:56Z",
+      "state": "closed",
+      "updated_at": "2026-11-18T17:24:44Z",
       "pull_request": {
-        "merged_at": null
+        "merged_at": "2026-11-18T17:24:43Z"
       }
     },
     {
@@ -2676,10 +2676,10 @@
       "html_url": "https://github.com/yhyu13/PullYourselfUpApp/pull/303",
       "number": 303,
       "title": "feat(marketing): 文案工具加「润色」——用我写的那句当底稿重出 A/B",
-      "state": "open",
-      "updated_at": "2026-11-18T02:23:09Z",
+      "state": "closed",
+      "updated_at": "2026-11-19T11:29:46Z",
       "pull_request": {
-        "merged_at": null
+        "merged_at": "2026-11-19T11:29:46Z"
       }
     },
     {
@@ -2976,10 +2976,10 @@
       "html_url": "https://github.com/yhyu13/PullYourselfUpApp/pull/321",
       "number": 321,
       "title": "chore(test): 删除 LLM 评估 Agent harness + 上线推进总表",
-      "state": "open",
-      "updated_at": "2026-11-18T14:54:33Z",
+      "state": "closed",
+      "updated_at": "2026-11-18T17:11:35Z",
       "pull_request": {
-        "merged_at": null
+        "merged_at": "2026-11-18T17:11:34Z"
       }
     },
     {
@@ -2995,11 +2995,11 @@
     {
       "html_url": "https://github.com/yhyu13/wuxia-town/pull/150",
       "number": 150,
-      "title": "feat(issue147-game): 接入破坏试玩与快照验证",
-      "state": "open",
-      "updated_at": "2026-11-18T06:33:04Z",
+      "title": "feat(issue147-game): 16 玩家技能+自动反叛、双胜利、一分钟一天与局终自动导演",
+      "state": "closed",
+      "updated_at": "2026-11-19T03:48:50Z",
       "pull_request": {
-        "merged_at": null
+        "merged_at": "2026-11-19T03:48:50Z"
       }
     },
     {
@@ -3320,6 +3320,186 @@
       "updated_at": "2026-11-17T16:26:02Z",
       "pull_request": {
         "merged_at": "2026-11-17T16:26:02Z"
+      }
+    },
+    {
+      "html_url": "https://github.com/yhyu13/PullYourselfUpApp/pull/338",
+      "number": 338,
+      "title": "docs(agents): 上下文预算与溢出防御 SOP",
+      "state": "closed",
+      "updated_at": "2026-11-19T15:20:37Z",
+      "pull_request": {
+        "merged_at": "2026-11-19T15:20:37Z"
+      }
+    },
+    {
+      "html_url": "https://github.com/yhyu13/wuxia-town/pull/154",
+      "number": 154,
+      "title": "fix(issue149-regex): 失败数解析双词序+英文+§6 限定与一致性校验",
+      "state": "closed",
+      "updated_at": "2026-11-19T14:47:08Z",
+      "pull_request": {
+        "merged_at": "2026-11-19T14:47:08Z"
+      }
+    },
+    {
+      "html_url": "https://github.com/yhyu13/PullYourselfUpApp/pull/336",
+      "number": 336,
+      "title": "docs(journey): I-03 输入长度边界与 Q-15…Q-19",
+      "state": "closed",
+      "updated_at": "2026-11-19T13:37:05Z",
+      "pull_request": {
+        "merged_at": "2026-11-19T13:37:04Z"
+      }
+    },
+    {
+      "html_url": "https://github.com/yhyu13/PullYourselfUpApp/pull/335",
+      "number": 335,
+      "title": "docs(ideas): 新增 I-03 输入长度边界 + Q-15…Q-19",
+      "state": "closed",
+      "updated_at": "2026-11-19T13:33:07Z",
+      "pull_request": {
+        "merged_at": "2026-11-19T13:33:07Z"
+      }
+    },
+    {
+      "html_url": "https://github.com/yhyu13/wuxia-town/pull/152",
+      "number": 152,
+      "title": "fix(issue147-guardmark): 守卫徽章每帧贴合与 quake 镜像",
+      "state": "closed",
+      "updated_at": "2026-11-19T11:48:03Z",
+      "pull_request": {
+        "merged_at": "2026-11-19T11:46:16Z"
+      }
+    },
+    {
+      "html_url": "https://github.com/yhyu13/PullYourselfUpApp/pull/325",
+      "number": 325,
+      "title": "feat(app): owner 决策页（公网可点、14 项全选项+建议+证据）",
+      "state": "closed",
+      "updated_at": "2026-11-19T11:31:40Z",
+      "pull_request": {
+        "merged_at": "2026-11-19T11:31:40Z"
+      }
+    },
+    {
+      "html_url": "https://github.com/yhyu13/PullYourselfUpApp/pull/329",
+      "number": 329,
+      "title": "chore(deploy): 报告 cron 收进 setup.sh——冒烟 → 性能 → 汇报台",
+      "state": "closed",
+      "updated_at": "2026-11-19T11:30:37Z",
+      "pull_request": {
+        "merged_at": "2026-11-19T11:30:37Z"
+      }
+    },
+    {
+      "html_url": "https://github.com/yhyu13/PullYourselfUpApp/pull/323",
+      "number": 323,
+      "title": "docs(spec): 待 owner 判断清单（9 项全选项）+ SOP 三条",
+      "state": "closed",
+      "updated_at": "2026-11-19T11:30:09Z",
+      "pull_request": {
+        "merged_at": "2026-11-19T11:30:09Z"
+      }
+    },
+    {
+      "html_url": "https://github.com/yhyu13/PullYourselfUpApp/pull/322",
+      "number": 322,
+      "title": "docs(spec): L4 专家团与管家草案（含三处口径纠正与语音硬约束）",
+      "state": "closed",
+      "updated_at": "2026-11-19T11:29:58Z",
+      "pull_request": {
+        "merged_at": "2026-11-19T11:29:58Z"
+      }
+    },
+    {
+      "html_url": "https://github.com/yhyu13/PullYourselfUpApp/pull/334",
+      "number": 334,
+      "title": "docs(journey): 想法本撞车合流与 Q-13/Q-14 登记",
+      "state": "closed",
+      "updated_at": "2026-11-19T10:35:47Z",
+      "pull_request": {
+        "merged_at": "2026-11-19T10:35:47Z"
+      }
+    },
+    {
+      "html_url": "https://github.com/yhyu13/PullYourselfUpApp/pull/333",
+      "number": 333,
+      "title": "docs(ideas): I-01 挂到 L4 草案 + 补 Q-13/Q-14 两条硬约束",
+      "state": "closed",
+      "updated_at": "2026-11-19T10:31:52Z",
+      "pull_request": {
+        "merged_at": "2026-11-19T10:31:52Z"
+      }
+    },
+    {
+      "html_url": "https://github.com/yhyu13/PullYourselfUpApp/pull/332",
+      "number": 332,
+      "title": "docs(ideas): 追问拆成 11 条独立子想法 + 引入 L 阶段轴",
+      "state": "closed",
+      "updated_at": "2026-11-19T10:28:16Z",
+      "pull_request": {
+        "merged_at": null
+      }
+    },
+    {
+      "html_url": "https://github.com/yhyu13/PullYourselfUpApp/pull/331",
+      "number": 331,
+      "title": "docs(ideas): 追加 L 阶梯与追问登记 Q-01…Q-12（未指定归属 L 的一律不进当前 L）",
+      "state": "closed",
+      "updated_at": "2026-11-19T10:26:46Z",
+      "pull_request": {
+        "merged_at": "2026-11-19T10:26:45Z"
+      }
+    },
+    {
+      "html_url": "https://github.com/yhyu13/PullYourselfUpApp/pull/330",
+      "number": 330,
+      "title": "docs(ideas): 想法本追加 I-02 形态与平台 + 市场证据调研",
+      "state": "closed",
+      "updated_at": "2026-11-19T09:48:31Z",
+      "pull_request": {
+        "merged_at": "2026-11-19T09:48:31Z"
+      }
+    },
+    {
+      "html_url": "https://github.com/yhyu13/AgentSkillsVault/pull/60",
+      "number": 60,
+      "title": "feat(skill): add host-neutral pstack work kit",
+      "state": "closed",
+      "updated_at": "2026-11-19T09:48:24Z",
+      "pull_request": {
+        "merged_at": "2026-11-19T09:48:24Z"
+      }
+    },
+    {
+      "html_url": "https://github.com/yhyu13/PullYourselfUpApp/pull/327",
+      "number": 327,
+      "title": "docs(ideas): 新建想法记事本 + 登记 I-01 专家 Agent 与管家专家",
+      "state": "closed",
+      "updated_at": "2026-11-19T09:36:48Z",
+      "pull_request": {
+        "merged_at": "2026-11-19T09:36:48Z"
+      }
+    },
+    {
+      "html_url": "https://github.com/yhyu13/wuxia-town/pull/151",
+      "number": 151,
+      "title": "feat(issue147-adapt): 导演契约v2 + 破坏画像面板与施放范围预览（N1+N2）",
+      "state": "closed",
+      "updated_at": "2026-11-19T06:50:42Z",
+      "pull_request": {
+        "merged_at": "2026-11-19T06:50:42Z"
+      }
+    },
+    {
+      "html_url": "https://github.com/yhyu13/AgentSkillsVault/pull/59",
+      "number": 59,
+      "title": "feat(skills): add truly-anti-ai-flavor distilled skill",
+      "state": "closed",
+      "updated_at": "2026-11-18T17:31:08Z",
+      "pull_request": {
+        "merged_at": "2026-11-18T17:31:07Z"
       }
     }
   ],
