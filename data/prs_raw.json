@@ -1,5 +1,5 @@
 {
-  "total_count": 350,
+  "total_count": 356,
   "incomplete_results": false,
   "items": [
     {
@@ -3500,6 +3500,66 @@
       "updated_at": "2026-11-18T17:31:08Z",
       "pull_request": {
         "merged_at": "2026-11-18T17:31:07Z"
+      }
+    },
+    {
+      "html_url": "https://github.com/yhyu13/PullYourselfUpApp/pull/358",
+      "number": 358,
+      "title": "docs(agents): 对外文案改英文为主——主轴定稿 + 术语档成文【绿】",
+      "state": "open",
+      "updated_at": "2026-11-21T11:00:43Z",
+      "pull_request": {
+        "merged_at": null
+      }
+    },
+    {
+      "html_url": "https://github.com/yhyu13/PullYourselfUpApp/pull/356",
+      "number": 356,
+      "title": "docs(reports): Cindy 日报 11-21（workbench 原型+角色落地+#353 复核）【绿】",
+      "state": "closed",
+      "updated_at": "2026-11-20T23:54:08Z",
+      "pull_request": {
+        "merged_at": "2026-11-20T23:54:07Z"
+      }
+    },
+    {
+      "html_url": "https://github.com/yhyu13/PullYourselfUpApp/pull/355",
+      "number": 355,
+      "title": "feat(l4): 【黄】刀 0 知识包按话题隔离——topic 下沉到概念级",
+      "state": "open",
+      "updated_at": "2026-11-20T18:41:07Z",
+      "pull_request": {
+        "merged_at": null
+      }
+    },
+    {
+      "html_url": "https://github.com/yhyu13/PullYourselfUpApp/pull/353",
+      "number": 353,
+      "title": "fix(reports): 落七项对齐页修复 + PR 标题分级标记成为闸门【黄】",
+      "state": "closed",
+      "updated_at": "2026-11-20T18:30:31Z",
+      "pull_request": {
+        "merged_at": "2026-11-20T18:30:31Z"
+      }
+    },
+    {
+      "html_url": "https://github.com/yhyu13/PullYourselfUpApp/pull/351",
+      "number": 351,
+      "title": "docs(reports): 填 Cindy review 报告 + journey 记 issue triage",
+      "state": "closed",
+      "updated_at": "2026-11-20T17:58:51Z",
+      "pull_request": {
+        "merged_at": "2026-11-20T17:58:51Z"
+      }
+    },
+    {
+      "html_url": "https://github.com/yhyu13/PullYourselfUpApp/pull/346",
+      "number": 346,
+      "title": "docs(pm): 汇报漏斗入仓 + owner 勾选决策页",
+      "state": "closed",
+      "updated_at": "2026-11-20T17:45:18Z",
+      "pull_request": {
+        "merged_at": "2026-11-20T17:45:18Z"
       }
     }
   ],

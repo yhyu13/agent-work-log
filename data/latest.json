@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-19T15:33:14+00:00",
+  "updatedAt": "2026-11-21T15:38:43+00:00",
   "repo": "yhyu13/agent-work-log",
   "pagesUrl": "https://yhyu13.github.io/agent-work-log/",
   "coverageNote": "每日记录从任务建立日 2026-11-10（上海时间）起。当日 MR 是 yhyu13 名下公开 PR 里、最近一次更新落在这一天的条目，不是本任务单独产生，也不会在每一天重复。早于任务建立的条目只在总表。候选经验不是已批准规则。",
@@ -23,7 +23,7 @@
           "evidence": "本地 build 通过；schema/CLI 43 pass；浏览器 100 passed；首页 entry 294.52 kB，低于 300 kB 预算。"
         }
       ],
-      "recordUpdatedAt": "2026-11-19T15:33:14+00:00",
+      "recordUpdatedAt": "2026-11-21T15:38:43+00:00",
       "mrs": [
         {
           "repo": "yhyu13/DreamWeaverOPC1",
@@ -186,7 +186,7 @@
           "evidence": "当时页面 HTTP 200。那份 25 条 PR 是旧快照，这一次已换成更大范围的新快照。"
         }
       ],
-      "recordUpdatedAt": "2026-11-19T15:33:14+00:00",
+      "recordUpdatedAt": "2026-11-21T15:38:43+00:00",
       "mrs": [
         {
           "repo": "ailiaixue/pbl",
@@ -343,7 +343,7 @@
           "evidence": "本机 CLI 与 sqlite。公开库仍是只读投影。"
         }
       ],
-      "recordUpdatedAt": "2026-11-19T15:33:14+00:00",
+      "recordUpdatedAt": "2026-11-21T15:38:43+00:00",
       "mrs": [
         {
           "repo": "yhyu13/yhyu13.github.io",
@@ -494,7 +494,7 @@
           "evidence": "该任务会话在这次补记之前没有新的用户消息。"
         }
       ],
-      "recordUpdatedAt": "2026-11-19T15:33:14+00:00",
+      "recordUpdatedAt": "2026-11-21T15:38:43+00:00",
       "mrs": [
         {
           "repo": "yhyu13/wuxia-town",
@@ -939,7 +939,7 @@
           "evidence": "本机 memory.py 已有 search 和 inject。inject 在没有已批准经验时返回空。"
         }
       ],
-      "recordUpdatedAt": "2026-11-19T15:33:14+00:00",
+      "recordUpdatedAt": "2026-11-21T15:38:43+00:00",
       "mrs": [
         {
           "repo": "ailiaixue/pbl",
@@ -1879,7 +1879,7 @@
           "evidence": "本机 sqlite 的 lessons 计数与状态分组；公开库条目数应与新版 latest.json 一致。"
         }
       ],
-      "recordUpdatedAt": "2026-11-19T15:33:14+00:00",
+      "recordUpdatedAt": "2026-11-21T15:38:43+00:00",
       "mrs": [
         {
           "repo": "ailiaixue/pbl",
@@ -2063,7 +2063,7 @@
           "evidence": "本机 sqlite 的 lessons 计数与状态分组、审批表计数均与上一版一致。"
         }
       ],
-      "recordUpdatedAt": "2026-11-19T15:33:14+00:00",
+      "recordUpdatedAt": "2026-11-21T15:38:43+00:00",
       "mrs": [
         {
           "repo": "yhyu13/Hackthon_Aholo_20261107",
@@ -2382,7 +2382,7 @@
           "evidence": "本机 sqlite 的 lessons 计数与状态分组与上一版一致。"
         }
       ],
-      "recordUpdatedAt": "2026-11-19T15:33:14+00:00",
+      "recordUpdatedAt": "2026-11-21T15:38:43+00:00",
       "mrs": [
         {
           "repo": "yhyu13/PullYourselfUpApp",
@@ -2698,7 +2698,7 @@
           "evidence": "本机 sqlite 的 lessons 计数与状态分组、审批表计数均与上一版一致。"
         }
       ],
-      "recordUpdatedAt": "2026-11-19T15:33:14+00:00",
+      "recordUpdatedAt": "2026-11-21T15:38:43+00:00",
       "mrs": [
         {
           "repo": "yhyu13/PullYourselfUpApp",
@@ -3035,7 +3035,7 @@
           "evidence": "本机 sqlite 的 lessons 计数与状态分组与上一版一致，文件修改时间未变。"
         }
       ],
-      "recordUpdatedAt": "2026-11-19T15:33:14+00:00",
+      "recordUpdatedAt": "2026-11-21T15:38:43+00:00",
       "mrs": [
         {
           "repo": "yhyu13/AgentSkillsVault",
@@ -3252,6 +3252,88 @@
           "url": "https://github.com/yhyu13/AgentSkillsVault/pull/59",
           "updated_at": "2026-11-18T17:31:08Z",
           "merged_at": "2026-11-18T17:31:07Z"
+        }
+      ]
+    },
+    {
+      "date": "2026-11-21",
+      "window": "2026-11-21 00:00 → 2026-11-21 23:30（上海时间）",
+      "summary": "这一天由定时任务在 23:30（上海时间）收口，当天无任务内更新（本条为定时收口自动记录，除本次收口外没有可核实的其他任务内改动）。公开 PR 搜索里，最近一次更新落在本日的共 6 条，全部来自 PullYourselfUpApp：4 条已合并（#346、#351、#353、#356），2 条仍开放（#355、#358），没有关闭未合并的。6 条都是快照首次收录，快照总数从 350 涨到 356；没有旧 PR 在本日再次更新，也没有此前开放的 PR 需要改挂。账号名下其他仓库本日无 PR 更新。缺口说明：days.json 与提交历史里都没有 2026-11-20 的记录（该日收口未产生提交，原因未验证），本日按指令只记录当天，不补写该日。记忆库没有新写入。",
+      "items": [
+        {
+          "repo": "yhyu13/agent-work-log",
+          "work": "用公开 GitHub 搜索刷新 author:yhyu13 且 updated 落在 2026-11-20T16:00:00Z 至 2026-11-21T15:59:59Z 的 PR，命中 6 条（未见 incomplete），按链接合并进 data/prs_raw.json，总数从 350 涨到 356，全部为新增；随后重建脱敏投影并提交推送。",
+          "status": "只改本仓；个人主页仓库没有改；.github/workflows 没有提交；没有强推。",
+          "evidence": "以推送后线上 latest.json 的 updatedAt 和公开 PR 元数据为准。"
+        },
+        {
+          "repo": "yhyu13/PullYourselfUpApp",
+          "work": "6 条 PR 的最近一次更新落在本日窗口：4 条已合并（#346、#351、#353、#356），2 条仍开放（#355、#358）。6 条均为快照首次收录，按“只挂最近一次更新日”的规则全部记在本日。",
+          "status": "只记录公开元数据；不改动该仓库，不写入其正文内容。",
+          "evidence": "公开搜索结果的 html_url、state 与 merged_at；#355、#358 的 merged_at 为空、state 为 open。"
+        },
+        {
+          "repo": "UnifiedAgentMemory",
+          "work": "本轮没有新写入，文件修改停在 2026-11-14 16:54（上海时间）；库里仍是 15 条候选经验，没有已批准条目。",
+          "status": "没有批准任何经验，没有新建 MCP 或 skill。",
+          "evidence": "只读 sqlite 的 lessons 计数与状态分组和上一轮一致，文件修改时间未变。"
+        }
+      ],
+      "recordUpdatedAt": "2026-11-21T15:38:43+00:00",
+      "mrs": [
+        {
+          "repo": "yhyu13/PullYourselfUpApp",
+          "number": 358,
+          "title": "docs(agents): 对外文案改英文为主——主轴定稿 + 术语档成文【绿】",
+          "state": "open",
+          "url": "https://github.com/yhyu13/PullYourselfUpApp/pull/358",
+          "updated_at": "2026-11-21T11:00:43Z",
+          "merged_at": null
+        },
+        {
+          "repo": "yhyu13/PullYourselfUpApp",
+          "number": 356,
+          "title": "docs(reports): Cindy 日报 11-21（workbench 原型+角色落地+#353 复核）【绿】",
+          "state": "merged",
+          "url": "https://github.com/yhyu13/PullYourselfUpApp/pull/356",
+          "updated_at": "2026-11-20T23:54:08Z",
+          "merged_at": "2026-11-20T23:54:07Z"
+        },
+        {
+          "repo": "yhyu13/PullYourselfUpApp",
+          "number": 355,
+          "title": "feat(l4): 【黄】刀 0 知识包按话题隔离——topic 下沉到概念级",
+          "state": "open",
+          "url": "https://github.com/yhyu13/PullYourselfUpApp/pull/355",
+          "updated_at": "2026-11-20T18:41:07Z",
+          "merged_at": null
+        },
+        {
+          "repo": "yhyu13/PullYourselfUpApp",
+          "number": 353,
+          "title": "fix(reports): 落七项对齐页修复 + PR 标题分级标记成为闸门【黄】",
+          "state": "merged",
+          "url": "https://github.com/yhyu13/PullYourselfUpApp/pull/353",
+          "updated_at": "2026-11-20T18:30:31Z",
+          "merged_at": "2026-11-20T18:30:31Z"
+        },
+        {
+          "repo": "yhyu13/PullYourselfUpApp",
+          "number": 351,
+          "title": "docs(reports): 填 Cindy review 报告 + journey 记 issue triage",
+          "state": "merged",
+          "url": "https://github.com/yhyu13/PullYourselfUpApp/pull/351",
+          "updated_at": "2026-11-20T17:58:51Z",
+          "merged_at": "2026-11-20T17:58:51Z"
+        },
+        {
+          "repo": "yhyu13/PullYourselfUpApp",
+          "number": 346,
+          "title": "docs(pm): 汇报漏斗入仓 + owner 勾选决策页",
+          "state": "merged",
+          "url": "https://github.com/yhyu13/PullYourselfUpApp/pull/346",
+          "updated_at": "2026-11-20T17:45:18Z",
+          "merged_at": "2026-11-20T17:45:18Z"
         }
       ]
     }
@@ -6406,6 +6488,60 @@
       "url": "https://github.com/yhyu13/AgentSkillsVault/pull/59",
       "updated_at": "2026-11-18T17:31:08Z",
       "merged_at": "2026-11-18T17:31:07Z"
+    },
+    {
+      "repo": "yhyu13/PullYourselfUpApp",
+      "number": 358,
+      "title": "docs(agents): 对外文案改英文为主——主轴定稿 + 术语档成文【绿】",
+      "state": "open",
+      "url": "https://github.com/yhyu13/PullYourselfUpApp/pull/358",
+      "updated_at": "2026-11-21T11:00:43Z",
+      "merged_at": null
+    },
+    {
+      "repo": "yhyu13/PullYourselfUpApp",
+      "number": 356,
+      "title": "docs(reports): Cindy 日报 11-21（workbench 原型+角色落地+#353 复核）【绿】",
+      "state": "merged",
+      "url": "https://github.com/yhyu13/PullYourselfUpApp/pull/356",
+      "updated_at": "2026-11-20T23:54:08Z",
+      "merged_at": "2026-11-20T23:54:07Z"
+    },
+    {
+      "repo": "yhyu13/PullYourselfUpApp",
+      "number": 355,
+      "title": "feat(l4): 【黄】刀 0 知识包按话题隔离——topic 下沉到概念级",
+      "state": "open",
+      "url": "https://github.com/yhyu13/PullYourselfUpApp/pull/355",
+      "updated_at": "2026-11-20T18:41:07Z",
+      "merged_at": null
+    },
+    {
+      "repo": "yhyu13/PullYourselfUpApp",
+      "number": 353,
+      "title": "fix(reports): 落七项对齐页修复 + PR 标题分级标记成为闸门【黄】",
+      "state": "merged",
+      "url": "https://github.com/yhyu13/PullYourselfUpApp/pull/353",
+      "updated_at": "2026-11-20T18:30:31Z",
+      "merged_at": "2026-11-20T18:30:31Z"
+    },
+    {
+      "repo": "yhyu13/PullYourselfUpApp",
+      "number": 351,
+      "title": "docs(reports): 填 Cindy review 报告 + journey 记 issue triage",
+      "state": "merged",
+      "url": "https://github.com/yhyu13/PullYourselfUpApp/pull/351",
+      "updated_at": "2026-11-20T17:58:51Z",
+      "merged_at": "2026-11-20T17:58:51Z"
+    },
+    {
+      "repo": "yhyu13/PullYourselfUpApp",
+      "number": 346,
+      "title": "docs(pm): 汇报漏斗入仓 + owner 勾选决策页",
+      "state": "merged",
+      "url": "https://github.com/yhyu13/PullYourselfUpApp/pull/346",
+      "updated_at": "2026-11-20T17:45:18Z",
+      "merged_at": "2026-11-20T17:45:18Z"
     }
   ],
   "lessons": [
