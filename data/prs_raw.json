@@ -1,5 +1,5 @@
 {
-  "total_count": 356,
+  "total_count": 362,
   "incomplete_results": false,
   "items": [
     {
@@ -3506,10 +3506,10 @@
       "html_url": "https://github.com/yhyu13/PullYourselfUpApp/pull/358",
       "number": 358,
       "title": "docs(agents): 对外文案改英文为主——主轴定稿 + 术语档成文【绿】",
-      "state": "open",
-      "updated_at": "2026-11-21T11:00:43Z",
+      "state": "closed",
+      "updated_at": "2026-11-21T17:12:58Z",
       "pull_request": {
-        "merged_at": null
+        "merged_at": "2026-11-21T17:12:58Z"
       }
     },
     {
@@ -3526,10 +3526,10 @@
       "html_url": "https://github.com/yhyu13/PullYourselfUpApp/pull/355",
       "number": 355,
       "title": "feat(l4): 【黄】刀 0 知识包按话题隔离——topic 下沉到概念级",
-      "state": "open",
-      "updated_at": "2026-11-20T18:41:07Z",
+      "state": "closed",
+      "updated_at": "2026-11-21T17:32:02Z",
       "pull_request": {
-        "merged_at": null
+        "merged_at": "2026-11-21T17:32:02Z"
       }
     },
     {
@@ -3560,6 +3560,66 @@
       "updated_at": "2026-11-20T17:45:18Z",
       "pull_request": {
         "merged_at": "2026-11-20T17:45:18Z"
+      }
+    },
+    {
+      "html_url": "https://github.com/yhyu13/PullYourselfUpApp/pull/360",
+      "number": 360,
+      "title": "fix(deploy): pr-grade 补路径降级 + 证据段双语【黄】",
+      "state": "closed",
+      "updated_at": "2026-11-22T08:58:53Z",
+      "pull_request": {
+        "merged_at": "2026-11-22T08:58:38Z"
+      }
+    },
+    {
+      "html_url": "https://github.com/yhyu13/PullYourselfUpApp/pull/130",
+      "number": 130,
+      "title": "docs: journey 记 harness 首次端到端真跑",
+      "state": "closed",
+      "updated_at": "2026-11-21T17:35:50Z",
+      "pull_request": {
+        "merged_at": "2026-10-31T17:16:01Z"
+      }
+    },
+    {
+      "html_url": "https://github.com/yhyu13/PullYourselfUpApp/pull/129",
+      "number": 129,
+      "title": "docs(experts): 入库四份专家提示词与多agent协作20条调研",
+      "state": "closed",
+      "updated_at": "2026-11-21T17:35:41Z",
+      "pull_request": {
+        "merged_at": "2026-10-31T17:26:52Z"
+      }
+    },
+    {
+      "html_url": "https://github.com/yhyu13/PullYourselfUpApp/pull/128",
+      "number": 128,
+      "title": "docs: 四份专家提示词与多agent协作20条调研入库 (Closes #123)",
+      "state": "closed",
+      "updated_at": "2026-11-21T17:35:55Z",
+      "pull_request": {
+        "merged_at": "2026-10-31T17:00:00Z"
+      }
+    },
+    {
+      "html_url": "https://github.com/yhyu13/PullYourselfUpApp/pull/112",
+      "number": 112,
+      "title": "docs(journey): 2026-10-29 记 PR #111 收尾（R-04/§E 引用数字勘误）",
+      "state": "closed",
+      "updated_at": "2026-11-21T17:35:46Z",
+      "pull_request": {
+        "merged_at": "2026-10-28T18:02:01Z"
+      }
+    },
+    {
+      "html_url": "https://github.com/yhyu13/PullYourselfUpApp/pull/111",
+      "number": 111,
+      "title": "docs(requests): 勘误 R-04 与真源地图 §E 中已过期的 v1.0 引用数字",
+      "state": "closed",
+      "updated_at": "2026-11-21T17:35:59Z",
+      "pull_request": {
+        "merged_at": "2026-10-28T17:54:32Z"
       }
     }
   ],
