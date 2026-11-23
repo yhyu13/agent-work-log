@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-22T15:32:48+00:00",
+  "updatedAt": "2026-11-23T15:31:39+00:00",
   "repo": "yhyu13/agent-work-log",
   "pagesUrl": "https://yhyu13.github.io/agent-work-log/",
   "coverageNote": "每日记录从任务建立日 2026-11-10（上海时间）起。当日 MR 是 yhyu13 名下公开 PR 里、最近一次更新落在这一天的条目，不是本任务单独产生，也不会在每一天重复。早于任务建立的条目只在总表。候选经验不是已批准规则。",
@@ -23,7 +23,7 @@
           "evidence": "本地 build 通过；schema/CLI 43 pass；浏览器 100 passed；首页 entry 294.52 kB，低于 300 kB 预算。"
         }
       ],
-      "recordUpdatedAt": "2026-11-22T15:32:48+00:00",
+      "recordUpdatedAt": "2026-11-23T15:31:39+00:00",
       "mrs": [
         {
           "repo": "yhyu13/DreamWeaverOPC1",
@@ -186,7 +186,7 @@
           "evidence": "当时页面 HTTP 200。那份 25 条 PR 是旧快照，这一次已换成更大范围的新快照。"
         }
       ],
-      "recordUpdatedAt": "2026-11-22T15:32:48+00:00",
+      "recordUpdatedAt": "2026-11-23T15:31:39+00:00",
       "mrs": [
         {
           "repo": "ailiaixue/pbl",
@@ -343,7 +343,7 @@
           "evidence": "本机 CLI 与 sqlite。公开库仍是只读投影。"
         }
       ],
-      "recordUpdatedAt": "2026-11-22T15:32:48+00:00",
+      "recordUpdatedAt": "2026-11-23T15:31:39+00:00",
       "mrs": [
         {
           "repo": "yhyu13/yhyu13.github.io",
@@ -494,7 +494,7 @@
           "evidence": "该任务会话在这次补记之前没有新的用户消息。"
         }
       ],
-      "recordUpdatedAt": "2026-11-22T15:32:48+00:00",
+      "recordUpdatedAt": "2026-11-23T15:31:39+00:00",
       "mrs": [
         {
           "repo": "yhyu13/wuxia-town",
@@ -939,7 +939,7 @@
           "evidence": "本机 memory.py 已有 search 和 inject。inject 在没有已批准经验时返回空。"
         }
       ],
-      "recordUpdatedAt": "2026-11-22T15:32:48+00:00",
+      "recordUpdatedAt": "2026-11-23T15:31:39+00:00",
       "mrs": [
         {
           "repo": "ailiaixue/pbl",
@@ -1879,7 +1879,7 @@
           "evidence": "本机 sqlite 的 lessons 计数与状态分组；公开库条目数应与新版 latest.json 一致。"
         }
       ],
-      "recordUpdatedAt": "2026-11-22T15:32:48+00:00",
+      "recordUpdatedAt": "2026-11-23T15:31:39+00:00",
       "mrs": [
         {
           "repo": "ailiaixue/pbl",
@@ -2063,7 +2063,7 @@
           "evidence": "本机 sqlite 的 lessons 计数与状态分组、审批表计数均与上一版一致。"
         }
       ],
-      "recordUpdatedAt": "2026-11-22T15:32:48+00:00",
+      "recordUpdatedAt": "2026-11-23T15:31:39+00:00",
       "mrs": [
         {
           "repo": "yhyu13/Hackthon_Aholo_20261107",
@@ -2382,7 +2382,7 @@
           "evidence": "本机 sqlite 的 lessons 计数与状态分组与上一版一致。"
         }
       ],
-      "recordUpdatedAt": "2026-11-22T15:32:48+00:00",
+      "recordUpdatedAt": "2026-11-23T15:31:39+00:00",
       "mrs": [
         {
           "repo": "yhyu13/PullYourselfUpApp",
@@ -2698,7 +2698,7 @@
           "evidence": "本机 sqlite 的 lessons 计数与状态分组、审批表计数均与上一版一致。"
         }
       ],
-      "recordUpdatedAt": "2026-11-22T15:32:48+00:00",
+      "recordUpdatedAt": "2026-11-23T15:31:39+00:00",
       "mrs": [
         {
           "repo": "yhyu13/PullYourselfUpApp",
@@ -3035,7 +3035,7 @@
           "evidence": "本机 sqlite 的 lessons 计数与状态分组与上一版一致，文件修改时间未变。"
         }
       ],
-      "recordUpdatedAt": "2026-11-22T15:32:48+00:00",
+      "recordUpdatedAt": "2026-11-23T15:31:39+00:00",
       "mrs": [
         {
           "repo": "yhyu13/AgentSkillsVault",
@@ -3279,7 +3279,7 @@
           "evidence": "只读 sqlite 的 lessons 计数与状态分组和上一轮一致，文件修改时间未变。"
         }
       ],
-      "recordUpdatedAt": "2026-11-22T15:32:48+00:00",
+      "recordUpdatedAt": "2026-11-23T15:31:39+00:00",
       "mrs": [
         {
           "repo": "yhyu13/PullYourselfUpApp",
@@ -3343,7 +3343,7 @@
           "evidence": "只读 sqlite 的 lessons 计数与状态分组和上一轮一致，文件修改时间未变。"
         }
       ],
-      "recordUpdatedAt": "2026-11-22T15:32:48+00:00",
+      "recordUpdatedAt": "2026-11-23T15:31:39+00:00",
       "mrs": [
         {
           "repo": "yhyu13/PullYourselfUpApp",
@@ -3418,6 +3418,27 @@
           "merged_at": "2026-10-28T17:54:32Z"
         }
       ]
+    },
+    {
+      "date": "2026-11-23",
+      "window": "2026-11-23 00:00 → 2026-11-23 23:30（上海时间）",
+      "summary": "这一天由定时任务在 23:30（上海时间）收口，当天无任务内更新（本条为定时收口自动记录，除本次收口外没有可核实的其他任务内改动）。公开 PR 搜索里，author:yhyu13 且最近一次更新落在本日窗口的条目为 0 条，快照保持 362 条，没有新增、更新或改挂。记忆库没有新写入，仍是 15 条候选经验。",
+      "items": [
+        {
+          "repo": "yhyu13/agent-work-log",
+          "work": "用公开 GitHub 搜索刷新 author:yhyu13 且 updated 落在 2026-11-22T16:00:00Z 至 2026-11-23T15:59:59Z 的 PR，返回 0 条且 incomplete_results 为 false；按链接合并后 data/prs_raw.json 保持 362 条。随后补记当天记录并重建脱敏投影。",
+          "status": "只改本仓；个人主页仓库没有改；.github/workflows 没有提交；没有强推。",
+          "evidence": "公开搜索结果 total_count 为 0；发布后以线上 latest.json 的 updatedAt 和天数为准。"
+        },
+        {
+          "repo": "UnifiedAgentMemory",
+          "work": "本轮没有新写入，文件修改停在 2026-11-14 16:54（上海时间）；库里仍是 15 条候选经验，没有已批准条目。",
+          "status": "没有批准任何经验，没有新建 MCP 或 skill。",
+          "evidence": "只读 sqlite 的 lessons 计数与状态分组和上一轮一致，文件修改时间未变。"
+        }
+      ],
+      "recordUpdatedAt": "2026-11-23T15:31:39+00:00",
+      "mrs": []
     }
   ],
   "mrs": [

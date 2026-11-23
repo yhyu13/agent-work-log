@@ -316,5 +316,24 @@
         "evidence": "只读 sqlite 的 lessons 计数与状态分组和上一轮一致，文件修改时间未变。"
       }
     ]
+  },
+  {
+    "date": "2026-11-23",
+    "window": "2026-11-23 00:00 → 2026-11-23 23:30（上海时间）",
+    "summary": "这一天由定时任务在 23:30（上海时间）收口，当天无任务内更新（本条为定时收口自动记录，除本次收口外没有可核实的其他任务内改动）。公开 PR 搜索里，author:yhyu13 且最近一次更新落在本日窗口的条目为 0 条，快照保持 362 条，没有新增、更新或改挂。记忆库没有新写入，仍是 15 条候选经验。",
+    "items": [
+      {
+        "repo": "yhyu13/agent-work-log",
+        "work": "用公开 GitHub 搜索刷新 author:yhyu13 且 updated 落在 2026-11-22T16:00:00Z 至 2026-11-23T15:59:59Z 的 PR，返回 0 条且 incomplete_results 为 false；按链接合并后 data/prs_raw.json 保持 362 条。随后补记当天记录并重建脱敏投影。",
+        "status": "只改本仓；个人主页仓库没有改；.github/workflows 没有提交；没有强推。",
+        "evidence": "公开搜索结果 total_count 为 0；发布后以线上 latest.json 的 updatedAt 和天数为准。"
+      },
+      {
+        "repo": "UnifiedAgentMemory",
+        "work": "本轮没有新写入，文件修改停在 2026-11-14 16:54（上海时间）；库里仍是 15 条候选经验，没有已批准条目。",
+        "status": "没有批准任何经验，没有新建 MCP 或 skill。",
+        "evidence": "只读 sqlite 的 lessons 计数与状态分组和上一轮一致，文件修改时间未变。"
+      }
+    ]
   }
 ]
