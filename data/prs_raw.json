@@ -1,5 +1,5 @@
 {
-  "total_count": 362,
+  "total_count": 363,
   "incomplete_results": false,
   "items": [
     {
@@ -3620,6 +3620,16 @@
       "updated_at": "2026-11-21T17:35:59Z",
       "pull_request": {
         "merged_at": "2026-10-28T17:54:32Z"
+      }
+    },
+    {
+      "html_url": "https://github.com/yhyu13/PullYourselfUpApp/pull/361",
+      "number": 361,
+      "title": "docs(agents): 日报层级+收集链+≤200字格式；汇报语言统一入共享SOP【绿】",
+      "state": "closed",
+      "updated_at": "2026-11-24T14:44:49Z",
+      "pull_request": {
+        "merged_at": "2026-11-24T14:28:50Z"
       }
     }
   ],
