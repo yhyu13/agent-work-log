@@ -1,5 +1,5 @@
 {
-  "total_count": 363,
+  "total_count": 379,
   "incomplete_results": false,
   "items": [
     {
@@ -3630,6 +3630,166 @@
       "updated_at": "2026-11-24T14:44:49Z",
       "pull_request": {
         "merged_at": "2026-11-24T14:28:50Z"
+      }
+    },
+    {
+      "html_url": "https://github.com/ailiaixue/pbl/pull/177",
+      "number": 177,
+      "title": "[参考实现·暂停合并] test(verify): 浏览器端缺陷复现与死链巡检工具链 (Refs #172)",
+      "state": "closed",
+      "updated_at": "2026-11-26T16:38:41Z",
+      "pull_request": {
+        "merged_at": null
+      }
+    },
+    {
+      "html_url": "https://github.com/ailiaixue/pbl/pull/178",
+      "number": 178,
+      "title": "[参考实现·暂停合并] fix(ai): 低年级不再看到 SIPA 内部术语，快捷提问换掉上传暗示图标",
+      "state": "closed",
+      "updated_at": "2026-11-26T16:38:48Z",
+      "pull_request": {
+        "merged_at": null
+      }
+    },
+    {
+      "html_url": "https://github.com/ailiaixue/pbl/pull/179",
+      "number": 179,
+      "title": "[参考实现·暂停合并] fix(project): 状态与可见性规则收归后端统一执行（#162 BUG-01/02/14/18/19）",
+      "state": "closed",
+      "updated_at": "2026-11-26T16:38:53Z",
+      "pull_request": {
+        "merged_at": null
+      }
+    },
+    {
+      "html_url": "https://github.com/ailiaixue/pbl/pull/180",
+      "number": 180,
+      "title": "[参考实现·暂停合并] fix(copy): 清理学生端开发占位文案、广场布局与兴趣标签脏数据",
+      "state": "closed",
+      "updated_at": "2026-11-26T16:38:56Z",
+      "pull_request": {
+        "merged_at": null
+      }
+    },
+    {
+      "html_url": "https://github.com/ailiaixue/pbl/pull/181",
+      "number": 181,
+      "title": "[参考实现·暂停合并] fix(ui): 触控目标 ≥44px、危险按钮间距 ≥16px、工具箱文案与外链",
+      "state": "closed",
+      "updated_at": "2026-11-26T16:39:00Z",
+      "pull_request": {
+        "merged_at": null
+      }
+    },
+    {
+      "html_url": "https://github.com/ailiaixue/pbl/pull/182",
+      "number": 182,
+      "title": "[参考实现·暂停合并] fix(render): 让 AI 的 Markdown、锚点、下载和通知都有落点 (#163)",
+      "state": "closed",
+      "updated_at": "2026-11-26T16:39:03Z",
+      "pull_request": {
+        "merged_at": null
+      }
+    },
+    {
+      "html_url": "https://github.com/yhyu13/PullYourselfUpApp/pull/390",
+      "number": 390,
+      "title": "docs(reports): daily-brief 11-26 晚报节（迟录）——全员汇总表 + 队列收口 + 迟录说明【绿】",
+      "state": "closed",
+      "updated_at": "2026-11-26T17:11:09Z",
+      "pull_request": {
+        "merged_at": "2026-11-26T17:11:09Z"
+      }
+    },
+    {
+      "html_url": "https://github.com/yhyu13/PullYourselfUpApp/pull/392",
+      "number": 392,
+      "title": "test(curr): 空样本负面用例，0 人不许写成 0%【黄】",
+      "state": "closed",
+      "updated_at": "2026-11-26T18:14:57Z",
+      "pull_request": {
+        "merged_at": "2026-11-26T18:14:57Z"
+      }
+    },
+    {
+      "html_url": "https://github.com/yhyu13/PullYourselfUpApp/pull/394",
+      "number": 394,
+      "title": "fix(test): 收窄 CURR 空样本判据，允许说明文字里的数字【绿】",
+      "state": "closed",
+      "updated_at": "2026-11-26T18:23:15Z",
+      "pull_request": {
+        "merged_at": "2026-11-26T18:23:15Z"
+      }
+    },
+    {
+      "html_url": "https://github.com/yhyu13/xindong_ai_learning_dump/pull/1",
+      "number": 1,
+      "title": "Publish shared Cindy Journey rules",
+      "state": "closed",
+      "updated_at": "2026-11-27T07:34:15Z",
+      "pull_request": {
+        "merged_at": "2026-11-27T07:34:15Z"
+      }
+    },
+    {
+      "html_url": "https://github.com/yhyu13/yhyu13.github.io/pull/41",
+      "number": 41,
+      "title": "feat(decks): publish 16 decks that never made it to the shelf",
+      "state": "closed",
+      "updated_at": "2026-11-27T12:46:46Z",
+      "pull_request": {
+        "merged_at": "2026-11-27T12:46:46Z"
+      }
+    },
+    {
+      "html_url": "https://github.com/yhyu13/yhyu13.github.io/pull/42",
+      "number": 42,
+      "title": "fix(browse): let slug searches keep their hyphens",
+      "state": "closed",
+      "updated_at": "2026-11-27T12:49:15Z",
+      "pull_request": {
+        "merged_at": "2026-11-27T12:49:14Z"
+      }
+    },
+    {
+      "html_url": "https://github.com/yhyu13/PullYourselfUpApp/pull/395",
+      "number": 395,
+      "title": "docs(reports): daily-brief 11-27 早报节（迟录 16:20）——全员未提交，只列已核对事实【绿】",
+      "state": "closed",
+      "updated_at": "2026-11-27T13:06:23Z",
+      "pull_request": {
+        "merged_at": "2026-11-27T13:06:23Z"
+      }
+    },
+    {
+      "html_url": "https://github.com/yhyu13/yhyu13.github.io/pull/43",
+      "number": 43,
+      "title": "feat(works): three pieces you can operate, instead of more slides",
+      "state": "closed",
+      "updated_at": "2026-11-27T13:18:09Z",
+      "pull_request": {
+        "merged_at": "2026-11-27T13:18:08Z"
+      }
+    },
+    {
+      "html_url": "https://github.com/yhyu13/yhyu13.github.io/pull/44",
+      "number": 44,
+      "title": "feat(decks): add the YC Garry Tan talk and the MCP deck's web version",
+      "state": "closed",
+      "updated_at": "2026-11-27T13:27:13Z",
+      "pull_request": {
+        "merged_at": "2026-11-27T13:27:13Z"
+      }
+    },
+    {
+      "html_url": "https://github.com/yhyu13/PullYourselfUpApp/pull/398",
+      "number": 398,
+      "title": "docs(reports): daily-brief 11-27 晚报节（20:00 触发失败，21:34 补跑）——七页未提交、派工核对、阻塞与 owner 决策【绿】",
+      "state": "open",
+      "updated_at": "2026-11-27T13:57:31Z",
+      "pull_request": {
+        "merged_at": null
       }
     }
   ],
